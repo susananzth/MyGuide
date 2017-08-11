@@ -1,0 +1,22 @@
+
+*{ margin: 0; padding: 0;}
+body{ height: 100%; width: 100%; font-family: sans-serif, Verdana; font-size: 110%;
+      color: #555555; background: #d0e2d7;}
+a{ color: #555555; text-decoration: none;}
+a:hover, a:focus{ text-decoration: underline #5e3263; color: #444444;}
+a.btn { background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,
+                                           rgba(255,124,189,0.65) 50%,
+                                           rgba(108,0,153,0.65) 100%);
+    border-radius: 5px; box-shadow: 0px 2px 4px rgba(34,62,66,.25); color: #fff;
+    font-size: 18px; letter-spacing: 1px; padding: 16px 32px; text-decoration: none;
+    text-transform: uppercase; -webkit-transition: box-shadow 1s ease;
+    transition: box-shadow 1s ease;}
+a.btn:hover { box-shadow: 0px 4px 4px rgba(34,62,66,.5); -webkit-transition: box-shadow 0.5s ease;
+              transition: box-shadow 0.5s ease;}
+table{ border-spacing: 0;}
+.title{ text-align: center; padding: 2%; font-size: 250%;}
+.app{ display: inline-flex;}
+.screenshot{ width: 50%; padding: 5%;}
+.description{ width:50%; padding:5%;}
+.text-center{ text-align: center; text-align: -webkit-center;}
+.combinate, .combinate > tbody> tr > td { border: 1px rgba(16, 119, 51, 0.81) solid !important; }
