@@ -43,11 +43,13 @@ h1{ font-size: 400%;} h2{ font-size: 330%;} h3{ font-size: 280%;} h4{ font-size:
 h5{ font-size: 180%;} h6{ font-size: 140%;}
 
 .text-center{ text-align: center; text-align: -webkit-center;}
+.title{ text-decoration: underline;}
 /* COLUMNAS */
 .col-12{ width: 100%;}
 .col-8{ width: 66.6%;}
 .col-6{ width: 50%;}
 .col-4{ width: 33.3%;}
+.col-12, .col-8, .col-6, .col-4{ float: left;}
 
 .border{border: 1px rgba(16, 119, 51, 0.81) solid;
         -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -65,9 +67,13 @@ a.btn { background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,
 a.btn:hover { box-shadow: 0px 4px 4px rgba(34,62,66,.5); -webkit-transition: box-shadow 0.5s ease;
               transition: box-shadow 0.5s ease;}
 
-
-
-
-.padd5{padding: 5%} .padd2{ padding: 2%}
+.padd5{padding: 5%;} .padd2{ padding: 2%;}
+.inline{display: inline-block;}
+/*STYLES FOR UL*/
+.scuare{ list-style-type: square;} .circle{ list-style-type: circle;}
+/*STYLES FOR OL*/
+.zero{ list-style-type: decimal-leading-zero;} .latin{ list-style-type: upper-latin;}
+.l-latin{ list-style-type: lower-latin;} .roman{ list-style-type: upper-roman;}
+.l-roman{ list-style-type: lower-roman;}
 table{ border-spacing: 0;}
 .combinate, .combinate > tbody> tr > td { border: 1px rgba(16, 119, 51, 0.81) solid !important; }
