@@ -66,9 +66,10 @@ a.btn { background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,
     transition: box-shadow 1s ease;}
 a.btn:hover { box-shadow: 0px 4px 4px rgba(34,62,66,.5); -webkit-transition: box-shadow 0.5s ease;
               transition: box-shadow 0.5s ease;}
-
+.nav{ list-style-type: none;}
 .padd5{padding: 5%;} .padd2{ padding: 2%;}
-.inline{display: inline-block;}
+.marg5{ margin: 5%;}
+.inline-b{display: inline-block;} .inline-f{ display: inline-flex;}
 /*STYLES FOR UL*/
 .scuare{ list-style-type: square;} .circle{ list-style-type: circle;}
 /*STYLES FOR OL*/
