@@ -158,14 +158,63 @@
 <section>
     <div>
         <h4 class="title text-center">Links | Enlaces</h4>
-        <div class="inline-f">
-            <a href="http://www.twitter.com" target="_blank">Un simple link</a>
+        <!-- LINK DONDE ESPECIFICA QUE RELACION TIENE EL LINK CON LA PAGINA
+        more: https://www.w3schools.com/tags/att_a_rel.asp-->
+        <div class="padre">
+            <div class="">
+                <p>El atributo "<u>rel</u>" es para especificar que relación tiene el
+                    link con la página. <br> rel=alternate, author, bookmark,
+                    external, help, license, next, nofollow, noreferrer,
+                    noopener, prev, search, tag </p>
+                <a href="http://www.twitter.com" rel="external">Primer link, con relación</a>
+            </div>
+            <!-- UN LINK QUE ABRE EN OTRA PESTAÑA Y ESPECIFICA EN QUE DISPOSITIVO
+             ESTA OPTIMIZADO
+            more: https://www.w3schools.com/tags/att_a_target.asp
+                  https://www.w3schools.com/tags/att_a_media.asp-->
+            <div class="">
+                <p>El atributo "<u>target</u>" es para indicar donde abrirá el link.
+                    <br> target=_blank, _parent, _self, _top, framename
+                    <br> Y tambien indica para que tipo de dispositivos está optimizado el link
+                    con el atributo "<u>media</u>".</p>
+                <a href="http://www.twitter.com" target="_blank"
+                   media="print and (resolution:300dpi)">Segundo link, abre en otra pestaña</a>
+            </div>
+            <!-- UN LINK QUE ESPECIFICA EL LENGUAJE DEL CONTENIDO DEL LINK
+            Y QUE TIPO DE ARCHIVO ES EL LINK
+            more: http://www.iana.org/assignments/media-types/media-types.xhtml-->
+            <div class="">
+                <p>El atributo "<u>hreflang</u>" Es para especificar el lenguaje del
+                    contenido del link y el atributo "<u>type</u>" es para especificar
+                    el tipo de archivo del link. <br> type=application, audio, font,
+                    example, image, message, model, multipart, text, video.</p>
+                <a href="http://www.twitter.com" hreflang="en"
+                   type="text/html">Un link con lenguaje y tipo de documento.</a>
+            </div>
+            <!-- UN LINK CON TODOS LOS ATRIBUTOS -->
+            <div class="">
+                <p>Un link que abre en otra pestaña, tiene relación externa con esta
+                    página web, indica que está en español, es de tipo texto/html
+                    y tiene estilo de botón</p>
+                <a href="http://www.twitter.com" rel="external" target="_blank"
+                   hreflang="es" type="text/html" class="btn">
+                    Un link con todos los atributos.</a>
+            </div>
         </div>
+
+        <!-- UN LINK CON UNA IMAGEN CON ESTILOS HTML QUE ABRE
+        EN OTRA PESTAÑA Y DESCARGA LA IMAGEN -->
         <div class="inline-f">
-            <a class="btn" href="http://www.twitter.com" target="_blank">Un botón</a>
+            <a class="" href="#" target="_blank" download>
+                <img src="img/fondo_cafe.jpg" alt="Taza de café"
+                     width="140" height="110" border="0">
+            </a>
         </div>
+        <!-- UNA IMAGEN CON ESTILOS CSS -->
         <div class="inline-f">
-            <a class="" href="#" target="_blank"><img src="img/fondo_cafe.jpg" alt="Taza de café" ></a>
+            <a class="" href="#" target="_blank">
+                <img src="img/fondo_cafe.jpg" alt="Taza de café" >
+            </a>
         </div>
 
 
