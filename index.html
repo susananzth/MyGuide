@@ -34,12 +34,12 @@
 </section>
 <hr>
 <section>
-    <div style="display: block">
+    <div>
         <h4 class="title text-center">Paragraphs, columns | Párrafos, columnas</h4>
-        <div>
-            <div class="col-12 border">
+        <div class="flex-container">
+            <div class="col-12">
                 <strong>Col 12</strong>
-                <p class="padd2">In ac ipsum quis turpis adipiscing commodo.
+                <p class="">In ac ipsum quis turpis adipiscing commodo.
                     Mauris fermentum quam in risus eleifend fringilla.
                     Aliquam placerat, ipsum sit amet cursus rhoncus, augue mi tincidunt
                     erat, et consequat velit massa a velit. Morbi consequat eros eget
@@ -48,20 +48,19 @@
                     rhoncus, augue mi tincidunt erat, et consequat velit massa a velit.
                     Cras eleifend lectus nec diam ornare, eu placerat mi ultricies.</p>
             </div>
-            <div class="col-8 border">
+            <div class="col-8">
                 <strong>Col 8</strong>
-                <p class="padd2">In ac ipsum quis turpis adipiscing commodo.
+                <p class="">In ac ipsum quis turpis adipiscing commodo.
                     Mauris fermentum quam in risus eleifend fringilla.
                     Aliquam placerat, ipsum sit amet cursus rhoncus, augue mi tincidunt
                     erat, et consequat velit massa a velit. Morbi consequat eros eget
                     elit porta porta.</p>
             </div>
-            <div class="col-4 border">
+            <div class="col-4">
                 <strong>Col 4</strong>
-                <p class="padd2">In ac ipsum quis turpis adipiscing commodo.
+                <p class="">In ac ipsum quis turpis adipiscing commodo.
                     Mauris fermentum quam in risus eleifend fringilla.</p>
             </div>
-
         </div>
     </div>
 </section>
@@ -160,58 +159,70 @@
         <h4 class="title text-center">Links | Enlaces</h4>
         <!-- LINK DONDE ESPECIFICA QUE RELACION TIENE EL LINK CON LA PAGINA
         more: https://www.w3schools.com/tags/att_a_rel.asp-->
-        <div class="padre">
-            <div class="">
+        <div class="flex-container">
+            <div class="col-6">
                 <p>El atributo "<u>rel</u>" es para especificar que relación tiene el
-                    link con la página. <br> rel=alternate, author, bookmark,
-                    external, help, license, next, nofollow, noreferrer,
-                    noopener, prev, search, tag </p>
-                <a href="http://www.twitter.com" rel="external">Primer link, con relación</a>
+                    link con la página. <br>
+                    <em>rel=alternate, author, bookmark,
+                        external, help, license, next, nofollow, noreferrer,
+                        noopener, prev, search, tag.</em></p>
+                <strong>
+                    <a href="http://www.twitter.com" rel="external">Primer link,
+                        con relación.</a>
+                </strong>
+
             </div>
             <!-- UN LINK QUE ABRE EN OTRA PESTAÑA Y ESPECIFICA EN QUE DISPOSITIVO
              ESTA OPTIMIZADO
             more: https://www.w3schools.com/tags/att_a_target.asp
                   https://www.w3schools.com/tags/att_a_media.asp-->
-            <div class="">
+            <div class="col-6">
                 <p>El atributo "<u>target</u>" es para indicar donde abrirá el link.
-                    <br> target=_blank, _parent, _self, _top, framename
-                    <br> Y tambien indica para que tipo de dispositivos está optimizado el link
-                    con el atributo "<u>media</u>".</p>
-                <a href="http://www.twitter.com" target="_blank"
-                   media="print and (resolution:300dpi)">Segundo link, abre en otra pestaña</a>
+                    <br><em>target=_blank, _parent, _self, _top, framename.</em>
+                    <br> Y tambien indica para que tipo de dispositivos está optimizado
+                    el link con el atributo "<u>media</u>".</p>
+                <strong>
+                    <a href="http://www.twitter.com" target="_blank"
+                       media="print and (resolution:300dpi)">Segundo link,
+                        abre en otra pestaña.</a>
+                </strong>
             </div>
             <!-- UN LINK QUE ESPECIFICA EL LENGUAJE DEL CONTENIDO DEL LINK
             Y QUE TIPO DE ARCHIVO ES EL LINK
             more: http://www.iana.org/assignments/media-types/media-types.xhtml-->
-            <div class="">
+            <div class="col-6">
                 <p>El atributo "<u>hreflang</u>" Es para especificar el lenguaje del
                     contenido del link y el atributo "<u>type</u>" es para especificar
-                    el tipo de archivo del link. <br> type=application, audio, font,
-                    example, image, message, model, multipart, text, video.</p>
-                <a href="http://www.twitter.com" hreflang="en"
-                   type="text/html">Un link con lenguaje y tipo de documento.</a>
+                    el tipo de archivo del link. <br>
+                    <em>type=application, audio, font, example, image, message,
+                        model, multipart, text, video.</em></p>
+                <strong>
+                    <a href="http://www.twitter.com" hreflang="en"
+                       type="text/html">Un link con lenguaje y tipo de documento.</a>
+                </strong>
             </div>
             <!-- UN LINK CON TODOS LOS ATRIBUTOS -->
-            <div class="">
+            <div class="col-6">
                 <p>Un link que abre en otra pestaña, tiene relación externa con esta
                     página web, indica que está en español, es de tipo texto/html
                     y tiene estilo de botón</p>
-                <a href="http://www.twitter.com" rel="external" target="_blank"
-                   hreflang="es" type="text/html" class="btn">
-                    Un link con todos los atributos.</a>
+                <strong>
+                    <a href="http://www.twitter.com" rel="external" target="_blank"
+                       hreflang="es" type="text/html" class="btn">
+                        Un link con todos los atributos.</a>
+                </strong>
             </div>
         </div>
-
         <!-- UN LINK CON UNA IMAGEN CON ESTILOS HTML QUE ABRE
         EN OTRA PESTAÑA Y DESCARGA LA IMAGEN -->
-        <div class="inline-f">
+        <div class="">
             <a class="" href="#" target="_blank" download>
                 <img src="img/fondo_cafe.jpg" alt="Taza de café"
                      width="140" height="110" border="0">
             </a>
         </div>
         <!-- UNA IMAGEN CON ESTILOS CSS -->
-        <div class="inline-f">
+        <div class="">
             <a class="" href="#" target="_blank">
                 <img src="img/fondo_cafe.jpg" alt="Taza de café" >
             </a>

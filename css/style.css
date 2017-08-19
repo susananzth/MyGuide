@@ -34,22 +34,29 @@
 
 *{ margin: 0; padding: 0;}
 
-body{ height: 100%; width: 100%; font-family: Roboto-Light, sans-serif, Verdana; font-size: 110%;
-      color: #555555; background: #d0e2d7;}
+body{ height: 100%; width: 100%; font-family: Roboto-Light, sans-serif, Verdana;
+      font-size: 110%; color: #555555; background: #d0e2d7;}
 h1, h2, h3, h4, h5, h6{ font-family: Roboto-Regular; -webkit-margin-before: 0;
                         -webkit-margin-after: 0; -webkit-margin-start: 0;
                         -webkit-margin-end: 0; font-weight: normal;}
 h1{ font-size: 400%;} h2{ font-size: 330%;} h3{ font-size: 280%;} h4{ font-size: 220%;}
 h5{ font-size: 180%;} h6{ font-size: 140%;}
+hr{ margin: 20px 0; border-style: double; border-width: 5px;
+    color: #2d72a2;}
 
+u{ font-weight: bold;}
 .text-center{ text-align: center; text-align: -webkit-center;}
 .title{ text-decoration: underline;}
 /* COLUMNAS */
+.flex-container{display: -webkit-flex; display: flex; -webkit-flex-wrap: wrap;
+    flex-wrap: wrap; -webkit-justify-content: center;
+    justify-content: center; width: auto; height: auto;}
 .col-12{ width: 100%;}
 .col-8{ width: 66.6%;}
 .col-6{ width: 50%;}
 .col-4{ width: 33.3%;}
-.col-12, .col-8, .col-6, .col-4{ float: left;}
+.col-12, .col-8, .col-6, .col-4{ height: auto; padding: 1%; box-sizing: border-box;
+                                 border: 2px #905fa0 solid;}
 
 .border{border: 1px rgba(16, 119, 51, 0.81) solid;
         -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -65,15 +72,14 @@ a.btn { background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,
     margin: 10px 5px !important; display: inline-block;
     text-transform: uppercase; -webkit-transition: box-shadow 1s ease;
     transition: box-shadow 1s ease;}
-a.btn:hover { box-shadow: 0px 4px 4px rgba(34,62,66,.5); -webkit-transition: box-shadow 0.5s ease;
+a.btn:hover { box-shadow: 0px 4px 4px rgba(34,62,66,.5);
+              -webkit-transition: box-shadow 0.5s ease;
               transition: box-shadow 0.5s ease;}
 .nav{ list-style-type: none;}
 .padd5{padding: 5%;} .padd2{ padding: 2%;}
 .marg5{ margin: 5%;}
 .inline-b{display: inline-block;} .inline-f{ display: inline-flex;}
-.padre{ font-size: 1px; letter-spacing: -1px; margin: auto;}
-.padre div { display: inline-block; font-size: 1.2rem; width: 50%; padding: 1%;
-             border: 2px #905fa0 solid; box-sizing: border-box;}
+
 /*STYLES FOR UL*/
 .scuare{ list-style-type: square;} .circle{ list-style-type: circle;}
 /*STYLES FOR OL*/
