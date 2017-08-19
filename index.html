@@ -14,6 +14,7 @@
 <hr>
 <nav>
     <ul class="inline-f nav">
+        <li class="marg5"><a href="full-cover.html">BG full cover</a></li>
         <li class="marg5"><a href="index.html">Inicio</a></li>
         <li class="marg5"><a href="formulario.html">Formulario</a></li>
     </ul>
@@ -36,7 +37,7 @@
 <section>
     <div>
         <h4 class="title text-center">Paragraphs, columns | Párrafos, columnas</h4>
-        <div class="flex-container">
+        <div class="flex-container text-justify">
             <div class="col-12">
                 <strong>Col 12</strong>
                 <p class=""><u>Flexible boxes or flexbox</u>,
@@ -65,6 +66,34 @@
                         Ejemplos
                     </a></p>
             </div>
+            <div class="item1">
+                <strong>Item 1</strong>
+                <p class=""><u>Flexible boxes or flexbox</u>,
+                    is a new layout mode in CSS3.
+                    <br>
+                    Use of flexbox ensures that elements behave predictably when the
+                    page layout must accommodate different screen sizes and different
+                    display devices.</p>
+            </div>
+            <div class="item2">
+                <strong>Item 2</strong>
+                <p class=""><u>Las cajas flexibles o flexbox</u>,
+                    es un nuevo modo de disposición en CSS3.
+                    <br>
+                    El uso de flexbox asegura que los elementos se comporten de manera
+                    predecible cuando el diseño de la página debe acomodar diferentes
+                    tamaños de pantalla y diferentes dispositivos de visualización.</p>
+            </div>
+            <div class="item3">
+                <strong>Item 3</strong>
+                <p class=""><u>CSS3 Flexbox</u>
+                    For more uses and examples: <br>
+                    <a href="https://www.w3schools.com/css/css3_flexbox.asp"
+                       rel="help" target="_blank" class="btn" hreflang="en"
+                       type="text/html">
+                        Ejemplos
+                    </a></p>
+            </div>
         </div>
     </div>
 </section>
@@ -73,7 +102,7 @@
     <div>
         <h4 class="title text-center">Unordered list | Lista desordenada</h4>
         <div class="flex-container">
-            <div class="col-3">
+            <div class="item2">
                 <h6>Scuare</h6>
                 <ul class="scuare padd35px">
                     <li>Element 1</li>
@@ -82,7 +111,7 @@
                     <li>Element 4</li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="item2">
                 <h6>Disc Styles</h6>
                 <ul class="padd35px">
                     <li>Element 1</li>
@@ -91,7 +120,7 @@
                     <li>Element 4</li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="item2">
                 <h6>Circle</h6>
                 <ul class="circle padd35px">
                     <li>Element 1</li>
@@ -167,7 +196,7 @@
         <h4 class="title text-center">Links | Enlaces</h4>
         <!-- LINK DONDE ESPECIFICA QUE RELACION TIENE EL LINK CON LA PAGINA
         more: -->
-        <div class="flex-container">
+        <div class="flex-container text-justify">
             <div class="col-6">
                 <p>El atributo "<u>rel</u>" es para especificar que relación tiene el
                     link con la página. <br>
@@ -258,6 +287,22 @@
                 <img src="img/fondo_cafe.jpg" alt="Taza de café" >
             </a>
         </div>
+        <!-- UNA IMAGEN CON LINK EN AREAS ESPECIFICAS -->
+        <div>
+            <p>Una imagen asociada a un map-area con links en areas específicas de la
+                imágen <br> Los tipos son: <em>default, rect, circle y poly.</em></p>
+            <img src="img/ex_maparea.jpg" width="500" height="414"
+                 alt="Example of map - area" usemap="#example">
+            <map name="example">
+                <area shape="rect" coords="33,55,230,130" href="index.html"
+                      title="Shape rectangular" alt="Example rectangular">
+                <area shape="circle" coords="355,230,83" href="index.html"
+                      title="shape circular" alt="Example circular">
+                <area shape="poly" coords="10,230,250,300" href="index.html"
+                      title="Shape poly" alt="Example poly">
+            </map>
+        </div>
+
     </div>
 </section>
 <hr>
@@ -283,6 +328,9 @@
 </div>
 <hr>
 <footer>
+    <!-- ETIQUETA PARA COLOCAR DIRECCION DE CONTACTO -->
+    <address>Correo: <a href="mailto:susananzth@gmail.com" target="_top">
+                        susananzth@gmail.com</a></address>
     <a href="#ft" id="foo"
        rel="bookmark" media="all" class="btn">Go to Links</a>
 </footer>

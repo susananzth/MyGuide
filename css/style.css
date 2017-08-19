@@ -2,6 +2,7 @@
 @font-face {
     font-family: "Roboto-Thin";
     font-style: normal;
+
     src: local('Roboto-Thin'), local('Roboto-Thin'), url("../font/Roboto-Thin.ttf")
          format('truetype');}
 @font-face {
@@ -13,28 +14,42 @@
 @font-face {
     font-family: "Roboto-Light";
     font-style: normal;
+    font-weight: normal;
     src: local('Roboto-Light'), local('Roboto-Light'), url("../font/Roboto-Light.ttf")
          format('truetype');}
 @font-face {
     font-family: "Roboto-Light-Italic";
     font-style: italic;
+    font-weight: normal;
     src: local('Roboto-Light-Italic'), local('Roboto-Light-Italic'),
          url("../font/Roboto-LightItalic.ttf") format('truetype');}
 /* Bold */
 @font-face {
     font-family: "Roboto-Regular";
     font-style: normal;
+    font-weight: bold;
     src: local('Roboto-Regular'), local('Roboto-Regular'), url("../font/Roboto-Regular.ttf")
     format('truetype');}
 @font-face {
     font-family: "Roboto-Regular-Italic";
     font-style: italic;
+    font-weight: bold;
     src: local('Roboto-Regular-Italic'), local('Roboto-Regular-Italic'),
     url("../font/Roboto-Italic.ttf") format('truetype');}
 /* GLOBAL */
 *{ margin: 0; padding: 0;}
-body{ height: 100%; width: 100%; font-family: Roboto-Light, sans-serif, Verdana;
+body, html{ width: 100%; height: 100%;}
+body{ font-family: Roboto-Light, sans-serif, Verdana;
       font-size: 110%; color: #555555; background: #d0e2d7;}
+
+/* VARIOS */
+em{ font-family: Roboto-Light-Italic;}
+strong{ font-family: Roboto-Regular;}
+address {font-family: Roboto-Light-Italic;}
+hr{ margin: 20px 0; border-style: double; border-width: 5px;
+    color: #2d72a2;}
+u{ font-family: Roboto-Regular;}
+
 /* HEADINGS */
 h1, h2, h3, h4, h5, h6{ font-family: Roboto-Regular; -webkit-margin-before: 0;
                         -webkit-margin-after: 0; -webkit-margin-start: 0;
@@ -44,8 +59,11 @@ h5{ font-size: 180%;} h6{ font-size: 140%;}
 
 /* LINKS */
 a{ color: #555555; text-decoration: none;}
+    /*Cambio de color del texto del link cuando se interactúa con el*/
 a:hover, a:focus, a:link, a.visited{color: #444444; cursor: auto;}
+    /*Subrayado sólo cuando se coloca el cursor sobre el link*/
 a:hover { text-decoration: underline #b700ad}
+
 /* BUTTONS */
 a.btn { background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,
                                            rgba(255,124,189,0.65) 50%,
@@ -55,18 +73,14 @@ a.btn { background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,
     margin: 10px 5px !important; display: inline-block;
     text-transform: uppercase; -webkit-transition: box-shadow 1s ease;
     transition: box-shadow 1s ease;}
+    /*Animación de los botones cuando se coloca el cursor encima*/
 a.btn:hover { box-shadow: 0px 4px 4px rgba(34,62,66,.5);
               -webkit-transition: box-shadow 0.5s ease;
               transition: box-shadow 0.5s ease;}
 
-/* VARIOS */
-hr{ margin: 20px 0; border-style: double; border-width: 5px;
-    color: #2d72a2;}
-u{ font-weight: bold;}
-
-/*STYLES FOR UL*/
+/* STYLES FOR UL */
 .scuare{ list-style-type: square;} .circle{ list-style-type: circle;}
-/*STYLES FOR OL*/
+/* STYLES FOR OL */
 .zero{ list-style-type: decimal-leading-zero;} .latin{ list-style-type: upper-latin;}
 .l-latin{ list-style-type: lower-latin;} .roman{ list-style-type: upper-roman;}
 .l-roman{ list-style-type: lower-roman;}
@@ -80,14 +94,28 @@ table{ border-spacing: 0;}
 
 /* COLUMNAS */
 .flex-container{display: -webkit-flex; display: flex; -webkit-flex-wrap: wrap;
-    flex-wrap: wrap; -webkit-justify-content: center;
-    justify-content: center; width: auto; height: auto;}
+                flex-wrap: wrap; width: auto; height: auto;}
+    /*Justifica las columnas en el centro*/
+.col-center{ -webkit-justify-content: center; justify-content: center;}
+    /*rellena con espacios vacíos entre las columnas para que llegue al 100% del width */
+.col-space-around{ -webkit-justify-content: space-around; justify-content: space-around;}
+    /*Ancho de cada columna*/
 .col-12{ width: 100%;}
 .col-8{ width: 66.66%;}
 .col-6{ width: 50%;}
 .col-4{ width: 33.33%;}
 .col-3{ width: 25%}
-.col-12, .col-8, .col-6, .col-4, .col-3{ height: auto; padding: 1%; box-sizing: border-box;
+.col-2{ width: 16.66%}
+    /*Estilo para cada columna*/
+.col-12, .col-8, .col-6, .col-4, .col-3, .col-2{ height: auto; padding: 1%; box-sizing: border-box;
+    border: 2px #905fa0 solid;}
+    /*Método 2 para dividir en columnas, pero sin salto de linea
+      Todas se mantienen en la misma fila.*/
+.item1{ -webkit-flex: 6; flex: 6;}
+.item2{ -webkit-flex: 4; flex: 4;}
+.item3{ -webkit-flex: 2; flex: 2;}
+    /*Estilo para los item*/
+.item1, .item2, .item3{ padding: 1%; box-sizing: border-box;
     border: 2px #905fa0 solid;}
 
 /* BORDES */
@@ -101,4 +129,12 @@ table{ border-spacing: 0;}
 .marg5{ margin: 5%;}
 .inline-b{display: inline-block;} .inline-f{ display: inline-flex;}
 .text-center{ text-align: center; text-align: -webkit-center;}
+.text-justify { text-align:justify;}
 .title{ text-decoration: underline;}
+
+/* PAGE FULL COVER */
+.bg-cover{background: url('../img/bg-cover.jpg') no-repeat center;
+          -webkit-background-size: cover; -moz-background-size: cover;
+          background-size: cover; -o-background-size: cover; height: 100%; width: 100%;}
+.title-center{ text-align: center; text-align: -webkit-center; padding: 20% 20% 5% 20%;}
+.col-2-no-border{ border: none !important; width: 16.66%}
