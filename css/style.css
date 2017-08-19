@@ -44,7 +44,9 @@ h5{ font-size: 180%;} h6{ font-size: 140%;}
 
 /* LINKS */
 a{ color: #555555; text-decoration: none;}
-a:hover, a:focus{ text-decoration: underline #5e3263; color: #444444;}
+a:hover, a:focus, a:link, a.visited{color: #444444; cursor: auto;}
+a:hover { text-decoration: underline #b700ad}
+/* BUTTONS */
 a.btn { background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,
                                            rgba(255,124,189,0.65) 50%,
                                            rgba(108,0,153,0.65) 100%);
@@ -81,9 +83,9 @@ table{ border-spacing: 0;}
     flex-wrap: wrap; -webkit-justify-content: center;
     justify-content: center; width: auto; height: auto;}
 .col-12{ width: 100%;}
-.col-8{ width: 66.6%;}
+.col-8{ width: 66.66%;}
 .col-6{ width: 50%;}
-.col-4{ width: 33.3%;}
+.col-4{ width: 33.33%;}
 .col-3{ width: 25%}
 .col-12, .col-8, .col-6, .col-4, .col-3{ height: auto; padding: 1%; box-sizing: border-box;
     border: 2px #905fa0 solid;}
