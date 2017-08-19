@@ -8,7 +8,7 @@
 </head>
 <body>
 <header class="text-center">
-    <div>
+    <div class="bg-header">
         <h1>My Guide</h1>
         <h3>by Susana Piñero</h3>
     </div>
@@ -23,27 +23,55 @@
     </ul>
 </nav>
 <hr>
-<section>
+<section id="headding" class="padd2">
     <div class="">
         <h4 class="title text-center">Heading elements | Títulos</h4>
-        <div>
-            <h1>h1 heading</h1>
-            <h2>h2 heading</h2>
-            <h3>h3 heading</h3>
-            <h4>h4 heading</h4>
-            <h5>h5 heading</h5>
-            <h6>h6 heading</h6>
+        <div class="text-center">
+            <h1>h1 heading | Título h1</h1>
+            <h2>h2 heading | Título h2</h2>
+            <h3>h3 heading | Título h3</h3>
+            <h4>h4 heading | Título h4</h4>
+            <h5>h5 heading | Título h5</h5>
+            <h6>h6 heading | Título h6</h6>
         </div>
     </div>
 </section>
 <hr>
-<section>
+<section id="paragraphs" class="padd2">
+    <h4 class="title text-center">Texts, Paragraphs | Textos, Párrafos</h4>
+    <div class="col-border marg2 padd1">
+        <b>EN: This is bold text. The &ltb&gt tag specifies bold text.</b><br>
+        <b>ES: Esto es un texto en negrita. La etiqueta &ltb&gt especifíca texto en negrita.</b>
+    </div>
+    <div class="col-border marg2 padd1">
+        <em>EN: This is bold text. The &ltb&gt tag specifies bold text.</em><br>
+        <em>ES: Esto es un texto en negrita. La etiqueta &ltb&gt especifíca texto en negrita.</em>
+    </div>
+    <div class="col-border marg2 padd1">
+        <u>EN: This is bold text. The &ltb&gt tag specifies bold text.</u><br>
+        <u>ES: Esto es un texto en negrita. La etiqueta &ltb&gt especifíca texto en negrita.</u>
+    </div>
+    <div class="col-border marg2 padd1">
+        <p>EN: This is a paragraphs. The &ltp&gt tag specifiesa paragraphs.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Morbi viverra ex non nunc dignissim molestie. Duis bibendum egestas fermentum.
+            Etiam a neque vitae nisl gravida pulvinar et id enim. Fusce ultrices metus erat,
+            id tempus tellus eleifend at. </p><br>
+        <p>ES: Esto es un párrafo. La etiqueta &ltp&gt especifíca un párrafo.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra
+            ex non nunc dignissim molestie. Duis bibendum egestas fermentum. Etiam a
+            neque vitae nisl gravida pulvinar et id enim. Fusce ultrices metus erat, id
+            tempus tellus eleifend at.</p>
+    </div>
+</section>
+<hr>
+<section id="columns" class="padd2">
     <div>
-        <h4 class="title text-center">Paragraphs, columns | Párrafos, columnas</h4>
-        <div class="flex-container text-justify">
+        <h4 class="title text-center">Columns | Columnas</h4>
+        <div class="flex-container text-justify col-border">
             <div class="col-12 col-border">
-                <strong>Col 12</strong>
-                <p class=""><u>Flexible boxes or flexbox</u>,
+                <b>Col 12</b>
+                <p class=""><b><u>Flexible boxes or flexbox</u></b>,
                     is a new layout mode in CSS3.
                     <br>
                     Use of flexbox ensures that elements behave predictably when the
@@ -51,8 +79,8 @@
                     display devices.</p>
             </div>
             <div class="col-8 col-border">
-                <strong>Col 8</strong>
-                <p class=""><u>Las cajas flexibles o flexbox</u>,
+                <b>Col 8</b>
+                <p class=""><b><u>Las cajas flexibles o flexbox</u></b>,
                     es un nuevo modo de disposición en CSS3.
                     <br>
                     El uso de flexbox asegura que los elementos se comporten de manera
@@ -60,8 +88,8 @@
                     tamaños de pantalla y diferentes dispositivos de visualización.</p>
             </div>
             <div class="col-4 col-border">
-                <strong>Col 4</strong>
-                <p class=""><u>CSS3 Flexbox</u>
+                <b>Col 4</b>
+                <p class=""><b><u>CSS3 Flexbox</u></b>
                     For more uses and examples: <br>
                     <a href="https://www.w3schools.com/css/css3_flexbox.asp"
                                  rel="help" target="_blank" class="btn" hreflang="en"
@@ -70,8 +98,8 @@
                     </a></p>
             </div>
             <div class="item1 col-border">
-                <strong>Item 1</strong>
-                <p class=""><u>Flexible boxes or flexbox</u>,
+                <b>Item 1</b>
+                <p class=""><b><u>Flexible boxes or flexbox</u></b>,
                     is a new layout mode in CSS3.
                     <br>
                     Use of flexbox ensures that elements behave predictably when the
@@ -79,8 +107,8 @@
                     display devices.</p>
             </div>
             <div class="item2 col-border">
-                <strong>Item 2</strong>
-                <p class=""><u>Las cajas flexibles o flexbox</u>,
+                <b>Item 2</b>
+                <p class=""><b><u>Las cajas flexibles o flexbox</u></b>,
                     es un nuevo modo de disposición en CSS3.
                     <br>
                     El uso de flexbox asegura que los elementos se comporten de manera
@@ -88,8 +116,8 @@
                     tamaños de pantalla y diferentes dispositivos de visualización.</p>
             </div>
             <div class="item3 col-border">
-                <strong>Item 3</strong>
-                <p class=""><u>CSS3 Flexbox</u>
+                <b>Item 3</b>
+                <p class=""><b><u>CSS3 Flexbox</u></b>
                     For more uses and examples: <br>
                     <a href="https://www.w3schools.com/css/css3_flexbox.asp"
                        rel="help" target="_blank" class="btn" hreflang="en"
@@ -101,13 +129,12 @@
     </div>
 </section>
 <hr>
-<section>
-    <div>
+<section id="unordered" class="padd2">
         <h4 class="title text-center">Unordered list | Lista desordenada</h4>
-        <div class="flex-container">
+        <div class="flex-container col-border">
             <div class="item2 col-border">
-                <h6>Scuare</h6>
-                <ul class="scuare padd35px">
+                <h6>Square | Cuadrado</h6>
+                <ul class="square padd35px">
                     <li>Element 1</li>
                     <li>Element 2</li>
                     <li>Element 3</li>
@@ -115,7 +142,7 @@
                 </ul>
             </div>
             <div class="item2 col-border">
-                <h6>Disc Styles</h6>
+                <h6>Disc | Disco</h6>
                 <ul class="padd35px">
                     <li>Element 1</li>
                     <li>Element 2</li>
@@ -124,7 +151,7 @@
                 </ul>
             </div>
             <div class="item2 col-border">
-                <h6>Circle</h6>
+                <h6>Circle | Círculo</h6>
                 <ul class="circle padd35px">
                     <li>Element 1</li>
                     <li>Element 2</li>
@@ -133,75 +160,76 @@
                 </ul>
             </div>
         </div>
-        <hr>
-        <h4 class="title text-center">Ordered Lists | Lista ordenada</h4>
-        <div class="flex-container">
-            <div class="col-3 col-border">
-                <h6>Decimal</h6>
-                <ol class="padd35px">
-                    <li>Element 1</li>
-                    <li>Element 2</li>
-                    <li>Element 3</li>
-                    <li>Element 4</li>
-                </ol>
-            </div>
-            <div class="col-3 col-border">
-                <h6>Zero Styles</h6>
-                <ol class="zero padd35px">
-                    <li>Element 1</li>
-                    <li>Element 2</li>
-                    <li>Element 3</li>
-                    <li>Element 4</li>
-                </ol>
-            </div>
-            <div class="col-3 col-border">
-                <h6>Upper Latin</h6>
-                <ol class="latin padd35px">
-                    <li>Element 1</li>
-                    <li>Element 2</li>
-                    <li>Element 3</li>
-                    <li>Element 4</li>
-                </ol>
-            </div>
-            <div class="col-3 col-border">
-                <h6>Lower Latin</h6>
-                <ol class="l-latin padd35px">
-                    <li>Element 1</li>
-                    <li>Element 2</li>
-                    <li>Element 3</li>
-                    <li>Element 4</li>
-                </ol>
-            </div>
-            <div class="col-3 col-border">
-                <h6>Upper Roman</h6>
-                <ol class="roman padd35px">
-                    <li>Element 1</li>
-                    <li>Element 2</li>
-                    <li>Element 3</li>
-                    <li>Element 4</li>
-                </ol>
-            </div>
-            <div class="col-3 col-border">
-                <h6>Lower Roman</h6>
-                <ol class="l-roman padd35px">
-                    <li>Element 1</li>
-                    <li>Element 2</li>
-                    <li>Element 3</li>
-                    <li>Element 4</li>
-                </ol>
-            </div>
+</section>
+<hr>
+<section id="ordered" class="padd2">
+    <h4 class="title text-center">Ordered Lists | Lista ordenada</h4>
+    <div class="flex-container col-border">
+        <div class="col-4 col-border">
+            <h6>Decimal</h6>
+            <ol class="padd35px">
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+                <li>Element 4</li>
+            </ol>
+        </div>
+        <div class="col-4 col-border">
+            <h6>Zero | Cero</h6>
+            <ol class="zero padd35px">
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+                <li>Element 4</li>
+            </ol>
+        </div>
+        <div class="col-4 col-border">
+            <h6>Upper Latin</h6>
+            <ol class="latin padd35px">
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+                <li>Element 4</li>
+            </ol>
+        </div>
+        <div class="col-4 col-border">
+            <h6>Lower Latin</h6>
+            <ol class="l-latin padd35px">
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+                <li>Element 4</li>
+            </ol>
+        </div>
+        <div class="col-4 col-border">
+            <h6>Upper Roman</h6>
+            <ol class="roman padd35px">
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+                <li>Element 4</li>
+            </ol>
+        </div>
+        <div class="col-4 col-border">
+            <h6>Lower Roman</h6>
+            <ol class="l-roman padd35px">
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+                <li>Element 4</li>
+            </ol>
         </div>
     </div>
 </section>
 <hr>
-<section>
+<section id="links" class="padd2">
     <div>
         <h4 class="title text-center">Links | Enlaces</h4>
         <!-- LINK DONDE ESPECIFICA QUE RELACION TIENE EL LINK CON LA PAGINA
         more: -->
-        <div class="flex-container text-justify">
+        <div class="flex-container text-justify col-border">
             <div class="col-6 col-border">
-                <p>El atributo "<u>rel</u>" es para especificar que relación tiene el
+                <p>El atributo "<b><u>rel</u></b>" es para especificar que relación tiene el
                     link con la página. <br>
                     <em>rel=alternate, author, bookmark,
                         external, help, license, next, nofollow, noreferrer,
@@ -212,10 +240,10 @@
             <!-- UN LINK QUE ABRE EN OTRA PESTAÑA Y ESPECIFICA EN QUE DISPOSITIVO
              ESTA OPTIMIZADO -->
             <div class="col-6 col-border">
-                <p>El atributo "<u>target</u>" es para indicar donde abrirá el link.
+                <p>El atributo "<b><u>target</u></b>" es para indicar donde abrirá el link.
                     <br><em>target=_blank, _parent, _self, _top, framename.</em>
                     <br> Y tambien indica para que tipo de dispositivos está optimizado
-                    el link con el atributo "<u>media</u>".</p>
+                    el link con el atributo "<b><u>media</u></b>".</p>
                 <a href="https://www.w3schools.com/tags/att_a_target.asp"
                    target="_blank" class="btn">More about target</a>
                 <a href="https://www.w3schools.com/tags/att_a_media.asp" target="_blank"
@@ -225,8 +253,8 @@
             <!-- UN LINK QUE ESPECIFICA EL LENGUAJE DEL CONTENIDO DEL LINK
             Y QUE TIPO DE ARCHIVO ES EL LINK -->
             <div class="col-6 col-border">
-                <p>El atributo "<u>hreflang</u>" Es para especificar el lenguaje del
-                    contenido del link y el atributo "<u>type</u>" es para especificar
+                <p>El atributo "<b><u>hreflang</u></b>" Es para especificar el lenguaje del
+                    contenido del link y el atributo "<b><u>type</u></b>" es para especificar
                     el tipo de archivo del link. <br>
                     <em>type=application, audio, font, example, image, message,
                         model, multipart, text, video.</em></p>
@@ -243,14 +271,11 @@
                    target="_blank" hreflang="en" type="text/html" media="all" class="btn">
                     More about all</a>
             </div>
-            <!-- UN LINK PARA ENVIAR MENSAJE A UN CORREO -->
+            <!-- UN LINK QUE LLEVA A OTRA SECCION DE LA PAGINA -->
             <div class="col-6 col-border">
-                <p>Este es un link que lleva a un correo</p>
-                <a href="mailto:someone@example.com?Subject=Hello%20again"
-                   target="_top" class="btn">Send mail</a>
-                <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto2"
-                   rel="external" target="_blank" hreflang="en" type="text/html"
-                   media="all" class="btn">More about mailto</a>
+                <p>Y un link que lleva a otro elemento de la página</p>
+                <a href="#foo" id="ft"
+                   rel="bookmark" media="all" class="btn">Go to footer</a>
             </div>
             <!-- UN LINK QUE EJECUTA CUN CODIGO JAVASCRIPT -->
             <div class="col-6 col-border">
@@ -272,34 +297,78 @@
                          width="140" height="110" border="0">
                 </a>
             </div>
-            <!-- UN LINK QUE LLEVA A OTRA SECCION DE LA PAGINA -->
-            <div class="col-6 col-border">
-                <p>Y un link que lleva a otro elemento de la página</p>
-                <a href="#foo" id="ft"
-                   rel="bookmark" media="all" class="btn">Go to footer</a>
+            <!-- UN LINK PARA ENVIAR MENSAJE A UN CORREO -->
+            <div class="col-12 col-border">
+                <p>Este es un link que envia un correo</p>
+                <a href="mailto:someone@example.com?Subject=Hello%20again"
+                   target="_top" class="btn">Send mail</a>
+                <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto2"
+                   rel="external" target="_blank" hreflang="en" type="text/html"
+                   media="all" class="btn">More about mailto</a>
             </div>
         </div>
     </div>
 </section>
 <hr>
-<section>
+<section id="images" class="padd2">
     <div>
+        <h4 class="title text-center">Images | Imágenes</h4>
+        <br>
         <!-- UNA IMAGEN CON ESTILOS CSS -->
-        <div class="">
-            <a class="" href="#" target="_blank">
-                <img src="img/fondo_cafe.jpg" alt="Taza de café" >
-            </a>
+        <p>Una imágen con alto y ancho estático</p><br>
+        <a class="" href="#" target="_blank">
+            <img src="img/web-desing.jpg" alt="Web desing | Diseño web"
+                 title="Web desing | Diseño web" width="370" height="280">
+        </a>
+        <br>
+        <!-- UNA IMAGEN CON LINK Y RESPONSIVA -->
+        <p>Una imágen con link y tamaño responsivo</p><br>
+        <a class="" href="#" target="_blank">
+            <img src="img/web-desing.jpg" alt="Web desing | Diseño web"
+                 title="Web desing | Diseño web" class="img-responsive-50">
+        </a>
+        <br><br>
+        <div class="flex-container">
+            <div class="item2">
+                <!-- UNA IMAGEN REDONDEADA CON LINK y RESPONSIVA -->
+                <p>Una imágen con link y tamaño responsivo thumbnail</p><br>
+                <a class="" href="#" target="_blank">
+                    <img src="img/web-desing.jpg" alt="Web desing | Diseño web"
+                         title="Web desing | Diseño web"
+                         class="img-responsive img-thumbnail">
+                </a>
+            </div>
+            <div class="item2">
+                <!-- UNA IMAGEN REDONDEADA CON LINK y RESPONSIVA -->
+                <p>Una imágen con link y tamaño responsivo redondeado</p><br>
+                <a class="" href="#" target="_blank">
+                    <img src="img/web-desing.jpg" alt="Web desing | Diseño web"
+                         title="Web desing | Diseño web"
+                         class="img-responsive img-rounded">
+                </a>
+            </div>
+            <div class="item2">
+                <!-- UNA IMAGEN REDONDEADA CON LINK y RESPONSIVA -->
+                <p>Una imágen con link y tamaño responsivo circular</p><br>
+                <a class="" href="#" target="_blank">
+                    <img src="img/web-desing.jpg" alt="Web desing | Diseño web"
+                         title="Web desing | Diseño web"
+                         class="img-responsive img-circle">
+                </a>
+            </div>
         </div>
+        <br>
         <!-- UNA IMAGEN CON LINK EN AREAS ESPECIFICAS -->
-        <div>
+        <div class="text-center padd2">
             <p>Una imagen asociada a un map-area con links en areas específicas de la
                 imágen <br> Los tipos son: <em>default, rect, circle y poly.</em><br>
                 Herramienta para generar coordenadas de map-area:
                 <a href="http://imagemap-generator.dariodomi.de/" rel="help"
                    target="_blank" type="text/html" media="all">
                     Imagemap-generator
-                </a></p>
-            <img src="img/ex_maparea.jpg" alt="Example of map - area" usemap="#example">
+                </a></p><br>
+            <img src="img/ex_maparea.jpg" alt="Example of map - area"
+                 usemap="#example" class="text-center">
             <map name="example">
                 <area shape="rect" coords="50,84,330,195" href="index.html"
                       title="Shape rectangular" alt="Example rectangular">
@@ -310,12 +379,12 @@
                       284,524,180,467,79,524,110,422" href="index.html">
             </map>
         </div>
-
     </div>
 </section>
 <hr>
-<div class="text-center">
-    <h4 class="title">Ejemplo de una tabla con columnas y filas combinadas</h4>
+<section id="table" class="padd2 text-center">
+    <h4 class="title">Table | Tablas</h4>
+    <p>Ejemplo de una tabla con columnas y filas combinadas</p>
     <table class="combinate">
         <tr>
             <td>Fila 1, columna 1</td>
@@ -333,9 +402,22 @@
             <td>Fila 3 columna 4</td>
         </tr>
     </table>
-</div>
+</section>
 <hr>
-<footer>
+<section id="audio" class="padd2 text-center">
+    <h4 class="title">Music, Video | Audio, Vídeo</h4>
+    <p>Ejemplo de un audio, más acerca de los audios:
+        <a rel="help" href="https://www.w3schools.com/tags/tag_audio.asp"
+           target="_blank" type="text/html" hreflang="en">aquí.</a></p>
+    <br>
+    <audio controls>
+        <source src="sound/bohemian-rhapsody.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+        Tu navegador no soporta archivos de audio.
+    </audio>
+</section>
+<hr>
+<footer id="footer" class="padd2">
     <!-- ETIQUETA PARA COLOCAR DIRECCION DE CONTACTO -->
     <address>Correo: <a href="mailto:susananzth@gmail.com" target="_top">
                         susananzth@gmail.com</a></address>
