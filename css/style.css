@@ -42,12 +42,19 @@ body, html{ width: 100%; height: 100%;}
 body{ font-family: Roboto-Light, sans-serif, Verdana;
       font-size: 110%; color: #555555; background: #d0e2d7;}
 
+/* SECTIONS */
+header{ width: auto; height: 30%; background: url('../img/bg-header.jpg') no-repeat center;
+        -webkit-background-size: cover; -moz-background-size: cover;
+        background-size: cover; -o-background-size: cover; padding: 5%}
+
 /* VARIOS */
 em{ font-family: Roboto-Light-Italic;}
 strong{ font-family: Roboto-Regular;}
 address {font-family: Roboto-Light-Italic;}
-hr{ margin: 20px 0; border-style: double; border-width: 5px;
-    color: #2d72a2;}
+    /*Más estilos para hr: https://codepen.io/ibrahimjabbari/pen/ozinB*/
+hr{ height: 15px; border: 0; background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,
+                                                                rgba(255,124,189,0.65) 50%,
+                                                                rgba(108,0,153,0.65) 100%);}
 u{ font-family: Roboto-Regular;}
 
 /* HEADINGS */
@@ -106,23 +113,25 @@ table{ border-spacing: 0;}
 .col-4{ width: 33.33%;}
 .col-3{ width: 25%}
 .col-2{ width: 16.66%}
+.col-1{ width: 8.33%}
+
     /*Estilo para cada columna*/
-.col-12, .col-8, .col-6, .col-4, .col-3, .col-2{ height: auto; padding: 1%; box-sizing: border-box;
-    border: 2px #905fa0 solid;}
+.col-12, .col-8, .col-6, .col-4, .col-3, .col-2, .col-1{ height: auto; padding: 1%;
+                                                 box-sizing: border-box;}
     /*Método 2 para dividir en columnas, pero sin salto de linea
       Todas se mantienen en la misma fila.*/
 .item1{ -webkit-flex: 6; flex: 6;}
 .item2{ -webkit-flex: 4; flex: 4;}
 .item3{ -webkit-flex: 2; flex: 2;}
     /*Estilo para los item*/
-.item1, .item2, .item3{ padding: 1%; box-sizing: border-box;
-    border: 2px #905fa0 solid;}
+.item1, .item2, .item3{ padding: 1%; box-sizing: border-box;}
 
 /* BORDES */
 .border{border: 1px rgba(16, 119, 51, 0.81) solid;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;}        /* Opera/IE 8+ */
+.col-border{ box-sizing: border-box; border: 2px #905fa0 solid;}
 
 /* IMPLEMENTOS */
 .padd5{padding: 5%;} .padd2{ padding: 2%;} .padd35px{ padding-left: 35px;}
@@ -137,4 +146,3 @@ table{ border-spacing: 0;}
           -webkit-background-size: cover; -moz-background-size: cover;
           background-size: cover; -o-background-size: cover; height: 100%; width: 100%;}
 .title-center{ text-align: center; text-align: -webkit-center; padding: 20% 20% 5% 20%;}
-.col-2-no-border{ border: none !important; width: 16.66%}
