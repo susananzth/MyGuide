@@ -68,92 +68,96 @@
 <section>
     <div>
         <h4 class="title text-center">Unordered list | Lista desordenada</h4>
-        <div class="padd5 inline-b">
-            <h6>Scuare</h6>
-            <ul class="scuare">
-                <li>Element 1</li>
-                <li>Element 2</li>
-                <li>Element 3</li>
-                <li>Element 4</li>
-            </ul>
+        <div class="flex-container">
+            <div class="col-3">
+                <h6>Scuare</h6>
+                <ul class="scuare padd35px">
+                    <li>Element 1</li>
+                    <li>Element 2</li>
+                    <li>Element 3</li>
+                    <li>Element 4</li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h6>Disc Styles</h6>
+                <ul class="padd35px">
+                    <li>Element 1</li>
+                    <li>Element 2</li>
+                    <li>Element 3</li>
+                    <li>Element 4</li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h6>Circle</h6>
+                <ul class="circle padd35px">
+                    <li>Element 1</li>
+                    <li>Element 2</li>
+                    <li>Element 3</li>
+                    <li>Element 4</li>
+                </ul>
+            </div>
         </div>
-        <div class="padd5 inline-b">
-            <h6>Disc Styles</h6>
-            <ul>
-                <li>Element 1</li>
-                <li>Element 2</li>
-                <li>Element 3</li>
-                <li>Element 4</li>
-            </ul>
-        </div>
-        <div class="padd5 inline-b">
-            <h6>Circle</h6>
-            <ul class="circle">
-                <li>Element 1</li>
-                <li>Element 2</li>
-                <li>Element 3</li>
-                <li>Element 4</li>
-            </ul>
-        </div>
+        <hr>
         <h4 class="title text-center">Ordered Lists | Lista ordenada</h4>
-        <div class="padd5 inline-b">
-            <h6>Decimal</h6>
-            <ol>
-                <li>Element 1</li>
-                <li>Element 2</li>
-                <li>Element 3</li>
-                <li>Element 4</li>
-            </ol>
+        <div class="flex-container">
+            <div class="col-3">
+                <h6>Decimal</h6>
+                <ol class="padd35px">
+                    <li>Element 1</li>
+                    <li>Element 2</li>
+                    <li>Element 3</li>
+                    <li>Element 4</li>
+                </ol>
+            </div>
+            <div class="col-3">
+                <h6>Zero Styles</h6>
+                <ol class="zero padd35px">
+                    <li>Element 1</li>
+                    <li>Element 2</li>
+                    <li>Element 3</li>
+                    <li>Element 4</li>
+                </ol>
+            </div>
+            <div class="col-3">
+                <h6>Upper Latin</h6>
+                <ol class="latin padd35px">
+                    <li>Element 1</li>
+                    <li>Element 2</li>
+                    <li>Element 3</li>
+                    <li>Element 4</li>
+                </ol>
+            </div>
+            <div class="col-3">
+                <h6>Lower Latin</h6>
+                <ol class="l-latin padd35px">
+                    <li>Element 1</li>
+                    <li>Element 2</li>
+                    <li>Element 3</li>
+                    <li>Element 4</li>
+                </ol>
+            </div>
+            <div class="col-3">
+                <h6>Upper Roman</h6>
+                <ol class="roman padd35px">
+                    <li>Element 1</li>
+                    <li>Element 2</li>
+                    <li>Element 3</li>
+                    <li>Element 4</li>
+                </ol>
+            </div>
+            <div class="col-3">
+                <h6>Lower Roman</h6>
+                <ol class="l-roman padd35px">
+                    <li>Element 1</li>
+                    <li>Element 2</li>
+                    <li>Element 3</li>
+                    <li>Element 4</li>
+                </ol>
+            </div>
         </div>
-        <div class="padd5 inline-b">
-            <h6>Zero Styles</h6>
-            <ol class="zero">
-                <li>Element 1</li>
-                <li>Element 2</li>
-                <li>Element 3</li>
-                <li>Element 4</li>
-            </ol>
-        </div>
-        <div class="padd5 inline-b">
-            <h6>Upper Latin</h6>
-            <ol class="latin">
-                <li>Element 1</li>
-                <li>Element 2</li>
-                <li>Element 3</li>
-                <li>Element 4</li>
-            </ol>
-        </div>
-        <div class="padd5 inline-b">
-            <h6>Lower Latin</h6>
-            <ol class="l-latin">
-                <li>Element 1</li>
-                <li>Element 2</li>
-                <li>Element 3</li>
-                <li>Element 4</li>
-            </ol>
-        </div>
-        <div class="padd5 inline-b">
-            <h6>Upper Roman</h6>
-            <ol class="roman">
-                <li>Element 1</li>
-                <li>Element 2</li>
-                <li>Element 3</li>
-                <li>Element 4</li>
-            </ol>
-        </div>
-        <div class="padd5 inline-b">
-            <h6>Lower Roman</h6>
-            <ol class="l-roman">
-                <li>Element 1</li>
-                <li>Element 2</li>
-                <li>Element 3</li>
-                <li>Element 4</li>
-            </ol>
-        </div>
-
     </div>
 </section>
-
+<hr>
 <section>
     <div>
         <h4 class="title text-center">Links | Enlaces</h4>
@@ -212,6 +216,16 @@
                         Un link con todos los atributos.</a>
                 </strong>
             </div>
+            <div class="col-6">
+                <p>Este es un link que lleva a un correo</p>
+                <a href="mailto:someone@example.com?Subject=Hello%20again"
+                   target="_top" class="btn">Enviar Email</a>
+            </div>
+            <div class="col-6">
+                <p>Y un link con un mensaje de JavaScript</p>
+                <a href="javascript:alert('Hello World!');"
+                   class="btn">Ejecutar JavaScript</a>
+            </div>
         </div>
         <!-- UN LINK CON UNA IMAGEN CON ESTILOS HTML QUE ABRE
         EN OTRA PESTAÑA Y DESCARGA LA IMAGEN -->
@@ -252,5 +266,6 @@
         </tr>
     </table>
 </div>
+<hr>
 </body>
 </html>
