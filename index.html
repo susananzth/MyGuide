@@ -37,44 +37,54 @@
     </div>
 </section>
 <hr>
-<section id="paragraphs" class="padd2">
+<section id="texts" class="padd2">
     <h4 class="title text-center">Texts, Paragraphs | Textos, Párrafos</h4>
     <div class="col-border marg2 padd1">
-        <b>EN: This is bold text. The <u>&ltb&gt</u> tag specifies a bold text.</b><br>
-        <b>ES: Esto es un texto en negrita. La etiqueta <u>&ltb&gt</u> especifica el texto en negrita.</b>
+        <b>EN: This is bold text. The <b><u>&ltb&gt</u></b> tag specifies a bold text.</b>
+        <br> <b>ES: Esto es un texto en negrita. La etiqueta <b><u>&ltb&gt</u></b>
+            especifica el texto en negrita.</b>
     </div>
     <div class="col-border marg2 padd1">
         <em><b>EN:</b> This is bold text. The &ltb&gt tag specifies bold text.</em><br>
-        <em><b>ES:</b> Esto es un texto en negrita. La etiqueta &ltb&gt especifíca texto en negrita.</em>
+        <em><b>ES:</b> Esto es un texto en negrita. La etiqueta &ltb&gt especifíca
+            texto en negrita.</em>
     </div>
     <div class="col-border marg2 padd1">
         <u><b>EN:</b> This is bold text. The &ltb&gt tag specifies bold text.</u><br>
-        <u><b>ES:</b> Esto es un texto en negrita. La etiqueta &ltb&gt especifica texto en negrita.</u>
+        <u><b>ES:</b> Esto es un texto en negrita. La etiqueta &ltb&gt especifica
+            texto en negrita.</u>
     </div>
-    <div class="col-border marg2 padd1">
-        <p><b>EN:</b> This is a paragraphs. The <u>&ltp&gt</u> tag specifies a paragraphs.
+    <div id="paragraphs" class="col-border marg2 padd1">
+        <!-- UN PARRAFO CON SUS ATRIBUTOS -->
+        <p id="paragraph-en" lang="EN" title="A paragraph."><b>EN:</b>
+            This is a paragraphs. The <b><u>&ltp&gt</u></b> tag specifies a paragraphs.
+            <u>Attributes:</u> <b>id:</b> unique name. <b>title:</b> a tool tip.
+            <b>lang:</b> language code.
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Morbi viverra ex non nunc dignissim molestie. Duis bibendum egestas fermentum.
-            Etiam a neque vitae nisl gravida pulvinar et id enim. Fusce ultrices metus erat,
-            id tempus tellus eleifend at. </p><br>
-        <p><b>ES:</b> Esto es un párrafo. La etiqueta <u>&ltp&gt</u> especifica un párrafo.
+            Morbi viverra ex non nunc dignissim molestie.</p><br>
+        <p id="paragraph-es" lang="ES" title="Un párrafo"><b>ES:</b> Esto es un párrafo.
+            La etiqueta <b><u>&ltp&gt</u></b> especifica un párrafo.
+            <u>Atributos:</u> <b>id:</b> nombre único. <b>title:</b> un tool tip.
+            <b>lang:</b> languaje de la cita.
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra
-            ex non nunc dignissim molestie. Duis bibendum egestas fermentum. Etiam a
-            neque vitae nisl gravida pulvinar et id enim. Fusce ultrices metus erat, id
-            tempus tellus eleifend at.</p>
+            ex non nunc dignissim molestie.</p>
     </div>
     <div class="col-border marg2 padd1">
-        <blockquote><b>EN:</b> A section that is quoted from another source.
-            The <u>&ltblockquote&gt</u> tag specifies a quoted.<br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            eu felis sit amet leo viverra tristique. Integer nec faucibus nisi.
-            Vivamus tortor mi, consectetur non justo vel, euismod sodales lacus
+        <!-- UNA CITA CON SUS ATRIBUTOS -->
+        <blockquote id="blockq-en" title="A blockquote." lang="EN"
+                    cite="https://www.w3schools.com/tags/tag_blockquote.asp">
+            <b>EN:</b> A section that is quoted from another source.
+            The <b><u>&ltblockquote&gt</u></b> tag specifies a quoted.<br>
+            <u>Attributes:</u> <b>cite:</b> URL, specifies the source of the quotation.
+            <b>id:</b> unique name. <b>title:</b> a tool tip. <b>lang:</b> language code.
         </blockquote><br>
-        <blockquote><b>ES:</b> Una sección que se cita de otra fuente.
-            La etiqueta <u>&ltblockquote&gt</u> especifica una cita.<br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            eu felis sit amet leo viverra tristique. Integer nec faucibus nisi.
-            Vivamus tortor mi, consectetur non justo vel, euismod sodales lacus
+        <blockquote id="blockq-es" title="Un blockquote 'Cita'." lang="ES"
+                    cite="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/blockquote">
+            <b>ES:</b> Una sección que se cita de otra fuente.
+            La etiqueta <b><u>&ltblockquote&gt</u></b> especifica una cita.<br>
+            <u>Atributos:</u> <b>cite:</b> URL, enlace al documento original o fuente.
+            <b>id:</b> nombre único. <b>title:</b> un tool tip.
+            <b>lang:</b> languaje de la cita.
         </blockquote>
     </div>
 </section>
@@ -239,9 +249,35 @@
 <section id="links" class="padd2">
     <div>
         <h4 class="title text-center">Links | Enlaces</h4>
-        <!-- LINK DONDE ESPECIFICA QUE RELACION TIENE EL LINK CON LA PAGINA
-        more: -->
         <div class="flex-container text-justify col-border">
+            <!-- LINKS DEFINICION -->
+            <div id="link-en" class="col-6 col-border">
+                <p lang="EN" title="A link"><b>EN:</b>
+                    The <b><u>&lta&gt</u></b> tag creates a link to other internet
+                    pages, files or locations within the same page, email addresses,
+                    or any other URL. More about links: <br>
+                    <a href="https://www.w3schools.com/tags/att_a_rel.asp"
+                       rel="help" lang="EN" target="_blank" class="btn">EN: W3schools</a>
+                    <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/a"
+                       rel="help" lang="ES" target="_blank" class="btn">ES: MDN</a>
+                </p>
+            </div>
+            <div id="link-es" class="col-6 col-border">
+                <p lang="ES" title="Un link"><b>ES:</b>
+                    La etiqueta <b><u>&lta&gt</u></b> crea un enlace a otras páginas
+                    de internet, archivos o ubicaciones dentro de la misma página,
+                    direcciones de correo, o cualquier otra URL.
+                    Más acerca de links: <br>
+                    <a href="https://www.w3schools.com/tags/att_a_rel.asp"
+                       rel="help" lang="EN" target="_blank" class="btn">EN: W3schools</a>
+                    <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/a"
+                       rel="help" lang="ES" target="_blank" class="btn">ES: MDN</a>
+                </p>
+            </div>
+            <div class="col-12 col-border text-center">
+                <h6>Attributes | Atributos</h6>
+            </div>
+            <!-- LINK DONDE ESPECIFICA QUE RELACION TIENE EL LINK CON LA PAGINA -->
             <div class="col-6 col-border">
                 <p>El atributo "<b><u>rel</u></b>" es para especificar que relación tiene el
                     link con la página. <br>
@@ -251,6 +287,7 @@
                 <a href="https://www.w3schools.com/tags/att_a_rel.asp"
                    rel="external" target="_blank" class="btn">More about rel</a>
             </div>
+
             <!-- UN LINK QUE ABRE EN OTRA PESTAÑA Y ESPECIFICA EN QUE DISPOSITIVO
              ESTA OPTIMIZADO -->
             <div class="col-6 col-border">

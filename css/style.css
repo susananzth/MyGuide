@@ -46,23 +46,27 @@ body{ font-family: Roboto-Light, sans-serif, Verdana;
 header{ width: auto; background: url('../img/bg-header.jpg') no-repeat center;
     -webkit-background-size: cover; -moz-background-size: cover;
     background-size: cover; -o-background-size: cover; padding: 5%;}
-.bg-header{ }
-#headding{ background: #c8fed0;}  #columns{ background: #ffeffa}
+
+#headding{ background: #c8fed0;} #texts{background: rgba(183, 255, 12, 0.13)}
+#columns{ background: #ffeffa}
 #unordered{ background: #e0f8ff}  #ordered{ background: #fbffe7}
 #links{ background: #e4e5ff} #images{ background: #ffdfdc}
 #table{ background: #e6ffe5} #footer{ background: #cdc8d2}
 .nav{ list-style-type: none;}
 
 /* VARIOS */
-em{ font-family: Roboto-Light-Italic;}
+em{ font-family: Roboto-Light-Italic;} em b, em strong{ font-family: Roboto-Regular-Italic;}
 strong, b{ font-family: Roboto-Regular;}
 address {font-family: Roboto-Light-Italic;}
-    /*Más estilos para hr: https://codepen.io/ibrahimjabbari/pen/ozinB*/
+address b, address strong{ font-family: Roboto-Regular-Italic;}
+blockquote { font-family: Roboto-Light-Italic; margin: 1%; padding: 2%; background: #f7f7f7}
+blockquote b{ font-family: Roboto-Regular-Italic;}
+blockquote strong{ font-family: Roboto-Regular-Italic;}
+
+/*Más estilos para hr: https://codepen.io/ibrahimjabbari/pen/ozinB*/
 hr{ height: 15px; border: 0; background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,
                                                                 rgba(255,124,189,0.65) 50%,
                                                                 rgba(108,0,153,0.65) 100%);}
-blockquote { font-family: Roboto-Light-Italic; margin: 1%; padding: 2%; background: #f7f7f7
-}
 
 /* HEADINGS */
 h1, h2, h3, h4, h5, h6{ font-family: Roboto-Regular; -webkit-margin-before: 0;
