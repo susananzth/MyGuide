@@ -83,25 +83,46 @@
         </div>
         <br>
         <!-- UNA IMAGEN CON LINK EN AREAS ESPECIFICAS -->
-        <div class="text-center padd2">
-            <p>Una imagen asociada a un map-area con links en areas específicas de la
-                imágen <br> Los tipos son: <em>default, rect, circle y poly.</em><br>
+        <div class="padd2">
+            <p><b>EN:</b> The <b><u>&ltmap&gt</u></b> tag defines an area
+                inside an image-map.<br>
+                <u>type</u><em>= default, rect, circle y poly.</em><br>
+                Tool to generate map-area coordinates:
+                <a href="http://imagemap-generator.dariodomi.de/" rel="help"
+                   target="_blank" type="text/html" media="all">
+                    Imagemap-generator
+                </a><br>
+                More about map-area:
+                <a href="https://www.w3schools.com/tags/tag_area.asp"
+                   rel="help" hreflang="EN" type="text/html" target="_blank"
+                   class="">EN: W3schools</a><br><br>
+                <b>ES:</b> La etiqueta <b><u>&ltmap&gt</u></b> define
+                un área dentro de un mapa de imágenes.
+                <br><u>type</u>= <em>default, rect, circle y poly.</em><br>
                 Herramienta para generar coordenadas de map-area:
                 <a href="http://imagemap-generator.dariodomi.de/" rel="help"
                    target="_blank" type="text/html" media="all">
                     Imagemap-generator
-                </a></p><br>
-            <img src="img/ex_maparea.jpg" alt="Example of map - area"
-                 usemap="#example" class="text-center">
-            <map name="example">
-                <area shape="rect" coords="50,84,330,195" href="text.html"
-                      title="Shape rectangular" alt="Example rectangular">
-                <area shape="circle" coords="512,341,120" href="text.html"
-                      title="Shape circular" alt="Example circular">
-                <area title="Shape poly" alt="Example poly" shape="poly"
-                      coords="13,354,137,351,180,248,223,348,344,354,249,419,
+                </a><br>
+                Más acerca de map-area:
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/area"
+                   rel="help" hreflang="EN" type="text/html" target="_blank"
+                   class="">ES: MDN</a>
+            </p><br>
+            <div class="text-center">
+                <img src="img/ex_maparea.jpg" alt="Example of map - area"
+                     usemap="#example" class="text-center">
+                <map name="example">
+                    <area shape="rect" coords="50,84,330,195" href="text.html"
+                          title="Shape rectangular" alt="Example rectangular">
+                    <area shape="circle" coords="512,341,120" href="text.html"
+                          title="Shape circular" alt="Example circular">
+                    <area title="Shape poly" alt="Example poly" shape="poly"
+                          coords="13,354,137,351,180,248,223,348,344,354,249,419,
                       284,524,180,467,79,524,110,422" href="text.html">
-            </map>
+                </map>
+            </div>
+
         </div>
     </div>
 </section>
