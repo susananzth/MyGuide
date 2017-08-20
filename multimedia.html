@@ -2,9 +2,126 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" rel="script" src="js/javascript.js"></script>
+    <title>My Guide</title>
 </head>
 <body>
-
+<header class="text-center">
+    <div class="bg-header">
+        <h1>My Guide</h1>
+        <h3>by Susana Piñero</h3>
+    </div>
+</header>
+<hr>
+<nav>
+    <ul class="flex-container nav">
+        <li class="col-2 padd2"><a href="index.html">Home</a></li>
+        <li class="col-2 padd2"><a href="text.html">Text</a></li>
+        <li class="col-2 padd2"><a href="multimedia.html">Multimedia</a></li>
+        <li class="col-2 padd2"><a href="formulario.html">Forms</a></li>
+    </ul>
+</nav>
+<hr>
+<section id="images" class="padd2">
+    <div>
+        <h4 class="title text-center">Images | Imágenes</h4>
+        <br>
+        <div class="flex-container">
+            <div class="item2">
+                <!-- UNA IMAGEN CON ESTILOS CSS -->
+                <p><b>EN:</b> An image with static high and wide.</p>
+                <p><b>ES:</b> Una imágen con alto y ancho estático.</p><br>
+                <a class="" href="#" target="_blank">
+                    <img src="img/web-desing.jpg" alt="Web desing | Diseño web"
+                         title="Web desing | Diseño web" width="370" height="280">
+                </a>
+            </div>
+            <div class="item2">
+                <!-- UNA IMAGEN CON LINK Y RESPONSIVA -->
+                <p><b>EN:</b> A picture with link and responsive size.</p>
+                <p><b>ES:</b> Una imágen con link y tamaño responsivo.</p><br>
+                <a class="" href="#" target="_blank">
+                    <img src="img/web-desing.jpg" alt="Web desing | Diseño web"
+                         title="Web desing | Diseño web" class="img-responsive">
+                </a>
+            </div>
+        </div>
+        <br><br>
+        <div class="flex-container">
+            <div class="col-4">
+                <!-- UNA IMAGEN REDONDEADA CON LINK y RESPONSIVA -->
+                <p><b>EN:</b> A picture with link and responsive size thumbnail.</p>
+                <p><b>ES:</b> Una imágen con link y tamaño responsivo thumbnail.</p><br>
+                <a class="" href="#" target="_blank">
+                    <img src="img/web-desing.jpg" alt="Web desing | Diseño web"
+                         title="Web desing | Diseño web"
+                         class="img-responsive img-thumbnail">
+                </a>
+            </div>
+            <div class="col-4">
+                <!-- UNA IMAGEN REDONDEADA CON LINK y RESPONSIVA -->
+                <p><b>EN:</b> A picture with link and responsive size rounded.</p>
+                <p><b>ES:</b> Una imágen con link y tamaño responsivo redondeado.</p><br>
+                <a class="" href="#" target="_blank">
+                    <img src="img/web-desing.jpg" alt="Web desing | Diseño web"
+                         title="Web desing | Diseño web"
+                         class="img-responsive img-rounded">
+                </a>
+            </div>
+            <div class="col-4">
+                <!-- UNA IMAGEN REDONDEADA CON LINK y RESPONSIVA -->
+                <p><b>EN:</b>An image with link and circular responsive size.</p>
+                <p><b>ES:</b> Una imágen con link y tamaño responsivo circular.</p><br>
+                <a class="" href="#" target="_blank">
+                    <img src="img/web-desing.jpg" alt="Web desing | Diseño web"
+                         title="Web desing | Diseño web"
+                         class="img-responsive img-circle">
+                </a>
+            </div>
+        </div>
+        <br>
+        <!-- UNA IMAGEN CON LINK EN AREAS ESPECIFICAS -->
+        <div class="text-center padd2">
+            <p>Una imagen asociada a un map-area con links en areas específicas de la
+                imágen <br> Los tipos son: <em>default, rect, circle y poly.</em><br>
+                Herramienta para generar coordenadas de map-area:
+                <a href="http://imagemap-generator.dariodomi.de/" rel="help"
+                   target="_blank" type="text/html" media="all">
+                    Imagemap-generator
+                </a></p><br>
+            <img src="img/ex_maparea.jpg" alt="Example of map - area"
+                 usemap="#example" class="text-center">
+            <map name="example">
+                <area shape="rect" coords="50,84,330,195" href="text.html"
+                      title="Shape rectangular" alt="Example rectangular">
+                <area shape="circle" coords="512,341,120" href="text.html"
+                      title="Shape circular" alt="Example circular">
+                <area title="Shape poly" alt="Example poly" shape="poly"
+                      coords="13,354,137,351,180,248,223,348,344,354,249,419,
+                      284,524,180,467,79,524,110,422" href="text.html">
+            </map>
+        </div>
+    </div>
+</section>
+<hr>
+<section id="audio" class="padd2 text-center">
+    <h4 class="title">Music, Video | Audio, Vídeo</h4>
+    <p>Ejemplo de un audio, más acerca de los audios:
+        <a rel="help" href="https://www.w3schools.com/tags/tag_audio.asp"
+           target="_blank" type="text/html" hreflang="en">aquí.</a></p>
+    <br>
+    <audio controls>
+        <source src="sound/bohemian-rhapsody.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+        Tu navegador no soporta archivos de audio.
+    </audio>
+</section>
+<hr>
+<footer id="footer" class="padd2">
+    <!-- ETIQUETA PARA COLOCAR DIRECCION DE CONTACTO -->
+    <address>Correo: <a href="mailto:susananzth@gmail.com" target="_top">
+        susananzth@gmail.com</a></address>
+</footer>
 </body>
 </html>
