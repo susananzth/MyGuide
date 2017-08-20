@@ -108,15 +108,41 @@
 <hr>
 <section id="audio" class="padd2 text-center">
     <h4 class="title">Music, Video | Audio, Vídeo</h4>
-    <p>Ejemplo de un audio, más acerca de los audios:
-        <a rel="help" href="https://www.w3schools.com/tags/tag_audio.asp"
-           target="_blank" type="text/html" hreflang="en">aquí.</a></p>
-    <br>
-    <audio controls>
-        <source src="sound/bohemian-rhapsody.mp3" type="audio/mpeg">
-        Your browser does not support the audio tag.
-        Tu navegador no soporta archivos de audio.
-    </audio>
+    <div class="flex-container text-justify">
+        <!-- AUDIO -->
+        <div id="audio-en" class="col-12">
+            <p lang="EN" title="A audio"><b>EN:</b>
+                The <b><u>&ltaudio&gt</u></b>  tag is used to insert audio content into
+                an HTML or XHTML document.<br>
+                <em><u>Attributes:</u> arc, autoplay, controls, loop, muted, preload.</em>
+                <br>
+                <audio controls>
+                    <source src="sound/bohemian-rhapsody.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio><br>
+                More about audios: <br>
+                <a href="https://www.w3schools.com/tags/tag_audio.asp"
+                   rel="help" hreflang="EN" type="text/html" target="_blank"
+                   class="btn">EN: W3schools</a>
+            </p>
+        </div>
+        <div id="audio-es" class="col-12">
+            <p lang="ES" title="Un audio"><b>ES:</b>
+                La etiqueta <b><u>&ltaudio&gt</u></b> se usa para insertar
+                contenido de audio en un documento HTML o XHTML.<br>
+                <em><u>Atributos:</u> arc, autoplay, controls, loop, muted, preload.</em>
+                <br>
+                <audio controls>
+                    <source src="sound/bohemian-rhapsody.mp3" type="audio/mpeg">
+                    Tu navegador no soporta archivos de audio.
+                </audio><br>
+                Más acerca de audios: <br>
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/audio"
+                   rel="help" hreflang="ES" type="text/html" target="_blank"
+                   class="btn">ES: MDN</a>
+            </p>
+        </div>
+    </div>
 </section>
 <hr>
 <footer id="footer" class="padd2">

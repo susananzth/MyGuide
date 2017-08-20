@@ -75,6 +75,10 @@ blockquote strong{ font-family: Roboto-Regular-Italic;}
 hr{ height: 15px; border: 0; background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,
                                                                 rgba(255,124,189,0.65) 50%,
                                                                 rgba(108,0,153,0.65) 100%);}
+audio{ margin: 1%; padding: 2%; border-radius: 3px;
+       background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,
+                                          rgba(255,124,189,0.65) 50%,
+                                          rgba(108,0,153,0.65) 100%);}
 
 /* HEADINGS */
 h1, h2, h3, h4, h5, h6{ font-family: Roboto-Regular; -webkit-margin-before: 0;
