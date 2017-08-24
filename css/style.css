@@ -161,12 +161,10 @@ table{ border-spacing: 0;}
 .img-thumbnail { border: 4px solid #ffffff; box-sizing: border-box; border-radius: 5px;}
 
 /* FORMS */
-input, textarea {
-    border-radius: 10px; width: 80%;
-}
-::-webkit-input-placeholder {
-    color: #555555 !important;
-}
+label { display: block; width: 80%;}
+input, textarea { border-radius: 10px; width: 80%;}
+::-webkit-input-placeholder { color: #555555 !important;}
+
 
 /* IMPLEMENTOS */
 .padd5{padding: 5%;} .padd2{ padding: 2%;} .padd1{ padding: 1%;}
