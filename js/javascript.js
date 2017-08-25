@@ -20,4 +20,17 @@
 //    ++i;
 //}
 
+    /*hide & show with button*/
+$("#button-a").click(function(evento){
+    $('#div-button').html('Has hecho clic en el botón <b>A</b>') });
+$("#button-b").click(function(evento){
+    $('#div-button').html('Recibido un clic en el botón <b>B</b>') });
 
+
+    /*Código Javascript con jQuery que defina los eventos del usuario,
+    para cuando sitúa el ratón dentro o fuera de la primera capa:*/
+
+    $("#capa").mouseenter(function(evento){
+        $("#mensaje").css("display", "block"); });
+    $("#capa").mouseleave(function(evento){
+        $("#mensaje").css("display", "none"); });
