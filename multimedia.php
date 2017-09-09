@@ -16,11 +16,11 @@
 <hr>
 <nav>
     <ul class="flex-container nav">
-        <li class="col-2 padd2"><a href="index.html">Home</a></li>
-        <li class="col-2 padd2"><a href="text.html">Text</a></li>
-        <li class="col-2 padd2"><a href="link.html">Links</a></li>
-        <li class="col-2 padd2"><a href="multimedia.html">Multimedia</a></li>
-        <li class="col-2 padd2"><a href="formulario.html">Forms</a></li>
+        <li class="col-2 padd2"><a href="index.php">Home</a></li>
+        <li class="col-2 padd2"><a href="text.php">Text</a></li>
+        <li class="col-2 padd2"><a href="link.php">Links</a></li>
+        <li class="col-2 padd2"><a href="multimedia.php">Multimedia</a></li>
+        <li class="col-2 padd2"><a href="formulario.php">Forms</a></li>
     </ul>
 </nav>
 <hr>
@@ -113,13 +113,13 @@
                 <img src="img/ex_maparea.jpg" alt="Example of map - area"
                      usemap="#example" class="text-center">
                 <map name="example">
-                    <area shape="rect" coords="50,84,330,195" href="text.html"
+                    <area shape="rect" coords="50,84,330,195" href="text.php"
                           title="Shape rectangular" alt="Example rectangular">
-                    <area shape="circle" coords="512,341,120" href="text.html"
+                    <area shape="circle" coords="512,341,120" href="text.php"
                           title="Shape circular" alt="Example circular">
                     <area title="Shape poly" alt="Example poly" shape="poly"
                           coords="13,354,137,351,180,248,223,348,344,354,249,419,
-                      284,524,180,467,79,524,110,422" href="text.html">
+                      284,524,180,467,79,524,110,422" href="text.php">
                 </map>
             </div>
 
