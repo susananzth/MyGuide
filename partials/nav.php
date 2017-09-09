@@ -1,13 +1,14 @@
 <hr>
 <nav>
-    <ul class="flex-container nav">
+    <ul class="flex-container nav text-center">
        
-        <li class="col-2 padd2"><a href="index.html">Home</a></li>
-        <li class="col-2 padd2"><a href="text.html">Text</a></li>
-        <li class="col-2 padd2"><a href="link.html">Links</a></li>
-        <li class="col-2 padd2"><a href="multimedia.html">Multimedia</a></li>
-        <li class="col-2 padd2"><a href="formulario.html">Forms</a></li>
-        <li class="col-2 padd2"><a href="home.php">jQuery</a></li>
+        <li class="col-1 padd1"><a href="index.php">Home</a></li>
+        <li class="col-1 padd1"><a href="text.php">Text</a></li>
+        <li class="col-1 padd1"><a href="link.php">Links</a></li>
+        <li class="col-1 padd1"><a href="multimedia.php">Multimedia</a></li>
+        <li class="col-1 padd1"><a href="formulario.php">Forms</a></li>
+        <li class="col-1 padd1"><a href="js.php">JavaScript</a></li>
+        <li class="col-1 padd1"><a href="jQuery.php">jQuery</a></li>
     </ul>
 </nav>
 <hr>

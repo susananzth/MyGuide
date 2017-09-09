@@ -4,6 +4,7 @@ include "partials/header.php";
 include "partials/nav.php";
 ?>
 <section class="padd2">
+    <h4>Usando jQuery</h4>
     <div class="">
         <h4 class="title text-center">Hide and show elements | Ocultar y mostrar elementos</h4>
         <div class="padd2">

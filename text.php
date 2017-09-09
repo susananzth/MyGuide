@@ -1,29 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" rel="script" src="js/javascript.js"></script>
-    <title>My Guide</title>
-</head>
-<body>
-<header class="text-center">
-    <div class="bg-header">
-        <h1>My Guide</h1>
-        <h3>by Susana Piñero</h3>
-    </div>
-</header>
-<hr>
-<nav>
-    <ul class="flex-container nav">
-        <li class="col-2 padd2"><a href="index.php">Home</a></li>
-        <li class="col-2 padd2"><a href="text.php">Text</a></li>
-        <li class="col-2 padd2"><a href="link.php">Links</a></li>
-        <li class="col-2 padd2"><a href="multimedia.php">Multimedia</a></li>
-        <li class="col-2 padd2"><a href="formulario.php">Forms</a></li>
-    </ul>
-</nav>
-<hr>
+<?php
+include "partials/top_page.php";
+include "partials/header.php";
+include "partials/nav.php";
+?>
 <section id="headding" class="padd2">
     <div class="">
         <h4 class="title text-center">Heading elements | Títulos</h4>
@@ -273,11 +252,6 @@
         </tr>
     </table>
 </section>
-<hr>
-<footer id="footer" class="padd2">
-    <!-- ETIQUETA PARA COLOCAR DIRECCION DE CONTACTO -->
-    <address>Correo: <a href="mailto:susananzth@gmail.com" target="_top">
-                        susananzth@gmail.com</a></address>
-</footer>
-</body>
-</html>
+
+<?php
+include "partials/footer.php";

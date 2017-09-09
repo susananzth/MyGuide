@@ -1,28 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" rel="script" src="js/javascript.js"></script>
-    <title>My Guide</title>
-</head>
-<body>
-<header class="text-center padd5">
-    <h1>My Guide</h1>
-    <h3>by Susana Piñero</h3>
-</header>
-
-<hr>
-<nav>
-    <ul class="flex-container nav">
-        <li class="col-2 padd2"><a href="index.php">Home</a></li>
-        <li class="col-2 padd2"><a href="text.php">Text</a></li>
-        <li class="col-2 padd2"><a href="link.php">Links</a></li>
-        <li class="col-2 padd2"><a href="multimedia.php">Multimedia</a></li>
-        <li class="col-2 padd2"><a href="formulario.php">Forms</a></li>
-    </ul>
-</nav>
-<hr>
+<?php
+include "partials/top_page.php";
+include "partials/header.php";
+include "partials/nav.php";
+?>
 <section>
     <div>
         <h4 class="title text-center">Ejemplo de un formulario</h4>
@@ -43,5 +23,5 @@
     </div>
 </section>
 
-</body>
-</html>
+<?php
+include "partials/footer.php";

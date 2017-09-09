@@ -1,11 +1,18 @@
+<?php
+include "partials/top_page.php";
+include "partials/header.php";
+include "partials/nav.php";
+?>
+<section class="padd5">
+    <h4>Usando JavaScript</h4>
+    ​<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.</button>
 
-
-​<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
-    Click me to display Date and Time.</button>
-
-<p id="demo"></p>
+    <p id="demo"></p>
+</section>
 
 <?php
+include "partials/footer.php";
 /**
  * Created by PhpStorm.
  * User: Susana
