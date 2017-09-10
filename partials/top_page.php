@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" rel="script" src="../js/javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <title>My Guide jQuery</title>
 </head>
 <body>

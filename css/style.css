@@ -75,9 +75,32 @@ blockquote b{ font-family: Roboto-Regular-Italic;}
 blockquote strong{ font-family: Roboto-Regular-Italic;}
 
 /*Más estilos para hr: https://codepen.io/ibrahimjabbari/pen/ozinB*/
-hr{ height: 15px; border: 0; background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,
-                                                                rgba(255,124,189,0.65) 50%,
-                                                                rgba(108,0,153,0.65) 100%);}
+hr.one{ height: 15px; border: 0; background: linear-gradient(45deg,
+    rgba(255,184,115,0.65) 0%,
+    rgba(255,124,189,0.65) 50%,
+    rgba(108,0,153,0.65) 100%);}
+hr.two{ height: 15px; border: 0;
+    background: rgba(255,173,173,1);
+    background: -moz-linear-gradient(-45deg, rgba(255,173,173,1) 0%,
+        rgba(255,173,173,1) 3%, rgba(226,60,126,0.99) 21%, rgba(226,60,96,0.98) 42%,
+        rgba(234,31,139,0.97) 65%, rgba(213,42,139,0.96) 81%, rgba(249,148,185,0.95) 97%,
+        rgba(249,148,185,0.95) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(255,173,173,1) 0%,
+        rgba(255,173,173,1) 3%, rgba(226,60,126,0.99) 21%, rgba(226,60,96,0.98) 42%,
+        rgba(234,31,139,0.97) 65%, rgba(213,42,139,0.96) 81%, rgba(249,148,185,0.95) 97%,
+        rgba(249,148,185,0.95) 100%);
+    background: -o-linear-gradient(-45deg, rgba(255,173,173,1) 0%, rgba(255,173,173,1) 3%,
+        rgba(226,60,126,0.99) 21%, rgba(226,60,96,0.98) 42%, rgba(234,31,139,0.97) 65%,
+        rgba(213,42,139,0.96) 81%, rgba(249,148,185,0.95) 97%, rgba(249,148,185,0.95) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(255,173,173,1) 0%, rgba(255,173,173,1) 3%,
+        rgba(226,60,126,0.99) 21%, rgba(226,60,96,0.98) 42%, rgba(234,31,139,0.97) 65%,
+        rgba(213,42,139,0.96) 81%, rgba(249,148,185,0.95) 97%, rgba(249,148,185,0.95) 100%);
+    background: linear-gradient(135deg, rgba(255,173,173,1) 0%, rgba(255,173,173,1) 3%,
+        rgba(226,60,126,0.99) 21%, rgba(226,60,96,0.98) 42%, rgba(234,31,139,0.97) 65%,
+        rgba(213,42,139,0.96) 81%, rgba(249,148,185,0.95) 97%, rgba(249,148,185,0.95) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffadad',
+        endColorstr='#f994b9', GradientType=1 );
+}
 audio{ margin: 1%; padding: 2%; border-radius: 3px;
        background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,
                                           rgba(255,124,189,0.65) 50%,

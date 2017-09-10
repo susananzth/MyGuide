@@ -1,8 +1,12 @@
 <?php
 include "partials/top_page.php";
 include "partials/header.php";
+?>
+    <hr class="two">
+<?php
 include "partials/nav.php";
 ?>
+    <hr class="two">
 <section id="links" class="padd2">
     <div>
         <h4 class="title text-center">Links | Enlaces</h4>
@@ -271,6 +275,6 @@ include "partials/nav.php";
         </div>
     </div>
 </section>
-
+    <hr class="two">
 <?php
 include "partials/footer.php";

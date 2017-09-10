@@ -1,5 +1,5 @@
 <header class="text-center padd5">
-    <h1>My Guide jQuery</h1>
+    <h1>My Guide</h1>
     <h3>by Susana Piñero</h3>
 </header>
 <?php

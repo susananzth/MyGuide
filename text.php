@@ -1,8 +1,12 @@
 <?php
 include "partials/top_page.php";
 include "partials/header.php";
+?>
+<hr class="one">
+<?php
 include "partials/nav.php";
 ?>
+<hr class="one">
 <section id="headding" class="padd2">
     <div class="">
         <h4 class="title text-center">Heading elements | Títulos</h4>
@@ -16,7 +20,7 @@ include "partials/nav.php";
         </div>
     </div>
 </section>
-<hr>
+<hr class="one">
 <section id="texts" class="padd2">
     <h4 class="title text-center">Texts, Paragraphs | Textos, Párrafos</h4>
     <div class="col-border marg2 padd1">
@@ -73,7 +77,7 @@ include "partials/nav.php";
         </blockquote>
     </div>
 </section>
-<hr>
+<hr class="one">
 <section id="columns" class="padd2">
     <div>
         <h4 class="title text-center">Columns | Columnas</h4>
@@ -137,7 +141,7 @@ include "partials/nav.php";
         </div>
     </div>
 </section>
-<hr>
+<hr class="one">
 <section id="unordered" class="padd2">
         <h4 class="title text-center">Unordered list | Lista desordenada</h4>
         <div class="flex-container col-border">
@@ -170,7 +174,7 @@ include "partials/nav.php";
             </div>
         </div>
 </section>
-<hr>
+<hr class="one">
 <section id="ordered" class="padd2">
     <h4 class="title text-center">Ordered Lists | Lista ordenada</h4>
     <div class="flex-container col-border">
@@ -230,7 +234,7 @@ include "partials/nav.php";
         </div>
     </div>
 </section>
-<hr>
+<hr class="one">
 <section id="table" class="padd2 text-center">
     <h4 class="title">Table | Tablas</h4>
     <p>Ejemplo de una tabla con columnas y filas combinadas</p>
@@ -252,6 +256,6 @@ include "partials/nav.php";
         </tr>
     </table>
 </section>
-
+<hr class="one">
 <?php
 include "partials/footer.php";

@@ -1,4 +1,4 @@
-<hr>
+
 <nav>
     <ul class="flex-container nav text-center">
        
@@ -11,7 +11,6 @@
         <li class="col-1 padd1"><a href="jQuery.php">jQuery</a></li>
     </ul>
 </nav>
-<hr>
 <?php
 /**
  * Created by PhpStorm.
