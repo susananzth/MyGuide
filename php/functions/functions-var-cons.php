@@ -8,7 +8,7 @@
                                             //no diferencie entre mayúsculas y minúsculas.
         $price = 10000;
         echo 'El sub total es ' . $price . ' por el ' . porcentaje . ' de porcentaje
-        . El total seria: ' . $total = $price + ($price * porcentaje);
+        . El total seria: ' . $total = $price + ($price * porcEntaje);
 
     }
 /**

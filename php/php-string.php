@@ -11,7 +11,37 @@ include "functions/functions-string.php";
                 <li><a href="../php-directory.php">Volver al directorio</a></li>
             </ul>
         </div>
-
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de STR_WORD_COUNT()</h6>
+            <div class="padd2">
+                <p>STR_WORD_COUNT cuenta el número de palabras en una cadena.</p>
+                <br>
+                <?php
+                exampleStr_word_count();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de STRREV()</h6>
+            <div class="padd2">
+                <p>STRREV invierte una cadena.</p>
+                <br>
+                <?php
+                exampleStrrev();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de STR_REPLACE()</h6>
+            <div class="padd2">
+                <p>STRREPLACE sustituye a algunos personajes con algunos otros caracteres
+                    de una cadena.</p>
+                <br>
+                <?php
+                exampleStr_replace();
+                ?>
+            </div>
+        </div>
         <div class="padd2 exam-php">
             <h6>Ejemplo de STRLEN()</h6>
             <div class="padd2">

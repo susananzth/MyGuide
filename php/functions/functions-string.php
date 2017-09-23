@@ -1,4 +1,20 @@
 <?php
+
+    function exampleStr_word_count(){
+        echo 'La cantidad de palabras en la frase <b>La vida es bella</b> es: '
+            . str_word_count("La vida es bella");
+    }
+
+    function exampleStrrev(){
+        echo 'La frase <b>La vida es bella</b> revertida se ve así: <b>'
+            . strrev("La vida es bella") . '.</b>';
+    }
+
+    function exampleStr_replace(){
+        echo 'La palabra <b>bella</b> de la frase <b>La vida es bella</b> será reemplazada 
+            quedando así: <b>' . str_replace("bella", "hermosa",
+                                                "La vida es bella") . '.</b>';
+    }
     function exampleStrlen(){
         /*SRTLEN Para contar los caracteres de la cadena y los devuelva en numero entero*/
         $cad = "cadena";
