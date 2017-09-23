@@ -1,14 +1,14 @@
 <?php
-include "partials/top_page.php";
-include "partials/header.php";
-include "partials/nav.php";
-include "php/functions-flows.php";
+include "../partials/top_page.php";
+include "../partials/header.php";
+include "../partials/nav.php";
+include "functions/functions-flows.php";
 ?>
-    <section id="php" class="padd5">
+    <section class="php padd5">
         <h4>Control de flujos</h4>
         <div class="exam-php">
             <ul class="padd2">
-                <li><a href="php-directory.php">Volver al directorio</a></li>
+                <li><a href="../php-directory.php">Volver al directorio</a></li>
             </ul>
         </div>
         <div class="padd2 exam-php">
@@ -38,7 +38,7 @@ include "php/functions-flows.php";
     </section>
 
 <?php
-include "partials/footer.php";
+include "../partials/footer.php";
 /**
  * Created by PhpStorm.
  * User: Susana

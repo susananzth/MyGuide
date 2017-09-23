@@ -59,7 +59,7 @@ header{ width: auto; background: url('../img/bg-header.jpg') no-repeat center;
 #columns{ background: #ffeffa}
 #unordered{ background: #e0f8ff}  #ordered{ background: #fbffe7}
 #links{ background: #e4e5ff} #images{ background: #ffdfdc}
-#php { background: #cfeaf7;}
+.php { background: #cfeaf7;}
 #table{ background: #e6ffe5} #footer{ background: #cdc8d2}
 .nav{ list-style-type: none;}
 .exam-js{ padding: 10px; background-color: rgba(183, 255, 12, 0.2);

@@ -1,25 +1,33 @@
 <?php
-include "partials/top_page.php";
-include "partials/header.php";
-include "partials/nav.php";
-include "php/functions-array.php";
+include "../partials/top_page.php";
+include "../partials/header.php";
+include "../partials/nav.php";
+include "functions/functions-ciclos.php";
 ?>
-    <section id="php" class="padd5">
+    <section class="php padd5">
         <h4>Control de flujos</h4>
         <div class="exam-php">
             <ul class="padd2">
-                <li><a href="php-directory.php">Volver al directorio</a></li>
+                <li><a href="../php-directory.php">Volver al directorio</a></li>
             </ul>
         </div>
+
         <div class="padd2 exam-php">
-            <h6>Ejemplo de un array</h6>
+            <h6>Ejemplo de for</h6>
             <div class="padd2">
                 <?php
-                examplesArray();
+
                 ?>
             </div>
         </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de ...</h6>
+            <div class="padd2">
+                <?php
 
+                ?>
+            </div>
+        </div>
         <div class="padd2 exam-php">
             <h6>Ejemplo de ...</h6>
             <div class="padd2">
@@ -31,10 +39,10 @@ include "php/functions-array.php";
     </section>
 
 <?php
-include "partials/footer.php";
+include "../partials/footer.php";
 /**
  * Created by PhpStorm.
  * User: Susana
  * Date: 9/23/2017
- * Time: 12:32 PM
+ * Time: 12:16 PM
  */

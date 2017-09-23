@@ -3,18 +3,18 @@ include "partials/top_page.php";
 include "partials/header.php";
 include "partials/nav.php";
 ?>
-    <section id="php" class="padd5">
+    <section class="php padd5">
         <h4>Usando PHP y Mysql</h4>
         <div class="exam-php">
             <h5>Directorio</h5>
             <ul class="padd2">
-                <li><a href="#php">Tips</a></li>
-                <li><a href="php-flows.php">Control de flujos</a></li>
-                <li><a href="php-array.php">Array</a></li>
-                <li><a href="php-ciclos.php">Ciclos</a></li>
+                <li><a href="#tips">Tips</a></li>
+                <li><a href="php/php-flows.php">Control de flujos</a></li>
+                <li><a href="php/php-array.php">Array</a></li>
+                <li><a href="php/php-ciclos.php">Ciclos</a></li>
             </ul>
         </div>
-        <div class="padd2">
+        <div id="tips" class="padd2">
             <h6>Tips</h6>
             <p class="padd2">
                 <b>Diferencia entre INCLUDE y REQUIRE:</b>

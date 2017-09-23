@@ -1,4 +1,7 @@
 <?php
+    function exampleForSimple(){
+
+    }
 /**
  * Created by PhpStorm.
  * User: Susana
