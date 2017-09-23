@@ -11,6 +11,55 @@ include "functions/functions-flows.php";
                 <li><a href="../php-directory.php">Volver al directorio</a></li>
             </ul>
         </div>
+
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de if simple</h6>
+            <div class="padd2">
+                <?php
+                    exampleIfSimpple();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de if combinado con HTML</h6>
+            <div class="padd2">
+                <?php
+                exampleIfWithHTML();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de else if</h6>
+            <div class="padd2">
+                <?php
+                exampleElseIf();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de if ternario</h6>
+            <div class="padd2">
+                <?php
+                exampleIfTernario();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de if lógico</h6>
+            <div class="padd2">
+                <?php
+                exampleIfLogico();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de if con incremento y decremento</h6>
+            <div class="padd2">
+                <?php
+                exampleIncrementoDecremento();
+                ?>
+            </div>
+        </div>
         <div class="padd2 exam-php">
             <h6>Ejemplos de un switchs</h6>
             <div class="padd2">

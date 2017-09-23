@@ -9,6 +9,7 @@ include "partials/nav.php";
             <h5>Directorio</h5>
             <ul class="padd2">
                 <li><a href="#tips">Tips</a></li>
+                <li><a href="php/php-string.php">String</a></li>
                 <li><a href="php/php-flows.php">Control de flujos</a></li>
                 <li><a href="php/php-array.php">Array</a></li>
                 <li><a href="php/php-ciclos.php">Ciclos</a></li>

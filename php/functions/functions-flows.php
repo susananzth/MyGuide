@@ -3,6 +3,116 @@
         echo 'Esto es una función.';
     }
 
+    function exampleIfSimpple(){
+        /*Ejemplo if*/
+        $galletas = true;
+        if($galletas == true) {
+            echo 'Hay galletas :)';
+        } else {
+            echo 'No hay galletas ;(';
+        }
+    }
+
+    function exampleIfWithHTML(){
+        /*Ejemplo de if php con html*/
+        $galletas = true;
+        if($galletas == true) {
+            ?>
+            <br/><br/>
+            <p>&nbsp &nbsp &nbsp &nbsp ---------------------------------</p>
+            <?php
+            echo '<br/>';
+            echo '&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Hay galletas';
+            echo '<br/>';
+            echo '<br/>';
+            echo '&nbsp;&nbsp &nbsp &nbsp ---------------------------------';
+        } else {
+            echo 'No hay galletas ;(';
+        }
+        echo '<br/>';
+        echo '<br/>';
+    }
+
+    function exampleElseIf(){
+        /*Ejemplo de else if*/
+        $test = 33;
+        if ($test > 40) {
+            echo "Sí, $test es mayor que 40.";
+        } else if ($test > 35) {
+            echo "Sí, $test es mayor que 35.";
+        } else if ($test > 30) {
+            echo "Sí, $test es mayor que 30.";
+        } else {
+            echo "No, $test es menor que 40, 35 y 30.";
+        }
+        echo '<br/>';
+        echo '<br/>';
+    }
+
+    function exampleIfTernario(){
+        /*Ejemplos de condicional ternario*/
+        $A=5; $B=3; $C=-7; $D=5;
+        $msg = '';
+        $A==5 ? $msg='A es 5<br/>': $msg='A no es 5<br/>';
+        echo $msg;
+        $A<$B ? $msg='A es menor que B<br/>': $msg='A es mayor o igual que B<br/>';
+        echo $msg;
+        $B<$C ? $msg='B es menor que C<br/>': $msg='B es mayor o igual que C<br/>';
+        echo $msg;
+        echo '<br/>';
+        echo '<br/>';
+        $haceFrio = 15;
+        $respuesta ="";
+        $temperatura = ($haceFrio<20) ? $respuesta = "Hace frio" : $respuesta = "No hace frio";
+        echo $respuesta;
+        echo '<br/>';
+        echo '<br/>';
+        $tipo="Rueda de camión";
+        $grosor=0.33;
+        $diametro=1.25 ;
+        $marca="Kimashuki";
+        if ($diametro>1.4){
+            echo "La rueda es para un vehículo grande";
+        }elseif ($diametro<=1.4){
+            echo "La rueda es para un vehículo pequeño";
+        }else {
+            echo "No existe un tamaño de rueda válido";
+        }
+        echo '<br/>';
+        echo '<br/>';
+    }
+
+    function exampleIfLogico(){
+        /*Ejemplo de condicionales lógicos*/
+        $a = 3;
+        $b = 9;
+        $result = ($a <= 3 and $b <> 9);
+        if ( $result == true) {
+            echo "Se cumple la condición";
+        }else {
+            echo "No se cumple la condición";
+        }
+        echo '<br/>';
+        echo '<br/>';
+    }
+
+    function exampleIncrementoDecremento(){
+        /*Ejemplo de operadores de incremento o decremento*/
+        $a = 8;
+        echo ++$a;
+        echo "<br />";
+        echo $a;
+        echo '<br/>';
+        echo '<br/>';
+
+        $a = 8;
+        echo $a++;
+        echo "<br />";
+        echo $a;
+        echo '<br/>';
+        echo '<br/>';
+    }
+
     function exampleSwitchSimple(){
         $miNum = 2; // Declaro la variable.
         switch ($miNum) { //Detecta que valor está en la variable
