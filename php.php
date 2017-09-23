@@ -14,6 +14,13 @@ include "partials/nav.php";
                 porque el programa <em>requiere</em> ese segmento para continuar.
 
             </p>
+            <p class="padd2">
+                <b>Variables:</b>
+                <u>static</u> si no se puede acceder a una variable local que dentro de una función
+                se puede colocar <em>estatic</em> para que mantenga el valor al terminar la función
+                y así se pueda usar la variable por fuera de la función.
+
+            </p>
         </div>
 
         <div class="padd2 exam-php">
@@ -81,9 +88,24 @@ include "partials/nav.php";
             <div class="padd2">
                 <?php
                 $miArray = array("Huevo", "Tomate", "Chauchas");
-                echo $miArray[1];//Acceso mediante corchetes.
-                $misAmigos = array("Say", "Yir", "Her");
-                echo $miArray{0};//Acceso mediante llaves. Es indiferente.
+                //Acceso mediante corchetes.
+                echo $miArray[1] . ', ';
+                /* -------------------------------- */
+                $misLenguajes = array("HTML/CSS",
+                    "JavaScript", "PHP", "Python", "Ruby");
+                //Acceso mediante llaves. Es indiferente.
+                echo $misLenguajes{4} . ', ';
+                /* -------------------------------- */
+                //Modificando el array en la posición 4.
+                $misLenguajes[4] = "Java";
+                foreach($misLenguajes as $leng) {
+                print "<em>$leng, </em>";}
+                /* -------------------------------- */
+                //Eliminando un elemento del array.
+                unset($misLenguajes[3]);
+                /* -------------------------------- */
+                //Eliminando el array.
+                unset($misLenguajes);
                 ?>
             </div>
         </div>
