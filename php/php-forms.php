@@ -2,7 +2,7 @@
 include "../partials/top_page.php";
 include "../partials/header.php";
 include "../partials/nav.php";
-include "functions/functions-ciclos.php";
+include "functions/functions-forms.php";
 ?>
     <section class="php padd5">
         <h4>Control de flujos</h4>
@@ -13,8 +13,15 @@ include "functions/functions-ciclos.php";
         </div>
 
         <div class="padd2 exam-php">
-            <h6>Ejemplo de for</h6>
+            <h6>Ejemplo de </h6>
             <div class="padd2">
+                <form id="form-begining" method="post" action="php-forms.php">
+                    <label>Nombre: <input id="name" type="text" placeholder="Nombre"
+                                          class=""></label>
+                    <label>Edad: <input id="age" type="text" placeholder="Edad"
+                                          class=""></label>
+                    <input id="send" type="submit" class="btn" value="Enviar">
+                </form>
                 <?php
 
                 ?>

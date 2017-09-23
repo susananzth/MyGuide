@@ -12,7 +12,7 @@ include "partials/nav.php";
                 <li><a href="php/php-string.php">String</a></li>
                 <li><a href="php/php-flows.php">Control de flujos</a></li>
                 <li><a href="php/php-array.php">Array</a></li>
-                <li><a href="php/php-ciclos.php">Ciclos</a></li>
+                <li><a href="php/php-forms.php">Forms</a></li>
             </ul>
         </div>
         <div id="tips" class="padd2">

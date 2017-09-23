@@ -65,6 +65,28 @@ include "functions/functions-string.php";
                 ?>
             </div>
         </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de STRTOUPPER y STRTOLOWER</h6>
+            <div class="padd2">
+                <p>STRTOUPPER sirve para convertir una cadena y colocarla toda en mayúculas.</p>
+                <p>STRTOLOWER sirve para convertir una cadena y colocarla toda en minúculas.</p>
+                <br>
+                <?php
+                exampleStrtoUpperLower();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de STRPOS</h6>
+            <div class="padd2">
+                <p>STRPOS sirve para encontrar la posición de una cadena o caracter dentro de
+                    la cadena.</p>
+                <br>
+                <?php
+                exampleStrpos();
+                ?>
+            </div>
+        </div>
 
     </section>
 

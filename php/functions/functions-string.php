@@ -77,6 +77,18 @@
             $comparate = strcasecmp($combine3, $combine4);
     }
 
+    function exampleStrtoUpperLower(){
+        echo 'Estoy usando toUpper en una cadena en minúscula: ' . strtoupper('susana.');
+        echo "<br>";
+        echo 'Estoy usando toLower en una cadena en mayúscula: ' . strtolower('SuSanA.');
+    }
+
+    function exampleStrpos(){
+        $posicion = "Susana Nazareth Piñero Rodríguez";
+        echo 'Dentro de la cadena <u>' . $posicion . '</u> se busca la letra ñ  y 
+        se encuentra en la posición: ' . strpos($posicion, 'ñ');
+    }
+
 /**
  * Created by PhpStorm.
  * User: Susana
