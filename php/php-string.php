@@ -35,10 +35,33 @@ include "functions/functions-string.php";
         <div class="padd2 exam-php">
             <h6>Ejemplo combinando STRLEN y SUBSRT</h6>
             <div class="padd2">
-                <p>SUBSRT para obtener una parte de la cadena.</p>
                 <br>
                 <?php
                 exampleStrlenSubstr();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de STRCMP</h6>
+            <div class="padd2">
+                <p>SRTCMP para comparar dos string y ver si son iguales.
+                    Si el resultado es "1" significa que <em>no</em> son iguales y si
+                    el resultado es "0" significa que son iguales.</p>
+                <br>
+                <?php
+                exampleStrcmp();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de STRCASECMP</h6>
+            <div class="padd2">
+                <p>STRCASECMP para comparar dos string y ver si son iguales sin distinguir mayúsculas.
+                    Si el resultado es "1" significa que <em>no</em> son iguales y si
+                    el resultado es "0" significa que son iguales.</p>
+                <br>
+                <?php
+                exampleStrcasecmp();
                 ?>
             </div>
         </div>

@@ -63,6 +63,20 @@
         echo "<br>";
     }
 
+    function exampleStrcmp(){
+        $combine1 = "Susana";
+        $combine2 = "SUSANA";
+        echo 'El resultado de la comparación de "Susana" y "SUSANA" es: ' .
+            $comparate = strcmp($combine1, $combine2);
+    }
+
+    function exampleStrcasecmp(){
+        $combine3 = "Susana";
+        $combine4 = "SUSANA";
+        echo 'El resultado de la comparación de "Susana" y "SUSANA" es: ' .
+            $comparate = strcasecmp($combine3, $combine4);
+    }
+
 /**
  * Created by PhpStorm.
  * User: Susana

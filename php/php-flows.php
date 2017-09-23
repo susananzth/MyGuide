@@ -61,6 +61,31 @@ include "functions/functions-flows.php";
             </div>
         </div>
         <div class="padd2 exam-php">
+            <h6>Ejemplo de while e if combinados</h6>
+            <div class="padd2">
+                <p>Vamos a lanzar una moneda hasta que tengamos tres caras seguidas.</p>
+                <?php
+                exampleWhileIf();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de while</h6>
+            <div class="padd2">
+                <?php
+                exampleWhile();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de foreach</h6>
+            <div class="padd2">
+                <?php
+                exampleForeach();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
             <h6>Ejemplos de un switchs</h6>
             <div class="padd2">
                 <p><u>Un switch común</u></p>

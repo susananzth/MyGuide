@@ -31,6 +31,59 @@ include "partials/nav.php";
                 y así se pueda usar la variable por fuera de la función.
 
             </p>
+            <div class="padd2">
+                <b>Comparadores:</b>
+                <table class="table">
+                    <tr>
+                        <td><b>Sintaxis -----ghjgjgghjgj--.</b></td>
+                        <td><b>Definición</b></td>
+                        <td><b>Resultado</b></td>
+                    </tr>
+                    <tr>
+                        <td>$var1 == $var2</td>
+                        <td>Igual que</td>
+                        <td>Verdadero si las dos variables son iguales.</td>
+                    </tr>
+                    <tr>
+                        <td>$var1 === $var2</td>
+                        <td>Idéntico que</td>
+                        <td>Verdadero si las dos variables son iguales y del mismo tipo.</td>
+                    </tr>
+                    <tr>
+                        <td>$var1 != $var2</td>
+                        <td>Diferente que</td>
+                        <td>Verdadero si las dos variables no son iguales.</td>
+                    </tr>
+                    <tr>
+                        <td>$var1 <> $var2</td>
+                        <td>Diferente que</td>
+                        <td>Verdadero si las dos variables no son iguales y además no son del
+                            mismo tipo.</td>
+                    </tr>
+                    <tr>
+                        <td>$var1 > $var2</td>
+                        <td>Mayor que</td>
+                        <td>Verdadero si $var1 es mayor que $var2.</td>
+                    </tr>
+                    <tr>
+                        <td>$var1 < $var2</td>
+                        <td>Menor que</td>
+                        <td>Verdadero si $var1 es menor que $var2.</td>
+                    </tr>
+                    <tr>
+                        <td>$var1 >= $var2</td>
+                        <td>Mayor o igual que</td>
+                        <td>Verdadero si $var1 es mayor o igual que $var2.</td>
+                    </tr>
+                    <tr>
+                        <td>$var1 <= $var2</td>
+                        <td>Menor o igual que</td>
+                        <td>Verdadero si $var1 es menor o igual que $var2.</td>
+                    </tr>
+
+                </table>
+
+            </div>
         </div>
 
         <div class="padd2 exam-php">
@@ -38,7 +91,7 @@ include "partials/nav.php";
             <div class="padd2">
                 <?php
                 //Primero se incluye o requiere el archivo donde se encuentra la función
-                include "php/functions-flows.php";
+                include "php/functions/functions-flows.php";
                 //Se llama la función.
                 dameDatos();
                 ?>

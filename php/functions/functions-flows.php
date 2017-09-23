@@ -113,6 +113,32 @@
         echo '<br/>';
     }
 
+    function exampleWhile(){
+        $edad = 17;
+        while ($edad < 20):
+            echo 'La edad es: ' . $edad . '<br>';
+            $edad = $edad + 1;
+        endwhile;
+    }
+
+    function exampleWhileIf() {
+        $conteoDeCaras = 0;
+        $conteoDeLanzamientos = 0;
+        while ($conteoDeCaras < 3) {
+            $lanzamientos = rand(0,1);
+            $conteoDeLanzamientos ++;
+            if ($lanzamientos){
+                $conteoDeCaras ++;
+                echo "<div class=\"coin\">C</div>";
+            }
+            else {
+                $conteoDeCaras = 0;
+                echo "<div class=\"coin\">S</div>";
+            }
+        }
+        echo "<p>Se hicieron {$conteoDeLanzamientos} lanzamientos.</p>";
+    }
+
     function exampleSwitchSimple(){
         $miNum = 2; // Declaro la variable.
         switch ($miNum) { //Detecta que valor está en la variable
@@ -152,6 +178,16 @@
                 echo '$i es igual o mayor que 8';
         endswitch;//Y aquí se cierra la sintaxis alternativo.
     }
+
+    function exampleForeach(){
+        $oracion = array("Estoy ", "aprendiendo ", "PHP!");
+
+        foreach ($oracion as $palabra) {
+            echo $palabra;
+        }
+    }
+
+
 
 
 /**
