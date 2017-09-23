@@ -9,7 +9,7 @@
         <li class="col-1 padd1 text-center"><a href="formulario.php">Forms</a></li>
         <li class="col-1 padd1 text-center"><a href="js.php">JavaScript</a></li>
         <li class="col-1 padd1 text-center"><a href="jQuery.php">jQuery</a></li>
-        <li class="col-1 padd1 text-center"><a href="php.php">PHP</a></li>
+        <li class="col-1 padd1 text-center"><a href="php-directory.php">PHP</a></li>
     </ul>
 </nav>
 <?php
