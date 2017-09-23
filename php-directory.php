@@ -11,6 +11,7 @@ include "partials/nav.php";
                 <li><a href="#tips">Tips</a></li>
                 <li><a href="php/php-string.php">String</a></li>
                 <li><a href="php/php-numbers.php">Números</a></li>
+                <li><a href="php/php-var-cons.php">Var y Cons</a></li>
                 <li><a href="php/php-flows.php">Control de flujos</a></li>
                 <li><a href="php/php-array.php">Array</a></li>
                 <li><a href="php/php-forms.php">Forms</a></li>
