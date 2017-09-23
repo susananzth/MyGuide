@@ -13,7 +13,7 @@ include "partials/nav.php";
                 Ddonde tenemos dos botones y un texto. Al pulsar un botón,
                 cambiaremos el texto y al pulsar el otro pondremos otro texto distinto:
             </p>
-            <div id="div-button" class="examples">
+            <div id="div-button" class="exam-js">
                 Haz clic en un botón</div>
             <div class="text-center">
                 <input id="button-a" type="button" value="Botón A" class="bttn">
@@ -28,9 +28,9 @@ include "partials/nav.php";
                 ocultar dependiendo de si el usuario coloca el ratón encima de la capa que
                 está siempre visible:
             </p>
-            <div id="capa" class="examples">
+            <div id="capa" class="exam-js">
                 Pon el ratón encima de esta capa</div>
-            <div id="mensaje" style="display: none;" class="examples">
+            <div id="mensaje" style="display: none;" class="exam-js">
                 Has puesto el ratón encima!! <br>
                 (Ahora quítalo de la capa)</div>
         </div>
@@ -74,7 +74,7 @@ include "partials/nav.php";
                 <b>examples</b>: clase que se desea manipular.
             </p><br>
             <a id="a-exa" href="#" rel="script">Prueba este ejemplo #3</a>
-            <div id="ejemplo3" class="examples">
+            <div id="ejemplo3" class="exam-js">
                 Pon el ratón encima de esta capa</div>
         </div>
     </div>
