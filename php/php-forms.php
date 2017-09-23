@@ -5,7 +5,7 @@ include "../partials/nav.php";
 include "functions/functions-forms.php";
 ?>
     <section class="php padd5">
-        <h4>Control de flujos</h4>
+        <h4>Formularios</h4>
         <div class="exam-php">
             <ul class="padd2">
                 <li><a href="../php-directory.php">Volver al directorio</a></li>
