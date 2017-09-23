@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aafaf7e3-bd43-4905-98bd-e8d1aabd1e51" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php-directory.php" afterPath="$PROJECT_DIR$/php-directory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/functions/functions-numbers.php" afterPath="$PROJECT_DIR$/php/functions/functions-numbers.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-forms.php" afterPath="$PROJECT_DIR$/php/php-forms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-numbers.php" afterPath="$PROJECT_DIR$/php/php-numbers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-string.php" afterPath="$PROJECT_DIR$/php/php-string.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,78 +18,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="php-directory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php-directory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-              <folding>
-                <element signature="e#1484#3608#0#HTML" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="php-forms.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/php-forms.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="php-string.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/php-string.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions-string.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/functions/functions-string.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="php-numbers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/php-numbers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions-numbers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/functions/functions-numbers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions-forms.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/functions/functions-forms.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trabajo_operadores.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.473/trabajo_operadores.php">
+      <file leaf-file-name="php-string.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/php-string.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -157,13 +89,14 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa0.489/learnPHP-master-61c4ddae056657f58fcc62c426f7fe9a6037dc6c/curso/curso6.php" />
         <option value="$PROJECT_DIR$/php/functions/functions-flows.php" />
         <option value="$PROJECT_DIR$/php/php-flows.php" />
-        <option value="$PROJECT_DIR$/php-directory.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/php/functions/functions-forms.php" />
-        <option value="$PROJECT_DIR$/php/php-string.php" />
         <option value="$PROJECT_DIR$/php/functions/functions-string.php" />
+        <option value="$PROJECT_DIR$/php-directory.php" />
+        <option value="$PROJECT_DIR$/php/functions/functions-numbers.php" />
         <option value="$PROJECT_DIR$/php/php-numbers.php" />
         <option value="$PROJECT_DIR$/php/php-forms.php" />
+        <option value="$PROJECT_DIR$/php/php-string.php" />
       </list>
     </option>
   </component>
@@ -395,15 +328,15 @@
       <workItem from="1504977201678" duration="4782000" />
       <workItem from="1505070762123" duration="122000" />
       <workItem from="1506123452939" duration="8208000" />
-      <workItem from="1506183235027" duration="15400000" />
+      <workItem from="1506183235027" duration="16902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113852000" />
+    <option name="totallyTimeSpent" value="115354000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21386719" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -595,14 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-array.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Blog/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -755,36 +680,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-flows.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="75" column="31" lean-forward="true" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1714">
-          <caret line="220" column="45" lean-forward="false" selection-start-line="220" selection-start-column="45" selection-end-line="220" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php-directory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="-382">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
-            <element signature="e#1484#3608#0#HTML" expanded="false" />
+            <element signature="e#1551#3675#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.473/trabajo_operadores.php">
+    <entry file="file://$PROJECT_DIR$/php/functions/functions-numbers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="59" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-numbers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/functions/functions-string.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -797,42 +722,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/functions/functions-numbers.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.473/trabajo_operadores.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-510">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-numbers.php">
+    <entry file="file://$PROJECT_DIR$/php/php-array.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="405">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/functions/functions-string.php">
+    <entry file="file://$PROJECT_DIR$/php/php-flows.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-string.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="3" />
+        <state relative-caret-position="-284">
+          <caret line="75" column="31" lean-forward="true" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/php-forms.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1714">
+          <caret line="220" column="45" lean-forward="false" selection-start-line="220" selection-start-column="45" selection-end-line="220" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-string.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
           <folding />
         </state>
       </provider>

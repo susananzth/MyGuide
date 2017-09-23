@@ -2,7 +2,7 @@
 include "../partials/top_page.php";
 include "../partials/header.php";
 include "../partials/nav.php";
-include "functions/functions-forms.php";
+include "functions/functions-numbers.php";
 ?>
     <section class="php padd5">
         <h4>Números</h4>
@@ -10,6 +10,14 @@ include "functions/functions-forms.php";
             <ul class="padd2">
                 <li><a href="../php-directory.php">Volver al directorio</a></li>
             </ul>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de ROUND()</h6>
+            <div class="padd2">
+                <?php
+                    exampleRound();
+                ?>
+            </div>
         </div>
         <div class="padd2 exam-php">
             <h6>Ejemplo de ...</h6>

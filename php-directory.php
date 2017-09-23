@@ -10,6 +10,7 @@ include "partials/nav.php";
             <ul class="padd2">
                 <li><a href="#tips">Tips</a></li>
                 <li><a href="php/php-string.php">String</a></li>
+                <li><a href="php/php-numbers.php">Números</a></li>
                 <li><a href="php/php-flows.php">Control de flujos</a></li>
                 <li><a href="php/php-array.php">Array</a></li>
                 <li><a href="php/php-forms.php">Forms</a></li>

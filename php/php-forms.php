@@ -13,7 +13,7 @@ include "functions/functions-forms.php";
         </div>
 
         <div class="padd2 exam-php">
-            <h6>Ejemplo de </h6>
+            <h6>Ejemplo de un formulario</h6>
             <div class="padd2">
                 <form id="form-begining" method="post" action="php-forms.php">
                     <label>Nombre: <input id="name" type="text" placeholder="Nombre"

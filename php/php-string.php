@@ -13,7 +13,7 @@ include "functions/functions-string.php";
         </div>
 
         <div class="padd2 exam-php">
-            <h6>Ejemplo de STRLEN</h6>
+            <h6>Ejemplo de STRLEN()</h6>
             <div class="padd2">
                 <p>SRTLEN Para contar los caracteres de la cadena y los devuelva en numero entero.</p>
                 <br>
@@ -23,7 +23,7 @@ include "functions/functions-string.php";
             </div>
         </div>
         <div class="padd2 exam-php">
-            <h6>Ejemplo de SUBSRT</h6>
+            <h6>Ejemplo de SUBSRT()</h6>
             <div class="padd2">
                 <p>SUBSRT para obtener una parte de la cadena.</p>
                 <br>
@@ -33,7 +33,7 @@ include "functions/functions-string.php";
             </div>
         </div>
         <div class="padd2 exam-php">
-            <h6>Ejemplo combinando STRLEN y SUBSRT</h6>
+            <h6>Ejemplo combinando STRLEN() y SUBSTR()</h6>
             <div class="padd2">
                 <br>
                 <?php
@@ -42,7 +42,7 @@ include "functions/functions-string.php";
             </div>
         </div>
         <div class="padd2 exam-php">
-            <h6>Ejemplo de STRCMP</h6>
+            <h6>Ejemplo de STRCMP()</h6>
             <div class="padd2">
                 <p>SRTCMP para comparar dos string y ver si son iguales.
                     Si el resultado es "1" significa que <em>no</em> son iguales y si
@@ -54,7 +54,7 @@ include "functions/functions-string.php";
             </div>
         </div>
         <div class="padd2 exam-php">
-            <h6>Ejemplo de STRCASECMP</h6>
+            <h6>Ejemplo de STRCASECMP()</h6>
             <div class="padd2">
                 <p>STRCASECMP para comparar dos string y ver si son iguales sin distinguir mayúsculas.
                     Si el resultado es "1" significa que <em>no</em> son iguales y si
@@ -66,7 +66,7 @@ include "functions/functions-string.php";
             </div>
         </div>
         <div class="padd2 exam-php">
-            <h6>Ejemplo de STRTOUPPER y STRTOLOWER</h6>
+            <h6>Ejemplo de STRTOUPPER() y STRTOLOWER()</h6>
             <div class="padd2">
                 <p>STRTOUPPER sirve para convertir una cadena y colocarla toda en mayúculas.</p>
                 <p>STRTOLOWER sirve para convertir una cadena y colocarla toda en minúculas.</p>
@@ -77,7 +77,7 @@ include "functions/functions-string.php";
             </div>
         </div>
         <div class="padd2 exam-php">
-            <h6>Ejemplo de STRPOS</h6>
+            <h6>Ejemplo de STRPOS()</h6>
             <div class="padd2">
                 <p>STRPOS sirve para encontrar la posición de una cadena o caracter dentro de
                     la cadena.</p>
