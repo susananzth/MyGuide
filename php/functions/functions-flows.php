@@ -113,6 +113,18 @@
         echo '<br/>';
     }
 
+    function exampleFor(){
+        for ($i = 10; $i >=-10; $i--) {
+            if ($i == 0) {
+                echo 'La división entre cero (0) no existe.<br>';
+                continue; //Esto hace que se salte la vuelta y no imprima el echo
+                        //con el número cero y evitar el error.
+                //break; <- Esta haria que el buble se interrumpieda completamente.
+            }
+            echo '9 / ' . $i . ' = ' . 9 / $i . '<br>';
+        }
+    }
+
     function exampleWhile(){
         $edad = 17;
         while ($edad < 20):
@@ -157,27 +169,46 @@
     }
 
     function exampleSwitchMultiple(){
-        $i = 5;
-        switch ($i): /*Esta forma de abrir y cerrar un switch se usa cuando se
+    $i = 5;
+    switch ($i): /*Esta forma de abrir y cerrar un switch se usa cuando se
                                 mezcla html con php. Se llama sintaxis alternativo. */
-            case 0:
-                echo '$i es 0.';
+        case 0:
+            echo '$i es 0.';
+            break;
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+            echo '"$i" está en algún lado entre  1 y 5.';
+            break;
+        case 6:
+        case 7:
+            echo '$i es 6 o 7.';
+            break;
+        default:
+            echo '$i es igual o mayor que 8';
+    endswitch;//Y aquí se cierra la sintaxis alternativo.
+    }
+
+    function exampleSwitchMultiple2(){
+        $usuario = "Susana";
+        $contraseña = 123456;
+        switch (true):
+            case $usuario == "Susana" && $contraseña == 123456:
+                echo 'Acceso correcto. Hola Susana';
                 break;
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-                echo '"$i" está en algún lado entre  1 y 5.';
+            case $usuario == "Ana" && $contraseña == 5555:
+                echo 'Acceso correcto. Hola Pedro';
                 break;
-            case 6:
-            case 7:
-                echo '$i es 6 o 7.';
+            case $usuario == "Pedro" && $contraseña == 987654:
+                echo 'Acceso correcto. Hola Pedro';
                 break;
             default:
-                echo '$i es igual o mayor que 8';
-        endswitch;//Y aquí se cierra la sintaxis alternativo.
+                echo 'Acceso denegado, algunos datos estan incorrectos o no estas registrado';
+        endswitch;
     }
+
 
     function exampleForeach(){
         $oracion = array("Estoy ", "aprendiendo ", "PHP!");

@@ -61,6 +61,14 @@ include "functions/functions-flows.php";
             </div>
         </div>
         <div class="padd2 exam-php">
+            <h6>Ejemplo de for</h6>
+            <div class="padd2">
+                <?php
+                exampleFor();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
             <h6>Ejemplo de while e if combinados</h6>
             <div class="padd2">
                 <p>Vamos a lanzar una moneda hasta que tengamos tres caras seguidas.</p>
@@ -94,9 +102,13 @@ include "functions/functions-flows.php";
                 ?>
             </div>
             <div class="padd2">
-                <p><u>Un switch con varias condiciones para una sentencia.</u></p>
+                <p><u>Un switch con varias condiciones para una sentencia.</u></p><br>
                 <?php
                 exampleSwitchMultiple();
+                ?>
+                <br><br><p><u>Otro switch con varias condiciones para una sentencia.</u></p>
+                <?php
+                exampleSwitchMultiple2();
                 ?>
             </div>
         </div>
