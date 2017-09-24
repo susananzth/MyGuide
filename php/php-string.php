@@ -107,6 +107,17 @@ include "functions/functions-string.php";
             </div>
         </div>
         <div class="padd2 exam-php">
+            <h6>Ejemplo de UCWORDS()</h6>
+            <div class="padd2">
+                <p>UCWORDS sirve para convertir la primela letra de cada palabra
+                    de la oración en mayúculas.</p>
+                <br>
+                <?php
+                exampleUcwords();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
             <h6>Ejemplo de STRPOS()</h6>
             <div class="padd2">
                 <p>STRPOS sirve para encontrar la posición de una cadena o caracter dentro de

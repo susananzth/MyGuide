@@ -35,6 +35,10 @@ include "partials/nav.php";
             </p>
             <div class="padd2">
                 <b>Comparadores:</b>
+                <p>Para ver todos los operadores :
+                    <a href="https://www.w3schools.com/php/php_operators.asp"
+                       rel="help" hreflang="EN" type="text/html" target="_blank">w3schools</a>
+                </p>
                 <table class="table">
                     <tr>
                         <td><b>Sintaxis -----ghjgjgghjgj--.</b></td>

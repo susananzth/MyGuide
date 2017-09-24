@@ -99,6 +99,10 @@
         echo 'Estoy usando toLower en una cadena en mayúscula: ' . strtolower('SuSanA.');
     }
 
+    function exampleUcwords(){
+        echo ucwords('la primera letra de cada palabra van en mayúsculas');
+    }
+
     function exampleStrpos(){
         $posicion = "Susana Nazareth Piñero Rodríguez";
         echo 'Dentro de la cadena <u>' . $posicion . '</u> se busca la letra ñ  y 
