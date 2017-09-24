@@ -14,8 +14,18 @@ include "functions/functions-numbers.php";
         <div class="padd2 exam-php">
             <h6>Ejemplo de ROUND()</h6>
             <div class="padd2">
+                <p>ROUND redondea un numero decimal.</p><br>
                 <?php
                     exampleRound();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de RAND()</h6>
+            <div class="padd2">
+                <p>RAND arroja un número aleatorio, admite un min y un max.</p><br>
+                <?php
+                    exampleRand();
                 ?>
             </div>
         </div>
