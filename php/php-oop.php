@@ -2,7 +2,7 @@
 include "../partials/top_page.php";
 include "../partials/header.php";
 include "../partials/nav.php";
-include "functions/functions-forms.php";
+
 ?>
     <section class="php padd5">
         <h4>Programación orientada a objetos (OOP)</h4>
@@ -13,10 +13,10 @@ include "functions/functions-forms.php";
         </div>
 
         <div class="padd2 exam-php">
-            <h6>Ejercisio sencillo de OOP</h6>
+            <h6>Ejercicio sencillo de OOP</h6>
             <div class="padd2">
                 <?php
-
+                    include "class/class-oop-ex01.php";
                 ?>
             </div>
         </div>
