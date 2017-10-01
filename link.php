@@ -278,3 +278,4 @@ include "partials/nav.php";
     <hr class="two">
 <?php
 include "partials/footer.php";
+include "partials/bottom-page.php";

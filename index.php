@@ -8,11 +8,11 @@ include "partials/top_page.php";
             <h3>by Susana Piñero</h3>
         </div>
         <ul class="flex-container col-center nav text-center">
-            <li class="col-1 padd2"><a href="index.php">Home</a></li>
-            <li class="col-1 padd2"><a href="text.php">Text</a></li>
-            <li class="col-1 padd2"><a href="link.php">Links</a></li>
-            <li class="col-2 padd2"><a href="multimedia.php">Multimedia</a></li>
-            <li class="col-1 padd2"><a href="formulario.php">Forms</a></li>
+            <li class="col-nav padd2"><a href="index-html.php">HTML</a></li>
+            <li class="col-nav padd2"><a href="jQuery.php">jQuery</a></li>
+            <li class="col-nav padd2"><a href="js.php">Javascript</a></li>
+            <li class="col-nav padd2"><a href="php-directory.php">PHP</a></li>
+            <li class="col-nav padd2"><a href="#">Bootstrap</a></li>
         </ul>
     </nav>
 </div>

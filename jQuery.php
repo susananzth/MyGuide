@@ -88,6 +88,7 @@ include "partials/nav.php";
 </section>
 <?php
 include "partials/footer.php";
+include "partials/bottom-page.php";
 /**
  * Created by PhpStorm.
  * User: Susana

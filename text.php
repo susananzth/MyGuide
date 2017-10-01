@@ -1,12 +1,4 @@
-<?php
-include "partials/top_page.php";
-include "partials/header.php";
-?>
-<hr class="one">
-<?php
-include "partials/nav.php";
-?>
-<hr class="one">
+
 <section id="headding" class="padd2">
     <div class="">
         <h4 class="title text-center">Heading elements | Títulos</h4>
@@ -105,7 +97,7 @@ include "partials/nav.php";
                 <p class=""><b><u>CSS3 Flexbox</u></b>
                     For more uses and examples: <br>
                     <a href="https://www.w3schools.com/css/css3_flexbox.asp"
-                                 rel="help" target="_blank" class="btn" hreflang="en"
+                       rel="help" target="_blank" class="btn" hreflang="en"
                        type="text/html">
                         Ejemplos
                     </a></p>
@@ -143,36 +135,36 @@ include "partials/nav.php";
 </section>
 <hr class="one">
 <section id="unordered" class="padd2">
-        <h4 class="title text-center">Unordered list | Lista desordenada</h4>
-        <div class="flex-container col-border">
-            <div class="item2 col-border">
-                <h6>Square | Cuadrado</h6>
-                <ul class="square padd35px">
-                    <li>Element 1</li>
-                    <li>Element 2</li>
-                    <li>Element 3</li>
-                    <li>Element 4</li>
-                </ul>
-            </div>
-            <div class="item2 col-border">
-                <h6>Disc | Disco</h6>
-                <ul class="padd35px">
-                    <li>Element 1</li>
-                    <li>Element 2</li>
-                    <li>Element 3</li>
-                    <li>Element 4</li>
-                </ul>
-            </div>
-            <div class="item2 col-border">
-                <h6>Circle | Círculo</h6>
-                <ul class="circle padd35px">
-                    <li>Element 1</li>
-                    <li>Element 2</li>
-                    <li>Element 3</li>
-                    <li>Element 4</li>
-                </ul>
-            </div>
+    <h4 class="title text-center">Unordered list | Lista desordenada</h4>
+    <div class="flex-container col-border">
+        <div class="item2 col-border">
+            <h6>Square | Cuadrado</h6>
+            <ul class="square padd35px">
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+                <li>Element 4</li>
+            </ul>
         </div>
+        <div class="item2 col-border">
+            <h6>Disc | Disco</h6>
+            <ul class="padd35px">
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+                <li>Element 4</li>
+            </ul>
+        </div>
+        <div class="item2 col-border">
+            <h6>Circle | Círculo</h6>
+            <ul class="circle padd35px">
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+                <li>Element 4</li>
+            </ul>
+        </div>
+    </div>
 </section>
 <hr class="one">
 <section id="ordered" class="padd2">
@@ -256,6 +248,3 @@ include "partials/nav.php";
         </tr>
     </table>
 </section>
-<hr class="one">
-<?php
-include "partials/footer.php";

@@ -41,6 +41,7 @@ include "functions/functions-numbers.php";
 
 <?php
 include "../partials/footer.php";
+include "partials/bottom-page.php";
 /**
  * Created by PhpStorm.
  * User: Susana

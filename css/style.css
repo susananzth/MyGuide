@@ -166,6 +166,7 @@ table{ border-spacing: 0;}
 .col-3{ width: 25%}
 .col-2{ width: 16.66%}
 .col-1{ width: 8.33%}
+.col-nav{ height: auto; box-sizing: border-box;}
 
     /*Estilo para cada columna*/
 .col-12, .col-8, .col-6, .col-4, .col-3, .col-2, .col-1{ height: auto; padding: 1%;

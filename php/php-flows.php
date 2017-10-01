@@ -125,6 +125,7 @@ include "functions/functions-flows.php";
 
 <?php
 include "../partials/footer.php";
+include "partials/bottom-page.php";
 /**
  * Created by PhpStorm.
  * User: Susana

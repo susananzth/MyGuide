@@ -25,3 +25,4 @@ include "partials/nav.php";
 
 <?php
 include "partials/footer.php";
+include "partials/bottom-page.php";
