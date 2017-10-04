@@ -5,7 +5,7 @@ include "../partials/nav.php";
 include "functions/functions-array.php";
 ?>
     <section class="php padd5">
-        <h4>Control de flujos</h4>
+        <h4>Arrays</h4>
         <div class="exam-php">
             <ul class="padd2">
                 <li><a href="../php-directory.php">Volver al directorio</a></li>
@@ -49,14 +49,33 @@ include "functions/functions-array.php";
         </div>
         <div class="padd2 exam-php">
             <h6>Ejemplo de SORT()</h6>
-            <p>La función SORT() sirve para ordenar los elementos de un array.</p>
+            <p><b>SORT()</b> sirve para ordenar los elementos de un array
+                de forma ascendente.<br>
+                <b>RSORT()</b> sirve para ordenar los elementos de un array
+                de forma descendente.<br>
+                asort() - sort associative arrays in ascending order, according to the value
+                <br>
+                ksort() - sort associative arrays in ascending order, according to the key
+                <br>
+                arsort() - sort associative arrays in descending order, according to the value
+                <br>
+                krsort() - sort associative arrays in descending order, according to the key</p>
             <div class="padd2">
                 <?php
                     examplesSort();
                 ?>
             </div>
         </div>
-
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de array multidimencional</h6>
+            <p>Usando <b>foreach</b>, <b>while</b> y <b>list()</b> para imprimir el array.
+            Y también la segunda opción más sencilla con <b>var_dump()</b>.</p>
+            <div class="padd2">
+                <?php
+                    examplesArrayMultidimencional();
+                ?>
+            </div>
+        </div>
         <div class="padd2 exam-php">
             <h6>Ejemplo de ...</h6>
             <div class="padd2">
@@ -69,7 +88,7 @@ include "functions/functions-array.php";
 
 <?php
 include "../partials/footer.php";
-include "partials/bottom-page.php";
+include "../partials/bottom-page.php";
 /**
  * Created by PhpStorm.
  * User: Susana

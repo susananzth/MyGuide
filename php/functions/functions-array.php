@@ -80,6 +80,35 @@
         }
     }
 
+    function examplesArrayMultidimencional(){
+                    //Primera dimensión.
+        $alimentos = array(
+                    //Segunda dimensiones.
+            "Fruta"=>array("Tropical"=>"Kiwi", "Cítrico"=>"Mandarina", "Otros"=>"Manzana"),
+            "Leche"=>array("Animal"=>"Vaca", "Vegetal"=>"Coco"),
+            "Carne"=>array("Vacuno"=>"Lomo","Porcino"=>"Pata")
+        );
+        echo 'Sólo imprimo un elemento: ' . $alimentos["Carne"]["Vacuno"] . '.<br>';
+        //alimentos: el array, $tipoAlimentos: para identificar la primera dimensión
+        //$alimento (en singular) para identificar la segunda dimensión.
+        echo '<br>Imprimiendo elementos con foreach, while y list():<br>';
+        foreach ($alimentos as $claseAlimentos=>$tipoAlimento){
+
+            //Aqui imprime la clase de alimento: carne, fruta o leche.
+            echo '<b>' . $claseAlimentos . ':</b><br>';
+            //  Luego....
+            //Por cada clase de alimento, lo desdoble por su nombre asociativo
+            //($tipoAlimento->$clave) y el valor ($valor->Cada alimento), y lo
+            //haga mientras haya elementos en la lista.
+            while(list($clave, $valor)=each($tipoAlimento)){
+                echo $clave . ' = ' . $valor . '.<br>';
+            }
+            echo '<br>';
+        }
+        echo '<br>Imprimiendo elementos con var_dump():<br>';
+        var_dump($alimentos);
+    }
+
 /**
  * Created by PhpStorm.
  * User: Susana

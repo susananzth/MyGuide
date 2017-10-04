@@ -16,6 +16,7 @@ include "partials/nav.php";
                 <li><a href="php/php-array.php">Array</a></li>
                 <li><a href="php/php-forms.php">Forms</a></li>
                 <li><a href="php/php-oop.php">OOP</a></li>
+                <li><a href="php/php-mysql.php">MySQL</a></li>
             </ul>
         </div>
         <div id="tips" class="padd2">
