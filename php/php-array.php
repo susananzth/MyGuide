@@ -12,10 +12,47 @@ include "functions/functions-array.php";
             </ul>
         </div>
         <div class="padd2 exam-php">
-            <h6>Ejemplo de un array</h6>
+            <h6>Algunos usos de un array indexado.</h6>
+            <div class="padd2">
+                <?php
+                examplesUsosArray();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Otro ejemplo de array indexado.</h6>
+            <p>También usando <b>for</b>.</p>
             <div class="padd2">
                 <?php
                 examplesArray();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Otro ejemplo de array asociativo.</h6>
+            <p>También usando <b>foreach</b>.</p>
+            <div class="padd2">
+                <?php
+                examplesArrayAsociativo();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>IS_ARRAY()</h6>
+            <p>Esta función devuelve un booleano al comprobar si una variable es un array,
+                <b>true</b> en caso de que sea un array y <b>false</b> en caso contrario.</p>
+            <div class="padd2">
+                <?php
+                examplesIs_array();
+                ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de SORT()</h6>
+            <p>La función SORT() sirve para ordenar los elementos de un array.</p>
+            <div class="padd2">
+                <?php
+                    examplesSort();
                 ?>
             </div>
         </div>

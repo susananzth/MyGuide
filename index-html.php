@@ -12,13 +12,14 @@ include "partials/nav.php";
         <div>
             <ol>
                 <li><a id="text-button" href="">Textos</a></li>
+
             </ol>
         </div>
     </section>
     <hr class="one">
-    <section id="section">
+    <div id="section">
 
-    </section>
+    </div>
 
     <hr class="one">
 <?php
@@ -26,11 +27,24 @@ include "partials/footer.php";
 ?>
     <script type="text/javascript">
         $(document).ready(function(){
-            $("#text-button").click(function(evento) {
-                $.get("text.php", function (htmlexterno) {
+            $("#text-button").click(function() {
+                $.get("formulario.php", function (htmlexterno) {
                     $("#section").html(htmlexterno);
                 });
+                $(function(){
+                    $("#section").load("formilario.php"); });
+                $.ajax({
+                    type: "GET",
+                    url: "../MyGuyde/formulario.php",
+                    success: function(datos) {
+                        $("#section").html(datos);
+                    }
+                })
             }
+            $(function(){
+                $("#section").load("../formilario.php"); });
+
+
         }
     </script>
 <?php
