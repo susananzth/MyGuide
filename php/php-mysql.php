@@ -1,8 +1,8 @@
 <?php
 include "../partials/top_page.php";
 include "../partials/header.php";
-include "../partials/nav.php";
 include "functions/functions-array.php";
+include "connection_mysql.php";
 ?>
     <section class="php padd5">
         <h4>MySQL</h4>
@@ -12,10 +12,13 @@ include "functions/functions-array.php";
             </ul>
         </div>
         <div class="padd2 exam-php">
-            <h6>Ejemplo de ...</h6>
+            <h6>Ejemplo de conexión a la base de datos por procedimiento</h6>
             <div class="padd2">
+                <p>
+                    $connection=mysqli_connect()
+                </p>
                 <?php
-
+                include "functions/functions-mysql.php";
                 ?>
             </div>
         </div>
