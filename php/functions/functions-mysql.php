@@ -24,6 +24,7 @@ function exampleDDBBprocedimiento(){
     //$row = mysqli_fetch_row($result); <- con esto guardo en un array el resultado
     //de la primera fila. Con el while voy navegando en las filas una por una de forma ascendente
     //mientras hayan regitros en la base de datos, mientras sea true.
+    echo "<br><b>Ejemplo de una consulta guardada en un array con índice.</b><br>";
     while ($row = mysqli_fetch_row($result)){
         echo $row[0] . " ";
         echo $row[1] . " ";
@@ -31,9 +32,19 @@ function exampleDDBBprocedimiento(){
         echo $row[3] . " ";
         echo "<br>";
     }
+    $result2 = mysqli_query($connection, $query);
+    echo "<br><b>Ejemplo de una consulta guardada en un array asociativo.</b><br>";
+    while ($row2 = mysqli_fetch_array($result2,  MYSQLI_ASSOC)){
+        echo $row2["nombre"] . " ";
+        echo $row2["apellido"] . " ";
+        echo $row2["cedula"] . " ";
+        echo "<br>";
+    }
+
     //Aquí se cierra la conexión.
     mysqli_close($connection);
 }
+
 
 /**
  * Created by PhpStorm.

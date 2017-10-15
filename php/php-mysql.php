@@ -22,6 +22,20 @@ include "functions/functions-mysql.php";
                 ?>
             </div>
         </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de un formuario de búsqueda.</h6>
+            <div class="padd2">
+                <form id="form-search" action="mysql-search.php" method="get">
+                    <label for="txt-search">Búscar:
+                        <input id="txt-search" name="txt-search" type="text"
+                               placeholder="Búsqueda" class="">
+                    </label>
+                    <label for="btn-search">
+                        <input id="btn-search" name="btn-search" type="submit" value="Búscar">
+                    </label>
+                </form>
+            </div>
+        </div>
 
         <div class="padd2 exam-php">
             <h6>Ejemplo de ...</h6>
