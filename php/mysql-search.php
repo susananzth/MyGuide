@@ -2,17 +2,30 @@
     require "connection-mysql.php";
     require "php-mysql.php";
     /* Ejemplo de un botón búscar */
+
+    //Guardo en la variable search el contenido de la caja de texto: txt-search.
+    $search = $_GET["txt-search"];
+    //la búsqueda por el parámetro de la función.
+    //Aquí estoy guardando en la variable connection los datos para conectarme a la DDBB.
     $connection = mysqli_connect($bd_host, $bd_user, $bd_password);
+    //if para terminar la ejecución del programa si no conecta con la DDBB.
     if (mysqli_connect_errno()){
         echo "Fallo al conectar con la base de datos.";
         exit();
     }
+    //Aquí le porporciona el nombre de la base de datos a conectar.
+    //Y de no encontrarla, detiene el programa y muestra un mensaje de error.
     mysqli_select_db($connection, $bd_name) or die("No se encuentra la base de datos:" . $bd_name);
+    //Aquí le indica que tipo de caracteres usa el sistema.
     mysqli_set_charset($connection, "utf8");
-
-    $search = $_GET["txt-search"];
-    $query_search = "select * from usuarios where nombre ='$search'";
+    //Con el % podemos buscar con solo colocar una parte del nombre.
+    //Guardo en esta variable la consulta.
+    $query_search = "select * from usuarios where nombre like'%$search%'";
+    //Guardo el resultado de la consulta en un resulset.
     $result_search = mysqli_query($connection, $query_search);
+    //$row = mysqli_fetch_row($result); <- con esto guardo en un array el resultado
+    //de la primera fila. Con el while voy navegando en las filas una por una de forma ascendente
+    //mientras hayan regitros en la base de datos, mientras sea true.
     while ($row_search = mysqli_fetch_array($result_search,  MYSQLI_ASSOC)){
         echo $row_search["nombre"] . " ";
         echo $row_search["apellido"] . " ";
