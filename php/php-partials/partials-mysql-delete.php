@@ -1,10 +1,11 @@
 <?php
     require "../php-connection-mysql.php";
 
-    /* Ejemplo de un botón búscar */
+    /* Ejemplo de un botón Eliminar */
 
-    //Guardo en la variable search el contenido de la caja de texto: txt-search.
-    $search = $_GET["txt-search"];
+    //Guardo en la variable search el contenido de la caja de texto: txt-delete.
+    $delete = $_GET["txt-delete"];
+
     //Aquí estoy guardando en la variable connection los datos para conectarme a la DDBB.
     $connection = mysqli_connect($bd_host, $bd_user, $bd_password);
     //if para terminar la ejecución del programa si no conecta con la DDBB.
@@ -33,10 +34,9 @@
     }
     //Aquí se cierra la conexión.
     mysqli_close($connection);
-
 /**
  * Created by PhpStorm.
  * User: Susana
- * Date: 10/14/2017
- * Time: 8:49 PM
+ * Date: 12/3/2017
+ * Time: 3:14 PM
  */

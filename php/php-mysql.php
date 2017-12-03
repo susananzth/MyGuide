@@ -36,6 +36,20 @@ include "functions/functions-mysql.php";
                 </form>
             </div>
         </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de un formuario de eliminación de regístro.</h6>
+            <div class="padd2">
+                <form id="form-delete" action="php-partials/partials-mysql-delete.php" method="get">
+                    <label for="txt-delete">Ingrese la cédula a eliminar:
+                        <input id="txt-delete" name="txt-delete" type="text"
+                               placeholder="Cédula" class="">
+                    </label>
+                    <label for="btn-delete">
+                        <input id="btn-delete" name="btn-delete" type="submit" value="Eliminar">
+                    </label>
+                </form>
+            </div>
+        </div>
     </section>
 <?php
 include "../partials/footer.php";

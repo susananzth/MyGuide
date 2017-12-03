@@ -1,7 +1,6 @@
 <?php
 include "../partials/top_page.php";
 include "../partials/header.php";
-include "php-partials/partials-mysql-insert.php";
 
 ?>
     <section class="php padd5">
