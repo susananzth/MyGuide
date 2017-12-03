@@ -37,6 +37,20 @@ include "functions/functions-mysql.php";
             </div>
         </div>
         <div class="padd2 exam-php">
+            <h6>Ejemplo de un formuario de actualizar un regístro.</h6>
+            <div class="padd2">
+                <form id="form-update" action="php-partials/partials-mysql-update.php" method="get">
+                    <label for="txt-update">Ingrese la cédula a actualizar:
+                        <input id="txt-update" name="txt-update" type="number"
+                               placeholder="Cédula" class="">
+                    </label>
+                    <label for="btn-update">
+                        <input id="btn-update" name="btn-update" type="submit" value="Actualizar">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
             <h6>Ejemplo de un formuario de eliminación de regístro.</h6>
             <div class="padd2">
                 <form id="form-delete" action="php-partials/partials-mysql-delete.php" method="get">
