@@ -18,7 +18,7 @@
     //Aquí le indica que tipo de caracteres usa el sistema.
     mysqli_set_charset($connection, "utf8");
     //Guardo en esta variable la consulta.
-    $query_update = "delete from usuarios where cedula=$update";
+    $query_update = "update from usuarios set where cedula=$update";
     //Guardo el resultado de la consulta en un resulset.
     $result_update = mysqli_query($connection, $query_update);
     //If para informar si el registro se actualizó exitosamente

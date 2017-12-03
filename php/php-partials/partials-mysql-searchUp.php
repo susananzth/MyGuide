@@ -1,13 +1,10 @@
 <?php
-    /* Ejemplo de un botón insertar */
     require "../php-connection-mysql.php";
-    //Almaceno en estas variables los datos optenidos en las cajas de texto desde el
-    // formulario del archivo php-mysql.php
-    $cedula = $_GET["txt-cedula"];
-    $name = $_GET["txt-name"];
-    $lastname = $_GET["txt-lastname"];
-    $phone = $_GET["txt-phone"];
-    $address = $_GET["txt-address"];
+
+    /* Ejemplo de un botón búscar */
+    
+    //Guardo en la variable search el contenido de la caja de texto: txt-search.
+    $search = $_GET["txt-search"];
     //Aquí estoy guardando en la variable connection los datos para conectarme a la DDBB.
     $connection = mysqli_connect($bd_host, $bd_user, $bd_password);
     //if para terminar la ejecución del programa si no conecta con la DDBB.
@@ -20,16 +17,19 @@
     mysqli_select_db($connection, $bd_name) or die("No se encuentra la base de datos:" . $bd_name);
     //Aquí le indica que tipo de caracteres usa el sistema.
     mysqli_set_charset($connection, "utf8");
+    //Con el % podemos buscar con solo colocar una parte del nombre.
     //Guardo en esta variable la consulta.
-    $query_insert = "insert into usuarios (cedula, nombre, apellido, telefono, direccion) 
-                          values ($cedula, '$name', '$lastname', '$phone', '$address')";
+    $query_search = "select * from usuarios where nombre like'%$search%'";
     //Guardo el resultado de la consulta en un resulset.
-    $result_insert = mysqli_query($connection, $query_insert);
-    //If para informar si el registro se hizo exitosamente
-    if ($result_insert==false){
-        echo "Error al insertar los datos.";
-    }else{
-        echo "Registro guardado exitosamente!.";
+    $result_search = mysqli_query($connection, $query_search);
+    //$row = mysqli_fetch_row($result); <- con esto guardo en un array el resultado
+    //de la primera fila. Con el while voy navegando en las filas una por una de forma ascendente
+    //mientras hayan regitros en la base de datos, mientras sea true.
+    while ($row_search = mysqli_fetch_array($result_search,  MYSQLI_ASSOC)){
+        echo $row_search["nombre"] . " ";
+        echo $row_search["apellido"] . " ";
+        echo $row_search["cedula"] . " ";
+        echo "<br>";
     }
     //Aquí se cierra la conexión.
     mysqli_close($connection);
@@ -37,5 +37,5 @@
  * Created by PhpStorm.
  * User: Susana
  * Date: 12/3/2017
- * Time: 2:55 PM
+ * Time: 5:54 PM
  */
