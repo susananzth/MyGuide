@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aafaf7e3-bd43-4905-98bd-e8d1aabd1e51" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/mysql-search.php" afterPath="$PROJECT_DIR$/php/mysql-search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php-directory.php" afterPath="$PROJECT_DIR$/php-directory.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-mysql.php" afterPath="$PROJECT_DIR$/php/php-mysql.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,33 +16,33 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="php-mysql.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="php-mysql.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            <state relative-caret-position="714">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql-search.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/mysql-search.php">
+      <file leaf-file-name="functions-form-insert.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/functions/functions-form-insert.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="80" lean-forward="false" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
+            <state relative-caret-position="187">
+              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
-                <marker date="1512260397953" expanded="true" signature="1104:1155" ph="select * fro... usuarios" />
+                <marker date="1512311369428" expanded="true" signature="842:995" ph="insert into usuarios... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connection-mysql.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/connection-mysql.php">
+      <file leaf-file-name="php-form-insert.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/php-form-insert.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="493">
+              <caret line="35" column="64" lean-forward="true" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -64,8 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/multimedia.php" />
-        <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/js.php" />
         <option value="$PROJECT_DIR$/link.php" />
         <option value="$PROJECT_DIR$/partials/header.php" />
@@ -107,7 +105,6 @@
         <option value="$PROJECT_DIR$/php/php-oop.php" />
         <option value="$PROJECT_DIR$/php/functions/functions-array.php" />
         <option value="$PROJECT_DIR$/php/php-array.php" />
-        <option value="$PROJECT_DIR$/php-directory.php" />
         <option value="$PROJECT_DIR$/php/conextion_mysql.php" />
         <option value="$PROJECT_DIR$/php/connection_mysql.php" />
         <option value="$PROJECT_DIR$/partials/nav.php" />
@@ -115,6 +112,9 @@
         <option value="$PROJECT_DIR$/php/functions/functions-mysql.php" />
         <option value="$PROJECT_DIR$/php/mysql-search.php" />
         <option value="$PROJECT_DIR$/php/php-mysql.php" />
+        <option value="$PROJECT_DIR$/php/php-form-insert.php" />
+        <option value="$PROJECT_DIR$/php-directory.php" />
+        <option value="$PROJECT_DIR$/php/functions/functions-form-insert.php" />
       </list>
     </option>
   </component>
@@ -147,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,6 +193,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -327,12 +327,14 @@
       <workItem from="1507854344767" duration="5128000" />
       <workItem from="1508024601443" duration="5124000" />
       <workItem from="1508083593497" duration="1920000" />
-      <workItem from="1512257396950" duration="3105000" />
+      <workItem from="1512257396950" duration="3616000" />
+      <workItem from="1512263776249" duration="2595000" />
+      <workItem from="1512309146872" duration="1374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171776000" />
+    <option name="totallyTimeSpent" value="176256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
@@ -368,20 +370,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/php-numbers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/functions/functions-numbers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/functions/functions-var-cons.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -633,14 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php-directory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/php-array.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -650,18 +630,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/functions/functions_mysql.php" />
-    <entry file="file://$PROJECT_DIR$/php/php-forms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,17 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/functions/functions-mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <marker date="1508028765014" expanded="true" signature="922:944" ph="select * fro... usuarios" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,20 +673,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-forms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/functions/functions-mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <marker date="1508028765014" expanded="true" signature="922:944" ph="select * fro... usuarios" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-directory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/mysql-search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="80" lean-forward="false" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
+        <state relative-caret-position="323">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <marker date="1512260397953" expanded="true" signature="1104:1155" ph="select * fro... usuarios" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
+    <entry file="file://$PROJECT_DIR$/php/functions/functions-form-insert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        <state relative-caret-position="187">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <marker date="1512311369428" expanded="true" signature="842:995" ph="insert into usuarios... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-form-insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" column="64" lean-forward="true" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
           <folding />
         </state>
       </provider>

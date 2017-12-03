@@ -37,7 +37,7 @@ include "functions/functions-mysql.php";
             </div>
         </div>
         <div class="padd2 exam-php">
-            <h6>Ejemplo de ...</h6>
+            <h6>Ejemplo de formulario de registro</h6>
             <div class="padd2">
                 <?php
 
