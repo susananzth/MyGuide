@@ -25,7 +25,7 @@ include "functions/functions-mysql.php";
         <div class="padd2 exam-php">
             <h6>Ejemplo de un formuario de búsqueda.</h6>
             <div class="padd2">
-                <form id="form-search" action="mysql-search.php" method="get">
+                <form id="form-search" action="php-partials/partials-mysql-search.php" method="get">
                     <label for="txt-search">Búscar:
                         <input id="txt-search" name="txt-search" type="text"
                                placeholder="Búsqueda" class="">
@@ -36,16 +36,7 @@ include "functions/functions-mysql.php";
                 </form>
             </div>
         </div>
-        <div class="padd2 exam-php">
-            <h6>Ejemplo de formulario de registro</h6>
-            <div class="padd2">
-                <?php
-
-                ?>
-            </div>
-        </div>
     </section>
-
 <?php
 include "../partials/footer.php";
 include "../partials/bottom-page.php";

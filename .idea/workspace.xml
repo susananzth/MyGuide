@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aafaf7e3-bd43-4905-98bd-e8d1aabd1e51" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php-directory.php" afterPath="$PROJECT_DIR$/php-directory.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/connection-mysql.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php/connection-mysql.php" afterPath="$PROJECT_DIR$/php/php-partials/connection-mysql.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php/functions/functions-form-insert.php" afterPath="$PROJECT_DIR$/php/php-partials/partials-mysql-insert.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php/mysql-search.php" afterPath="$PROJECT_DIR$/php/php-partials/mysql-search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-form-insert.php" afterPath="$PROJECT_DIR$/php/php-form-insert.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-mysql.php" afterPath="$PROJECT_DIR$/php/php-mysql.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,21 +22,9 @@
       <file leaf-file-name="php-mysql.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="646">
+              <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions-form-insert.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/functions/functions-form-insert.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-              <folding>
-                <marker date="1512311369428" expanded="true" signature="842:995" ph="insert into usuarios... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -41,9 +32,21 @@
       <file leaf-file-name="php-form-insert.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/php-form-insert.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="35" column="64" lean-forward="true" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+            <state relative-caret-position="306">
+              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partials-mysql-insert.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-insert.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+              <folding>
+                <marker date="1512313707049" expanded="true" signature="849:1002" ph="insert into usuarios... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,9 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js.php" />
-        <option value="$PROJECT_DIR$/link.php" />
-        <option value="$PROJECT_DIR$/partials/header.php" />
         <option value="$PROJECT_DIR$/jQuery.php" />
         <option value="$PROJECT_DIR$/php/functions.php" />
         <option value="$PROJECT_DIR$/php.php" />
@@ -109,12 +109,15 @@
         <option value="$PROJECT_DIR$/php/connection_mysql.php" />
         <option value="$PROJECT_DIR$/partials/nav.php" />
         <option value="$PROJECT_DIR$/php/functions/functions_mysql.php" />
-        <option value="$PROJECT_DIR$/php/functions/functions-mysql.php" />
         <option value="$PROJECT_DIR$/php/mysql-search.php" />
-        <option value="$PROJECT_DIR$/php/php-mysql.php" />
-        <option value="$PROJECT_DIR$/php/php-form-insert.php" />
         <option value="$PROJECT_DIR$/php-directory.php" />
         <option value="$PROJECT_DIR$/php/functions/functions-form-insert.php" />
+        <option value="$PROJECT_DIR$/php/php-partials/mysql-search.php" />
+        <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-search.php" />
+        <option value="$PROJECT_DIR$/php/functions/functions-mysql.php" />
+        <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-insert.php" />
+        <option value="$PROJECT_DIR$/php/php-mysql.php" />
+        <option value="$PROJECT_DIR$/php/php-form-insert.php" />
       </list>
     </option>
   </component>
@@ -187,7 +190,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="functions" />
+              <option name="myItemId" value="php-partials" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,9 +208,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\FrontEnd\MyGuide\php" />
+      <recent name="C:\xampp\htdocs\FrontEnd\MyGuide\php\php-partials" />
       <recent name="C:\xampp\htdocs\FrontEnd\MyGuide\php\class" />
       <recent name="C:\xampp\htdocs\FrontEnd\MyGuide\php\functions" />
-      <recent name="C:\xampp\htdocs\FrontEnd\MyGuide\php" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,12 +333,12 @@
       <workItem from="1508083593497" duration="1920000" />
       <workItem from="1512257396950" duration="3616000" />
       <workItem from="1512263776249" duration="2595000" />
-      <workItem from="1512309146872" duration="1374000" />
+      <workItem from="1512309146872" duration="3645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176256000" />
+    <option name="totallyTimeSpent" value="178527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
@@ -344,6 +348,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -355,7 +360,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -665,29 +669,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/connection-mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/php-forms.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="90" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/functions/functions-mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <marker date="1508028765014" expanded="true" signature="922:944" ph="select * fro... usuarios" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -699,38 +685,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
+    <entry file="file://$PROJECT_DIR$/php/php-connection-mysql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/mysql-search.php">
+    <entry file="file://$PROJECT_DIR$/php/functions/functions-mysql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="170">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
-            <marker date="1512260397953" expanded="true" signature="1104:1155" ph="select * fro... usuarios" />
+            <marker date="1512313706909" expanded="true" signature="926:948" ph="select * fro... usuarios" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/functions/functions-form-insert.php">
+    <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
           <folding>
-            <marker date="1512311369428" expanded="true" signature="842:995" ph="insert into usuarios... " />
+            <marker date="1512313707119" expanded="true" signature="1083:1134" ph="select * fro... usuarios" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+          <folding>
+            <marker date="1512313707049" expanded="true" signature="849:1002" ph="insert into usuarios... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/php-form-insert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="64" lean-forward="true" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+        <state relative-caret-position="306">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding />
         </state>
       </provider>

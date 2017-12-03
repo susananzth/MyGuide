@@ -1,7 +1,7 @@
 <?php
 include "../partials/top_page.php";
 include "../partials/header.php";
-include "functions/functions-form-insert.php";
+include "php-partials/partials-mysql-insert.php";
 
 ?>
     <section class="php padd5">
@@ -14,7 +14,7 @@ include "functions/functions-form-insert.php";
         <div class="padd2 exam-php">
             <h6>Ejemplo de formulario de registro</h6>
             <div class="padd2">
-                <form id="form-insert" action="functions/functions-form-insert.php" method="get">
+                <form id="form-insert" action="php-partials/partials-mysql-insert.php" method="get">
                     <label for="txt-cedula">Cédula:
                         <input id="txt-cedula" name="txt-cedula" type="number"
                                placeholder="Cédula" class="">

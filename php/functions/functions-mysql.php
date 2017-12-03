@@ -1,5 +1,5 @@
 <?php
-require "connection-mysql.php";
+require "php-connection-mysql.php";
 function exampleDDBBprocedimiento(){
     $bd_host="localhost";
     $bd_name="curso_php";
@@ -40,12 +40,9 @@ function exampleDDBBprocedimiento(){
         echo $row2["cedula"] . " ";
         echo "<br>";
     }
-
     //Aquí se cierra la conexión.
     mysqli_close($connection);
 }
-
-
 /**
  * Created by PhpStorm.
  * User: Susana
