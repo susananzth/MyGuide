@@ -41,7 +41,7 @@ include "functions/functions-mysql.php";
             <div class="padd2">
                 <form id="form-delete" action="php-partials/partials-mysql-delete.php" method="get">
                     <label for="txt-delete">Ingrese la cédula a eliminar:
-                        <input id="txt-delete" name="txt-delete" type="text"
+                        <input id="txt-delete" name="txt-delete" type="number"
                                placeholder="Cédula" class="">
                     </label>
                     <label for="btn-delete">

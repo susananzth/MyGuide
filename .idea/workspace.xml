@@ -22,8 +22,8 @@
       <file leaf-file-name="php-mysql.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+            <state relative-caret-position="362">
+              <caret line="43" column="77" lean-forward="false" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -32,10 +32,23 @@
       <file leaf-file-name="partials-mysql-delete.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-delete.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
               <folding>
-                <marker date="1512328691760" expanded="true" signature="1036:1087" ph="select * fro... usuarios" />
+                <marker date="1512329273204" expanded="true" signature="966:1000" ph="delete from " />
+                <marker date="1512329273204" expanded="true" signature="966:1007" ph="delete from " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partials-mysql-insert.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-insert.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <marker date="1512328922326" expanded="true" signature="1158:1314" ph="insert into usuarios... " />
               </folding>
             </state>
           </provider>
@@ -116,10 +129,10 @@
         <option value="$PROJECT_DIR$/php/functions/functions-mysql.php" />
         <option value="$PROJECT_DIR$/php/partials-mysql-insert.php" />
         <option value="$PROJECT_DIR$/php/php-form-insert.php" />
+        <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-search.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-insert.php" />
         <option value="$PROJECT_DIR$/php/php-mysql.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-delete.php" />
-        <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-search.php" />
       </list>
     </option>
   </component>
@@ -335,12 +348,12 @@
       <workItem from="1508083593497" duration="1920000" />
       <workItem from="1512257396950" duration="3616000" />
       <workItem from="1512263776249" duration="2595000" />
-      <workItem from="1512309146872" duration="7250000" />
+      <workItem from="1512309146872" duration="7871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182132000" />
+    <option name="totallyTimeSpent" value="182753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
@@ -699,29 +712,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/php-form-insert.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-insert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <marker date="1512327716946" expanded="true" signature="1158:1314" ph="insert into usuarios... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -735,12 +730,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <marker date="1512328922326" expanded="true" signature="1158:1314" ph="insert into usuarios... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="43" column="77" lean-forward="false" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
           <folding>
-            <marker date="1512328691760" expanded="true" signature="1036:1087" ph="select * fro... usuarios" />
+            <marker date="1512329273204" expanded="true" signature="966:1000" ph="delete from " />
+            <marker date="1512329273204" expanded="true" signature="966:1007" ph="delete from " />
           </folding>
         </state>
       </provider>

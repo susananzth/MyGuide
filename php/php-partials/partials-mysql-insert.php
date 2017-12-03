@@ -25,7 +25,6 @@
                           values ($cedula, '$name', '$lastname', '$phone', '$address')";
     //Guardo el resultado de la consulta en un resulset.
     $result_insert = mysqli_query($connection, $query_insert);
-
     //If para informar si el registro se hizo exitosamente
     if ($result_insert==false){
         echo "Error al insertar los datos.";
