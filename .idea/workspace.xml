@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aafaf7e3-bd43-4905-98bd-e8d1aabd1e51" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php/connection-mysql.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php/connection-mysql.php" afterPath="$PROJECT_DIR$/php/php-partials/connection-mysql.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php/functions/functions-form-insert.php" afterPath="$PROJECT_DIR$/php/php-partials/partials-mysql-insert.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php/mysql-search.php" afterPath="$PROJECT_DIR$/php/php-partials/mysql-search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-form-insert.php" afterPath="$PROJECT_DIR$/php/php-form-insert.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-mysql.php" afterPath="$PROJECT_DIR$/php/php-mysql.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-partials/partials-mysql-searchUp.php" afterPath="$PROJECT_DIR$/php/php-partials/partials-mysql-searchUp.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,15 +18,9 @@
       <file leaf-file-name="php-mysql.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="99" column="62" lean-forward="true" selection-start-line="99" selection-start-column="62" selection-end-line="99" selection-end-column="89" />
-              <folding>
-                <element signature="e#360#711#0#HTML" expanded="false" />
-                <element signature="e#720#1388#0#HTML" expanded="false" />
-                <element signature="e#1397#2948#0#HTML" expanded="false" />
-                <element signature="e#2957#3670#0#HTML" expanded="false" />
-                <element signature="e#3679#4386#0#HTML" expanded="false" />
-              </folding>
+            <state relative-caret-position="311">
+              <caret line="101" column="82" lean-forward="false" selection-start-line="101" selection-start-column="69" selection-end-line="101" selection-end-column="82" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,11 +28,11 @@
       <file leaf-file-name="partials-mysql-searchUp.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-searchUp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="442">
+              <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
               <folding>
-                <marker date="1512340356909" expanded="true" signature="1039:1077" ph="select * fro... usuarios" />
-                <marker date="1512340356909" expanded="true" signature="1039:1086" ph="select * fro... usuarios" />
+                <marker date="1512435515291" expanded="true" signature="1039:1077" ph="select * fro... usuarios" />
+                <marker date="1512435515291" expanded="true" signature="1039:1086" ph="select * fro... usuarios" />
               </folding>
             </state>
           </provider>
@@ -51,11 +41,11 @@
       <file leaf-file-name="partials-mysql-searchUp2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-searchUp2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="187">
+              <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
               <folding>
-                <marker date="1512340005288" expanded="true" signature="1145:1354" ph="update usuar... " />
-                <marker date="1512340005288" expanded="true" signature="1151:1354" ph="insert into usuarios... " />
+                <marker date="1512435354408" expanded="true" signature="1145:1354" ph="update usuar... " />
+                <marker date="1512435354408" expanded="true" signature="1151:1354" ph="insert into usuarios... " />
               </folding>
             </state>
           </provider>
@@ -65,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-insert.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
               <folding>
                 <marker date="1512337721082" expanded="true" signature="1152:1308" ph="insert into usuarios... " />
               </folding>
@@ -76,8 +66,8 @@
       <file leaf-file-name="partials-mysql-delete.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-delete.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="578">
+              <caret line="34" column="9" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="34" selection-end-column="9" />
               <folding>
                 <marker date="1512330607320" expanded="true" signature="966:1000" ph="delete from " />
                 <marker date="1512330607320" expanded="true" signature="966:1007" ph="delete from " />
@@ -185,6 +175,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,8 +223,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,11 +359,12 @@
       <workItem from="1512257396950" duration="3616000" />
       <workItem from="1512263776249" duration="2595000" />
       <workItem from="1512309146872" duration="13530000" />
+      <workItem from="1512434508549" duration="1624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188412000" />
+    <option name="totallyTimeSpent" value="190036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
@@ -382,7 +373,6 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -394,6 +384,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -686,22 +677,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-insert-2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/partials-mysql-insert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-insert-2.php" />
+    <entry file="file://$PROJECT_DIR$/php/partials-mysql-insert.php" />
     <entry file="file://$PROJECT_DIR$/php-directory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -710,14 +687,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-form-insert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-form-insert.php" />
     <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -741,8 +711,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="578">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="34" selection-end-column="9" />
           <folding>
             <marker date="1512330607320" expanded="true" signature="966:1000" ph="delete from " />
             <marker date="1512330607320" expanded="true" signature="966:1007" ph="delete from " />
@@ -750,48 +720,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="99" column="62" lean-forward="true" selection-start-line="99" selection-start-column="62" selection-end-line="99" selection-end-column="89" />
-          <folding>
-            <element signature="e#360#711#0#HTML" expanded="false" />
-            <element signature="e#720#1388#0#HTML" expanded="false" />
-            <element signature="e#1397#2948#0#HTML" expanded="false" />
-            <element signature="e#2957#3670#0#HTML" expanded="false" />
-            <element signature="e#3679#4386#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-insert.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding>
             <marker date="1512337721082" expanded="true" signature="1152:1308" ph="insert into usuarios... " />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="101" column="82" lean-forward="false" selection-start-line="101" selection-start-column="69" selection-end-line="101" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-searchUp2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
           <folding>
-            <marker date="1512340005288" expanded="true" signature="1145:1354" ph="update usuar... " />
-            <marker date="1512340005288" expanded="true" signature="1151:1354" ph="insert into usuarios... " />
+            <marker date="1512435354408" expanded="true" signature="1145:1354" ph="update usuar... " />
+            <marker date="1512435354408" expanded="true" signature="1151:1354" ph="insert into usuarios... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-searchUp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        <state relative-caret-position="442">
+          <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
           <folding>
-            <marker date="1512340356909" expanded="true" signature="1039:1077" ph="select * fro... usuarios" />
-            <marker date="1512340356909" expanded="true" signature="1039:1086" ph="select * fro... usuarios" />
+            <marker date="1512435515291" expanded="true" signature="1039:1077" ph="select * fro... usuarios" />
+            <marker date="1512435515291" expanded="true" signature="1039:1086" ph="select * fro... usuarios" />
           </folding>
         </state>
       </provider>

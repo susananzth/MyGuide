@@ -27,11 +27,11 @@
     //mientras hayan regitros en la base de datos, mientras sea true.
     while ($row_searchUp = mysqli_fetch_array($result_searchUp,  MYSQLI_ASSOC)){
         echo "<form action='partials-mysql-searchUp2.php' method='get'>";
-        echo "<input type='number' id='t-cedula' name='t-cedula' disabled value='" . $row_searchUp['cedula'] . "'>";
-        echo "<input type='text' id='t-name' name='t-name' value='" . $row_searchUp['nombre'] . "'>";
-        echo "<input type='text' id='t-lastname' name='t-lastname' value='" . $row_searchUp['apellido'] . "'>";
-        echo "<input type='text' id='t-phone' name='t-phone' value='" . $row_searchUp['telefono'] . "'>";
-        echo "<input type='text' id='t-address' name='t-address' value='" . $row_searchUp['direccion'] . "'>";
+        echo "<label for='t-cedula'>Cédula: <input type='number' id='t-cedula' name='t-cedula' value='" . $row_searchUp['cedula'] . "'></label><br>";
+        echo "<label for='t-name'>Nombre:<input type='text' id='t-name' name='t-name' value='" . $row_searchUp['nombre'] . "'></label><br>";
+        echo "<label for='t-lastname'>Apellido:<input type='text' id='t-lastname' name='t-lastname' value='" . $row_searchUp['apellido'] . "'></label><br>";
+        echo "<label for='t-phone'>Teléfono:<input type='text' id='t-phone' name='t-phone' value='" . $row_searchUp['telefono'] . "'></label><br>";
+        echo "<label for='t-address'>Dirección:<input type='text' id='t-address' name='t-address' value='" . $row_searchUp['direccion'] . "'></label><br>";
         echo "<input type='submit' name='send' value='Actualizar'>";
         echo "</form>";
     }
