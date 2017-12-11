@@ -1,4 +1,8 @@
-
+<?php
+include "partials/top_page.php";
+include "partials/header.php";
+include "partials/nav.php";
+?>
 <section id="headding" class="padd2">
     <div class="">
         <h4 class="title text-center">Heading elements | Títulos</h4>
@@ -248,3 +252,6 @@
         </tr>
     </table>
 </section>
+<?php
+include "partials/footer.php";
+include "partials/bottom-page.php";

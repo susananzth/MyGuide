@@ -24,16 +24,26 @@
     //Aquí se guarda el objeto clave mysqli_stmt que se utilizará como parámetro el
     //resto del código y toma como parámetros la conexión y la sentencia.
     $result_search = mysqli_prepare($connection, $query_search);
-    //Guardo el resultado de la consulta en un resulset.
-    //$result_search = mysqli_query($connection, $query_search);
-    //$row = mysqli_fetch_row($result); <- con esto guardo en un array el resultado
-    //de la primera fila. Con el while voy navegando en las filas una por una de forma ascendente
-    //mientras hayan regitros en la base de datos, mientras sea true.
-    while ($row_search = mysqli_fetch_array($result_search,  MYSQLI_ASSOC)){
-        echo $row_search["nombre"] . " ";
-        echo $row_search["apellido"] . " ";
-        echo $row_search["cedula"] . " ";
-        echo "<br>";
+    //Luego con esta función sabremos si tiene exito la consulta.
+    //Primer parámetro el objeto que nos devolvió prepare, segundo parámetro
+    // el tipo de dato que en este caso es string, tercer parámetro la variable donde está
+    // almacenado lo que escribió el usuario.
+    $ok = mysqli_stmt_bind_param($result_search, "s", $searchP);
+    $ok = mysqli_stmt_execute($result_search);
+    if ($ok == false){
+        echo "Error al ejecutar la consulta";
+    }else{
+        //Asociamos las variables al resultado, colocamos tantas
+        // variables como resultados estemos llamando.
+        $ok = mysqli_stmt_bind_result($result_search, $cedula, $nombre,
+                                        $apellido, $telefono, $direccion);
+            echo "Personas encontradas <br><br>";
+            //Por cada fila imprime el resultado.
+            while (mysqli_stmt_fetch($result_search)){
+                echo $cedula . " - " . $nombre . " - " . $apellido . " - " . $telefono . " - " .
+                        $direccion . "<br>";}
+        //Aquí cerramos el objeto.
+        mysqli_stmt_close($result_search);
     }
     //Aquí se cierra la conexión.
     mysqli_close($connection);

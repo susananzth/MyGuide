@@ -203,6 +203,7 @@ input, textarea { border-radius: 10px; width: 80%;}
 /* IMPLEMENTOS */
 .padd5{padding: 5%;} .padd2{ padding: 2%;} .padd1{ padding: 1%;}
 .padd35px{ padding-left: 35px;}
+.tab{padding-left: 20px;}
 .marg5{ margin: 5%;} .marg2{ margin: 2%;}
 .inline-b{display: inline-block;} .inline-f{ display: inline-flex;}
 .text-center{ text-align: center; text-align: -webkit-center;}
