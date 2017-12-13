@@ -71,6 +71,36 @@ include "functions/functions-mysql.php";
                 </p>
             </div>
         </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de formulario de registro con sentencia preparada.</h6>
+            <div class="padd2">
+                <form id="form-insertP" action="php-partials/partials-mysql-insertPrepared.php" method="get">
+                    <label for="txt-cedulaP">Cédula:
+                        <input id="txt-cedulaP" name="txt-cedulaP" type="number"
+                               placeholder="Cédula" class="">
+                    </label>
+                    <label for="txt-nameP">Nombre:
+                        <input id="txt-nameP" name="txt-nameP" type="text"
+                               placeholder="Nombre" class="">
+                    </label>
+                    <label for="txt-lastnameP">Apellido:
+                        <input id="txt-lastnameP" name="txt-lastnameP" type="text"
+                               placeholder="Apellido" class="">
+                    </label>
+                    <label for="txt-phoneP">Teléfono:
+                        <input id="txt-phoneP" name="txt-phoneP" type="text"
+                               placeholder="Teléfono" class="">
+                    </label>
+                    <label for="txt-addressP">Dirección:
+                        <input id="txt-addressP" name="txt-addressP" type="text"
+                               placeholder="Dirección" class="">
+                    </label>
+                    <label for="btn-addP">
+                        <input id="btn-addP" name="btn-addP" type="submit" value="Agregar">
+                    </label>
+                </form>
+            </div>
+        </div>
     </section>
 <?php
 include "../partials/footer.php";
