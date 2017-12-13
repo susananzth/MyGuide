@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aafaf7e3-bd43-4905-98bd-e8d1aabd1e51" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-mysql-prepared.php" afterPath="$PROJECT_DIR$/php/php-mysql-prepared.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-partials/partials-mysql-searchPrepared.php" afterPath="$PROJECT_DIR$/php/php-partials/partials-mysql-searchPrepared.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php-directory.php" afterPath="$PROJECT_DIR$/php-directory.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,27 +14,35 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="php-mysql-prepared.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/php-mysql-prepared.php">
+      <file leaf-file-name="php-mysql-oop.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/php-mysql-oop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="98" column="59" lean-forward="false" selection-start-line="98" selection-start-column="59" selection-end-line="98" selection-end-column="59" />
+            <state relative-caret-position="204">
+              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partials-mysql-oop.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-oop.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-46">
+              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
               <folding>
-                <element signature="e#360#4170#0#HTML" expanded="false" />
+                <marker date="1513126728374" expanded="true" signature="663:700" ph="select * fro... usuarios" />
+                <marker date="1513126728374" expanded="true" signature="663:701" ph="select * fro... usuarios" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partials-mysql-insertPrepared.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-insertPrepared.php">
+      <file leaf-file-name="php-mysql.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-              <folding>
-                <marker date="1513124825102" expanded="true" signature="1259:1371" ph="insert into usuarios... " />
-                <marker date="1513124825102" expanded="true" signature="1270:1371" ph="select * fro... usuarios" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="35" column="23" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="35" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/partials/footer.php" />
-        <option value="$PROJECT_DIR$/partials/top_page.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa0.489/learnPHP-master-61c4ddae056657f58fcc62c426f7fe9a6037dc6c/curso/curso2.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa0.489/learnPHP-master-61c4ddae056657f58fcc62c426f7fe9a6037dc6c/curso/curso3.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa0.489/learnPHP-master-61c4ddae056657f58fcc62c426f7fe9a6037dc6c/curso/curso6.php" />
@@ -102,12 +106,14 @@
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-search.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-searchPreparada.php" />
         <option value="$PROJECT_DIR$/php/php-mysql-preparada.php" />
-        <option value="$PROJECT_DIR$/php-directory.php" />
         <option value="$PROJECT_DIR$/text.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/php/php-mysql-prepared.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-searchPrepared.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-insertPrepared.php" />
+        <option value="$PROJECT_DIR$/php-directory.php" />
+        <option value="$PROJECT_DIR$/php/php-mysql-oop.php" />
+        <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-oop.php" />
       </list>
     </option>
   </component>
@@ -340,12 +346,12 @@
       <workItem from="1512309146872" duration="13530000" />
       <workItem from="1512434508549" duration="1624000" />
       <workItem from="1512936156553" duration="5953000" />
-      <workItem from="1513122693633" duration="1778000" />
+      <workItem from="1513122693633" duration="3494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197767000" />
+    <option name="totallyTimeSpent" value="199483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="7" />
@@ -381,20 +387,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Pruebas/form_capcha_google/formulario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Pruebas/load-js/vista/inicio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Pruebas/load-js/nav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -597,14 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-connection-mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/functions/functions-mysql.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -629,17 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="9" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <marker date="1512330607320" expanded="true" signature="966:1000" ph="delete from " />
-            <marker date="1512330607320" expanded="true" signature="966:1007" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-searchUp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -647,17 +620,6 @@
           <folding>
             <marker date="1512435515291" expanded="true" signature="1039:1077" ph="select * fro... usuarios" />
             <marker date="1512435515291" expanded="true" signature="1039:1086" ph="select * fro... usuarios" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <marker date="1512942429347" expanded="true" signature="1033:1074" ph="select * fro... usuarios" />
-            <marker date="1512942429347" expanded="true" signature="1033:1084" ph="select * fro... usuarios" />
           </folding>
         </state>
       </provider>
@@ -678,14 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php-directory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="122" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -702,14 +656,6 @@
             <marker date="1512435354408" expanded="true" signature="1145:1354" ph="update usuar... " />
             <marker date="1512435354408" expanded="true" signature="1151:1354" ph="insert into usuarios... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="49" column="28" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="67" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,8 +681,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/php-mysql-prepared.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="98" column="59" lean-forward="false" selection-start-line="98" selection-start-column="59" selection-end-line="98" selection-end-column="59" />
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="113" selection-end-column="3" />
           <folding>
             <element signature="e#360#4170#0#HTML" expanded="false" />
           </folding>
@@ -745,11 +691,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-insertPrepared.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="578">
           <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <marker date="1513124825102" expanded="true" signature="1259:1371" ph="insert into usuarios... " />
             <marker date="1513124825102" expanded="true" signature="1270:1371" ph="select * fro... usuarios" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <marker date="1512330607320" expanded="true" signature="966:1000" ph="delete from " />
+            <marker date="1512330607320" expanded="true" signature="966:1007" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-connection-mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <marker date="1512942429347" expanded="true" signature="1033:1074" ph="select * fro... usuarios" />
+            <marker date="1512942429347" expanded="true" signature="1033:1084" ph="select * fro... usuarios" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="35" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-directory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-mysql-oop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-oop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding>
+            <marker date="1513126728374" expanded="true" signature="663:700" ph="select * fro... usuarios" />
+            <marker date="1513126728374" expanded="true" signature="663:701" ph="select * fro... usuarios" />
           </folding>
         </state>
       </provider>
