@@ -12,7 +12,7 @@ include "functions/functions-mysql.php";
             </ul>
         </div>
         <div class="padd2 exam-php">
-            <h6>Ejemplo de un formuario de búsqueda.</h6>
+            <h6>Ejemplo de un formuario de búsqueda con PDO.</h6>
             <div class="padd2">
                 <form id="form-search" action="php-partials/partials-mysql-pdoSelect.php" method="get">
                     <label for="txt-cedule">Cédula:
@@ -30,9 +30,9 @@ include "functions/functions-mysql.php";
             </div>
         </div>
         <div class="padd2 exam-php">
-            <h6>Ejemplo de formulario de registro con sentencia preparada.</h6>
+            <h6>Ejemplo de formulario de registro con PDO.</h6>
             <div class="padd2">
-                <form id="form-insertPDO" action="php-partials/partials-mysql-pdoInsert.php" method="POST">
+                <form id="form-insertPDO" action="php-partials/partials-mysql-pdoInsert.php" method="post">
                     <label for="txt-cedula">Cédula:
                         <input id="txt-cedula" name="txt-cedula" type="number"
                                placeholder="Cédula" class="">
@@ -55,6 +55,20 @@ include "functions/functions-mysql.php";
                     </label>
                     <label for="btn-add">
                         <input id="btn-add" name="btn-add" type="submit" value="Agregar">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de un formuario para eliminar registro con PDO.</h6>
+            <div class="padd2">
+                <form id="form-delete" action="php-partials/partials-mysql-pdoDelete.php" method="post">
+                    <label for="txt-cedule">Cédula:
+                        <input id="txt-cedula" name="txt-cedula" type="text"
+                               placeholder="Cédula" class="">
+                    </label>
+                    <label for="btn-delete">
+                        <input id="btn-delete" name="btn-delete" type="submit" value="Eliminar">
                     </label>
                 </form>
             </div>
