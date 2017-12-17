@@ -23,8 +23,6 @@
     $bd_user="root";
     $bd_password="";
 
-
-
 /**
  * Created by PhpStorm.
  * User: Susana

@@ -1,6 +1,7 @@
 <?php
-    //Conexión orientada a objeto
-
+    /*----------%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%------------*/
+    //Conexión orientada a objeto en el mismo documento.
+    /*----------%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%------------*/
     $cedula = $_GET["txt-searchOOP"];
     //Creamos una variable e instanciamos la clase mysqli y colocamos los argumentos.
     $connection = new mysqli("localhost", "root", "", "curso_php");
@@ -14,12 +15,12 @@
     //Aquí guardamos la consulta en una variable
     $sql = "select * from usuarios where cedula = $cedula";
     //Aqui guardamos el resultado de la consulta
-    $result = $connection->query($sql);
+    $resultSelect = $connection->query($sql);
     //Si la consulta falla cerrará la conexión
     if ($connection->errno){
         die($connection->error);
     }
-    while ($row = $result->fetch_assoc()){
+    while ($row = $resultSelectt->fetch_assoc()){
         echo $row["nombre"] . " ";
         echo $row["apellido"] . " ";
         echo $row["cedula"] . " ";
@@ -27,6 +28,25 @@
     }
     //Cerrar la conexión
     $connection->close();
+
+    /*----------%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%------------*/
+    //OOP más eficiente para proyectos grandes.
+    /*----------%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%------------*/
+    require ("../php-connection-mysql.php");
+    class ReturnsUser extends Connection{
+        public function ReturnsUser(){
+            //llamamos al método o constructor de la clase padre
+            parent::_construct();
+        }
+        public function get_user(){
+            //Aquí guardamos la sentencia.
+            $sqlQuery = $this->connection_db->query('select * from usuarios');
+            //Almacenamos el resultado de la consulta en este array asociativo.
+            $users = $sqlQuery->fetch_all(MSQLI_ASSOC);
+            //Aquí le decimos que nos devuelva ese array.
+            return $users;
+        }
+    }
 /**
  * Created by PhpStorm.
  * User: Susana
