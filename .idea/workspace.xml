@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aafaf7e3-bd43-4905-98bd-e8d1aabd1e51" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php-directory.php" afterPath="$PROJECT_DIR$/php-directory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-partials/partials-mysql-pdo.php" afterPath="$PROJECT_DIR$/php/php-partials/partials-mysql-pdo.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +18,7 @@
       <file leaf-file-name="php-mysql-oop.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/php-mysql-oop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="204">
               <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding />
             </state>
@@ -28,8 +28,8 @@
       <file leaf-file-name="php-mysql-pdo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/php-mysql-pdo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="289">
+              <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -38,9 +38,11 @@
       <file leaf-file-name="partials-mysql-pdo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-pdo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="391">
+              <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+              <folding>
+                <marker date="1513470765058" expanded="true" signature="568:607" ph="select * fro... usuarios" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,9 +126,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="465" />
+    <option name="y" value="-8" />
     <option name="width" value="1040" />
-    <option name="height" value="301" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -144,7 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,7 +207,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,15 +347,18 @@
       <workItem from="1512434508549" duration="1624000" />
       <workItem from="1512936156553" duration="5953000" />
       <workItem from="1513122693633" duration="3587000" />
-      <workItem from="1513209008464" duration="2051000" />
+      <workItem from="1513209008464" duration="2119000" />
+      <workItem from="1513438432316" duration="594000" />
+      <workItem from="1513468220768" duration="251000" />
+      <workItem from="1513469941168" duration="937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201627000" />
+    <option name="totallyTimeSpent" value="203477000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="465" width="1040" height="301" extended-state="0" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19238281" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -578,9 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <marker date="1512313706909" expanded="true" signature="926:948" ph="select * fro... usuarios" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,7 +745,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/php-mysql-oop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="204">
           <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding />
         </state>
@@ -751,17 +753,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/php-mysql-pdo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="289">
+          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-pdo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="391">
+          <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding>
+            <marker date="1513470765058" expanded="true" signature="568:607" ph="select * fro... usuarios" />
+          </folding>
         </state>
       </provider>
     </entry>
