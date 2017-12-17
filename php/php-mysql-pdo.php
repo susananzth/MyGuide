@@ -15,9 +15,13 @@ include "functions/functions-mysql.php";
             <h6>Ejemplo de un formuario de búsqueda.</h6>
             <div class="padd2">
                 <form id="form-search" action="php-partials/partials-mysql-pdo.php" method="get">
-                    <label for="txt-search">Búscar:
-                        <input id="txt-search" name="txt-search" type="text"
-                               placeholder="Búsqueda" class="">
+                    <label for="txt-cedule">Cédula:
+                        <input id="txt-cedula" name="txt-cedula" type="text"
+                               placeholder="Cédula" class="">
+                    </label>
+                    <label for="txt-name">Nombre:
+                        <input id="txt-name" name="txt-name" type="text"
+                               placeholder="Nombre" class="">
                     </label>
                     <label for="btn-search">
                         <input id="btn-search" name="btn-search" type="submit" value="Búscar">

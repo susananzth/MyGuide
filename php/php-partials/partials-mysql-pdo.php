@@ -1,5 +1,6 @@
 <?php
-    $name = $_GET["txt-search"];
+    $cedula = $_GET["txt-cedula"];
+    $name = $_GET["txt-name"];
     try{//Intenta conectar con la DB
         //Construimos un objeto utilizando PDO para colocar los datos de conexión
         $connection = new PDO("mysql:hots=localhost; dbname=curso_php", "root", "");
@@ -8,11 +9,11 @@
         //Asignamos el tipo de codificación.
         $connection->exec("SET CHARACTER SET utf8");
         //Guardamos la sentencia sql en una varible.
-        $sql = "select * from usuarios where nombre = ?";
+        $sql = "select * from usuarios where cedula = :cedu and nombre = :nom";
         //Creamos una variable para guardar el PFO statement.
         $result = $connection->prepare($sql);
         //Aquí le pasamos el parámetro para el sql.
-        $result->execute(array($name));
+        $result->execute(array(":cedu"=>$cedula, ":nom"=>$name));
         //Aquí recorrerá cada registro de la tabla (statement).
         while ($register = $result->fetch(PDO::FETCH_ASSOC)){
             echo "Cédula: " . $register['cedula'] . " -  Nombre: " . $register['nombre'] .
