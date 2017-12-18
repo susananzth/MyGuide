@@ -29,24 +29,6 @@
     //Cerrar la conexión
     $connection->close();
 
-    /*----------%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%------------*/
-    //OOP más eficiente para proyectos grandes.
-    /*----------%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%------------*/
-    require ("../php-connection-mysql.php");
-    class ReturnsUser extends Connection{
-        public function ReturnsUser(){
-            //llamamos al método o constructor de la clase padre
-            parent::_construct();
-        }
-        public function get_user(){
-            //Aquí guardamos la sentencia.
-            $sqlQuery = $this->connection_db->query('select * from usuarios');
-            //Almacenamos el resultado de la consulta en este array asociativo.
-            $users = $sqlQuery->fetch_all(MSQLI_ASSOC);
-            //Aquí le decimos que nos devuelva ese array.
-            return $users;
-        }
-    }
 /**
  * Created by PhpStorm.
  * User: Susana

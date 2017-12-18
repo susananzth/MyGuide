@@ -22,21 +22,12 @@ include "../partials/nav.php";
         </div>
 
         <div class="padd2 exam-php">
-            <h6>Ejemplo de un formuario de búsqueda con OOP.</h6>
+            <h6>Ejemplo de búsqueda con OOP.</h6>
             <div class="padd2">
-                <form id="form-search" action="php-partials/partials-mysql-oop.php" method="get">
-                    <label for="txt-cedule">Cédula:
-                        <input id="txt-cedula" name="txt-cedula" type="text"
-                               placeholder="Cédula" class="">
-                    </label>
-                    <label for="txt-name">Nombre:
-                        <input id="txt-name" name="txt-name" type="text"
-                               placeholder="Nombre" class="">
-                    </label>
-                    <label for="btn-search">
-                        <input id="btn-search" name="btn-search" type="submit" value="Búscar">
-                    </label>
-                </form>
+                <?php
+                include "php-partials/partials-mysql-oop2.php";
+
+                ?>
             </div>
         </div>
     </section>
