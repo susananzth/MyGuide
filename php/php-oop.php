@@ -20,7 +20,6 @@ include "../partials/nav.php";
                 ?>
             </div>
         </div>
-
         <div class="padd2 exam-php">
             <h6>Ejemplo de búsqueda con OOP.</h6>
             <div class="padd2">
@@ -28,6 +27,20 @@ include "../partials/nav.php";
                 include "php-partials/partials-mysql-oop2.php";
 
                 ?>
+            </div>
+        </div>
+        <div class="padd2 exam-php">
+            <h6>Ejemplo de formulario de registro con sentencia preparada.</h6>
+            <div class="padd2">
+                <form id="form-searchPDO-OOP" action="php-partials/partials-mysql-PDO-OOP.php" method="post">
+                    <label for="txt-cedula">Búscar:
+                        <input id="txt-cedula" name="txt-cedula" type="text"
+                               placeholder="Cédula" class="">
+                    </label>
+                    <label for="btn-search">
+                        <input id="btn-search" name="btn-search" type="submit" value="Búscar">
+                    </label>
+                </form>
             </div>
         </div>
     </section>
