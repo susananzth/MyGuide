@@ -4,7 +4,26 @@
     class Connection{
         protected $connection_db;
         public function Connection(){
-            //Aquí colocamos los datos de conexión.
+            //---------------#####################----------------------
+            //Método PDO con OOP
+            //---------------#####################----------------------
+            try{
+                //Colocamos los datos de la conexión.
+                $this->connection_db = new PDO('mysql:host=localhost; dbname=curso_php',
+                    'root', '');
+                //Establecemos los atributos de la conexión
+                $this->connection_db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                //Codificación de la DB.
+                $this->connection_db->exec("SET CHARACTER SET utf8");
+                return $this->connection_db;
+            }catch (Exception $e){//Si la conezión falla, muestra el error.
+                echo "La línea de error es: " . $e->getLine();
+            }
+
+            //---------------#####################----------------------
+            //Método MySQLi
+            //---------------#####################----------------------
+            /*//Aquí colocamos los datos de conexión.
             $this->connection_db = new mysqli(DB_HOST, DB_USER,
                 DB_PASSWORD, DB_NAME);
             //En caso que la conexión falle:
@@ -14,7 +33,7 @@
                 return;
             }
             //Aquí asignamos el tipo de codificación de la DB.
-            $this->connection_db->set_charset(DB_CHARSET);
+            $this->connection_db->set_charset(DB_CHARSET);*/
         }
     }
     //Conexión
