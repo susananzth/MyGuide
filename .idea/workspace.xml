@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aafaf7e3-bd43-4905-98bd-e8d1aabd1e51" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-connection-mysql.php" afterPath="$PROJECT_DIR$/php/php-connection-mysql.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-oop.php" afterPath="$PROJECT_DIR$/php/php-oop.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php-directory.php" afterPath="$PROJECT_DIR$/php-directory.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,21 +15,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="partials-mysql-PDO-OOP2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-PDO-OOP2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-              <folding>
-                <marker date="1513559213105" expanded="true" signature="551:590" ph="select * fro... usuarios" />
-                <marker date="1513559213105" expanded="true" signature="551:606" ph="select * fro... usuarios" />
-                <marker date="1513559213105" expanded="true" signature="551:607" ph="select * fro... usuarios" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="php-connection-mysql.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="php-connection-mysql.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/php-connection-mysql.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -40,11 +25,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="php-oop.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/php-oop.php">
+      <file leaf-file-name="php-mysql-oop.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/php-mysql-oop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="15" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="php-login.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/php-login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="98" lean-forward="false" selection-start-line="24" selection-start-column="98" selection-end-line="24" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -66,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/php/php-flows.php" />
         <option value="$PROJECT_DIR$/php/functions/functions-flows.php" />
         <option value="$PROJECT_DIR$/php/php-string.php" />
         <option value="$PROJECT_DIR$/php/functions/functions-string.php" />
@@ -103,7 +97,6 @@
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-searchPrepared.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-insertPrepared.php" />
         <option value="$PROJECT_DIR$/php/php-mysql-oop.php" />
-        <option value="$PROJECT_DIR$/php-directory.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-pdo.php" />
         <option value="$PROJECT_DIR$/php/php-mysql-prepared.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-pdoSelect.php" />
@@ -117,6 +110,8 @@
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-PDO-OOP2.php" />
         <option value="$PROJECT_DIR$/php/php-oop.php" />
         <option value="$PROJECT_DIR$/php/php-connection-mysql.php" />
+        <option value="$PROJECT_DIR$/php/php-login.php" />
+        <option value="$PROJECT_DIR$/php-directory.php" />
       </list>
     </option>
   </component>
@@ -149,6 +144,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,32 +182,12 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php-partials" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyGuide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyGuide" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,18 +332,19 @@
       <workItem from="1513468220768" duration="251000" />
       <workItem from="1513469941168" duration="2280000" />
       <workItem from="1513517118667" duration="5102000" />
-      <workItem from="1513552558770" duration="4921000" />
+      <workItem from="1513552558770" duration="5106000" />
+      <workItem from="1513641030340" duration="1226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214843000" />
+    <option name="totallyTimeSpent" value="216254000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26367188" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2841797" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -396,13 +374,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Pruebas/upload_ajax/up.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Pruebas/upload_ajax/conexion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -582,14 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php-directory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/php-mysql-prepared.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -658,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-522">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1491">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,9 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <marker date="1512313706909" expanded="true" signature="926:948" ph="select * fro... usuarios" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="89" column="3" lean-forward="false" selection-start-line="89" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,14 +698,6 @@
             <marker date="1513556492989" expanded="true" signature="833:870" ph="select * fro... usuarios" />
             <marker date="1513556492989" expanded="true" signature="833:871" ph="select * fro... usuarios" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-mysql-oop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,7 +738,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/php-oop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="442">
           <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding />
         </state>
@@ -800,6 +748,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-mysql-oop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-directory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="98" lean-forward="false" selection-start-line="24" selection-start-column="98" selection-end-line="24" selection-end-column="98" />
           <folding />
         </state>
       </provider>

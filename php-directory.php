@@ -20,6 +20,7 @@ include "partials/nav.php";
                 <li><a href="php/php-mysql-prepared.php">MySQL Avanzado</a></li>
                 <li><a href="php/php-mysql-oop.php">MySQL OOP</a></li>
                 <li><a href="php/php-mysql-pdo.php">MySQL PDO</a></li>
+                <li><a href="php/php-login.php">Login</a></li>
             </ul>
         </div>
         <div id="tips" class="padd2">
