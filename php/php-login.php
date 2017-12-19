@@ -12,12 +12,12 @@ include "../partials/header.php";
         <div class="padd2 exam-php">
             <h6>Ejemplo de formulario de login.</h6>
             <div class="padd2">
-                <form id="form-login" action="php-partials/partials-mysql-oop.php" method="get">
-                    <label for="txt-user">Búscar:
+                <form id="form-login" action="php-partials/partials-login.php" method="post">
+                    <label for="txt-user">Usuario:
                         <input id="txt-user" name="txt-user" type="text"
                                placeholder="Usuario" class="">
                     </label>
-                    <label for="txt-pass">Búscar:
+                    <label for="txt-pass">Contraseña:
                         <input id="txt-pass" name="txt-pass" type="text"
                                placeholder="Contraseña" class="">
                     </label>
