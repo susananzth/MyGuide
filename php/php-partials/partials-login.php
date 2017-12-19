@@ -13,13 +13,23 @@
         $result = $connection->prepare($sql);
         //Aquí creamos una variable para almacenar el user desde el formulario.
         //Esta función convierte cualquier símbolo html para evitar inyección sql.
-        $user = htmlentities(addcslashes($_POST["txt-user"]));
+        $user = htmlentities(addslashes($_POST["txt-user"]));
         //Aquí creamos una variable para almacenar la contraseña desde el formulario.
-        $pass = htmlentities(addcslashes($_POST["txt-pass"]));
-
+        $pass = htmlentities(addslashes($_POST["txt-pass"]));
+        //Aquí comparamos el resultado de la consulta con lo que obtuvimos del formulario.
+        $result->bindValue(":user", $user);
+        $result->bindValue(":pass", $pass);
+        //Ejecutamos la sentenci sql
+        $result->execute();
+        //Utilizamos una función paa evaluar si la comparación es verdadero o falso
+        $register = $result->rowCount();
+        if ($register!=0){
+            echo "Adelante";
+        }else{
+            //Si no coninciden los datos, es decir, no esta registrado, lo redirigimos a la página de login
+        }
     }//Si no conecta a la DB hará o siguiente
     catch (Exception $e) {//Guarda el mensaje de error en la variable $e
-
     }
 
 /**
