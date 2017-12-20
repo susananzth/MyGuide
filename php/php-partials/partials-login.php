@@ -24,9 +24,15 @@
         //Utilizamos una función paa evaluar si la comparación es verdadero o falso
         $register = $result->rowCount();
         if ($register!=0){
-            echo "Adelante";
+            //Con sesiones podemos redifirig a una pagina solo si el usuario esta registrado
+            session_start();
+            //Aquí estamos declarando la variable usuario como super global
+            //y le asignamos el valor obtenido del cuadro de texto del formulario.
+            $_SESSION["usuario"]=$_POST["txt-user"];
+            header("Location:../php-controlPanel.php");
         }else{
             //Si no coninciden los datos, es decir, no esta registrado, lo redirigimos a la página de login
+            header ("Location:../php-login.php");
         }
     }//Si no conecta a la DB hará o siguiente
     catch (Exception $e) {//Guarda el mensaje de error en la variable $e
