@@ -1,5 +1,4 @@
 <?php
-
     //Un tray para que intente conectar a la DB.
     try{
         //Colocamos los datos de conexión utilizando OOP y PDO.
@@ -37,7 +36,6 @@
     }//Si no conecta a la DB hará o siguiente
     catch (Exception $e) {//Guarda el mensaje de error en la variable $e
     }
-
 /**
  * Created by PhpStorm.
  * User: Susana

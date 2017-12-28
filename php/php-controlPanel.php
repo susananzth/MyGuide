@@ -23,6 +23,8 @@ include "../partials/header.php";
                 <?php
                     echo "Hola: " . $_SESSION["usuario"] . ".";
                 ?>
+                <a href="php-partials/partials-logout.php"
+                   hreflang="EN" type="text/html" >Cerrar sesión</a>
             </div>
         </div>
     </section>
