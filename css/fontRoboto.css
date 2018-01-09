@@ -1,0 +1,38 @@
+/* Light */
+@font-face {
+    font-family: "Roboto-Thin";
+    font-style: normal;
+
+    src: local('Roboto-Thin'), local('Roboto-Thin'), url("../font/Roboto-Thin.ttf")
+    format('truetype');}
+@font-face {
+    font-family: "Roboto-Thin-Italic";
+    font-style: italic;
+    src: local('Roboto-Thin-Italic'), local('Roboto-Thin-Italic'),
+    url("../font/Roboto-ThinItalic.ttf") format('truetype');}
+/* Normal */
+@font-face {
+    font-family: "Roboto-Light";
+    font-style: normal;
+    font-weight: normal;
+    src: local('Roboto-Light'), local('Roboto-Light'), url("../font/Roboto-Light.ttf")
+    format('truetype');}
+@font-face {
+    font-family: "Roboto-Light-Italic";
+    font-style: italic;
+    font-weight: normal;
+    src: local('Roboto-Light-Italic'), local('Roboto-Light-Italic'),
+    url("../font/Roboto-LightItalic.ttf") format('truetype');}
+/* Bold */
+@font-face {
+    font-family: "Roboto-Regular";
+    font-style: normal;
+    font-weight: bold;
+    src: local('Roboto-Regular'), local('Roboto-Regular'), url("../font/Roboto-Regular.ttf")
+    format('truetype');}
+@font-face {
+    font-family: "Roboto-Regular-Italic";
+    font-style: italic;
+    font-weight: bold;
+    src: local('Roboto-Regular-Italic'), local('Roboto-Regular-Italic'),
+    url("../font/Roboto-Italic.ttf") format('truetype');}
