@@ -1,16 +1,15 @@
 <?php
 include "../partials/top_page.php";
 include "../partials/header.php";
-include "../partials/nav.php";
 include "functions/functions-var-cons.php";
 ?>
-    <section class="php padd5">
-        <h4>Variables y constantes</h4>
-        <div class="exam-php">
-            <ul class="padd2">
-                <li><a href="../php-directory.php">Volver al directorio</a></li>
-            </ul>
-        </div>
+<hr class="php">
+<?php
+include "../partials/nav-php.php";
+?>
+<hr class="php">
+    <section class="section-php padd5">
+        <h4 class="text-center">Variables y constantes</h4>
         <div class="padd2 exam-php">
             <h6>Ejemplo de DEFINE()</h6>
             <div class="padd2">
@@ -22,10 +21,10 @@ include "functions/functions-var-cons.php";
             </div>
         </div>
     </section>
-
+<hr class="php">
 <?php
 include "../partials/footer.php";
-include "partials/bottom-page.php";
+include "../partials/bottom-page.php";
 /**
  * Created by PhpStorm.
  * User: Susana

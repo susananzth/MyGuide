@@ -1,4 +1,4 @@
-<header class="text-center padd5">
+<header class=" header-primary text-center">
     <h1>My Guide</h1>
     <h3>by Susana Piñero</h3>
 </header>
@@ -9,3 +9,4 @@
  * Date: 8/24/2017
  * Time: 7:36 PM
  */
+?>

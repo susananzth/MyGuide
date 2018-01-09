@@ -1,4 +1,5 @@
 <?php
+
     //Un tray para que intente conectar a la DB.
     try{
         //Colocamos los datos de conexión utilizando OOP y PDO.

@@ -7,11 +7,11 @@ include "partials/top_page.php";
             <h1>My Guide</h1>
             <h3>by Susana Piñero</h3>
         </div>
-        <ul class="flex-container col-center nav text-center">
-            <li class="col-nav padd2"><a href="index-html.php">HTML</a></li>
-            <li class="col-nav padd2"><a href="jQuery.php">jQuery</a></li>
-            <li class="col-nav padd2"><a href="js.php">Javascript</a></li>
-            <li class="col-nav padd2"><a href="php-directory.php">PHP</a></li>
+        <ul class="flex-container col-center li-noStyle text-center">
+            <li class="col-nav padd2"><a href="directory-html.php">HTML</a></li>
+            <li class="col-nav padd2"><a href="directory-php.php">PHP</a></li>
+            <li class="col-nav padd2"><a href="directory-js.php">Javascript</a></li>
+            <li class="col-nav padd2"><a href="directory-jQuery.php">jQuery</a></li>
             <li class="col-nav padd2"><a href="#">Bootstrap</a></li>
         </ul>
     </nav>

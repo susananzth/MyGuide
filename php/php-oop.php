@@ -1,17 +1,14 @@
 <?php
 include "../partials/top_page.php";
 include "../partials/header.php";
-include "../partials/nav.php";
-
 ?>
-    <section class="php padd5">
-        <h4>Programación orientada a objetos (OOP)</h4>
-        <div class="exam-php">
-            <ul class="padd2">
-                <li><a href="../php-directory.php">Volver al directorio</a></li>
-            </ul>
-        </div>
-
+<hr class="php">
+<?php
+include "../partials/nav-php.php";
+?>
+<hr class="php">
+    <section class="section-php padd5">
+        <h4 class="text-center">Programación orientada a objetos (OOP)</h4>
         <div class="padd2 exam-php">
             <h6>Ejercicio sencillo de OOP</h6>
             <div class="padd2">
@@ -59,7 +56,7 @@ include "../partials/nav.php";
             </div>
         </div>
     </section>
-
+<hr class="php">
 <?php
 include "../partials/footer.php";
 include "../partials/bottom-page.php";
