@@ -52,7 +52,7 @@
     src: local('Roboto-Bold-Italic'), local('Roboto-Bold-Italic'),
     url("../font/Roboto-BoldItalic.ttf") format('truetype');}
 *, body{font-family: Roboto-Light, sans-serif, Verdana;}
-h1, h2, h3, h4, h5, h6{font-family: Roboto-Bold;}
+h1, h2, h3, h4, h5, h6{font-family: Roboto-Medium;}
 address{font-family: Roboto-Light-Italic;}
 address b{font-family: Roboto-Bold-Italic;}
 address strong{font-family: Roboto-Medium-Italic;}
