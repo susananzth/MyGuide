@@ -30,6 +30,7 @@
     font-style: italic;
     src: local('Roboto-Regular-Italic'), local('Roboto-Regular-Italic'),
     url("../font/Roboto-Italic.ttf") format('truetype');}
+/* Bold */
 @font-face {
     font-family: "Roboto-Medium";
     font-style: normal;
@@ -40,7 +41,6 @@
     font-style: italic;
     src: local('Roboto-Medium-Italic'), local('Roboto-Medium-Italic'),
     url("../font/Roboto-MediumItalic.ttf") format('truetype');}
-/* Bold */
 @font-face {
     font-family: "Roboto-Bold";
     font-style: normal;
@@ -51,3 +51,19 @@
     font-style: italic;
     src: local('Roboto-Bold-Italic'), local('Roboto-Bold-Italic'),
     url("../font/Roboto-BoldItalic.ttf") format('truetype');}
+*, body{font-family: Roboto-Light, sans-serif, Verdana;}
+h1, h2, h3, h4, h5, h6{font-family: Roboto-Bold;}
+address{font-family: Roboto-Light-Italic;}
+address b{font-family: Roboto-Bold-Italic;}
+address strong{font-family: Roboto-Medium-Italic;}
+b{ font-family: Roboto-Bold;}
+blockquote{font-family: Roboto-Light-Italic;}
+blockquote b{font-family: Roboto-Bold-Italic;}
+blockquote strong{font-family: Roboto-Medium-Italic;}
+em{font-family: Roboto-Light-Italic;}
+em b{font-family: Roboto-Bold-Italic;}
+em strong{font-family: Roboto-Medium-Italic;}
+small{font-family: Roboto-Light;font-size: 15px;}
+small b{font-family: Roboto-Bold;font-size: 15px;}
+small strong{font-family: Roboto-Medium;font-size: 15px;}
+strong{font-family: Roboto-Medium;}

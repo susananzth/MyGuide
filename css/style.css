@@ -1,11 +1,10 @@
 
 /* GLOBAL */
-*{ margin: 0; padding: 0;}
-body, html{ width: 100%; height: 100%;}
-body{ font-family: Roboto-Light, sans-serif, Verdana;
-      font-size: 110%; color: #555555; background: #ebe9e2;}
+*{margin: 0;padding: 0;}
+body,html{width: 100%;height: 100%;}
+body{font-size: 110%; color: #555555; background: #ebe9e2;}
     /*scrollbar*/
-::-webkit-scrollbar { width: 10px; background: rgb(245, 245, 245);
+::-webkit-scrollbar{width: 10px; background: rgb(245, 245, 245);
     /*-webkit-box-shadow: inset 0 0 6px rgb(255, 181, 245);*/}
 ::-webkit-scrollbar-thumb { background: rgba(123, 37, 154, 0.98);
     cursor: pointer; border-radius: 3px; border: 1px solid #a56bb4;
@@ -51,13 +50,7 @@ hr.jQuery{ height: 15px; border: 0; background: #efa51fb5;}
     box-sizing: border-box; border: 2px #bb8b01 solid;}
 
 /* VARIOS */
-em{ font-family: Roboto-Light-Italic;} em b, em strong{ font-family: Roboto-Regular-Italic;}
-strong, b{ font-family: Roboto-Regular;}
-address {font-family: Roboto-Light-Italic;}
-address b, address strong{ font-family: Roboto-Regular-Italic;}
-blockquote { font-family: Roboto-Light-Italic; margin: 1%; padding: 2%; background: #f7f7f7}
-blockquote b{ font-family: Roboto-Regular-Italic;}
-blockquote strong{ font-family: Roboto-Regular-Italic;}
+blockquote{margin: 1%; padding: 2%; background: #f7f7f7}
 
 /*Más estilos para hr: https://codepen.io/ibrahimjabbari/pen/ozinB*/
 hr.one{ height: 15px; border: 0; background: linear-gradient(45deg,
@@ -92,9 +85,9 @@ audio{ margin: 1%; padding: 2%; border-radius: 3px;
                                           rgba(108,0,153,0.65) 100%);}
 
 /* HEADINGS */
-h1, h2, h3, h4, h5, h6{ font-family: Roboto-Regular; -webkit-margin-before: 0;
+h1, h2, h3, h4, h5, h6{-webkit-margin-before: 0;
                         -webkit-margin-after: 0; -webkit-margin-start: 0;
-                        -webkit-margin-end: 0; font-weight: normal;}
+                        -webkit-margin-end: 0;}
 h1{ font-size: 400%;} h2{ font-size: 330%;} h3{ font-size: 280%;} h4{ font-size: 220%;}
 h5{ font-size: 180%;} h6{ font-size: 144%;}
 

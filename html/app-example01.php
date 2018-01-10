@@ -5,6 +5,7 @@
 	    <meta name="description" content="Página web de ejemplo de la clase n° 1 de FrontEnd."/>
 	    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1"/>
 	    <link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/fontRoboto.css"/>
 	    <link rel="stylesheet" type="text/css" href="../css/exam01-style.css"/>
 	    <title>Puls4</title>
 	</head>
@@ -40,8 +41,8 @@
 		</nav>
 		<section class="section-html">
 		    <div class="exam-html">
-		        
-		    </div>
+
+            </div>
 		</section>
 		<footer>
 			<strong>Powered by Susana Piñero</strong>
