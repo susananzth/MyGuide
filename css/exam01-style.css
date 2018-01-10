@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../font/icomoon.eot');
+    src:  url('../font/icomoon.eot') format('embedded-opentype'),
+    url('../font/icomoon.ttf') format('truetype'),
+    url('../font/icomoon.woff') format('woff'),
+    url('../font/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 body{background: #e8e8e8;color: #444;font-size: 16px;}
 a{color: #dd4f24;}
 header{background: #444;box-shadow:0 5px 0 rgba(0, 0, 0, 0.2);color:white;overflow: hidden;padding: 0.5em;position: relative;z-index: 1;}
@@ -7,17 +17,19 @@ header{background: #444;box-shadow:0 5px 0 rgba(0, 0, 0, 0.2);color:white;overfl
 .titulo{font-size: 18px;font-weight: normal;margin: 0;padding: 0;}
 .filtro{color: #5baee0;font-size: 14px;font-style: italic;font-weight: bold;text-decoration: none;}
 .boton{background: #dd4f24;color: white;float: right;font-style: italic;margin: -5px 0.2em 0 0;padding: 0.2em 0.5em;text-decoration: none;text-shadow: 1px 1px 0px black;}
+.boton:before{content: "\e908";display: inline-block;font-family: icomoon;margin: 0 3px 0 0;}
 .usuario{position: absolute;right: 10px;top: 10px;}
-.avatar{margin: 0 1em 0 0;position: relative;z-index: 2;}
+.avatar{margin: 0 1.3em 0 0;position: relative;z-index: 2;}
 .avatar img{border-radius: 50%;width: 50px;}
-.flechita{background: #dd4f24;color: white;display: block;padding: 3px;position: absolute;top: 15px;right: 0;text-align: right;width: 80%;}
+.flechita{background: #dd4f24;color: white;display: block;padding: 3px;position: absolute;text-align: right;text-decoration: none;top: 15px;right: 0;width: 90%;}
+.flechita:before{content: "\e5d2";font-family: icomoon;text-shadow: 1px 1px 0px black;}
 nav{background: #5baee0;border-left: 15px solid white;position: relative;}
 nav::before {border-bottom: 20px solid #5baee0;border-left: 7px solid white;border-top: 20px solid #5baee0; content: "";left: 0;position: absolute;top: 0;}
 .menu{height: 40px;line-height: 40px;margin: 0 0 0 5px;overflow-x: auto;padding: 0; white-space: nowrap;}
 .menu li{display: inline-block;}
 .menu li a{color: white;display: inline-block;margin: 0 0.2em;padding: 0.2em;text-decoration:none;}
 .posts{padding: 0.5em;}
-.post{background: white;border-radius: 0 0 0.5em 0.5em; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); color: #7a7a7a;}
+.post{margin-bottom: 0.5em;background: white;border-radius: 0 0 0.5em 0.5em; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); color: #7a7a7a;}
 .descripcion{color: #7a7a7a;}
 .imagen{float: left;margin: 0;}
 .imagen img {height: 160px;vertical-align: top;width: 120px;}
@@ -28,11 +40,14 @@ h2.titulo{color: #555555;font-size: 18px;font-style: italic;margin: 0;padding: 0
 .fecha{float: right;margin: 0 1em 0 0;}
 .acciones{border-top: 3px solid #5baee0;overflow: hidden;padding: 0.5em;}
 .votos{float: left;}
-.down{color: red;}.up{color: #4e7c0b;} .down, .up{text-decoration: none;}
+.down{color: red;}.down:after{content: "\e8db";font-family: icomoon;font-size: 1.5em;vertical-align: bottom;}
+.up{color: #4e7c0b;} .up:before{content: "\e8dc";font-family: icomoon;font-size: 1.5em;vertical-align: bottom;}
+.down, .up{text-decoration: none;}
 .datos{float: right;}
-.comentarios{background: #444;border-radius: 3px;color: white;margin: 0 1em 0 0;padding: 2px 5px;text-decoration: none;}
-
-footer{background: #dd4f24;bottom: 0;color: rgba(255,255,255, 0.5);position: absolute;text-align: center;width: 100%;}
+.comentarios{background: #444;border-radius: 3px;color: white;margin: 0 1em 0 0;padding: 2px 5px;text-decoration: none;vertical-align: super;}
+.estrellita{text-decoration: none;}
+.estrellita:after{content: "\e838";color: #eeb514;font-family: icomoon;font-size: 1.7em;}
+footer{background: #dd4f24;color: rgba(255,255,255, 0.5);padding: 1em 0; text-align: center;width: 100%;}
 footer h3{font-size: 14px;font-weight: normal;}
 footer h3 strong{display: block;}
 .mejor{}

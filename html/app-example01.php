@@ -27,7 +27,7 @@
 		    	<figure class="avatar">
 		    		<img src="../img/avatar.jpg" title="" alt="Fredier">
 		    	</figure>
-		    	<a href="#" class="flechita">U</a>
+		    	<a href="#" class="flechita"></a>
 		    </div>
 		</header>
 		<nav>
@@ -56,17 +56,146 @@
                 </div>
                 <div class="acciones">
                     <div class="votos">
-                        <a href="#" class="up">U</a>
+                        <a href="#" class="up"></a>
                         <span class="total">156</span>
-                        <a href="#" class="down">D</a>
+                        <a href="#" class="down"></a>
                     </div>
                     <div class="datos">
                         <a href="#" class="comentarios">10</a>
-                        <a href="#" class="estrellira">*</a>
+                        <a href="#" class="estrellita"></a>
                     </div>
                 </div>
             </article>
-
+            <article class="post">
+                <div class="descripcion">
+                    <figure class="imagen">
+                        <img src="../img/foto.jpg"/>
+                    </figure>
+                    <div class="detalle">
+                        <h2 class="titulo">
+                            Colores, gradiantes y textos 3D
+                        </h2>
+                        <p class="autor">por <a href="#">Diana Reyes</a></p>
+                        <a href="#" class="tag">CSS3</a>
+                        <p class="fecha">hace <strong>20</strong>min</p>
+                    </div>
+                </div>
+                <div class="acciones">
+                    <div class="votos">
+                        <a href="#" class="up"></a>
+                        <span class="total">156</span>
+                        <a href="#" class="down"></a>
+                    </div>
+                    <div class="datos">
+                        <a href="#" class="comentarios">10</a>
+                        <a href="#" class="estrellita"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="descripcion">
+                    <figure class="imagen">
+                        <img src="../img/foto.jpg"/>
+                    </figure>
+                    <div class="detalle">
+                        <h2 class="titulo">
+                            Colores, gradiantes y textos 3D
+                        </h2>
+                        <p class="autor">por <a href="#">Diana Reyes</a></p>
+                        <a href="#" class="tag">CSS3</a>
+                        <p class="fecha">hace <strong>20</strong>min</p>
+                    </div>
+                </div>
+                <div class="acciones">
+                    <div class="votos">
+                        <a href="#" class="up"></a>
+                        <span class="total">156</span>
+                        <a href="#" class="down"></a>
+                    </div>
+                    <div class="datos">
+                        <a href="#" class="comentarios">10</a>
+                        <a href="#" class="estrellita"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="descripcion">
+                    <figure class="imagen">
+                        <img src="../img/foto.jpg"/>
+                    </figure>
+                    <div class="detalle">
+                        <h2 class="titulo">
+                            Colores, gradiantes y textos 3D
+                        </h2>
+                        <p class="autor">por <a href="#">Diana Reyes</a></p>
+                        <a href="#" class="tag">CSS3</a>
+                        <p class="fecha">hace <strong>20</strong>min</p>
+                    </div>
+                </div>
+                <div class="acciones">
+                    <div class="votos">
+                        <a href="#" class="up"></a>
+                        <span class="total">156</span>
+                        <a href="#" class="down"></a>
+                    </div>
+                    <div class="datos">
+                        <a href="#" class="comentarios">10</a>
+                        <a href="#" class="estrellita"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="descripcion">
+                    <figure class="imagen">
+                        <img src="../img/foto.jpg"/>
+                    </figure>
+                    <div class="detalle">
+                        <h2 class="titulo">
+                            Colores, gradiantes y textos 3D
+                        </h2>
+                        <p class="autor">por <a href="#">Diana Reyes</a></p>
+                        <a href="#" class="tag">CSS3</a>
+                        <p class="fecha">hace <strong>20</strong>min</p>
+                    </div>
+                </div>
+                <div class="acciones">
+                    <div class="votos">
+                        <a href="#" class="up"></a>
+                        <span class="total">156</span>
+                        <a href="#" class="down"></a>
+                    </div>
+                    <div class="datos">
+                        <a href="#" class="comentarios">10</a>
+                        <a href="#" class="estrellita"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="descripcion">
+                    <figure class="imagen">
+                        <img src="../img/foto.jpg"/>
+                    </figure>
+                    <div class="detalle">
+                        <h2 class="titulo">
+                            Colores, gradiantes y textos 3D
+                        </h2>
+                        <p class="autor">por <a href="#">Diana Reyes</a></p>
+                        <a href="#" class="tag">CSS3</a>
+                        <p class="fecha">hace <strong>20</strong>min</p>
+                    </div>
+                </div>
+                <div class="acciones">
+                    <div class="votos">
+                        <a href="#" class="up"></a>
+                        <span class="total">156</span>
+                        <a href="#" class="down"></a>
+                    </div>
+                    <div class="datos">
+                        <a href="#" class="comentarios">10</a>
+                        <a href="#" class="estrellita"></a>
+                    </div>
+                </div>
+            </article>
 		</section>
 		<footer>
 			<strong>Powered by Susana Piñero</strong>
