@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aafaf7e3-bd43-4905-98bd-e8d1aabd1e51" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/exam01-style.css" afterPath="$PROJECT_DIR$/css/exam01-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/app-example01.php" afterPath="$PROJECT_DIR$/html/app-example01.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,21 +14,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app-example01.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app-example01.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/app-example01.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="197" column="22" lean-forward="false" selection-start-line="197" selection-start-column="22" selection-end-line="197" selection-end-column="22" />
+            <state relative-caret-position="277">
+              <caret line="157" column="39" lean-forward="true" selection-start-line="157" selection-start-column="39" selection-end-line="157" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exam01-style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="exam01-style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/exam01-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            <state relative-caret-position="82">
+              <caret line="59" column="98" lean-forward="false" selection-start-line="59" selection-start-column="98" selection-end-line="59" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -112,8 +110,8 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/partials/top_page.php" />
         <option value="$PROJECT_DIR$/css/fontRoboto.css" />
-        <option value="$PROJECT_DIR$/css/exam01-style.css" />
         <option value="$PROJECT_DIR$/html/app-example01.php" />
+        <option value="$PROJECT_DIR$/css/exam01-style.css" />
       </list>
     </option>
   </component>
@@ -125,10 +123,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-28" />
+    <option name="y" value="33" />
     <option name="width" value="1040" />
-    <option name="height" value="744" />
+    <option name="height" value="294" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -341,15 +339,15 @@
       <workItem from="1514485526741" duration="5262000" />
       <workItem from="1514557606944" duration="1717000" />
       <workItem from="1515527385838" duration="17115000" />
-      <workItem from="1515612909823" duration="4151000" />
+      <workItem from="1515612909823" duration="6504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249025000" />
+    <option name="totallyTimeSpent" value="251378000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
+    <frame x="-28" y="33" width="1040" height="294" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -693,18 +691,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/exam01-style.css">
+    <entry file="file://$PROJECT_DIR$/html/app-example01.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        <state relative-caret-position="277">
+          <caret line="157" column="39" lean-forward="true" selection-start-line="157" selection-start-column="39" selection-end-line="157" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/app-example01.php">
+    <entry file="file://$PROJECT_DIR$/css/exam01-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="197" column="22" lean-forward="false" selection-start-line="197" selection-start-column="22" selection-end-line="197" selection-end-column="22" />
+        <state relative-caret-position="82">
+          <caret line="59" column="98" lean-forward="false" selection-start-line="59" selection-start-column="98" selection-end-line="59" selection-end-column="98" />
           <folding />
         </state>
       </provider>

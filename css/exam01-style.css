@@ -33,11 +33,11 @@ nav::before {border-bottom: 20px solid #5baee0;border-left: 7px solid white;bord
 .descripcion{color: #7a7a7a;}
 .imagen{float: left;margin: 0;}
 .imagen img {height: 160px;vertical-align: top;width: 120px;}
-.detalle{height: 160px;margin-left: 130px;}
+.detalle{height: 160px;margin-left: 130px;position: relative;}
 h2.titulo{color: #555555;font-size: 18px;font-style: italic;margin: 0;padding: 0.5em 0.5em 0 0;}
 .autor{margin: 0.5em 0 2em 0;}
-.tag{background: #5baee0;border-radius: 0.5em;color: white;padding: 0.2em 0.5em;text-decoration: none;}
-.fecha{float: right;margin: 0 1em 0 0;}
+.tag{background: #5baee0;border-radius: 0.5em;bottom: 1em;color: white;left: 0;padding: 0.2em 0.5em;position: absolute;text-decoration: none;}
+.fecha{bottom: 1em;float: right;margin: 0 1em 0 0;position: absolute;right: 0;}
 .acciones{border-top: 3px solid #5baee0;overflow: hidden;padding: 0.5em;}
 .votos{float: left;}
 .down{color: red;}.down:after{content: "\e8db";font-family: icomoon;font-size: 1.5em;vertical-align: bottom;}
@@ -50,7 +50,14 @@ h2.titulo{color: #555555;font-size: 18px;font-style: italic;margin: 0;padding: 0
 footer{background: #dd4f24;color: rgba(255,255,255, 0.5);padding: 1em 0; text-align: center;width: 100%;}
 footer h3{font-size: 14px;font-weight: normal;}
 footer h3 strong{display: block;}
-.mejor{}
-
 .left{float: left;}
 .rigth{float: right;}
+
+@media screen and (min-width: 768px){
+    .boton{padding-left: 3em;position: relative;}
+    .boton:before{left: 0;font-size: 2.5em;position: absolute;top: -10px;}
+    .post{display: inline-block;width: 48%;vertical-align: top}
+    /*odd aplica a los elementos impar. even aplica a los elementos par. 3n para cada 3 elementos.*/
+    .post:nth-child(odd){margin-right: 2%;}
+
+}
