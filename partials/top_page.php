@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="description" content="Página web donde practiqué todo lo aprendido en desarrollo profesional web."/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,
+	                            maximun-scale=1.0, minimum-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/fontRoboto.css"/>
@@ -12,11 +13,6 @@
     <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" href="../css/fontRoboto.css"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css"/>
-    <!-- Latest compiled and minified CSS 3 -->
-    <link rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-          crossorigin="anonymous">
 
     <title>My Guide</title>
 </head>

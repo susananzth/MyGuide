@@ -12,7 +12,7 @@ include "partials/top_page.php";
             <li class="col-nav padd2"><a href="directory-php.php">PHP</a></li>
             <li class="col-nav padd2"><a href="directory-js.php">Javascript</a></li>
             <li class="col-nav padd2"><a href="directory-jQuery.php">jQuery</a></li>
-            <li class="col-nav padd2"><a href="#">Bootstrap</a></li>
+            <li class="col-nav padd2"><a href="directory-bootstrap3.php">Bootstrap 3</a></li>
         </ul>
     </nav>
 </div>

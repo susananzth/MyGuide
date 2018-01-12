@@ -4,10 +4,8 @@ include "../partials/header.php";
 ?>
 <hr class="html">
 <section class="section-html padd5">
-    <div>
-        <ul class="padd2">
-            <li><a href="../directory-html.php">Volver al directorio</a></li>
-        </ul>
+    <div class="padd2">
+        <a href="../directory-html.php">Volver al directorio</a>
     </div>
     <div class="padd2">
         <h4 class="title text-center col-border-html">Links | Enlaces</h4>
