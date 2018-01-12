@@ -52,12 +52,10 @@ footer h3{font-size: 14px;font-weight: normal;}
 footer h3 strong{display: block;}
 .left{float: left;}
 .rigth{float: right;}
-
 @media screen and (min-width: 768px){
     .boton{padding-left: 3em;position: relative;}
     .boton:before{left: 0;font-size: 2.5em;position: absolute;top: -10px;}
     .post{display: inline-block;width: 48%;vertical-align: top}
     /*odd aplica a los elementos impar. even aplica a los elementos par. 3n para cada 3 elementos.*/
     .post:nth-child(odd){margin-right: 2%;}
-
 }

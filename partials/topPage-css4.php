@@ -7,17 +7,18 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/fontRoboto.css"/>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" href="../css/fontRoboto.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
-    <!-- Latest compiled and minified CSS 3 -->
+    <!-- Latest compiled and minified CSS 4 -->
     <link rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
           crossorigin="anonymous">
-
+    <!-- Offline minified CSS 4
+     <link rel="stylesheet" type="text/css" href="css/bootstrap4.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap4.min.css"/>
+     -->
     <title>My Guide</title>
 </head>
 <body>
@@ -25,7 +26,6 @@
 /**
  * Created by PhpStorm.
  * User: Susana
- * Date: 8/24/2017
- * Time: 7:38 PM
+ * Date: 1/12/2018
+ * Time: 5:35 PM
  */
-?>
