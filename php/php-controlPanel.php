@@ -9,25 +9,25 @@ include "../partials/header.php";
         header("Location:php-login.php");
     }
 ?>
-<hr class="php">
-<?php
-include "../partials/nav-php.php";
-?>
-<hr class="php">
-<section class="section-php padd5">
-    <h4 class="text-center">MySQL</h4>
-    <div class="padd2 exam-php">
-        <h6>Bienvenido.</h6>
-        <div class="padd2">
-            <?php
-                echo "Hola: " . $_SESSION["usuario"] . ".";
-            ?>
-            <a href="php-partials/partials-logout.php"
-               hreflang="EN" type="text/html" >Cerrar sesión</a>
+    <hr class="php">
+    <nav class="padd2 nav-php">
+        <a href="../directory-php.php">Volver al directorio</a>
+    </nav>
+    <hr class="php">
+    <section class="section-php padd5">
+        <h4 class="text-center">MySQL</h4>
+        <div class="padd2 exam-php">
+            <h6>Bienvenido.</h6>
+            <div class="padd2">
+                <?php
+                    echo "Hola: " . $_SESSION["usuario"] . ".";
+                ?>
+                <a href="php-partials/partials-logout.php"
+                   hreflang="EN" type="text/html" >Cerrar sesión</a>
+            </div>
         </div>
-    </div>
-</section>
-<hr class="php">
+    </section>
+    <hr class="php">
 <?php
 include "../partials/footer.php";
 include "../partials/bottom-page.php";
@@ -37,3 +37,4 @@ include "../partials/bottom-page.php";
  * Date: 12/19/2017
  * Time: 8:27 PM
  */
+?>

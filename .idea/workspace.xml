@@ -2,16 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aafaf7e3-bd43-4905-98bd-e8d1aabd1e51" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/nav-html.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/app-example01.php" afterPath="$PROJECT_DIR$/html/app-example01.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/nav-php.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/formulario.php" afterPath="$PROJECT_DIR$/html/formulario.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/link.php" afterPath="$PROJECT_DIR$/html/link.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/multimedia.php" afterPath="$PROJECT_DIR$/html/multimedia.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/text.php" afterPath="$PROJECT_DIR$/html/text.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/topPage-css3.php" afterPath="$PROJECT_DIR$/partials/topPage-css3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/topPage-css4.php" afterPath="$PROJECT_DIR$/partials/topPage-css4.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/top_page.php" afterPath="$PROJECT_DIR$/partials/top_page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/config.php" afterPath="$PROJECT_DIR$/php/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-array.php" afterPath="$PROJECT_DIR$/php/php-array.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-connection-mysql.php" afterPath="$PROJECT_DIR$/php/php-connection-mysql.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-controlPanel.php" afterPath="$PROJECT_DIR$/php/php-controlPanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-flows.php" afterPath="$PROJECT_DIR$/php/php-flows.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-form-login.php" afterPath="$PROJECT_DIR$/php/php-form-login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-forms.php" afterPath="$PROJECT_DIR$/php/php-forms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-login-2.php" afterPath="$PROJECT_DIR$/php/php-login-2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-login.php" afterPath="$PROJECT_DIR$/php/php-login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-mysql-oop.php" afterPath="$PROJECT_DIR$/php/php-mysql-oop.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-mysql-pdo.php" afterPath="$PROJECT_DIR$/php/php-mysql-pdo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-mysql-prepared.php" afterPath="$PROJECT_DIR$/php/php-mysql-prepared.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-mysql.php" afterPath="$PROJECT_DIR$/php/php-mysql.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-numbers.php" afterPath="$PROJECT_DIR$/php/php-numbers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-oop.php" afterPath="$PROJECT_DIR$/php/php-oop.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-string.php" afterPath="$PROJECT_DIR$/php/php-string.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-tips.php" afterPath="$PROJECT_DIR$/php/php-tips.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/php-var-cons.php" afterPath="$PROJECT_DIR$/php/php-var-cons.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,16 +44,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/text.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -60,57 +66,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-update.php" />
-        <option value="$PROJECT_DIR$/php/php-form-insert.php" />
-        <option value="$PROJECT_DIR$/php/php-mysql.php" />
-        <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-insert.php" />
-        <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-searchUp2.php" />
-        <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-searchUp.php" />
-        <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-search.php" />
-        <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-searchPreparada.php" />
         <option value="$PROJECT_DIR$/php/php-mysql-preparada.php" />
         <option value="$PROJECT_DIR$/text.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-searchPrepared.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-insertPrepared.php" />
-        <option value="$PROJECT_DIR$/php/php-mysql-oop.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-pdo.php" />
-        <option value="$PROJECT_DIR$/php/php-mysql-prepared.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-pdoSelect.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-pdoInsert.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-pdoDelete.php" />
-        <option value="$PROJECT_DIR$/php/php-mysql-pdo.php" />
-        <option value="$PROJECT_DIR$/php/config.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-oop.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-oop2.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-PDO-OOP.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-mysql-PDO-OOP2.php" />
-        <option value="$PROJECT_DIR$/php/php-oop.php" />
-        <option value="$PROJECT_DIR$/php/php-connection-mysql.php" />
-        <option value="$PROJECT_DIR$/php/php-login.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-logout.php" />
-        <option value="$PROJECT_DIR$/php/php-controlPanel.php" />
         <option value="$PROJECT_DIR$/php/php-partials/partials-login.php" />
         <option value="$PROJECT_DIR$/php-directory.php" />
-        <option value="$PROJECT_DIR$/php/php-login-2.php" />
-        <option value="$PROJECT_DIR$/php/php-form-login.php" />
         <option value="$PROJECT_DIR$/css/normalize.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/fontRoboto.css" />
         <option value="$PROJECT_DIR$/css/exam01-style.css" />
         <option value="$PROJECT_DIR$/partials/bottom-page.php" />
         <option value="$PROJECT_DIR$/partials/bottomPage-css3.php" />
         <option value="$PROJECT_DIR$/partials/bottomPage-css4.php" />
         <option value="$PROJECT_DIR$/html/app-example01.php" />
-        <option value="$PROJECT_DIR$/partials/top_page.php" />
         <option value="$PROJECT_DIR$/partials/topPage-css3.php" />
         <option value="$PROJECT_DIR$/partials/topPage-css4.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/html/formulario.php" />
         <option value="$PROJECT_DIR$/bootstrap/grids-Bootstrap3.php" />
         <option value="$PROJECT_DIR$/directory-bootstrap3.php" />
-        <option value="$PROJECT_DIR$/html/link.php" />
-        <option value="$PROJECT_DIR$/html/multimedia.php" />
+        <option value="$PROJECT_DIR$/php/php-controlPanel.php" />
+        <option value="$PROJECT_DIR$/php/php-array.php" />
+        <option value="$PROJECT_DIR$/php/config.php" />
+        <option value="$PROJECT_DIR$/php/php-connection-mysql.php" />
+        <option value="$PROJECT_DIR$/php/php-flows.php" />
+        <option value="$PROJECT_DIR$/php/php-form-login.php" />
+        <option value="$PROJECT_DIR$/php/php-forms.php" />
+        <option value="$PROJECT_DIR$/php/php-login.php" />
+        <option value="$PROJECT_DIR$/php/php-login-2.php" />
+        <option value="$PROJECT_DIR$/php/php-mysql.php" />
+        <option value="$PROJECT_DIR$/partials/top_page.php" />
+        <option value="$PROJECT_DIR$/php/php-mysql-oop.php" />
+        <option value="$PROJECT_DIR$/php/php-mysql-pdo.php" />
+        <option value="$PROJECT_DIR$/php/php-mysql-prepared.php" />
+        <option value="$PROJECT_DIR$/php/php-numbers.php" />
+        <option value="$PROJECT_DIR$/php/php-oop.php" />
+        <option value="$PROJECT_DIR$/php/php-string.php" />
+        <option value="$PROJECT_DIR$/php/php-tips.php" />
+        <option value="$PROJECT_DIR$/php/php-var-cons.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/html/text.php" />
+        <option value="$PROJECT_DIR$/html/multimedia.php" />
+        <option value="$PROJECT_DIR$/html/link.php" />
+        <option value="$PROJECT_DIR$/html/formulario.php" />
       </list>
     </option>
   </component>
@@ -152,20 +158,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MyGuide" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyGuide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyGuide" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,12 +345,12 @@
       <workItem from="1514557606944" duration="1717000" />
       <workItem from="1515527385838" duration="17115000" />
       <workItem from="1515612909823" duration="8994000" />
-      <workItem from="1515791253568" duration="3842000" />
+      <workItem from="1515791253568" duration="5587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257710000" />
+    <option name="totallyTimeSpent" value="259455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
@@ -394,76 +386,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1284">
-          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/functions/functions-forms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="20" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/functions/functions-string.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1491">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/functions/functions-mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/functions/functions-array.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/functions/functions-flows.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3395">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/class/class-oop-ex01.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="89" column="3" lean-forward="false" selection-start-line="89" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-oop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/php-partials/partials-mysql-oop2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -485,47 +407,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-oop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/link.php" />
-    <entry file="file://$PROJECT_DIR$/php/php-mysql-oop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-connection-mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-controlPanel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php-directory.php" />
     <entry file="file://$PROJECT_DIR$/php/php-partials/partials-login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="9" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-login-2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="59" column="65" lean-forward="false" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -536,31 +423,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-form-login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
           <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-471">
-          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -631,22 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/app-example01.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="6" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/top_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="71" lean-forward="false" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/topPage-css4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -687,18 +537,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/formulario.php">
+    <entry file="file://$PROJECT_DIR$/html/nav-html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php-array.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -706,47 +548,217 @@
     <entry file="file://$PROJECT_DIR$/partials/nav-php.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/link.php">
+    <entry file="file://$PROJECT_DIR$/php/php-array.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="498">
+          <caret line="88" column="2" lean-forward="false" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/multimedia.php">
+    <entry file="file://$PROJECT_DIR$/php/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/text.php">
+    <entry file="file://$PROJECT_DIR$/php/php-connection-mysql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="467">
+          <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-controlPanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-flows.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="122" column="5" lean-forward="false" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-form-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-forms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-login-2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <marker date="1515795951246" expanded="true" signature="1246:1312" ph="select * fro... user_pass" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/top_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="120" column="5" lean-forward="false" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-mysql-oop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-mysql-pdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="84" column="5" lean-forward="false" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-mysql-prepared.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="112" column="5" lean-forward="false" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-numbers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-oop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-string.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="139" column="5" lean-forward="false" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-tips.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="103" column="5" lean-forward="false" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php-var-cons.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/directory-html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="187">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/nav-html.php">
+    <entry file="file://$PROJECT_DIR$/html/text.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/multimedia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/link.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/formulario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/app-example01.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3137">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="6" selection-end-column="71" />
           <folding />
         </state>
       </provider>

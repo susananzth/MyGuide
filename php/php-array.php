@@ -3,11 +3,11 @@ include "../partials/top_page.php";
 include "../partials/header.php";
 include "functions/functions-array.php";
 ?>
-<hr class="php">
-<?php
-include "../partials/nav-php.php";
-?>
-<hr class="php">
+    <hr class="php">
+    <nav class="padd2 nav-php">
+        <a href="../directory-php.php">Volver al directorio</a>
+    </nav>
+    <hr class="php">
     <section class="section-php padd5">
         <h4 class="text-center">Arrays</h4>
         <div class="padd2 exam-php">
@@ -76,7 +76,7 @@ include "../partials/nav-php.php";
             </div>
         </div>
     </section>
-<hr class="php">
+    <hr class="php">
 <?php
 include "../partials/footer.php";
 include "../partials/bottom-page.php";
@@ -86,3 +86,4 @@ include "../partials/bottom-page.php";
  * Date: 9/23/2017
  * Time: 12:32 PM
  */
+?>
