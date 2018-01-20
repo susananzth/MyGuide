@@ -14,6 +14,7 @@ include "partials/nav-primary.php";
         <ul class="padd2 li-noStyle">
             <li class="padd1"><a href="jQuery/jQuery-definitions.php">Definiciones</a></li>
             <li class="padd1"><a href="jQuery/jQ-HideShow.php">Mostrar y ocultar elementos.</a></li>
+            <li class="padd1"><a href="jQuery/jQ-addCards.php">Agregar cartas.</a></li>
         </ul>
     </div>
 </section>

@@ -44,11 +44,15 @@ hr.js{ height: 15px; border: 0; background: rgba(135, 193, 80, 0.94);}
     box-sizing: border-box; border: 2px #4e7c0b solid;}
 
     /* Directory jQuery */
-hr.jQuery{ height: 15px; border: 0; background: #efa51fb5;} 
+hr.jQuery{height: 15px; border: 0; background: #efa51fb5;}
 .nav-jQuery{list-style-type: none; background: #e4c65975 !important;}
 .section-jQuery{background: #ecdab982;}
 .exam-jQuery{ background-color: #e4d796c2; margin: 2% auto; border-radius: 5px;
     box-sizing: border-box; border: 2px #bb8b01 solid;}
+.label-jq{margin: 0.5em;}
+.form-jq{display: none;}
+.cardjQ{background: #fefff3;border-radius: 3px; box-shadow: 6px 6px 11px -5px rgba(166,166,166,1);-moz-box-shadow: 6px 6px 11px -5px rgba(166,166,166,1);-webkit-box-shadow: 6px 6px 11px -5px rgba(166,166,166,1);}
+.jQ-hr{height: 2px; border: 0; background: #bb8b01;}
 
 /* VARIOS */
 blockquote{margin: 1%; padding: 2%; background: #f7f7f7}
@@ -137,8 +141,8 @@ table{ border-spacing: 0;}
 .col-12{ width: 100%;}
 .col-8{ width: 66.66%;}
 .col-6{ width: 50%;}
-.col-4{ width: 33.33%;}
-.col-3{ width: 25%}
+.col-4{ width: 31.33%;margin: 1%;}
+.col-3{ width: 23%; margin: 1%;}
 .col-2{ width: 16.66%}
 .col-1{ width: 8.33%}
 .col-nav{ height: auto; box-sizing: border-box;}
@@ -170,8 +174,11 @@ table{ border-spacing: 0;}
 
 /* FORMS */
 label { display: block; width: 80%;}
-input, textarea { border-radius: 10px; width: 80%;}
-::-webkit-input-placeholder { color: #555555 !important;}
+input, textarea{border-radius: 10px; width: 80%;}
+::-webkit-input-placeholder{color: #a2a2a2;font-family: Roboto-Light;margin-inside: 5px;}
+::-moz-placeholder{color: #a2a2a2;font-family: Roboto-Light;} /* firefox 19+ */
+:-ms-input-placeholder{color: #a2a2a2;font-family: Roboto-Light;} /* ie */
+input:-moz-placeholder{color: #a2a2a2;font-family: Roboto-Light;}
 .bttn{ display: inline-block; width: 20% !important;}
 
 

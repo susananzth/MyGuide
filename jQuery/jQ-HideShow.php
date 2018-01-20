@@ -87,10 +87,71 @@ include "../partials/header.php";
                 Pon el ratón encima de esta capa</div>
             </div>
         </div>
+        <div class="padd2 exam-jQuery">
+            <h6>Mostrar o ocultar formulario con un toggle.</h6>
+            <div class="padd2">
+                <button class="showHide">Agregar</button>
+                <a class="showHide" type="button">Agregar</a>
+                <form class="form-jq">
+                    <label for="name" class="label-jq">Nombre:
+                        <input id="name" name="name" type="text" class=""
+                                  placeholder="  Ingrese el nombre">
+                    </label>
+                    <label for="lastname" class="label-jq">Apellido:
+                        <input id="lastname" name="lastname" type="text" class=""
+                               placeholder="  Ingrese el apellido">
+                    </label>
+                    <label for="phone" class="label-jq">Teléfono:
+                        <input id="phone" name="phone" type="text" class=""
+                               placeholder="  Ingrese el teléfono">
+                    </label>
+                    <input id="post" name="post" type="submit" class="post" value="Publicar">
+                </form>
+            </div>
+        </div>
     </section>
     <hr class="jQuery">
+
     <?php
     include "../partials/footer.php";
+    ?>
+    <!-- Aquí estoy colocando jQuery desde las librerias de google. En la dirección
+         coloco // para solucionar el problema si la página web que estoy haciendo
+         es http o https  -->
+    <script type="text/javascript" rel="script" src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- En caso que haya fallado la carga de jQuery desde las librerias de google
+         coloco la condición para que tome el jQuery desde mi carpeta. -->
+    <script type="text/javascript" rel="script">
+        window.jQuery || document.write('<script type="text/javascript" rel="script" src="js/jquery-3.2.1.min.js"><\/script>')
+    </script>
+    <script type="text/javascript" rel="script">
+        window.jQuery || document.write('<script type="text/javascript" rel="script" src="../js/jquery-3.2.1.min.js"><\/script>')
+    </script>
+    <script>
+        $(function () {
+            //Aquí le indicamos que cuando clickee el botón con la clase 'showHide'
+            //activará la función showForm.
+            $(".showHide").on('click', showForm);
+            function showForm() {
+                //Aquí mostramos y ocultamos el formulario con una animación.
+                $('form').slideToggle();
+            }
+            //Aquí le quitamos el comportamiento por defecto del sumit, que en este
+            //caso es para que no se recargue la página.
+            $('form').on('submit', sendForm);
+            function sendForm(ev) {
+                ev.preventDefault();
+                //Aquí quiero obtener los datos introducidos en los textfield
+                //para enviarlos a otro formulario como parámetros.
+                /*Obtengo los datos de la caja name y lo guardo en la variable name*/
+                var name = $('input[name=name]').val();
+                var lastname = $('input[name=lastname]').val();
+                var phone = $('input[name=phone]').val();
+                var template = ''
+            }
+        })
+    </script>
+    <?php
     include "../partials/bottom-page.php";
 /**
  * Created by PhpStorm.
