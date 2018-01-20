@@ -2,11 +2,11 @@
 include "../partials/top_page.php";
 include "../partials/header.php";
 ?>
-<hr class="js">
-<?php
-include "../partials/nav-js.php";
-?>
-<hr class="js">
+    <hr class="js">
+    <nav class="padd2 nav-js">
+        <a href="../directory-js.php">Volver al directorio</a>
+    </nav>
+    <hr class="js">
     <section class="section-js padd5">
         <h4 class="text-center">Definiciones</h4>
         <div class="padd2 exam-js">
@@ -77,13 +77,14 @@ include "../partials/nav-js.php";
             </p>
         </div>
     </section>
-<hr class="js">
-<?php
-include "../partials/footer.php";
-include "../partials/bottom-page.php";
+    <hr class="js">
+    <?php
+    include "../partials/footer.php";
+    include "../partials/bottom-page.php";
 /**
  * Created by PhpStorm.
  * User: Susana
  * Date: 9/23/2017
  * Time: 12:25 PM
  */
+?>

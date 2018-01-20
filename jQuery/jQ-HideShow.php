@@ -2,11 +2,11 @@
 include "../partials/top_page.php";
 include "../partials/header.php";
 ?>
-<hr class="jQuery">
-<?php
-include "../partials/nav-jQuery.php";
-?>
-<hr class="jQuery">
+    <hr class="jQuery">
+    <nav class="padd2 nav-jQuery">
+        <a href="../directory-jQuery.php">Volver al directorio</a>
+    </nav>
+    <hr class="jQuery">
     <section class="section-jQuery padd5">
         <h4 class="text-center">Ocultar y mostrar elementos</h4>
         <div class="padd2 exam-jQuery">
@@ -88,13 +88,14 @@ include "../partials/nav-jQuery.php";
             </div>
         </div>
     </section>
-<hr class="jQuery">
-<?php
-include "../partials/footer.php";
-include "../partials/bottom-page.php";
+    <hr class="jQuery">
+    <?php
+    include "../partials/footer.php";
+    include "../partials/bottom-page.php";
 /**
  * Created by PhpStorm.
  * User: Susana
  * Date: 1/6/2018
  * Time: 12:57 PM
  */
+?>

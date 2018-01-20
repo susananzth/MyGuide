@@ -12,7 +12,8 @@ include "partials/nav-primary.php";
     <div class="exam-js padd2">
             <h5>Directorio</h5>
             <ul class="padd2 li-noStyle">
-                <li class="padd1"><a href="js/js-definitions.php">Definiciones</a></li>
+                <li class="padd1"><a href="javascript/js-definitions.php">Definiciones</a></li>
+                <li class="padd1"><a href="javascript/js-example01.php">Ejemplo 01</a></li>
             </ul>
     </div>
     ​<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
