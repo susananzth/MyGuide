@@ -8,15 +8,14 @@ include "../partials/header.php";
     </nav>
     <hr class="jQuery">
     <section class="section-jQuery padd5">
-        <h4 class="text-center">Agregar cartas</h4>
+        <h4 class="text-center">Ejemplos varios</h4>
         <div class="padd2 exam-jQuery">
-            <h6>Cambiar funtes con animación.</h6>
+            <h6>Cambiar fuentes con animación.</h6>
             <div class="padd2">
-                <ul>
-                    <li class="sizer"></li>
-                </ul>
-                <a class="showHide btn" type="button">Agregar una tarjeta</a>
-
+                <a href="#1" class="sizer">A</a>
+                <a href="#1.5" class="sizer">A</a>
+                <a href="#2" class="sizer">A</a>
+                <p class="text">Texto que cambia de fuente con animación en jQuery.</p>
             </div>
         </div>
     </section>
@@ -38,6 +37,25 @@ include "../partials/footer.php";
     </script>
     <script>
         $(function () {
+            function crearSizer(em) {
+                return function () {
+                    //le decimos que cambie el tamaño de la fuente a los elementos que
+                    // tenga la clase .text por la cantidad de em que le envían por parámetro.
+                   $('.text').css('font-size', em+'em');
+                }
+            }
+            //Ciclo para recorrer los elementos ue tengan la clase .sizer.
+            $('.sizer').each(function (i, link) {
+                //Guarda en la variable 'em' lo que contengan en el hashtag los links
+                //dentro del elemento en la clase .sizer, quitándole el primer caracter.
+                var em =$(link).prop('hash').substring(1);
+                $(link)
+                //Cambia la fuente del link dependiendo de su hashtag.
+                    .css('font-size', em+'em')
+                    //Al hacer click en determinado link inicia la función crearSizer y envia el parámetro em.
+                    .on('click', crearSizer(em));
+            })
+
 
         })
     </script>
