@@ -111,7 +111,6 @@ include "../partials/header.php";
         </div>
     </section>
     <hr class="jQuery">
-
     <?php
     include "../partials/footer.php";
     ?>
@@ -141,13 +140,6 @@ include "../partials/header.php";
             $('form').on('submit', sendForm);
             function sendForm(ev) {
                 ev.preventDefault();
-                //Aquí quiero obtener los datos introducidos en los textfield
-                //para enviarlos a otro formulario como parámetros.
-                /*Obtengo los datos de la caja name y lo guardo en la variable name*/
-                var name = $('input[name=name]').val();
-                var lastname = $('input[name=lastname]').val();
-                var phone = $('input[name=phone]').val();
-                var template = ''
             }
         })
     </script>

@@ -40,11 +40,7 @@ include "../partials/header.php";
             <hr class="jQ-hr">
             <h6>Aquí se van agregando las tarjeta.</h6>
             <div class="flex-container">
-
             </div>
-
-
-
         </div>
     </section>
     <hr class="jQuery">
