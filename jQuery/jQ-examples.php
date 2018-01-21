@@ -19,11 +19,26 @@ include "../partials/header.php";
             </div>
         </div>
         <div class="padd2 exam-jQuery">
-            <h6>Contador de likes.</h6>
-            <div class="padd2 likes">
-                <a href="#" class="up inline-b"></a>
-                <p class="inline-b total">156</p>
-                <a href="#" class="down inline-b"></a>
+            <h6>Contador de likes.<br/>Usando closures en jQuery.</h6>
+            <div class="flex-container">
+                <div class="padd2 likes col-4 text-center">
+                    <p>Contador de likes 1.</p>
+                    <a href="#" class="up inline-b"></a>
+                    <p class="inline-b total">152</p>
+                    <a href="#" class="down inline-b"></a>
+                </div>
+                <div class="padd2 likes col-4 text-center">
+                    <p>Contador de likes 2.</p>
+                    <a href="#" class="up inline-b"></a>
+                    <p class="inline-b total">10</p>
+                    <a href="#" class="down inline-b"></a>
+                </div>
+                <div class="padd2 likes col-4 text-center">
+                    <p>Contador de likes 3.</p>
+                    <a href="#" class="up inline-b"></a>
+                    <p class="inline-b total">0</p>
+                    <a href="#" class="down inline-b"></a>
+                </div>
             </div>
         </div>
     </section>
@@ -47,34 +62,73 @@ include "../partials/footer.php";
         $(function () {
             function crearSizer(em) {
                 return function () {
-                    //le decimos que cambie el tamaño de la fuente a los elementos que
-                    // tenga la clase .text por la cantidad de em que le envían por parámetro.
+                    /*Le digo que cambie el tamaño de la fuente a los elementos que
+                    tenga la clase .text por la cantidad de em que le envían por parámetro.*/
                    $('.text').css('font-size', em+'em');
                 }
             }
             //Ciclo para recorrer los elementos ue tengan la clase .sizer.
             $('.sizer').each(function (i, link) {
-                //Guarda en la variable 'em' lo que contengan en el hashtag los links
-                //dentro del elemento en la clase .sizer, quitándole el primer caracter.
+                /*Guarda en la variable 'em' lo que contengan en el hashtag los links
+                dentro del elemento en la clase .sizer, quitándole el primer caracter.*/
                 var em =$(link).prop('hash').substring(1);
                 $(link)
                 //Cambia la fuente del link dependiendo de su hashtag.
                     .css('font-size', em+'em')
-                    //Al hacer click en determinado link inicia la función crearSizer y envia el parámetro em.
+                    /*Al hacer click en determinado link inicia la función crearSizer y envia
+                    el parámetro em.*/
                     .on('click', crearSizer(em));
-            })
+            });
+/*$=$=$=$=$=$=$=$ CLOSURES $=$=$=$=$=$=$=$*/
+            /*Creo un clousure contador donde tiene variables internas que el resto del
+            código no tiene para que puedan acceder a ellas y modificarlas.*/
+            function crearCont(valorInicial) {
+                /*Creo la variable contador y le doy el valor que me envía el parámetro
+                de tenerlo sino utiliza cero.*/
+                //El valor del parámetro lo obtengo de
+                var cont = valorInicial || 0;
+                //Devuelvo un objeto con dos métodos.
+                return{
+                    //La función up va a devolver el resultado de cont + 1.
+                    up : function () {
+                        return ++cont;
+                    },
+                    //La función down devuelve cont - 1.
+                    down : function () {
+                        return --cont;
+                    }
+                };
+            };
+            //A todos los elementos que tengan la clase .total, hacerle lo sieguiente.
             $('.total').each(function (i, elem) {
-                var contTotal = crearCont();
+                /*Aqué creamos un contador para cada contador creado en crearCont(), es decir,
+                si tenemos muchos posts cada uno con likes, esto manejará independiente cada contador
+                de likes de los diferentes pots.*/
+                var contTotal = crearCont(elem.innerHTML);/*Valor que envío como parámetro
+                a la función crearCont() y lo toma del valor embebido del html de cada
+                uno de los elementos con clase .total*/
+                //A cada elemento...
                 $(elem)
+                    //Le pedimos los elementos hermanos (siblings) al a clase .total, en
+                    //este caso nos interesa el que tiene la clase .up
                     .siblings('.up')
-                    .on('click', function (ev) {
-                        ev.preventDefault();
-                        $(elem).html(contTotal.up());
-                    })
-            })
-
-
-        })
+                        //Al elemento con la clase .up al hacerle click...
+                        .on('click', function (ev) {
+                            //Quitará el comportamiento por defecto de la etiqueta <a>
+                            //que es el de recargar la página.
+                            ev.preventDefault();
+                            //Y en elemento donde me encuentro ahora mismo, es decir, la etiqueta <a>
+                            //ejecuratá la función contTotal() en la parte up.
+                            $(elem).html(contTotal.up());
+                        })
+                        //Mismo proceso que el .up, pero en el .down.
+                    .siblings('.down')
+                        .on('click', function (ev) {
+                            ev.preventDefault();
+                            $(elem).html(contTotal.down());
+                        })
+            });
+        });
     </script>
 <?php
 include "../partials/bottom-page.php";
