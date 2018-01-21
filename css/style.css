@@ -71,6 +71,18 @@ hr.jQuery{background: #e1a551;border: 0;height: 15px;}
 .jQ-hr{background: #bb8b01;border: 0;height: 2px;}
 .sizer{display:inline-block;font-size: 2em;margin: 0 0.2em 0 0.2em; text-decoration: none !important;}
 body{}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../font/icomoon.eot');
+    src:  url('../font/icomoon.eot') format('embedded-opentype'),
+    url('../font/icomoon.ttf') format('truetype'),
+    url('../font/icomoon.woff') format('woff'),
+    url('../font/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+.down{color: red !important;}.down:after{content: "\e8db";font-family: icomoon;font-size: 1.5em;vertical-align: bottom;}
+.up{color: #4e7c0b !important;} .up:before{content: "\e8dc";font-family: icomoon;font-size: 1.5em;vertical-align: bottom;}
+.down, .up{text-decoration: none !important;}
 /*%=%=%=%=%=%=% COLUMNS %=%=%=%=%=%=%*/
 .flex-container{display: -webkit-flex;display: flex;flex-wrap: wrap;-webkit-flex-wrap: wrap;height: auto;width: auto;}
 /*Justifica las columnas en el centro*/

@@ -18,6 +18,14 @@ include "../partials/header.php";
                 <p class="text">Texto que cambia de fuente con animación en jQuery.</p>
             </div>
         </div>
+        <div class="padd2 exam-jQuery">
+            <h6>Contador de likes.</h6>
+            <div class="padd2 likes">
+                <a href="#" class="up inline-b"></a>
+                <p class="inline-b total">156</p>
+                <a href="#" class="down inline-b"></a>
+            </div>
+        </div>
     </section>
     <hr class="jQuery">
 <?php
@@ -54,6 +62,15 @@ include "../partials/footer.php";
                     .css('font-size', em+'em')
                     //Al hacer click en determinado link inicia la función crearSizer y envia el parámetro em.
                     .on('click', crearSizer(em));
+            })
+            $('.total').each(function (i, elem) {
+                var contTotal = crearCont();
+                $(elem)
+                    .siblings('.up')
+                    .on('click', function (ev) {
+                        ev.preventDefault();
+                        $(elem).html(contTotal.up());
+                    })
             })
 
 
