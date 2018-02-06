@@ -6,6 +6,7 @@
         <li class="col-nav padd2"><a href="directory-php.php">PHP</a></li>
         <li class="col-nav padd2"><a href="directory-js.php">Javascript</a></li>
         <li class="col-nav padd2"><a href="directory-jQuery.php">jQuery</a></li>
+        <li class="col-nav padd2"><a href="directory-angularJS.php">AngularJS</a></li>
         <li class="col-nav padd2"><a href="directory-bootstrap3.php">Bootstrap</a></li>
     </ul>
 </nav>
