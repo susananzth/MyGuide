@@ -13,6 +13,7 @@ include "partials/nav-primary.php";
         <h5>Directorio</h5>
         <ul class="padd2 li-noStyle">
             <li class="padd1"><a href="angularJS/angular-definitions.php">Definiciones</a></li>
+            <li class="padd1"><a href="angularJS/angular.php">angular</a></li>
         </ul>
     </div>
 </section>

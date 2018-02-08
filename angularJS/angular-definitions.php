@@ -7,7 +7,7 @@ include "../partials/header.php";
         <a href="../directory-angular.php">Volver al directorio</a>
     </nav>
     <hr class="angular">
-    <section class="section-angular padd5">
+    <section class="section-angular padd5" ng-app="definiciones">
         <h4 class="text-center">Definiciones</h4>
         <div class="padd2 exam-angular">
             <h6>Expresiones</h6>
@@ -33,27 +33,42 @@ include "../partials/header.php";
                     Mi nombre es: <b>{{name}}</b><!-- Aquí muestro la información que suministro en la caja de texto que convertí en modelo en tiempo real -->
                 </p>
             </div>
-            <div class="padd2" ng-app="definiciones" ng-controller="my">
-                <p>Muestro el resultado de la cantidad de mangos que quiero multiplicado con su precio en un párrafo más abajo.</p><br/>
-                <p>Precio de los mangos: {{500 | currency:"Bs."}}</p>
-                <label for="quantity">Cantidad de mangos: 
-                    <input id="quantity" type="number" name="quantity" placeholder="Cantidad" ng-model="quantity">
-                </label>
-                <p>
-                    Total a pagar: <b>{{quantity * price | currency:"Bs."}}</b><!--  -->
-                </p>
-            </div>
         </div>
-        ES_724_06_03
+        <div class="padd2" ng-controller="myCtrl1">
+            <p>Muestro el resultado de la cantidad de mangos que quiero multiplicado con su precio en un párrafo más abajo.</p><br/>
+            <p>Precio de los mangos: {{500 | currency:"Bs."}}</p>
+            <label for="quantity">Cantidad de mangos: 
+                <input id="quantity" type="number" name="quantity" placeholder="Cantidad" ng-model="quantity">
+            </label>
+            <p>
+                Total a pagar: <b>{{quantity * price | currency:"Bs."}}</b><!--  -->
+            </p>
+        </div>
+        <div class="padd2 exam-angular" ng-controller="myCtrl2">
+            <h6>Colección de datos</h6>
+            <b>Nombre:</b>
+            <ul>
+                <li ng-repeat = "nameIndividual in nameSimple">
+                    {{ nameIndividual }}
+                </li>
+            </ul>
+            <b>Héroes:</b>
+            <ul>
+                <li ng-repeat = "heroe in heroes">
+                    {{ heroe.name }}  {{ heroe.lastname }}
+                </li>
+            </ul>
+        </div>
     </section>
     <hr class="angular">
     <?php
     include "../partials/footer.php";
     ?>
     <script type="text/javascript">
-        var myApp = angular.module('definiciones' , []); /*Dentro de esta variable voy a declarar el modulo de mi app*/
+    /* ============ myCtrl1 ============ */
+        var myApp1 = angular.module('definiciones' , []); /*Dentro de esta variable voy a declarar el modulo de mi app*/
         /*Declaramos nuestro controlador declarando una instancia de la app*/
-        myApp.controller("my" , ['$scope' , function($scope)
+        myApp1.controller("myCtrl1" , ['$scope' , function($scope)
             /*Parámetros son: el nombre del controlador y el arreglo*/
             /*$scope es un elemento especial de angular que me permite acceder todos los elementos que estan al alcance de ng-controller=myCtrl*/
             /*function lo utilizo para recibir el objeto $scope para poder procesarlo desde mi controlador y poder modificar la información*/
@@ -62,6 +77,16 @@ include "../partials/header.php";
                 $scope.quantity = 0;
                 $scope.price = 500;
             }]);
+    ES_724_07_01/* ============ myCtrl2 ============ */
+        var myApp2 = angular.module( 'definiciones' , [] );
+        myApp2.controller ('myCtrl2' , [ '$scope' , function($scope){
+            $scope.nameSimple = ["Alois" , "Ana" , "Juana"];
+            $scope.heroes = [
+                {name: "Arnol", lastname: "Perez"},
+                {name: "Monica", lastname: "Gimenez"},
+                {name: "Juana", lastname: "DeArco"}
+            ]
+        }]);
     </script>
     <?php
     include "../partials/bottom-page.php";

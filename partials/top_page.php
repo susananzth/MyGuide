@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app><!--ng-app es una directiva que convierte este documento html en una aplicación angular-->
+<html lang="en">
 <head>
     <meta charset="UTF-8"/>
     <meta name="description" content="Página web donde practiqué todo lo aprendido en
