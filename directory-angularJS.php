@@ -15,6 +15,8 @@ include "partials/nav-primary.php";
             <li class="padd1"><a href="angularJS/angular-expresiones.php">Expresiones</a></li>
             <li class="padd1"><a href="angularJS/angular-realTimeProcess.php">Procesos en tiempo real</a></li>
             <li class="padd1"><a href="angularJS/angular-dataCollection.php">Colección de datos</a></li>
+            <li class="padd1"><a href="angularJS/angular-search.php">Búsqueda de datos</a></li>
+            <li class="padd1"><a href="angularJS/angular-event.php">Eventos</a></li>
         </ul>
     </div>
 </section>
