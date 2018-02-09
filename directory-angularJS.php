@@ -17,6 +17,8 @@ include "partials/nav-primary.php";
             <li class="padd1"><a href="angularJS/angular-dataCollection.php">Colección de datos</a></li>
             <li class="padd1"><a href="angularJS/angular-search.php">Búsqueda de datos</a></li>
             <li class="padd1"><a href="angularJS/angular-event.php">Eventos</a></li>
+            <li class="padd1"><a href="angularJS/angular-changeStyle.php">Cambiar estilos y propiedades</a></li>
+            <li class="padd1"><a href="angularJS/angular-visibilidad.php">Cambiar visibilidad</a></li>
         </ul>
     </div>
 </section>
