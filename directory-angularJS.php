@@ -12,8 +12,9 @@ include "partials/nav-primary.php";
     <div class="exam-angular padd2">
         <h5>Directorio</h5>
         <ul class="padd2 li-noStyle">
-            <li class="padd1"><a href="angularJS/angular-definitions.php">Definiciones</a></li>
-            <li class="padd1"><a href="angularJS/angular.php">angular</a></li>
+            <li class="padd1"><a href="angularJS/angular-expresiones.php">Expresiones</a></li>
+            <li class="padd1"><a href="angularJS/angular-realTimeProcess.php">Procesos en tiempo real</a></li>
+            <li class="padd1"><a href="angularJS/angular-dataCollection.php">Colección de datos</a></li>
         </ul>
     </div>
 </section>
