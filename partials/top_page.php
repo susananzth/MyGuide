@@ -18,6 +18,7 @@
     <title>My Guide</title>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+    <script type="text/javascript" src="https://code.angularjs.org/1.6.7/angular-route.min.js"></script>
 </head>
 <body>
 <?php
