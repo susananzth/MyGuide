@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aafaf7e3-bd43-4905-98bd-e8d1aabd1e51" name="Default" comment="" />
+    <list default="true" id="aafaf7e3-bd43-4905-98bd-e8d1aabd1e51" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularJS/angular-expresiones.php" afterPath="$PROJECT_DIR$/angularJS/angular-expresiones.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularJS/angular-realTimeProcess.php" afterPath="$PROJECT_DIR$/angularJS/angular-realTimeProcess.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/directory-angularJS.php" afterPath="$PROJECT_DIR$/directory-angularJS.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +40,8 @@
       <file leaf-file-name="top_page.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/top_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="10" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="71" />
+            <state relative-caret-position="425">
+              <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -142,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -157,7 +163,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,11 +322,12 @@
       <workItem from="1516925790434" duration="75000" />
       <workItem from="1517017796659" duration="902000" />
       <workItem from="1518133761312" duration="194000" />
+      <workItem from="1518358985413" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296456000" />
+    <option name="totallyTimeSpent" value="296497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
@@ -680,8 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/top_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="71" />
+        <state relative-caret-position="425">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
           <folding />
         </state>
       </provider>
