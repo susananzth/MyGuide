@@ -4,8 +4,9 @@
         <meta charset="UTF-8"/>
         <meta name="description" content="Página web donde practiqué todo lo aprendido en
                                             desarrollo profesional web."/>
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,
-    	                            maximum-scale=1.0, minimum-scale=1.0"/>
+        <meta name="author" content="Susana Piñero"/>
+        <meta name="keywords" content="web developer, web design, frontend, backend"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
         <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
         <link rel="stylesheet" type="text/css" href="css/fontRoboto.css"/>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
