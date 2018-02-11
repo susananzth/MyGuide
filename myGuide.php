@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="css/fontRoboto.css"/>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
-        <title>My Guide</title>
+        <title>My web development guide | by Susana Piñero</title>
 
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
         <script type="text/javascript" src="https://code.angularjs.org/1.6.7/angular-route.min.js"></script>

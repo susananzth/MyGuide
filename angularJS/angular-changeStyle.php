@@ -1,47 +1,58 @@
-<?php
-include "../partials/top_page.php";
-include "../partials/header.php";
-?>
-    <hr class="angular">
-    <nav class="padd2 nav-angular">
-        <a href="../directory-angularJS.php">Volver al directorio</a>
-    </nav>
-    <hr class="angular">
-    <section class="section-angular padd5" ng-app="accion">
-        <h4 class="text-center">Cambiar estilos y propiedades</h4>
-        <div class="padd2 exam-angular" ng-controller="myCtrl5">
-            <br/><p ng-style="style">Texto que cambia de... <span ng-class="specialClass">color.</span></p><br/>
-            <button ng-click="changeProperties()">Cambiar propiedades</button>
-            <button ng-click="changeClass()">Cambiar color</button>
-            <button ng-click="restoreClass()">Reiniciar clases</button>
-            
-        </div>
-    </section>
-    <hr class="angular">
-    <?php
-    include "../partials/footer.php";
-    ?>
-    <script type="text/javascript">
-        /* ============ myCtrl5 ============ */
-        var myApp5 = angular.module( 'accion' , [] );
-        myApp5.controller ('myCtrl5' , [ '$scope' , function($scope){
-            $scope.changeProperties = function(){
-                $scope.style = { "background" : "pink" , "color" : "black"};
-            }
-            $scope.changeClass = function(){
-                $scope.specialClass = "angular";
-            }
-            $scope.restoreClass = function(){
-                $scope.style = "";
-                $scope.specialClass = "";
-            }
-        }]);
-    </script>
-    <?php
-    include "../partials/bottom-page.php";
-/**
- * User: Susana
- * Date: 2/7/2018
- * Time: 5:47 PM
- */
-?>
+<!DOCTYPE html>
+<html lang="en" ng-app="angular">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Página web donde practiqué todo lo aprendido sobre Angular JS."/>
+        <meta name="author" content="Susana Piñero"/>
+        <meta name="keywords" content="Angular, angularjs, js, web developer, frontend"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+        <link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/fontRoboto.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+
+        <title>My Guide of Angular JS | By Susana Piñero</title>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.6.7/angular-route.min.js"></script>
+    </head>
+    <body>
+        <div ng-include src="'../partials/header.php'"></div>
+        <hr class="angular">
+        <nav class="padd2 nav-angular">
+            <a href="../myGuide.php#!directory-angularJS">Volver al directorio</a>
+        </nav>
+        <hr class="angular">
+        <section class="section-angular padd5">
+            <h4 class="text-center">Cambiar estilos y propiedades</h4>
+            <div class="padd2 exam-angular" ng-controller="myCtrl5">
+                <br/><p ng-style="style">Texto que cambia de... <span ng-class="specialClass">color.</span></p><br/>
+                <button ng-click="changeProperties()">Cambiar propiedades</button>
+                <button ng-click="changeClass()">Cambiar color</button>
+                <button ng-click="restoreClass()">Reiniciar clases</button>
+                
+            </div>
+        </section>
+        <hr class="angular">
+        <div ng-include src="'../partials/footer.php'"></div>
+        <script type="text/javascript">
+            /* ============ myCtrl5 ============ */
+            var myApp5 = angular.module( 'angular' , [] );
+            myApp5.controller ('myCtrl5' , [ '$scope' , function($scope){
+                $scope.changeProperties = function(){
+                    $scope.style = { "background" : "pink" , "color" : "black"};
+                }
+                $scope.changeClass = function(){
+                    $scope.specialClass = "angular";
+                }
+                $scope.restoreClass = function(){
+                    $scope.style = "";
+                    $scope.specialClass = "";
+                }
+            }]);
+        </script>
+        <script type="text/javascript" rel="script" src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" rel="script">
+            window.jQuery || document.write('<script type="text/javascript" rel="script" src="../js/jquery-3.2.1.min.js"><\/script>')
+        </script>
+    </body>
+</html>
