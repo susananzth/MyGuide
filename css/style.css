@@ -1,7 +1,13 @@
+@font-face {
+    font-family: "Roboto-Light";
+    font-style: normal;
+    src: local('Roboto-Light'), local('Roboto-Light'), url("../font/Roboto-Light.ttf")
+    format('truetype');}
 /*%=%=%=%=%=%=% GLOBAL %=%=%=%=%=%=%*/
-*{margin: 0;padding: 0;}
+*{margin: 0;padding: 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;-webkit-margin-before: 0;-webkit-margin-after: 0;-webkit-margin-start: 0;-webkit-margin-end: 0;}
+*, body{font-family: Roboto-Light;}
 body,html{height: 100%;width: 100%;}
-body{background: #ebe9e2;color: #555555;font-size: 110%;transition: font-size 1s;}
+body{background: #ebe9e2;color: #555555;font-size: 18px;transition: font-size 1s;}
 /*======== scrollbar ========*/
 ::-webkit-scrollbar{background: #F5F5F5;width: 10px;}
 ::-webkit-scrollbar-thumb{background: #7B259A;border: 1px solid #a56bb4;border-radius: 3px;cursor: pointer;}
@@ -70,7 +76,6 @@ hr.jQuery{background: #e1a551;border: 0;height: 15px;}
 .cardjQ{background: #fefff3;border-radius: 3px;box-shadow: 6px 6px 11px -5px #A6A6A6;-moz-box-shadow: 6px 6px 11px -5px #A6A6A6;-webkit-box-shadow: 6px 6px 11px -5px #A6A6A6;}
 .jQ-hr{background: #bb8b01;border: 0;height: 2px;}
 .sizer{display:inline-block;font-size: 2em;margin: 0 0.2em 0 0.2em; text-decoration: none !important;}
-body{}
 @font-face {
     font-family: 'icomoon';
     src:  url('../font/icomoon.eot');
@@ -106,6 +111,7 @@ body{}
 .item1, .item2, .item3{padding: 1%;box-sizing: border-box;}
 /*%=%=%=%=%=%=% VARIOS %=%=%=%=%=%=%*/
 blockquote{background: #f7f7f7;margin: 1%;padding: 2%;}
+small{font-size: 16px;}
 audio{background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);border-radius: 3px;margin: 1%;padding: 2%;}
 .coin{background-color: gray;border-radius: 25px;color: white;display: inline-block;font-weight: bold;font-size: 20px;height: 50px;line-height: 50px;margin: 10px;text-align: center;width: 50px;}
 /*======== BUTTONS ========*/

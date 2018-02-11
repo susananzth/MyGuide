@@ -10,7 +10,6 @@ include "functions/functions-mysql.php";
         <meta name="keywords" content="php, web developer, backend"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
         <link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
-        <link rel="stylesheet" type="text/css" href="../css/fontRoboto.css"/>
         <link rel="stylesheet" type="text/css" href="../css/style.css"/>
 
         <title>My Guide of php | By Susana Piñero</title>

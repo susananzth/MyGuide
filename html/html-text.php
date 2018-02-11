@@ -7,13 +7,14 @@
         <meta name="keywords" content="html, html5, web developer, frontend"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
         <link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
-        <link rel="stylesheet" type="text/css" href="../css/fontRoboto.css"/>
         <link rel="stylesheet" type="text/css" href="../css/style.css"/>
 
         <title>My Guide of HTML5 | By Susana Piñero</title>
 
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
-        <script type="text/javascript" src="https://code.angularjs.org/1.6.7/angular-route.min.js"></script>
+        <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.6.7/angular-route.min.js"></script> -->
+        <script type="text/javascript" src="../js/angular.min.js"></script>
+        <script type="text/javascript" src="../js/angular-route.min.js"></script>
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
