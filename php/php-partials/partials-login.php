@@ -37,9 +37,4 @@
     }//Si no conecta a la DB hará o siguiente
     catch (Exception $e) {//Guarda el mensaje de error en la variable $e
     }
-/**
- * Created by PhpStorm.
- * User: Susana
- * Date: 12/18/2017
- * Time: 8:26 PM
- */
+?>

@@ -28,10 +28,4 @@
     }
     //Cerrar la conexión
     $connection->close();
-
-/**
- * Created by PhpStorm.
- * User: Susana
- * Date: 12/12/2017
- * Time: 8:40 PM
- */
+?>

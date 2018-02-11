@@ -28,10 +28,4 @@
         //luego de que intente y ya sea que pueda o no, finalizara el proceso.
         $connection = null;
     }
-
-/**
- * Created by PhpStorm.
- * User: Susana
- * Date: 12/17/2017
- * Time: 10:08 AM
- */
+?>

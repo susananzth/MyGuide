@@ -1,5 +1,4 @@
 <?php
-
     class Coche { //La clase debe comenzar con una letra en mayúscula.
         //Atributos del objeto o características o propiedades.
         /*En este ejemplo se ve como los atributos son las características comunes que
@@ -87,9 +86,4 @@
     echo 'El mazda tiene: <b>' . $mazda->ruedas . '</b> ruedas.<br>';
     echo 'El pegaso tiene: <b>' . $pegaso->ruedas . '</b> ruedas.<br>';
     $pegaso->arrancar();
-/**
- * Created by PhpStorm.
- * User: Susana
- * Date: 9/24/2017
- * Time: 4:12 PM
- */
+?>

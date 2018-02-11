@@ -11,9 +11,4 @@
         . El total seria: ' . $total = $price + ($price * porcEntaje);
 
     }
-/**
- * Created by PhpStorm.
- * User: Susana
- * Date: 9/23/2017
- * Time: 5:49 PM
- */
+?>

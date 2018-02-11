@@ -108,10 +108,4 @@
         echo '<br>Imprimiendo elementos con var_dump():<br>';
         var_dump($alimentos);
     }
-
-/**
- * Created by PhpStorm.
- * User: Susana
- * Date: 9/23/2017
- * Time: 12:23 PM
- */
+?>

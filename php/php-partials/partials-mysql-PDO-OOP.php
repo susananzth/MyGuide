@@ -30,9 +30,4 @@
             $elements['apellido'] . " - " . $elements['telefono'] . " - " .
             $elements['direccion'] . ".<br>";
     }
-/**
- * Created by PhpStorm.
- * User: Susana
- * Date: 12/17/2017
- * Time: 8:33 PM
- */
+?>

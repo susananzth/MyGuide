@@ -108,10 +108,4 @@
         echo 'Dentro de la cadena <u>' . $posicion . '</u> se busca la letra ñ  y 
         se encuentra en la posición: ' . strpos($posicion, 'ñ');
     }
-
-/**
- * Created by PhpStorm.
- * User: Susana
- * Date: 9/23/2017
- * Time: 1:22 PM
- */
+?>

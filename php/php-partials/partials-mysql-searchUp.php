@@ -37,9 +37,4 @@
     }
     //Aquí se cierra la conexión.
     mysqli_close($connection);
-/**
- * Created by PhpStorm.
- * User: Susana
- * Date: 12/3/2017
- * Time: 5:54 PM
- */
+?>
