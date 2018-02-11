@@ -53,6 +53,8 @@ hr.html{background: #FF9DD2;border: 0;height: 15px;}
 .img-rounded{border-radius: 6px;}
 .img-circle{border: 4px solid #ffffff;border-radius: 50%;box-sizing: border-box;}
 .img-thumbnail{border: 4px solid #ffffff;border-radius: 5px;box-sizing: border-box;}
+        /* Sounds */
+audio{background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);border-radius: 3px;height: 75px;margin: 1%;padding: 2%;}
         /* Forms */
 .bttn{display: inline-block;width: 20% !important;}
 /*======== Directory PHP ========*/
@@ -112,7 +114,6 @@ hr.jQuery{background: #e1a551;border: 0;height: 15px;}
 /*%=%=%=%=%=%=% VARIOS %=%=%=%=%=%=%*/
 blockquote{background: #f7f7f7;margin: 1%;padding: 2%;}
 small{font-size: 16px;}
-audio{background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);border-radius: 3px;margin: 1%;padding: 2%;}
 .coin{background-color: gray;border-radius: 25px;color: white;display: inline-block;font-weight: bold;font-size: 20px;height: 50px;line-height: 50px;margin: 10px;text-align: center;width: 50px;}
 /*======== BUTTONS ========*/
 a.btn{background: linear-gradient(45deg,#DDD8CF 0%, #ceacc7 50%, #8682a1 100%);border-radius: 3px; box-shadow: 0px 2px 4px rgba(34, 62, 66, 0.25);display: inline-block;padding: 10px 25px; text-decoration: none;transition: box-shadow 0.5s ease;-webkit-transition: box-shadow 0.5s ease;}

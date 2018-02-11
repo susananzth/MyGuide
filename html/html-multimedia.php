@@ -136,7 +136,7 @@
                                 <em><u>Attributes:</u> arc, autoplay, controls, loop, muted, preload.</em>
                                 <br>
                                 <audio controls>
-                                    <source src="../sound/bohemian-rhapsody.mp3" type="audio/mpeg">
+                                    <source src="../sound/Johnny_Fiasco-Transition__Stripped_Mix.mp3" type="audio/mpeg">
                                     Your browser does not support the audio tag.
                                 </audio><br>
                                 More about audios: <br>
@@ -152,7 +152,7 @@
                                 <em><u>Atributos:</u> arc, autoplay, controls, loop, muted, preload.</em>
                                 <br>
                                 <audio controls>
-                                    <source src="../sound/bohemian-rhapsody.mp3" type="audio/mpeg">
+                                    <source src="../sound/Johnny_Fiasco-Transition__Stripped_Mix.mp3" type="audio/mpeg">
                                     Tu navegador no soporta archivos de audio.
                                 </audio><br>
                                 Más acerca de audios: <br>
