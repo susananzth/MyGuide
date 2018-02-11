@@ -11,6 +11,10 @@
 	    <title>Puls4</title>
 	</head>
 	<body>
+        <div class="padd2 nav-html">
+            <a href="../myGuide.php#!directory-html">Volver al directorio</a>
+        </div
+        <hr class="html">
 		<header>
 		    <div class="logo left">
 		    	<img src="../img/logo-exam01.png" alt="Puls4" title="">

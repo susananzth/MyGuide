@@ -22,7 +22,7 @@
             <a href="../myGuide.php#!directory-angularJS">Volver al directorio</a>
         </nav>
         <hr class="angular">
-        <section class="section-angular padd5" ng-app="accion">
+        <section class="section-angular padd5">
             <h4 class="text-center">Cambiar visibilidad</h4>
             <div class="padd2 exam-angular" ng-controller="myCtrl6">
                 <button ng-click="mostrar()">Revelar secreto</button>
@@ -35,7 +35,7 @@
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             /* ============ myCtrl6 ============ */
-            var myApp6 = angular.module( 'accion' , [] );
+            var myApp6 = angular.module( 'angular' , [] );
             myApp6.controller ('myCtrl6' , [ '$scope' , function($scope){
                 $scope.messagge = false;
                 $scope.mostrar = function(){

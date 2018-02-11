@@ -40,6 +40,10 @@
         </section>
         <hr class="angular">
         <div ng-include src="'../partials/footer.php'"></div>
+        <script type="text/javascript">
+            var myApp1 = angular.module('angular' , []);
+            /*Dentro de esta variable voy a declarar el modulo de mi app*/
+        </script>
         
         <script type="text/javascript" rel="script" src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" rel="script">
