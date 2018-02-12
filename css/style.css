@@ -40,7 +40,7 @@ a:hover{color: #666666;font-weight: bold;}
 /*======== HTML ========*/
 blockquote{background: #f7f7f7;margin: 1%;padding: 2%;}
 .col-border-html{border: 2px #D52A8B solid;box-sizing: border-box;}
-.hr-simple-html{background: #D52A8B;border: 0;height: 2px;}
+.hr-simple-html{background: #8CC854;border: 0;height: 2px;}
         /* Style for UL */
 .square{ list-style-type: square;} .circle{ list-style-type: circle;}
         /* Style for OL */

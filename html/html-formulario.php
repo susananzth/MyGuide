@@ -16,13 +16,13 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="html">
-        <nav class="padd2 nav-html">
+        <hr/>
+        <nav class="padd2 nav">
             <a href="../myGuide.php#!directory-html">Volver al directorio</a>
         </nav>
-        <hr class="html">
-        <section class="section-html padd5">
-            <div class="exam-html padd2">
+        <hr/>
+        <section class="section padd5">
+            <div class="example padd2">
                 <h4 class="title text-center">Ejemplo de un formulario</h4>
                 <form action="miScript.php" method="GET">
                     <label for="to">Para: <input id="to" type="email"></label>
@@ -40,7 +40,6 @@
                 </form>
             </div>
         </section>
-        <hr class="html">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('html5' , []);

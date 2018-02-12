@@ -18,17 +18,17 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="html">
-        <nav class="padd2 nav-html">
+        <hr/>
+        <nav class="padd2 nav">
             <a href="../myGuide.php#!directory-html">Volver al directorio</a>
         </nav>
-        <hr class="html">
-        <section>
-            <article class="section-html padd5">
-                <div class="exam-html padd2">
+        <hr/>
+        <section class="section">
+            <article class="padd5">
+                <div class="padd2">
                     <h4 class="title text-center">Heading elements | Títulos</h4>
                     <hr class="hr-simple-html">
-                    <div class="text-center">
+                    <div class="text-center example">
                         <h1>h1 heading | Título h1</h1>
                         <h2>h2 heading | Título h2</h2>
                         <h3>h3 heading | Título h3</h3>
@@ -38,25 +38,25 @@
                     </div>
                 </div>
             </article>
-            <hr class="html">
-            <article class="section-html padd5">
+            <hr/>
+            <article class="padd5">
                 <h4 class="title text-center">Texts, Paragraphs | Textos, Párrafos</h4>
-                <div class="col-border-html marg2 padd1">
+                <div class="example marg2 padd1">
                     <b>EN: This is bold text. The <b><u>&ltb&gt</u></b> tag specifies a bold text.</b>
                     <br> <b>ES: Esto es un texto en negrita. La etiqueta <b><u>&ltb&gt</u></b>
                         especifica el texto en negrita.</b>
                 </div>
-                <div class="col-border-html marg2 padd1">
+                <div class="example marg2 padd1">
                     <em><b>EN:</b> This is bold text. The &ltb&gt tag specifies bold text.</em><br>
                     <em><b>ES:</b> Esto es un texto en negrita. La etiqueta &ltb&gt especifíca
                         texto en negrita.</em>
                 </div>
-                <div class="col-border-html marg2 padd1">
+                <div class="example marg2 padd1">
                     <u><b>EN:</b> This is bold text. The &ltb&gt tag specifies bold text.</u><br>
                     <u><b>ES:</b> Esto es un texto en negrita. La etiqueta &ltb&gt especifica
                         texto en negrita.</u>
                 </div>
-                <div id="paragraphs" class="col-border-html marg2 padd1">
+                <div id="paragraphs" class="example marg2 padd1">
                     <!-- UN PARRAFO CON SUS ATRIBUTOS -->
                     <p id="paragraph-en" lang="EN" title="A paragraph."><b>EN:</b>
                         This is a paragraphs. The <b><u>&ltp&gt</u></b> tag specifies a paragraphs.
@@ -71,7 +71,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra
                         ex non nunc dignissim molestie.</p>
                 </div>
-                <div class="col-border-html marg2 padd1">
+                <div class="example marg2 padd1">
                     <!-- UNA CITA CON SUS ATRIBUTOS -->
                     <blockquote id="blockq-en" title="A blockquote."
                                 cite="https://www.w3schools.com/tags/tag_blockquote.asp">
@@ -95,12 +95,12 @@
                     </blockquote>
                 </div>
             </article>
-            <hr class="html">
-            <article class="section-html padd5">
+            <hr/>
+            <article class="padd5">
                 <div>
                     <h4 class="title text-center">Columns | Columnas</h4>
-                    <div class="flex-container text-justify col-border-html">
-                        <div class="col-12 col-border-html">
+                    <div class="flex-container text-justify">
+                        <div class="col-12 example">
                             <b>Col 12</b>
                             <p class=""><b><u>EN: Flexible boxes or flexbox</u></b>,
                                 is a new layout mode in CSS3.
@@ -109,7 +109,7 @@
                                 page layout must accommodate different screen sizes and different
                                 display devices.</p>
                         </div>
-                        <div class="col-8 col-border-html">
+                        <div class="col-8 example">
                             <b>Col 8</b>
                             <p class=""><b><u>ES: Las cajas flexibles o flexbox</u></b>,
                                 es un nuevo modo de disposición en CSS3.
@@ -118,7 +118,7 @@
                                 predecible cuando el diseño de la página debe acomodar diferentes
                                 tamaños de pantalla y diferentes dispositivos de visualización.</p>
                         </div>
-                        <div class="col-4 col-border-html">
+                        <div class="col-4 example">
                             <b>Col 4</b>
                             <p class=""><b><u>CSS3 Flexbox</u></b>
                                 For more uses and examples: <br>
@@ -128,7 +128,7 @@
                                     Ejemplos
                                 </a></p>
                         </div>
-                        <div class="item1 col-border-html">
+                        <div class="item1 example">
                             <b>Item 1</b>
                             <p class=""><b><u>EN: Flexible boxes or flexbox</u></b>,
                                 is a new layout mode in CSS3.
@@ -137,7 +137,7 @@
                                 page layout must accommodate different screen sizes and different
                                 display devices.</p>
                         </div>
-                        <div class="item2 col-border-html">
+                        <div class="item2 example">
                             <b>Item 2</b>
                             <p class=""><b><u>ES: Las cajas flexibles o flexbox</u></b>,
                                 es un nuevo modo de disposición en CSS3.
@@ -146,7 +146,7 @@
                                 predecible cuando el diseño de la página debe acomodar diferentes
                                 tamaños de pantalla y diferentes dispositivos de visualización.</p>
                         </div>
-                        <div class="item3 col-border-html">
+                        <div class="item3 example">
                             <b>Item 3</b>
                             <p class=""><b><u>CSS3 Flexbox</u></b>
                                 For more uses and examples: <br>
@@ -160,10 +160,10 @@
                 </div>
             </article>
             <hr class="html">
-            <article class="section-html padd5">
+            <article class="padd5">
                 <h4 class="title text-center">Unordered list | Lista desordenada</h4>
-                <div class="flex-container col-border-html">
-                    <div class="item2 col-border-html">
+                <div class="flex-container">
+                    <div class="item2 example">
                         <h6>Square | Cuadrado</h6>
                         <ul class="square padd35px">
                             <li>Element 1</li>
@@ -172,7 +172,7 @@
                             <li>Element 4</li>
                         </ul>
                     </div>
-                    <div class="item2 col-border-html">
+                    <div class="item2 example">
                         <h6>Disc | Disco</h6>
                         <ul class="padd35px">
                             <li>Element 1</li>
@@ -181,7 +181,7 @@
                             <li>Element 4</li>
                         </ul>
                     </div>
-                    <div class="item2 col-border-html">
+                    <div class="item2 example">
                         <h6>Circle | Círculo</h6>
                         <ul class="circle padd35px">
                             <li>Element 1</li>
@@ -195,8 +195,8 @@
             <hr class="html">
             <article class="section-html padd5">
                 <h4 class="title text-center">Ordered Lists | Lista ordenada</h4>
-                <div class="flex-container col-border-html">
-                    <div class="col-4 col-border-html">
+                <div class="flex-container">
+                    <div class="col-4 example">
                         <h6>Decimal</h6>
                         <ol class="padd35px">
                             <li>Element 1</li>
@@ -205,7 +205,7 @@
                             <li>Element 4</li>
                         </ol>
                     </div>
-                    <div class="col-4 col-border-html">
+                    <div class="col-4 example">
                         <h6>Zero | Cero</h6>
                         <ol class="zero padd35px">
                             <li>Element 1</li>
@@ -214,7 +214,7 @@
                             <li>Element 4</li>
                         </ol>
                     </div>
-                    <div class="col-4 col-border-html">
+                    <div class="col-4 example">
                         <h6>Upper Latin</h6>
                         <ol class="latin padd35px">
                             <li>Element 1</li>
@@ -223,7 +223,7 @@
                             <li>Element 4</li>
                         </ol>
                     </div>
-                    <div class="col-4 col-border-html">
+                    <div class="col-4 example">
                         <h6>Lower Latin</h6>
                         <ol class="l-latin padd35px">
                             <li>Element 1</li>
@@ -232,7 +232,7 @@
                             <li>Element 4</li>
                         </ol>
                     </div>
-                    <div class="col-4 col-border-html">
+                    <div class="col-4 example">
                         <h6>Upper Roman</h6>
                         <ol class="roman padd35px">
                             <li>Element 1</li>
@@ -241,7 +241,7 @@
                             <li>Element 4</li>
                         </ol>
                     </div>
-                    <div class="col-4 col-border-html">
+                    <div class="col-4 example">
                         <h6>Lower Roman</h6>
                         <ol class="l-roman padd35px">
                             <li>Element 1</li>
@@ -253,7 +253,7 @@
                 </div>
             </article>
             <hr class="html">
-            <article class="section-html padd5">
+            <article class="padd5">
                 <h4 class="title text-center">Table | Tablas</h4>
                 <p>Ejemplo de una tabla con columnas y filas combinadas</p>
                 <table class="combinate col-border-html">
@@ -275,7 +275,6 @@
                 </table>
             </article>
         </section>
-        <hr class="html">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('html5' , []);

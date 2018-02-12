@@ -16,17 +16,17 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="html">
-        <nav class="padd2 nav-html">
+        <hr/>
+        <nav class="padd2 nav">
             <a href="../myGuide.php#!directory-html">Volver al directorio</a>
         </nav>
-        <hr class="html">
-        <section class="section-html padd5">
+        <hr/>
+        <section class="section padd5">
             <div class="padd2">
-                <h4 class="title text-center col-border-html">Links | Enlaces</h4>
-                <div class="flex-container text-justify col-border-html">
+                <h4 class="title text-center">Links | Enlaces</h4>
+                <div class="flex-container text-justify">
                     <!-- LINKS DEFINICION -->
-                    <div id="link-en" class="col-6 col-border-html">
+                    <div id="link-en" class="col-6 example">
                         <p lang="EN" title="A link"><b>EN:</b>
                             The <b><u>&lta&gt</u></b> tag creates a link to other internet
                             pages, files or locations within the same page, email addresses,
@@ -39,7 +39,7 @@
                                class="btn">ES: MDN</a>
                         </p>
                     </div>
-                    <div id="link-es" class="col-6 col-border-html">
+                    <div id="link-es" class="col-6 example">
                         <p lang="ES" title="Un link"><b>ES:</b>
                             La etiqueta <b><u>&lta&gt</u></b> crea un enlace a otras páginas
                             de internet, archivos o ubicaciones dentro de la misma página,
@@ -53,11 +53,11 @@
                                class="btn">ES: MDN</a>
                         </p>
                     </div>
-                    <div class="col-12 col-border-html text-center">
+                    <div class="col-12 text-center">
                         <h6>Attributes | Atributos</h6>
                     </div>
                     <!-- UN LINK QUE DESCARGA UN ARCHIVO -->
-                    <div id="a-download-en" class="col-6 col-border-html">
+                    <div id="a-download-en" class="col-6 example">
                         <p lang="EN" title="A link"><b>EN:</b>
                             <b>download:</b> This attribute tells browsers to download a
                             URL instead of navigating to it.<br>
@@ -73,7 +73,7 @@
                                class="">EN: W3schools</a>
                         </p>
                     </div>
-                    <div id="a-download-es" class="col-6 col-border-html">
+                    <div id="a-download-es" class="col-6 example">
                         <p lang="ES" title="Un link"><b>ES:</b>
                             <b>download:</b> Este atributo, indica a los navegadores descargar
                             una URL en lugar de navegar hacia ella.
@@ -90,7 +90,7 @@
                         </p>
                     </div>
                     <!-- ATRIBUTO HREF Y HREFLANG -->
-                    <div id="a-href-en" class="col-6 col-border-html">
+                    <div id="a-href-en" class="col-6 example">
                         <p lang="EN" title="A link"><b>EN:</b>
                             <b>href:</b> This attribute specifies the link's destination.<br>
                             More about href:
@@ -105,7 +105,7 @@
                                class="">EN: W3schools</a>
                         </p>
                     </div>
-                    <div id="a-href-es" class="col-6 col-border-html">
+                    <div id="a-href-es" class="col-6 example">
                         <p lang="ES" title="Un link"><b>ES:</b>
                             <b>href:</b> Este atributo especifica el destino del enlace.<br>
                             Más acerca de href:
@@ -121,7 +121,7 @@
                         </p>
                     </div>
                     <!-- LINK DONDE ESPECIFICA QUE RELACION TIENE EL LINK CON LA PAGINA -->
-                    <div id="rel-en" class="col-6 col-border-html">
+                    <div id="rel-en" class="col-6 example">
                         <p lang="EN" title="A link"><b>EN:</b>
                             <b>rel:</b> This attribute specifies the relationship of the target
                             object to the binding object.<br>
@@ -137,7 +137,7 @@
                                class="">EN: MDN</a>
                         </p>
                     </div>
-                    <div id="rel-es" class="col-6 col-border-html">
+                    <div id="rel-es" class="col-6 example">
                         <p lang="ES" title="Un link"><b>ES:</b>
                             <b>rel:</b> Este atributo especifica la relación del objeto
                             de destino con el objeto de enlace.<br>
@@ -154,7 +154,7 @@
                         </p>
                     </div>
                     <!-- UN LINK QUE ABRE EN OTRA PESTAÑA -->
-                    <div id="target-en" class="col-6 col-border-html">
+                    <div id="target-en" class="col-6 example">
                         <p lang="EN" title="A link"><b>EN:</b>
                             <b>target:</b> This attribute specifies where to open
                             the linked document<br>
@@ -165,7 +165,7 @@
                                class="">EN: W3schools</a>
                         </p>
                     </div>
-                    <div id="target-es" class="col-6 col-border-html">
+                    <div id="target-es" class="col-6 example">
                         <p lang="ES" title="Un link"><b>ES:</b>
                             <b>target:</b> Este atributo especifica dónde abrir el
                             documento vinculado.<br>
@@ -177,7 +177,7 @@
                         </p>
                     </div>
                     <!-- UN LINK QUE ESPECIFICA EN QUE DISPOSITIVO ESTA OPTIMIZADO -->
-                    <div id="media-en" class="col-6 col-border-html">
+                    <div id="media-en" class="col-6 example">
                         <p lang="EN" title="A link"><b>EN:</b>
                             <b>media:</b> This attribute specifies what media/device
                             the linked document is optimized for<br>
@@ -189,7 +189,7 @@
                                class="">EN: W3schools</a>
                         </p>
                     </div>
-                    <div id="media-es" class="col-6 col-border-html">
+                    <div id="media-es" class="col-6 example">
                         <p lang="ES" title="Un link"><b>ES:</b>
                             <b>media:</b> Este atributo especifica qué medio/dispositivo
                             está optimizado para el documento vinculado.<br>
@@ -202,7 +202,7 @@
                         </p>
                     </div>
                     <!-- UN LINK QUE ESPECIFICA EL TIPO DE ARCHIVO DEL LINK -->
-                    <div id="type-en" class="col-6 col-border-html">
+                    <div id="type-en" class="col-6 example">
                         <p lang="EN" title="A link"><b>EN:</b>
                             <b>type:</b> This attribute specifies specifies the
                             Internet media type of the linked document.<br>
@@ -214,7 +214,7 @@
                                class="">EN: iana</a>
                         </p>
                     </div>
-                    <div id="type-es" class="col-6 col-border-html">
+                    <div id="type-es" class="col-6 example">
                         <p lang="ES" title="Un link"><b>ES:</b>
                             <b>type:</b> Este atributo especifica el tipo de medio de Internet
                             del documento vinculado.<br>
@@ -226,11 +226,11 @@
                                class="">EN: iana</a>
                         </p>
                     </div>
-                    <div class="col-12 col-border-html text-center">
+                    <div class="col-12 text-center">
                         <h6>Other uses | Otros usos</h6>
                     </div>
                     <!-- UN LINK QUE EJECUTA UN CODIGO JAVASCRIPT -->
-                    <div id="javas-en" class="col-6 col-border-html">
+                    <div id="javas-en" class="col-6 example">
                         <p lang="EN" title="A link"><b>EN:</b>
                             A link with a JavaScript message.<br>
                             <a href="javascript:alert('Hello World!');"
@@ -238,7 +238,7 @@
                                class="btn">Execute JavaScript</a>
                         </p>
                     </div>
-                    <div id="javas-es" class="col-6 col-border-html">
+                    <div id="javas-es" class="col-6 example">
                         <p lang="ES" title="Un link"><b>ES:</b>
                             Un link con un mensaje de JavaScript.<br>
                             <a href="javascript:alert('Hola Mundo!');"
@@ -247,14 +247,14 @@
                         </p>
                     </div>
                     <!-- UN LINK QUE LLEVA A OTRA SECCION DE LA PAGINA -->
-                    <div id="bookmark-en" class="col-6 col-border-html">
+                    <div id="bookmark-en" class="col-6 example">
                         <p lang="EN" title="A link"><b>EN:</b>
                             A link that leads to another element of the page.<br>
                             <a href="#foo-en" id="ft-en" hreflang="EN" type="text/html"
                                rel="bookmark" class="btn">Go to footer</a>
                         </p>
                     </div>
-                    <div id="bookmark-es" class="col-6 col-border-html">
+                    <div id="bookmark-es" class="col-6 example">
                         <p lang="ES" title="Un link"><b>ES:</b>
                             Un link que lleva a otro elemento de la página.<br>
                             <a href="#foo-es" id="ft-es" hreflang="ES" type="text/html"
@@ -262,7 +262,7 @@
                         </p>
                     </div>
                     <!-- UN LINK PARA ENVIAR MENSAJE A UN CORREO -->
-                    <div id="mailto-en" class="col-6 col-border-html">
+                    <div id="mailto-en" class="col-6 example">
                         <p lang="EN" title="A link"><b>EN:</b>
                             This is a link that sends an email.<br>
                             <a href="mailto:susananzth@gmail.com?Subject=Hello%20again"
@@ -274,7 +274,7 @@
                                class="">EN: MDN</a>
                         </p>
                     </div>
-                    <div id="mailto-es" class="col-6 col-border-html">
+                    <div id="mailto-es" class="col-6 example">
                         <p lang="ES" title="Un link"><b>ES:</b>
                             Este es un link que envia un correo.<br>
                             <a href="mailto:susananzth@gmail.com?Subject=Hello%20again"
@@ -289,7 +289,6 @@
                 </div>
             </div>
         </section>
-        <hr class="html">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('html5' , []);

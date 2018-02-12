@@ -16,17 +16,17 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="html">
-        <nav class="padd2 nav-html">
+        <hr/>
+        <nav class="padd2 nav">
             <a href="../myGuide.php#!directory-html">Volver al directorio</a>
         </nav>
-        <hr class="html">
+        <hr/>
         <section>
-            <article class="section-html padd5">
-                <div class="exam-html padd2">
+            <article class="section padd5">
+                <div class="padd2">
                     <h4 class="title text-center">Images | Imágenes</h4>
                     <br>
-                    <div class="flex-container">
+                    <div class="flex-container example">
                         <div class="item2">
                             <!-- UNA IMAGEN CON ESTILOS CSS -->
                             <p><b>EN:</b> An image with static high and wide.</p>
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                     <br><br>
-                    <div class="flex-container">
+                    <div class="flex-container example">
                         <div class="col-4">
                             <!-- UNA IMAGEN REDONDEADA CON LINK y RESPONSIVA -->
                             <p><b>EN:</b> A picture with link and responsive size thumbnail.</p>
@@ -81,7 +81,7 @@
                     </div>
                     <br>
                     <!-- UNA IMAGEN CON LINK EN AREAS ESPECIFICAS -->
-                    <div class="padd2">
+                    <div class="padd2 example">
                         <p><b>EN:</b> The <b><u>&ltmap&gt</u></b> tag defines an area
                             inside an image-map.<br>
                             <u>type</u><em>= default, rect, circle y poly.</em><br>
@@ -123,13 +123,13 @@
                     </div>
                 </div>
             </article>
-            <hr class="html">
-            <article class="section-html padd5">
-                <div class="exam-html padd2">
+            <hr/>
+            <article class="section padd5">
+                <div class="padd2">
                     <h4 class="title">Music, Video | Audio, Vídeo</h4>
                     <div class="flex-container text-justify">
                         <!-- AUDIO -->
-                        <div id="audio-en" class="col-12">
+                        <div id="audio-en" class="col-12 example">
                             <p lang="EN" title="A audio"><b>EN:</b>
                                 The <b><u>&ltaudio&gt</u></b>  tag is used to insert audio content into
                                 an HTML or XHTML document.<br>
@@ -145,7 +145,7 @@
                                    class="btn">EN: W3schools</a>
                             </p>
                         </div>
-                        <div id="audio-es" class="col-12">
+                        <div id="audio-es" class="col-12 example">
                             <p lang="ES" title="Un audio"><b>ES:</b>
                                 La etiqueta <b><u>&ltaudio&gt</u></b> se usa para insertar
                                 contenido de audio en un documento HTML o XHTML.<br>
@@ -165,7 +165,6 @@
                 </div>
             </article>
         </section>
-        <hr class="html">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('html5' , []);
