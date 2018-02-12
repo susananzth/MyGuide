@@ -1,5 +1,5 @@
 <h4>Usando jQuery</h4>
-<div class="exam-jQuery padd2">
+<div class="padd2 example">
     <h5>Directorio</h5>
     <ul class="padd2 li-noStyle">
         <li class="padd1"><a href="#">Definiciones</a></li>

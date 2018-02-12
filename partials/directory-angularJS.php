@@ -1,5 +1,5 @@
 <h4>Usando Angular JS</h4>
-<div class="padd5">
+<div class="padd2 example">
     <h5>Directorio</h5>
     <ul class="padd2 li-noStyle">
         <li class="padd1"><a href="angularJS/angular-expressions.php">Expresiones</a></li>

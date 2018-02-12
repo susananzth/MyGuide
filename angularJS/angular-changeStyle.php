@@ -16,14 +16,14 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="angular">
-        <nav class="padd2 nav-angular">
+        <hr/>
+        <nav class="padd2 nav">
             <a href="../myGuide.php#!directory-angularJS">Volver al directorio</a>
         </nav>
-        <hr class="angular">
-        <section class="section-angular padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">Cambiar estilos y propiedades</h4>
-            <div class="padd2 exam-angular" ng-controller="myCtrl5">
+            <div class="padd2 example" ng-controller="myCtrl5">
                 <br/><p ng-style="style">Texto que cambia de... <span ng-class="specialClass">color.</span></p><br/>
                 <button ng-click="changeProperties()">Cambiar propiedades</button>
                 <button ng-click="changeClass()">Cambiar color</button>
@@ -31,7 +31,6 @@
                 
             </div>
         </section>
-        <hr class="angular">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             /* ============ myCtrl5 ============ */

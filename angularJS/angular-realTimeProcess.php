@@ -16,37 +16,38 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="angular">
-        <nav class="padd2 nav-angular">
+        <hr/>
+        <nav class="padd2 nav">
             <a href="../myGuide.php#!directory-angularJS">Volver al directorio</a>
         </nav>
-        <hr class="angular">
-        <section class="section-angular padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">Procesos en tiempo real.</h4>
-            <div class="padd2 exam-angular">
+            <div class="padd2 example">
                 <b>Muestro en un div aparte la información procesada que suministro en la caja de texto.</b>
                 <div class="padd2">
                     <p>Muestro el nombre que ingreso en la caja de texto en un párrafo más abajo.</p><br/>
                     <label for="name">Nombre: 
                         <input id="name" type="text" name="name" placeholder="Nombre" ng-model="name"><!-- Convierto la caja de texto en un modelo y todos los datos que incluyo en esta casilla será parte de la aplicación -->
                     </label>
+                    <br/>
                     <p>
                         Mi nombre es: <b>{{name}}</b><!-- Aquí muestro la información que suministro en la caja de texto que convertí en modelo en tiempo real -->
                     </p>
                 </div>
             </div>
-            <div class="padd2 exam-angular" ng-controller="myCtrl1">
+            <div class="padd2 example" ng-controller="myCtrl1">
                 <p>Muestro el resultado de la cantidad de mangos que quiero multiplicado con su precio en un párrafo más abajo.</p><br/>
                 <p>Precio de los mangos: {{500 | currency:"Bs."}}</p>
                 <label for="quantity">Cantidad de mangos: 
                     <input id="quantity" type="number" name="quantity" placeholder="Cantidad" ng-model="quantity">
                 </label>
+                <br/>
                 <p>
                     Total a pagar: <b>{{quantity * price | currency:"Bs."}}</b><!--  -->
                 </p>
             </div>
         </section>
-        <hr class="angular">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
         /* ============ myCtrl1 ============ */

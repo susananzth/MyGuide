@@ -20,8 +20,9 @@
     <body>
         <!-- con ng-inclide, incluyo los partials que necesito -->
         <div ng-include src="'partials/header.php'"></div>
+        <hr/>
         <nav>
-            <ul class="flex-container nav-primary">
+            <ul class="flex-container nav">
                 <li class="col-nav padd2"><a href="#!/">Home</a></li>
                 <li class="col-nav padd2"><a href="#!directory-html">HTML</a></li>
                 <li class="col-nav padd2"><a href="#!directory-php">PHP</a></li>
@@ -31,8 +32,8 @@
                 <li class="col-nav padd2"><a href="#!directory-bootstrap3">Bootstrap</a></li>
             </ul>
         </nav>
-        
-        <section class="section-angular padd5">
+        <hr/>
+        <section class="section padd5">
             <!-- ng-view indica que es aquí donde va a cargar los partials que escribí mas abajo -->
             <div ng-view></div>
 

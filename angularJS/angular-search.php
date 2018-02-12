@@ -16,14 +16,14 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="angular">
-        <nav class="padd2 nav-angular">
+        <hr/>
+        <nav class="padd2 nav">
             <a href="../myGuide.php#!directory-angularJS">Volver al directorio</a>
         </nav>
-        <hr class="angular">
-        <section class="section-angular padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">Guía telefónica</h4>
-            <div class="padd2 exam-angular" ng-controller="myCtrl3">
+            <div class="padd2 example" ng-controller="myCtrl3">
                 <label for="search">Búscar:
                 <input id="search" ng-model="search" type="search" name="search" placeholder="Búsqueda">
                 </label>
@@ -35,7 +35,6 @@
                 </p>
             </div>
         </section>
-        <hr class="angular">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             /* ============ myCtrl3 ============ */

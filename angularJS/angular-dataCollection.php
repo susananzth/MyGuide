@@ -16,30 +16,29 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="angular">
-        <nav class="padd2 nav-angular">
+        <hr/>
+        <nav class="padd2 nav">
             <a href="../myGuide.php#!directory-angularJS">Volver al directorio</a>
         </nav>
-        <hr class="angular">
-        <section class="section-angular padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">Colección de datos</h4>
-            <div class="padd2 exam-angular" ng-controller="myCtrl2">
+            <div class="padd2 example" ng-controller="myCtrl2">
                 <b>Nombres:</b>
                 <ul>
-                    <li ng-repeat = "nameIndividual in nameSimple">
+                    <li ng-repeat = "nameIndividual in nameSimple" class="li-noStyle">
                         {{ nameIndividual }}
                     </li>
                 </ul>
                 <br/>
                 <b>Héroes:</b>
                 <ul>
-                    <li ng-repeat = "heroe in heroes">
+                    <li ng-repeat = "heroe in heroes" class="li-noStyle">
                         {{ heroe.name }}  {{ heroe.lastname }}
                     </li>
                 </ul>
             </div>
         </section>
-        <hr class="angular">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             /* ============ myCtrl2 ============ */

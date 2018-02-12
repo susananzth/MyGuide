@@ -16,21 +16,20 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="angular">
-        <nav class="padd2 nav-angular">
+        <hr/>
+        <nav class="padd2 nav">
             <a href="../myGuide.php#!directory-angularJS">Volver al directorio</a>
         </nav>
-        <hr class="angular">
-        <section class="section-angular padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">Cambiar visibilidad</h4>
-            <div class="padd2 exam-angular" ng-controller="myCtrl6">
+            <div class="padd2 example" ng-controller="myCtrl6">
                 <button ng-click="mostrar()">Revelar secreto</button>
                 <button ng-click="ocultar()">Ocultar secreto</button>
                 <br/><p class="alerta" ng-show="messagge">Mensaje secreto</p><br/>
                 
             </div>
         </section>
-        <hr class="angular">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             /* ============ myCtrl6 ============ */

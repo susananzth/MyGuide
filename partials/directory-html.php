@@ -1,5 +1,5 @@
 <h4>Usando HTML</h4>
-<div class="directory-html padd2">
+<div class="padd2 example">
     <h5>Directorio</h5>
     <ul class="padd2 li-noStyle">
         <li class="padd1"><a href="html/html-text.php">Text</a></li>

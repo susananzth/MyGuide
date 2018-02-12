@@ -8,10 +8,12 @@
 *, body{font-family: Roboto-Light;}
 body,html{height: 100%;width: 100%;}
 body{background: #ebe9e2;color: #555555;font-size: 18px;transition: font-size 1s;}
+hr{background: #8CC854;border: 0;height: 15px;}
+    /*Más estilos para hr: https://codepen.io/ibrahimjabbari/pen/ozinB*/
 /*======== scrollbar ========*/
 ::-webkit-scrollbar{background: #F5F5F5;width: 10px;}
-::-webkit-scrollbar-thumb{background: #7B259A;border: 1px solid #a56bb4;border-radius: 3px;cursor: pointer;}
-::-webkit-scrollbar-thumb:hover{background: #7B259A;border-radius: 3px;cursor: pointer;}
+::-webkit-scrollbar-thumb{background: #8cc854;border-radius: 2px;cursor: pointer;}
+::-webkit-scrollbar-thumb:hover{background: #86cc45;cursor: pointer;}
 /*======== Headings ========*/
 h1, h2, h3, h4, h5, h6{-webkit-margin-after: 0;-webkit-margin-before: 0;-webkit-margin-end: 0;-webkit-margin-start: 0;}
 h1{font-size: 400%;}h2{font-size: 330%;}h3{font-size: 280%;}h4{font-size: 220%;}
@@ -31,14 +33,12 @@ a:hover{color: #666666;font-weight: bold;}
 
 /*%=%=%=%=%=%=% SECTIONS %=%=%=%=%=%=%*/
 .header-primary{background: url('../img/bg-header-2.jpg') no-repeat center;background-size: cover;-moz-background-size: cover;-o-background-size: cover;-webkit-background-size: cover;padding: 15%;width: auto;}
-.nav-primary{background: #f3f0f2;list-style-type: none;}
-#footer{ background: #cdc8d2}
-/*======== Directory HTML ========*/
-hr.html{background: #FF9DD2;border: 0;height: 15px;}
-.nav-html{background-color: #ffd8e9;}
-.section-html{background: #FFE5FA;}
-.directory-html{background-color: #ffeffa;border: 2px #D52A8B solid;border-radius: 5px;box-sizing: border-box;}
-.exam-html{border: 2px #D52A8B solid;border-radius: 5px;box-sizing: border-box;}
+.nav{background: #CFF1C0;box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.52);-webkit-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.52);-moz-box-shadow: 0px 0px 11px- 2px rgba(0,0,0,0.52);list-style-type: none;position: relative;z-index: 1;}
+.section{background: #CFF1C0;}
+.example{background-color: #b2ee9b;border-radius: 3px;box-sizing: border-box;box-shadow: 3px 3px 11px -2px rgba(0,0,0,0.52);-webkit-box-shadow: 3px 3px 11px -2px rgba(0,0,0,0.52);-moz-box-shadow: 3px 3px 11px -2px rgba(0,0,0,0.52);margin: 2%;}
+.footer{background: #cdc8d2;-webkit-box-shadow: 0px -3px 11px -2px rgba(0,0,0,0.52);-moz-box-shadow: 0px -3px 11px -2px rgba(0,0,0,0.52);box-shadow: 0px -3px 11px -2px rgba(0,0,0,0.52);}
+/*======== HTML ========*/
+blockquote{background: #f7f7f7;margin: 1%;padding: 2%;}
 .col-border-html{border: 2px #D52A8B solid;box-sizing: border-box;}
 .hr-simple-html{background: #D52A8B;border: 0;height: 2px;}
         /* Style for UL */
@@ -57,22 +57,11 @@ hr.html{background: #FF9DD2;border: 0;height: 15px;}
 audio{background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);border-radius: 3px;height: 75px;margin: 1%;padding: 2%;}
         /* Forms */
 .bttn{display: inline-block;width: 20% !important;}
-/*======== Directory PHP ========*/
-hr.php{background: #616FAB;border: 0;height: 15px;}
-.nav-php{background: #c4d3f5 !important;list-style-type: none;}
-.section-php{background: #d7e0ff;}
-.exam-php{background-color: #d7e0ff;border: 2px #32467c solid;border-radius: 5px;box-sizing: border-box;margin: 2%;}
-/*======== Directory JavaScript ========*/
-hr.js{background: #8CC854;border: 0;height: 15px;}
-.nav-js{background: #CFF1C0 !important;list-style-type: none;}
-.section-js{background: #CFF1C0;}
-.exam-js{background-color: #b2ee9b;border: 2px #4e7c0b solid;border-radius: 5px;box-sizing: border-box;margin: 2%;}
-/*======== Directory jQuery ========*/
-hr.jQuery{background: #e1a551;border: 0;height: 15px;}
-    /*Más estilos para hr: https://codepen.io/ibrahimjabbari/pen/ozinB*/
-.nav-jQuery{background: #ece1c7 !important;list-style-type: none;}
-.section-jQuery{background: #ece1c7;}
-.exam-jQuery{background-color: #f3e6a2;border: 2px #bb8b01 solid;border-radius: 5px;box-sizing: border-box;margin: 2% auto;}
+/*======== PHP ========*/
+
+/*======== JavaScript ========*/
+
+/*======== jQuery ========*/
 .label-jq{margin: 0.5em;}
 .form-jq{display: none;}
 .cardjQ{background: #fefff3;border-radius: 3px;box-shadow: 6px 6px 11px -5px #A6A6A6;-moz-box-shadow: 6px 6px 11px -5px #A6A6A6;-webkit-box-shadow: 6px 6px 11px -5px #A6A6A6;}
@@ -112,7 +101,6 @@ hr.jQuery{background: #e1a551;border: 0;height: 15px;}
 /*Estilo para los item*/
 .item1, .item2, .item3{padding: 1%;box-sizing: border-box;}
 /*%=%=%=%=%=%=% VARIOS %=%=%=%=%=%=%*/
-blockquote{background: #f7f7f7;margin: 1%;padding: 2%;}
 small{font-size: 16px;}
 .coin{background-color: gray;border-radius: 25px;color: white;display: inline-block;font-weight: bold;font-size: 20px;height: 50px;line-height: 50px;margin: 10px;text-align: center;width: 50px;}
 /*======== BUTTONS ========*/

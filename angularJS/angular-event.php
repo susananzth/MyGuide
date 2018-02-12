@@ -16,14 +16,14 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="angular">
-        <nav class="padd2 nav-angular">
+        <hr/>
+        <nav class="padd2 nav">
             <a href="../myGuide.php#!directory-angularJS">Volver al directorio</a>
         </nav>
-        <hr class="angular">
-        <section class="section-angular padd5"on">
+        <hr/>
+        <section class="section padd5"on">
             <h4 class="text-center">Eventos</h4>
-            <div class="padd2 exam-angular" ng-controller="myCtrl4">
+            <div class="padd2 example" ng-controller="myCtrl4">
                 <button ng-click="clickSimple()">Click</button>
                 <button ng-dblclick="doubleClick()">Double Click</button>
                 <img src="../img/foto.jpg" width="200" height="200" ng-mouseleave="mouseLeaveImg()" ng-mouseenter="mouseOnImg()" >
@@ -31,7 +31,6 @@
                 <b>{{ evento }}</b>
             </div>
         </section>
-        <hr class="angular">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             /* ============ myCtrl4 ============ */
