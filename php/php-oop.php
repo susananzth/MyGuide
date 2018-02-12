@@ -16,14 +16,14 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="php">
-        <nav class="padd2 nav-php">
+        <hr/>
+        <nav class="padd2 nav">
                 <a href="../myGuide.php#!directory-php">Volver al directorio</a>
         </nav>
-        <hr class="php">
-        <section class="section-php padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">Programación orientada a objetos (OOP)</h4>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejercicio sencillo de OOP</h6>
                 <div class="padd2">
                     <?php
@@ -31,7 +31,7 @@
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de búsqueda con OOP.</h6>
                 <div class="padd2">
                     <?php
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <!-- -->
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de formulario de registro con sentencia preparada.</h6>
                 <div class="padd2">
                     <form id="form-searchPDO-OOP" action="php-partials/partials-mysql-PDO-OOP.php" method="post">
@@ -55,7 +55,7 @@
                     </form>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de formulario de registro con sentencia preparada.</h6>
                 <div class="padd2">
                     <form id="form-searchPDO-OOP2" action="php-partials/partials-mysql-PDO-OOP2.php" method="post">
@@ -70,7 +70,6 @@
                 </div>
             </div>
         </section>
-        <hr class="php">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('php' , []);

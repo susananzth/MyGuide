@@ -19,14 +19,14 @@ include "functions/functions-array.php";
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="php">
-        <nav class="padd2 nav-php">
+        <hr/>
+        <nav class="padd2 nav">
                 <a href="../myGuide.php#!directory-php">Volver al directorio</a>
         </nav>
-        <hr class="php">
-        <section class="section-php padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">Arrays</h4>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Algunos usos de un array indexado.</h6>
                 <div class="padd2">
                     <?php
@@ -34,7 +34,7 @@ include "functions/functions-array.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Otro ejemplo de array indexado.</h6>
                 <p>También usando <b>for</b>.</p>
                 <div class="padd2">
@@ -43,7 +43,7 @@ include "functions/functions-array.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Otro ejemplo de array asociativo.</h6>
                 <p>También usando <b>foreach</b>.</p>
                 <div class="padd2">
@@ -52,7 +52,7 @@ include "functions/functions-array.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>IS_ARRAY()</h6>
                 <p>Esta función devuelve un booleano al comprobar si una variable es un array,
                     <b>true</b> en caso de que sea un array y <b>false</b> en caso contrario.</p>
@@ -62,7 +62,7 @@ include "functions/functions-array.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de SORT()</h6>
                 <p><b>SORT()</b> sirve para ordenar los elementos de un array
                     de forma ascendente.<br>
@@ -81,7 +81,7 @@ include "functions/functions-array.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de array multidimencional</h6>
                 <p>Usando <b>foreach</b>, <b>while</b> y <b>list()</b> para imprimir el array.
                 Y también la segunda opción más sencilla con <b>var_dump()</b>.</p>
@@ -92,7 +92,6 @@ include "functions/functions-array.php";
                 </div>
             </div>
         </section>
-        <hr class="php">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('php' , []);

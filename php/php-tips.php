@@ -16,14 +16,14 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="php">
-        <nav class="padd2 nav-php">
+        <hr/>
+        <nav class="padd2 nav">
                 <a href="../myGuide.php#!directory-php">Volver al directorio</a>
         </nav>
-        <hr class="php">
-        <section class="section-php padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">Tips</h4>
-            <div class="exam-php padd2">
+            <div class="example padd2">
                 <h6>Diferencia entre INCLUDE y REQUIRE:</h6>
                 <p class="padd2">
                     El <u>include</u> ejecuta todo el código a pesar de un error.
@@ -31,7 +31,7 @@
                     porque el programa <em>requiere</em> ese segmento para continuar.
                 </p>
             </div>
-            <div class="exam-php padd2">
+            <div class="example padd2">
                 <h6>Variables:</h6>
                 <p class="padd2">
                     <u>static</u> si no se puede acceder a una variable local que dentro de una función
@@ -39,7 +39,7 @@
                     y así se pueda usar la variable por fuera de la función.
                 </p>
             </div>
-            <div class="exam-php padd2">
+            <div class="example padd2">
                 <h6>Comparadores:</h6>
                 <p class="padd2">Para ver todos los operadores :
                     <a href="https://www.w3schools.com/php/php_operators.asp"
@@ -94,7 +94,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="exam-php padd2">
+            <div class="example padd2">
                 <h6>Ejemplo de una función</h6>
                 <div class="padd2">
                     <?php
@@ -106,7 +106,6 @@
                 </div>
             </div>
         </section>
-        <hr class="php">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('php' , []);

@@ -19,14 +19,14 @@ include "functions/functions-flows.php";
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="php">
-        <nav class="padd2 nav-php">
+        <hr/>
+        <nav class="padd2 nav">
                 <a href="../myGuide.php#!directory-php">Volver al directorio</a>
         </nav>
-        <hr class="php">
-        <section class="section-php padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">Control de flujos</h4>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de if simple</h6>
                 <div class="padd2">
                     <?php
@@ -34,7 +34,7 @@ include "functions/functions-flows.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de if combinado con HTML</h6>
                 <div class="padd2">
                     <?php
@@ -42,7 +42,7 @@ include "functions/functions-flows.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de else if</h6>
                 <div class="padd2">
                     <?php
@@ -50,7 +50,7 @@ include "functions/functions-flows.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de if ternario</h6>
                 <div class="padd2">
                     <?php
@@ -58,7 +58,7 @@ include "functions/functions-flows.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de if lógico</h6>
                 <div class="padd2">
                     <?php
@@ -66,7 +66,7 @@ include "functions/functions-flows.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de if con incremento y decremento</h6>
                 <div class="padd2">
                     <?php
@@ -74,7 +74,7 @@ include "functions/functions-flows.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de for</h6>
                 <div class="padd2">
                     <?php
@@ -82,7 +82,7 @@ include "functions/functions-flows.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de while e if combinados</h6>
                 <div class="padd2">
                     <p>Vamos a lanzar una moneda hasta que tengamos tres caras seguidas.</p>
@@ -91,7 +91,7 @@ include "functions/functions-flows.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de while</h6>
                 <div class="padd2">
                     <?php
@@ -99,7 +99,7 @@ include "functions/functions-flows.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de foreach</h6>
                 <div class="padd2">
                     <?php
@@ -107,7 +107,7 @@ include "functions/functions-flows.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplos de un switchs</h6>
                 <div class="padd2">
                     <p><u>Un switch común</u></p>
@@ -127,7 +127,6 @@ include "functions/functions-flows.php";
                 </div>
             </div>
         </section>
-        <hr class="php">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('php' , []);

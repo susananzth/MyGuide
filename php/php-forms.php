@@ -19,14 +19,14 @@ include "functions/functions-forms.php";
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="php">
-        <nav class="padd2 nav-php">
+        <hr/>
+        <nav class="padd2 nav">
                 <a href="../myGuide.php#!directory-php">Volver al directorio</a>
         </nav>
-        <hr class="php">
-        <section class="section-php padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">Formularios</h4>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de un formulario</h6>
                 <div class="padd2">
                     <form id="form-begining" method="post" action="functions/functions-forms.php">
@@ -43,7 +43,7 @@ include "functions/functions-forms.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de una pequeña calculadora</h6>
                 <div class="padd2">
                     <form id="calc" method="post" action="functions/functions-forms.php">
@@ -68,7 +68,6 @@ include "functions/functions-forms.php";
                 </div>
             </div>
         </section>
-        <hr class="php">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('php' , []);

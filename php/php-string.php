@@ -19,14 +19,14 @@ include "functions/functions-string.php";
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="php">
-        <nav class="padd2 nav-php">
+        <hr/>
+        <nav class="padd2 nav">
                 <a href="../myGuide.php#!directory-php">Volver al directorio</a>
         </nav>
-        <hr class="php">
-        <section class="section-php padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">String</h4>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de STR_WORD_COUNT()</h6>
                 <div class="padd2">
                     <p>STR_WORD_COUNT cuenta el número de palabras en una cadena.</p>
@@ -36,7 +36,7 @@ include "functions/functions-string.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de STRREV()</h6>
                 <div class="padd2">
                     <p>STRREV invierte una cadena.</p>
@@ -46,7 +46,7 @@ include "functions/functions-string.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de STR_REPLACE()</h6>
                 <div class="padd2">
                     <p>STRREPLACE sustituye a algunos personajes con algunos otros caracteres
@@ -57,7 +57,7 @@ include "functions/functions-string.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de STRLEN()</h6>
                 <div class="padd2">
                     <p>SRTLEN Para contar los caracteres de la cadena y los devuelva en numero entero.</p>
@@ -67,7 +67,7 @@ include "functions/functions-string.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de SUBSRT()</h6>
                 <div class="padd2">
                     <p>SUBSRT para obtener una parte de la cadena.</p>
@@ -77,7 +77,7 @@ include "functions/functions-string.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo combinando STRLEN() y SUBSTR()</h6>
                 <div class="padd2">
                     <br>
@@ -86,7 +86,7 @@ include "functions/functions-string.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de STRCMP()</h6>
                 <div class="padd2">
                     <p>SRTCMP para comparar dos string y ver si son iguales.
@@ -98,7 +98,7 @@ include "functions/functions-string.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de STRCASECMP()</h6>
                 <div class="padd2">
                     <p>STRCASECMP para comparar dos string y ver si son iguales sin distinguir mayúsculas.
@@ -110,7 +110,7 @@ include "functions/functions-string.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de STRTOUPPER() y STRTOLOWER()</h6>
                 <div class="padd2">
                     <p>STRTOUPPER sirve para convertir una cadena y colocarla toda en mayúculas.</p>
@@ -121,7 +121,7 @@ include "functions/functions-string.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de UCWORDS()</h6>
                 <div class="padd2">
                     <p>UCWORDS sirve para convertir la primela letra de cada palabra
@@ -132,7 +132,7 @@ include "functions/functions-string.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de STRPOS()</h6>
                 <div class="padd2">
                     <p>STRPOS sirve para encontrar la posición de una cadena o caracter dentro de
@@ -144,7 +144,6 @@ include "functions/functions-string.php";
                 </div>
             </div>
         </section>
-        <hr class="php">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('php' , []);

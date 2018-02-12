@@ -19,14 +19,14 @@ include "functions/functions-mysql.php";
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="php">
-        <nav class="padd2 nav-php">
+        <hr7>
+        <nav class="padd2 nav">
                 <a href="../myGuide.php#!directory-php">Volver al directorio</a>
         </nav>
-        <hr class="php">
-        <section class="section-php padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">MySQL</h4>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de conexión a la base de datos por procedimiento</h6>
                 <div class="padd2">
                     <p>
@@ -37,7 +37,7 @@ include "functions/functions-mysql.php";
                     ?>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de un formuario de búsqueda.</h6>
                 <div class="padd2">
                     <form id="form-search" action="php-partials/partials-mysql-search.php" method="get">
@@ -51,7 +51,7 @@ include "functions/functions-mysql.php";
                     </form>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de formulario de registro</h6>
                 <div class="padd2">
                     <form id="form-insert" action="php-partials/partials-mysql-insert.php" method="get">
@@ -81,7 +81,7 @@ include "functions/functions-mysql.php";
                     </form>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de un formulario para actualizar un regístro.</h6>
                 <div class="padd2">
                     <form id="form-update" action="php-partials/partials-mysql-update.php" method="get">
@@ -95,7 +95,7 @@ include "functions/functions-mysql.php";
                     </form>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de un formulario para eliminar de regístro.</h6>
                 <div class="padd2">
                     <form id="form-delete" action="php-partials/partials-mysql-delete.php" method="get">
@@ -109,7 +109,7 @@ include "functions/functions-mysql.php";
                     </form>
                 </div>
             </div>
-            <div class="padd2 exam-php">
+            <div class="padd2 example">
                 <h6>Ejemplo de un formulario para búscar y modificar regístro.</h6>
                 <div class="padd2">
                     <form id="form-searchUp" action="php-partials/partials-mysql-searchUp.php" method="get">
@@ -124,7 +124,6 @@ include "functions/functions-mysql.php";
                 </div>
             </div>
         </section>
-        <hr class="php">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('php' , []);
