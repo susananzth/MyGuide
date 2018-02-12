@@ -3,6 +3,11 @@
     font-style: normal;
     src: local('Roboto-Light'), local('Roboto-Light'), url("../font/Roboto-Light.ttf")
     format('truetype');}
+@font-face {
+font-family: "Roboto-Mono";
+font-style: normal;
+src: local('RobotoMono-Light'), local('RobotoMono-Light'), url("../font/RobotoMono-Light.ttf")
+format('truetype');}
 /*%=%=%=%=%=%=% GLOBAL %=%=%=%=%=%=%*/
 *{margin: 0;padding: 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;-webkit-margin-before: 0;-webkit-margin-after: 0;-webkit-margin-start: 0;-webkit-margin-end: 0;}
 *, body{font-family: Roboto-Light;}
@@ -39,8 +44,9 @@ a:hover{color: #666666;font-weight: bold;}
 .footer{background: #cdc8d2;-webkit-box-shadow: 0px -3px 11px -2px rgba(0,0,0,0.52);-moz-box-shadow: 0px -3px 11px -2px rgba(0,0,0,0.52);box-shadow: 0px -3px 11px -2px rgba(0,0,0,0.52);}
 /*======== HTML ========*/
 blockquote{background: #f7f7f7;margin: 1%;padding: 2%;}
+code{font-family: Roboto-Mono;font-size: inherit;}
 .col-border-html{border: 2px #D52A8B solid;box-sizing: border-box;}
-.hr-simple-html{background: #8CC854;border: 0;height: 2px;}
+.hr-simple{background: #8CC854;border: 0;height: 2px;}
         /* Style for UL */
 .square{ list-style-type: square;} .circle{ list-style-type: circle;}
         /* Style for OL */
@@ -102,6 +108,7 @@ audio{background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,
 .item1, .item2, .item3{padding: 1%;box-sizing: border-box;}
 /*%=%=%=%=%=%=% VARIOS %=%=%=%=%=%=%*/
 small{font-size: 16px;}
+.code{background: #778077;color: #9ffdbc;display: inline-block;padding: 1%;}
 .coin{background-color: gray;border-radius: 25px;color: white;display: inline-block;font-weight: bold;font-size: 20px;height: 50px;line-height: 50px;margin: 10px;text-align: center;width: 50px;}
 /*======== BUTTONS ========*/
 a.btn{background: linear-gradient(45deg,#DDD8CF 0%, #ceacc7 50%, #8682a1 100%);border-radius: 3px; box-shadow: 0px 2px 4px rgba(34, 62, 66, 0.25);display: inline-block;padding: 10px 25px; text-decoration: none;transition: box-shadow 0.5s ease;-webkit-transition: box-shadow 0.5s ease;}

@@ -16,82 +16,115 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="js">
-        <nav class="padd2 nav-js">
+        <hr/>
+        <nav class="padd2 nav">
             <a href="../myGuide.php#!directory-javascript">Volver al directorio</a>
         </nav>
-        <hr class="js">
-        <section class="section-js padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">Definiciones</h4>
-            <div class="padd2 exam-js">
+            <div class="padd2 example">
                 <h6>Variables</h6>
-                <p class="padd2">
+                <div class="padd2">
                     Las siguientes variables tienen nombres correctos:<br>
-                     var $numero1;<br>
-                     var _$letra;<br>
-                     var $$$otroNumero;<br>
-                     var $_a__$4;<br>
-                </p>
+                    <blockquote class="code"><code>
+                        var $numero1;<br>
+                        var _$letra;<br>
+                        var $$$otroNumero;<br>
+                        var $_a__$4;<br>
+                    </code></blockquote>
+                </div>
             </div>
-            <div class="padd2 exam-js">
+            <div class="padd2 example">
                 <h6>Agregando saltos de lineas y comillas en un alert</h6>
-                <p class="padd2">
-                    var mensaje = "¡Hola Mundo!\n Qué fácil es incluis \'comillas simples\'\n y \"comillas dobles\"<br>
-                    alert(mensaje);<br>
-                    alert("Soy el segundo alert :)");
-                </p>
+                <div class="padd2">
+                    <blockquote class="code"><code>
+                        var mensaje = "¡Hola Mundo!\n Qué fácil es incluis \'comillas simples\'\n y \"comillas dobles\"<br>
+                        alert(mensaje);<br>
+                        alert("Soy el segundo alert :)");
+                    </code></blockquote>
+                </div>
             </div>
-            <div class="padd2 exam-js">
+            <div class="padd2 example">
                 <h6>Arreglos</h6>
-                <p class="padd2">
-                    var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto",
-                    "Septiembre", "Octubre", "Noviembre", "Diciembre"];
-                </p>
+                <div class="padd2">
+                    <blockquote class="code"><code>
+                        var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+                    </code></blockquote>
+                </div>
             </div>
-            <div class="padd2 exam-js">
+            <div class="padd2 example">
                 <h6>Imprimir un arreglo con un while</h6>
-                <p class="padd2">
-                    var i=0;<br>
-                    while (i<=11){<br>
-                        alert(meses[i]);<br>
-                        ++i;<br>
-                    }
-                </p>
+                <div class="padd2">
+                    <blockquote class="code"><code>
+                        var i=0;<br>
+                        while (i<=11){<br>
+                            alert(meses[i]);<br>
+                            ++i;<br>
+                        }
+                    </code></blockquote>
+                </div>
             </div>
-            <div class="padd2 exam-js">
+            <div class="padd2 example">
                 <h6>Matematica</h6>
-                <p class="padd2">
-                    let x = 4;<br>
-                    x += 2; <b>x equals 6</b><br><br>
-
-                    let y = 4;<br>
-                    y -= 2; <b>y equals 2</b><br><br>
-
-                    let z = 4;<br>
-                    z *= 2; <b>z equals 8</b><br><br>
-
-                    let r = 4;<br>
-                    r++; <b>r equals 5</b><br><br>
-
-                    let t = 4;<br>
-                    t--; <b>t equals 3</b><br><br>
-
-                      let molecule = 16;<br>
-                      let particle = 18;<br>
-                      let assay = 3;<br><br>
-
-                      <b>Add and assign to molecule below</b><br>
-                      molecule += 16;<br><br>
-
-                      <b>Multiply and assign to particle below</b><br>
-                      particle *=6.02;<br><br>
-
-                      <b>Increment assay by 1</b><br>
-                      assay++;
-                </p>
+                <div class="padd2">
+                    <p>Suma: + | Resta: - | Multiplicación: * | División: /</p>
+                    <blockquote class="code"><code>
+                        var precioUnidad, cantidad, total;<br/>
+                        precioUnidad=5;<br/>
+                        cantidad=100;<br/>
+                        total=precioUnidad*cantidad;<br/>
+                        alert("El importe total de la compra es: " + total + "Bs.");<br/>
+                    </code></blockquote>
+                    <br/>
+                    <blockquote class="code"><code>
+                        let x = 4;<br>
+                        x += 2; 
+                    </code></blockquote>
+                    <b>x equals 6</b><br/>
+                    <blockquote class="code"><code>
+                        let y = 4;<br/>
+                        y -= 2; 
+                    </code></blockquote>
+                    <b>y equals 2</b><br/>
+                    <blockquote class="code"><code>
+                        let z = 4;<br/>
+                        z *= 2; 
+                    </code></blockquote>
+                    <b>z equals 8</b><br/>
+                    <blockquote class="code"><code>
+                        let r = 4;<br/>
+                        r++; 
+                    </code></blockquote>
+                    <b>r equals 5</b><br/>
+                    <blockquote class="code"><code>
+                        let t = 4;<br/>
+                        t--; 
+                    </code></blockquote>
+                    <b>t equals 3</b><br/>
+                    <blockquote class="code"><code>
+                        let molecule = 16;<br/>
+                        let particle = 18;<br/>
+                        let assay = 3;
+                    </code></blockquote>
+                    <br/>
+                    <b>Add and assign to molecule below</b><br/>
+                    <blockquote class="code"><code>
+                        molecule += 16;
+                    </code></blockquote>
+                    <br/>
+                    <b>Multiply and assign to particle below</b><br/>
+                    <blockquote class="code"><code>
+                        particle *=6.02;
+                    </code></blockquote>
+                    <br/>
+                    <b>Increment assay by 1</b><br/>
+                    <blockquote class="code"><code>
+                        assay++;
+                    </code></blockquote>
+                </div>
             </div>
         </section>
-        <hr class="js">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('js' , []);

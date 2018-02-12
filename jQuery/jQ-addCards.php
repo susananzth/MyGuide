@@ -16,14 +16,14 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="jQuery">
-        <nav class="padd2 nav-jQuery">
+        <hr/>
+        <nav class="padd2 nav">
                 <a href="../myGuide.php#!directory-jQuery">Volver al directorio</a>
         </nav>
-        <hr class="jQuery">
-        <section class="section-jQuery padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">Agregar cartas</h4>
-            <div class="padd2 exam-jQuery">
+            <div class="padd2 example">
                 <h6>Mostrar o ocultar formulario con un toggle.</h6>
                 <div class="padd2">
                     <a class="showHide btn" type="button">Agregar una tarjeta</a>
@@ -51,13 +51,12 @@
                         <input id="post" name="post" type="submit" class="post" value="Publicar">
                     </form>
                 </div>
-                <hr class="jQ-hr">
+                <hr class="hr-simple"/>
                 <h6>Aquí se van agregando las tarjeta.</h6>
                 <div class="flex-container">
                 </div>
             </div>
         </section>
-        <hr class="jQuery">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('jQuery' , []);

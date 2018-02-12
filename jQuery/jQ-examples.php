@@ -16,14 +16,14 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="jQuery">
-        <nav class="padd2 nav-jQuery">
+        <hr/>
+        <nav class="padd2 nav">
                 <a href="../myGuide.php#!directory-jQuery">Volver al directorio</a>
         </nav>
-        <hr class="jQuery">
-        <section class="section-jQuery padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">Ejemplos varios</h4>
-            <div class="padd2 exam-jQuery">
+            <div class="padd2 example">
                 <h6>Cambiar fuentes con animación.</h6>
                 <div class="padd2">
                     <a href="#1" class="sizer">A</a>
@@ -32,7 +32,7 @@
                     <p class="text">Texto que cambia de fuente con animación en jQuery.</p>
                 </div>
             </div>
-            <div class="padd2 exam-jQuery">
+            <div class="padd2 example">
                 <h6>Contador de likes.<br/>Usando closures en jQuery.</h6>
                 <div class="flex-container">
                     <div class="padd2 likes col-4 text-center">
@@ -56,7 +56,6 @@
                 </div>
             </div>
         </section>
-        <hr class="jQuery">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('jQuery' , []);

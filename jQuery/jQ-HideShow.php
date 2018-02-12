@@ -16,14 +16,14 @@
     </head>
     <body>
         <div ng-include src="'../partials/header.php'"></div>
-        <hr class="jQuery">
-        <nav class="padd2 nav-jQuery">
+        <hr/>
+        <nav class="padd2 nav">
                 <a href="../myGuide.php#!directory-jQuery">Volver al directorio</a>
         </nav>
-        <hr class="jQuery">
-        <section class="section-jQuery padd5">
+        <hr/>
+        <section class="section padd5">
             <h4 class="text-center">Ocultar y mostrar elementos</h4>
-            <div class="padd2 exam-jQuery">
+            <div class="padd2 example">
                 <h6>Hide and show elements | Ocultar y mostrar elementos</h6>
                 <div class="padd2">
                     <b>Modificar html en un div con botones</b>
@@ -31,7 +31,7 @@
                         Ddonde tenemos dos botones y un texto. Al pulsar un botón,
                         cambiaremos el texto y al pulsar el otro pondremos otro texto distinto:
                     </p>
-                    <div id="div-button" class="exam-jQuery text-center">
+                    <div id="div-button" class="text-center">
                         Haz clic en un botón</div>
                     <div class="text-center">
                         <input id="button-a" type="button" value="Botón A" class="bttn">
@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <div class="padd2 exam-jQuery">
+            <div class="padd2 example">
                 <h6>Mostrar y ocultar un div enfocando un elemento</h6>
                 <div class="padd2">
                     <p>
@@ -48,14 +48,14 @@
                     ocultar dependiendo de si el usuario coloca el ratón encima de la capa que
                     está siempre visible:
                 </p>
-                <div id="capa" class="exam-jQuery text-center">
+                <div id="capa" class="text-center">
                     Pon el ratón encima de esta capa</div>
                 <div id="mensaje" style="display: none;" class="exam-jQuery text-center">
                     Has puesto el ratón encima!! <br>
                     (Ahora quítalo de la capa)</div>
                 </div>
             </div>
-            <div class="padd2 exam-jQuery">
+            <div class="padd2 example">
                 <h6>Mostrar u ocultar un div con un swich</h6>
                 <div class="padd2">
                     <form>
@@ -83,7 +83,7 @@
                     </p>
                 </div>
             </div>
-            <div class="padd2 exam-jQuery">
+            <div class="padd2 example">
                 <h6>Cambiar clases css enfocando un elemento</h6>
                 <div class="padd2">
                     <p>
@@ -101,7 +101,7 @@
                     Pon el ratón encima de esta capa</div>
                 </div>
             </div>
-            <div class="padd2 exam-jQuery">
+            <div class="padd2 example">
                 <h6>Mostrar o ocultar formulario con un toggle.</h6>
                 <div class="padd2">
                     <button class="showHide">Agregar</button>
@@ -124,7 +124,6 @@
                 </div>
             </div>
         </section>
-        <hr class="jQuery">
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('jQuery' , []);

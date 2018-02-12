@@ -27,7 +27,7 @@
             <article class="padd5">
                 <div class="padd2">
                     <h4 class="title text-center">Heading elements | Títulos</h4>
-                    <hr class="hr-simple-html">
+                    <hr class="hr-simple">
                     <div class="text-center example">
                         <h1>h1 heading | Título h1</h1>
                         <h2>h2 heading | Título h2</h2>
