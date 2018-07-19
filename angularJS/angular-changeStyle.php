@@ -30,6 +30,11 @@
                 <button ng-click="restoreClass()">Reiniciar clases</button>
                 
             </div>
+            <div class="padd2 example" ng-init="myCol='pink'">
+                <p>Cambiar el color de la caja de entrada por debajo, al cambiar su valor:</p>
+                <br/>
+                <input style="background-color:{{myCol}}" ng-model="myCol">
+            </div>
         </section>
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">

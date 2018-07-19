@@ -1,6 +1,3 @@
-<?php
-include "partials/top_page.php";
-?>
 <div class="bg-cover">
     <nav>
         <div class="title-center">

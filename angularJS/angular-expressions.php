@@ -36,6 +36,16 @@
                         Expresión de una moneda definida: {{50 | currency:"Bs"}}<br/>
                     </p>
                 </div>
+                <div class="padd2 example" ng-init="firstName='John';lastName='Doe'">
+                    <h6>AngularJS Strings</h6>
+                    <p class="padd2">The name is {{ firstName + " " + lastName }}</p>
+                </div>
+                <div class="padd2 example" ng-init="person={firstName:'John',lastName:'Doe'}">
+                    <h6>AngularJS Objects</h6>
+                    <p class="padd2">The name is {{ person.lastName }}</p>
+                    <b>Same example using ng-bind:</b>
+                    <p class="padd2">The name is <span ng-bind="person.lastName"></span></p>
+                </div>
         </section>
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
