@@ -53,6 +53,7 @@ Lista de cursos o guías que he seguido para tener todo éste proyecto
 * [PildorasInformáticas](https://www.youtube.com/watch?v=QC9_8nRNNHA&list=PLU8oAlHdN5BnX63lyAeV0LzLnpGudgRrK)
 * [Udemy](https://www.udemy.com/course/curso-de-desarrollo-web-con-html-css-y-javascript/learn/lecture/18055297#overview)
 * [w3schools](https://www.w3schools.com/html/)
+* [Mozilla](https://developer.mozilla.org/es/docs/HTML/HTML5)
 * Documentación oficial de Bootstrap, Jquery.
 
 ## Autores ✒️
