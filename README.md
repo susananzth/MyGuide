@@ -8,7 +8,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para poner en marcha el proyecto y como instalarlos y como instalarlas_
+_Que cosas necesitas para poner en marcha el proyecto y como instalarlos_
 
 * Ninguno 😋
 
@@ -36,7 +36,7 @@ Listo 😁
 
 ## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](url) para detalles de nuestro código de conducta, y el proceso para enviar pull requests.
+Por favor lee el [CONTRIBUTING.md](https://github.com/susananzth/MyGuide/blob/master/CONTRIBUTING.md) para detalles de nuestro código de conducta, y el proceso para enviar pull requests.
 
 ## Construido con 🛠️
 
@@ -62,7 +62,7 @@ Lista de cursos o guías que he seguido para tener todo éste proyecto
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](url) para detalles
+Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](https://github.com/susananzth/MyGuide/blob/master/LICENSE) para detalles
 
 ## Expresiones de Gratitud 🎁
 
