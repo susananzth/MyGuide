@@ -1,16 +1,9 @@
-@font-face {
-    font-family: "Roboto-Light";
-    font-style: normal;
-    src: local('Roboto-Light'), local('Roboto-Light'), url("../font/Roboto-Light.ttf")
-    format('truetype');}
-@font-face {
-font-family: "Roboto-Mono";
-font-style: normal;
-src: local('RobotoMono-Light'), local('RobotoMono-Light'), url("../font/RobotoMono-Light.ttf")
-format('truetype');}
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{font-family: 'VT323', monospace;}
+
 /*%=%=%=%=%=%=% GLOBAL %=%=%=%=%=%=%*/
 *{margin: 0;padding: 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;-webkit-margin-before: 0;-webkit-margin-after: 0;-webkit-margin-start: 0;-webkit-margin-end: 0;}
-*, body{font-family: Roboto-Light;}
 body,html{height: 100%;width: 100%;}
 body{background: #ebe9e2;color: #555555;font-size: 18px;transition: font-size 1s;}
 hr{background: #8CC854;border: 0;height: 15px;}
