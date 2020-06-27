@@ -1,21 +1,52 @@
-/* Fuentes */
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-*{font-family: 'VT323', monospace;}
-
 /*%=%=%=%=%=%=% GLOBAL %=%=%=%=%=%=%*/
-*{margin: 0;padding: 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;-webkit-margin-before: 0;-webkit-margin-after: 0;-webkit-margin-start: 0;-webkit-margin-end: 0;}
+    /*======== Fuentes ========*/
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+    *{font-family: 'Comic Neue', cursive; font-size: 16px;}
+    /*======== Headings ========*/
+    h1, h2, h3, h4, h5, h6{font-family: 'Comic Neue', cursive;font-weight: 300;-webkit-margin-after: 0;-webkit-margin-before: 0;-webkit-margin-end: 0;-webkit-margin-start: 0;}
+    h1{font-size: 3.5rem;}h2{font-size: 3rem;}h3{font-size: 2.6rem;}h4{font-size: 2.2rem;}
+    h5{font-size: 1.9rem;}h6{font-size: 1.5rem;}
+    /*======== scrollbar ========*/
+    ::-webkit-scrollbar{background: #e6e2e4;width: 10px;}
+    ::-webkit-scrollbar-thumb{background: #ff7cbda6;border-radius: 2px;cursor: pointer;}
+    ::-webkit-scrollbar-thumb:hover{background: #ff7cbd82;cursor: pointer;}
+    /*======== HTML ========*/
+
+    /*======== Paragraph ========*/
+    .paragraph{}
+    code, .code{background: #f7e5ee;color: #b007b3;display: inline-block;font-family: 'VT323', monospace;font-size: 1.15rem;letter-spacing: 1px;padding: 1%;text-align: justify;white-space: break-spaces;}
+
+/*%=%=%=%=%=%=% Componentes %=%=%=%=%=%=%*/
+    /*======== Paddings ========*/
+    .padd-1{padding: 1rem;}
+    .padd-2{padding: 2rem;}
+    .padd-3{padding: 3rem;}
+    .padd-4{padding: 4rem;}
+    .pl-1{padding-bottom: 1rem;padding-top: 1rem;}
+    .pl-2{padding-bottom: 2rem;padding-top: 2rem;}
+    .pl-3{padding-bottom: 3rem;padding-top: 3rem;}
+    .pl-4{padding-bottom: 4rem;padding-top: 4rem;}
+    .pt-1{padding-left: 1rem;padding-right: 1rem;}
+    .pt-2{padding-left: 2rem;padding-right: 2rem;}
+    .pt-3{padding-left: 3rem;padding-right: 3rem;}
+    .pt-4{padding-left: 4rem;padding-right: 4rem;}
+    /*======== Cards ========*/
+    .cards div {border: 1px solid #969696;border-radius: 3px;box-sizing: border-box;box-shadow: 2px 2px 10px -2px #d0d0d0;-webkit-box-shadow: 2px 2px 10px -2px #d0d0d0;-moz-box-shadow: 2px 2px 10px -2px #d0d0d0;margin-bottom: 1rem;padding: 0.5rem}
+
+
+
+/*
 body,html{height: 100%;width: 100%;}
 body{background: #ebe9e2;color: #555555;font-size: 18px;transition: font-size 1s;}
-hr{background: #8CC854;border: 0;height: 15px;}
+hr{background: #8CC854;border: 0;height: 15px;}*/
     /*Más estilos para hr: https://codepen.io/ibrahimjabbari/pen/ozinB*/
-/*======== scrollbar ========*/
-::-webkit-scrollbar{background: #F5F5F5;width: 10px;}
-::-webkit-scrollbar-thumb{background: #8cc854;border-radius: 2px;cursor: pointer;}
-::-webkit-scrollbar-thumb:hover{background: #86cc45;cursor: pointer;}
-/*======== Headings ========*/
-h1, h2, h3, h4, h5, h6{-webkit-margin-after: 0;-webkit-margin-before: 0;-webkit-margin-end: 0;-webkit-margin-start: 0;}
-h1{font-size: 400%;}h2{font-size: 330%;}h3{font-size: 280%;}h4{font-size: 220%;}
-h5{font-size: 180%;}h6{font-size: 144%;}
+
+
+
+
+
+
 /*======== Forms ========*/
 label{display: block;width: 80%;}
 input, textarea{border-radius: 10px; width: 80%;}
@@ -33,11 +64,10 @@ a:hover{color: #666666;font-weight: bold;}
 .header-primary{background: url('../img/bg-header-2.jpg') no-repeat center;background-size: cover;-moz-background-size: cover;-o-background-size: cover;-webkit-background-size: cover;padding: 15%;width: auto;}
 .nav{background: #CFF1C0;box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.52);-webkit-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.52);-moz-box-shadow: 0px 0px 11px- 2px rgba(0,0,0,0.52);list-style-type: none;position: relative;z-index: 1;}
 .section{background: #CFF1C0;}
-.example{background-color: #b2ee9b;border-radius: 3px;box-sizing: border-box;box-shadow: 3px 3px 11px -2px rgba(0,0,0,0.52);-webkit-box-shadow: 3px 3px 11px -2px rgba(0,0,0,0.52);-moz-box-shadow: 3px 3px 11px -2px rgba(0,0,0,0.52);margin: 2%;}
+
 .footer{background: #cdc8d2;-webkit-box-shadow: 0px -3px 11px -2px rgba(0,0,0,0.52);-moz-box-shadow: 0px -3px 11px -2px rgba(0,0,0,0.52);box-shadow: 0px -3px 11px -2px rgba(0,0,0,0.52);}
 /*======== HTML ========*/
 blockquote{background: #f7f7f7;margin: 1%;padding: 2%;}
-code{font-family: Roboto-Mono;font-size: inherit;}
 .col-border-html{border: 2px #D52A8B solid;box-sizing: border-box;}
 .hr-simple{background: #8CC854;border: 0;height: 2px;}
         /* Style for UL */
@@ -101,7 +131,7 @@ audio{background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,
 .item1, .item2, .item3{padding: 1%;box-sizing: border-box;}
 /*%=%=%=%=%=%=% VARIOS %=%=%=%=%=%=%*/
 small{font-size: 16px;}
-.code{background: #778077;color: #9ffdbc;display: inline-block;padding: 1%;}
+
 .coin{background-color: gray;border-radius: 25px;color: white;display: inline-block;font-weight: bold;font-size: 20px;height: 50px;line-height: 50px;margin: 10px;text-align: center;width: 50px;}
 /*======== BUTTONS ========*/
 a.btn{background: linear-gradient(45deg,#DDD8CF 0%, #ceacc7 50%, #8682a1 100%);border-radius: 3px; box-shadow: 0px 2px 4px rgba(34, 62, 66, 0.25);display: inline-block;padding: 10px 25px; text-decoration: none;transition: box-shadow 0.5s ease;-webkit-transition: box-shadow 0.5s ease;}
