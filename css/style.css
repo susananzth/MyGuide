@@ -12,6 +12,7 @@
     ::-webkit-scrollbar-thumb{background: #ff7cbda6;border-radius: 2px;cursor: pointer;}
     ::-webkit-scrollbar-thumb:hover{background: #ff7cbd82;cursor: pointer;}
     /*======== HTML ========*/
+    .content{margin: 0 auto;max-width: 1440px;padding-left: 1rem;padding-right: 1rem;}
 
     /*======== Paragraph ========*/
     .paragraph{}
