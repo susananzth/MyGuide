@@ -5,7 +5,7 @@
     *{font-family: 'Comic Neue', cursive; font-size: 16px;}
     /*======== Headings ========*/
     h1, h2, h3, h4, h5, h6{font-family: 'Comic Neue', cursive;font-weight: 300;-webkit-margin-after: 0;-webkit-margin-before: 0;-webkit-margin-end: 0;-webkit-margin-start: 0;}
-    h1{font-size: 3.5rem;}h2{font-size: 3rem;}h3{font-size: 2.6rem;}h4{font-size: 2.2rem;}
+    h1{font-size: 4rem;}h2{font-size: 3.3rem;}h3{font-size: 2.7rem;}h4{font-size: 2.2rem;}
     h5{font-size: 1.9rem;}h6{font-size: 1.5rem;}
     /*======== scrollbar ========*/
     ::-webkit-scrollbar{background: #e6e2e4;width: 10px;}
@@ -17,24 +17,55 @@
     /*======== Paragraph ========*/
     .paragraph{}
     code, .code{background: #f7e5ee;color: #b007b3;display: inline-block;font-family: 'VT323', monospace;font-size: 1.15rem;letter-spacing: 1px;padding: 1%;text-align: justify;white-space: break-spaces;}
-
+/*%=%=%=%=%=%=% HEADER %=%=%=%=%=%=%*/
+.header{background: linear-gradient(135deg, rgb(243, 207, 235) 0%, rgb(220, 178, 209) 44%, rgb(204, 129, 184) 100%);height: 100%;position: absolute;top: 0;width: 100%;}
+.title-header{padding-bottom: 14rem !important;padding-top: 14rem !important;text-align: left;}
+.bg-header{background: url('../img/web-design2.png') no-repeat right;background-size: contain;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;height: 100%;width: 100%;}
+.bg-cover{background: url('../img/web-design2.png') no-repeat center;background-size: cover;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;height: 100%;width: 100%;}
 /*%=%=%=%=%=%=% Componentes %=%=%=%=%=%=%*/
     /*======== Paddings ========*/
-    .padd-1{padding: 1rem;}
-    .padd-2{padding: 2rem;}
-    .padd-3{padding: 3rem;}
-    .padd-4{padding: 4rem;}
-    .pl-1{padding-bottom: 1rem;padding-top: 1rem;}
-    .pl-2{padding-bottom: 2rem;padding-top: 2rem;}
-    .pl-3{padding-bottom: 3rem;padding-top: 3rem;}
-    .pl-4{padding-bottom: 4rem;padding-top: 4rem;}
-    .pt-1{padding-left: 1rem;padding-right: 1rem;}
-    .pt-2{padding-left: 2rem;padding-right: 2rem;}
-    .pt-3{padding-left: 3rem;padding-right: 3rem;}
-    .pt-4{padding-left: 4rem;padding-right: 4rem;}
+    .padd-1{padding: 1rem !important;}
+    .padd-2{padding: 2rem !important;}
+    .padd-3{padding: 3rem !important;}
+    .padd-4{padding: 4rem !important;}
+    .pl-1{padding-bottom: 1rem !important;padding-top: 1rem !important;}
+    .pl-2{padding-bottom: 2rem !important;padding-top: 2rem !important;}
+    .pl-3{padding-bottom: 3rem !important;padding-top: 3rem !important;}
+    .pl-4{padding-bottom: 4rem !important;padding-top: 4rem !important;}
+    .pt-1{padding-left: 1rem !important;padding-right: 1rem !important;}
+    .pt-2{padding-left: 2rem !important;padding-right: 2rem !important;}
+    .pt-3{padding-left: 3rem !important;padding-right: 3rem !important;}
+    .pt-4{padding-left: 4rem !important;padding-right: 4rem !important;}
     /*======== Cards ========*/
     .cards div {border: 1px solid #969696;border-radius: 3px;box-sizing: border-box;box-shadow: 2px 2px 10px -2px #d0d0d0;-webkit-box-shadow: 2px 2px 10px -2px #d0d0d0;-moz-box-shadow: 2px 2px 10px -2px #d0d0d0;margin-bottom: 1rem;padding: 0.5rem}
+    /*======== Text Align ========*/
+    .text-center{text-align: center; text-align: -webkit-center;}
+    .text-justify{text-align:justify;}
+/*%=%=%=%=%=%=% COLUMNS %=%=%=%=%=%=%*/
+.flex-container{display: -webkit-flex;display: flex;flex-wrap: wrap;-webkit-flex-wrap: wrap;height: auto;width: auto;}
+/*Justifica las columnas en el centro*/
+.col-center{justify-content: center;-webkit-justify-content: center;}
+/*rellena con espacios vacíos entre las columnas para que llegue al 100% del width */
+.col-space-around{justify-content: space-around;-webkit-justify-content: space-around;}
+    /*Ancho de cada columna DESKTOP*/
+    .col-1{width: 6.33%;}.col-2{width: 14.66%;}.col-3{width: 23%;}
+    .col-4{width: 31.33%;}.col-5{width: 36.66%;}.col-6{width: 48%;}
+    .col-7{width: 56.33%;}.col-8{width: 64.66%;}.col-9{width: 73%;}
+    .col-10{width: 81.33%;}.col-11{width: 89.66%;}.col-12{width: 98%;}
+    /*Ancho de cada columna MOBILE*/
 
+    .col-1{width: 6.33%;}.col-2{width: 14.66%;}.col-3{width: 23%;}
+    .col-4{width: 31.33%;}.col-5{width: 36.66%;}.col-6{width: 48%;}
+    .col-7{width: 56.33%;}.col-8{width: 64.66%;}.col-9{width: 73%;}
+    .col-10{width: 81.33%;}.col-11{width: 89.66%;}.col-12{width: 98%;}
+    .col-nav{box-sizing: border-box;height: auto;}
+/*Estilo para cada columna*/
+.col-12,.col-11,.col-10,.col-9,.col-8,.col-7,.col-6,.col-5,.col-4,.col-3,.col-2,.col-1{box-sizing: border-box;height: auto;margin: 1%;padding: 1%;}
+/*Método 2 para dividir en columnas, pero sin salto de linea
+  Todas se mantienen en la misma fila.*/
+.item1{flex: 5;-webkit-flex: 5;}
+.item2{flex: 3;-webkit-flex: 3;}
+.item3{flex: 2;-webkit-flex: 2;}
 
 
 /*
@@ -109,25 +140,7 @@ audio{background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,
 .down{color: red !important;}.down:after{content: "\e8db";font-family: icomoon;font-size: 1.5em;vertical-align: bottom;}
 .up{color: #4e7c0b !important;} .up:before{content: "\e8dc";font-family: icomoon;font-size: 1.5em;vertical-align: bottom;}
 .down, .up{text-decoration: none !important;}
-/*%=%=%=%=%=%=% COLUMNS %=%=%=%=%=%=%*/
-.flex-container{display: -webkit-flex;display: flex;flex-wrap: wrap;-webkit-flex-wrap: wrap;height: auto;width: auto;}
-/*Justifica las columnas en el centro*/
-.col-center{justify-content: center;-webkit-justify-content: center;}
-/*rellena con espacios vacíos entre las columnas para que llegue al 100% del width */
-.col-space-around{justify-content: space-around;-webkit-justify-content: space-around;}
-/*Ancho de cada columna*/
-.col-1{width: 6.33%;}.col-2{width: 14.66%;}.col-3{width: 23%;}
-.col-4{width: 31.33%;}.col-5{width: 36.66%;}.col-6{width: 48%;}
-.col-7{width: 56.33%;}.col-8{width: 64.66%;}.col-9{width: 73%;}
-.col-10{width: 81.33%;}.col-11{width: 89.66%;}.col-12{width: 98%;}
-.col-nav{box-sizing: border-box;height: auto;}
-/*Estilo para cada columna*/
-.col-12,.col-11,.col-10,.col-9,.col-8,.col-7,.col-6,.col-5,.col-4,.col-3,.col-2,.col-1{box-sizing: border-box;height: auto;margin: 1%;padding: 1%;}
-/*Método 2 para dividir en columnas, pero sin salto de linea
-  Todas se mantienen en la misma fila.*/
-.item1{flex: 5;-webkit-flex: 5;}
-.item2{flex: 3;-webkit-flex: 3;}
-.item3{flex: 2;-webkit-flex: 2;}
+
 /*Estilo para los item*/
 .item1, .item2, .item3{padding: 1%;box-sizing: border-box;}
 /*%=%=%=%=%=%=% VARIOS %=%=%=%=%=%=%*/
@@ -152,9 +165,8 @@ table{border-spacing: 0;}
 .tab{padding-left: 20px;}
 .marg5{margin: 5%;} .marg2{margin: 2%;}
 .inline-b{display: inline-block;} .inline-f{ display: inline-flex;}
-.text-center{text-align: center; text-align: -webkit-center;}
-.text-justify{text-align:justify;}
+
 .title{padding-bottom: 2%;} .li-noStyle{list-style-type: none;}
 /*======== PAGE FULL COVER ========*/
-.bg-cover{background: url('../img/bg-cover.jpg') no-repeat center;background-size: cover;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;height: 100%;width: 100%;}
+
 .title-center{padding: 20% 20% 5% 20%;text-align: center;text-align: -webkit-center;}
