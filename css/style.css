@@ -19,8 +19,8 @@
     code, .code{background: #f7e5ee;color: #b007b3;display: inline-block;font-family: 'VT323', monospace;font-size: 1.15rem;letter-spacing: 1px;padding: 1%;text-align: justify;white-space: break-spaces;}
 /*%=%=%=%=%=%=% HEADER %=%=%=%=%=%=%*/
 .header{background: linear-gradient(135deg, rgb(243, 207, 235) 0%, rgb(220, 178, 209) 44%, rgb(204, 129, 184) 100%);height: 100%;position: absolute;top: 0;width: 100%;}
-.title-header{padding-bottom: 14rem !important;padding-top: 14rem !important;text-align: left;}
-.bg-header{background: url('../img/web-design2.png') no-repeat right;background-size: contain;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;height: 100%;width: 100%;}
+.title-header{padding-bottom: 1rem !important;padding-top: 1rem !important;text-align: center;}
+.bg-header{background: url('../img/web-design2.png') no-repeat center;background-size: contain;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;height: 400px !important;width: 100%;}
 .bg-cover{background: url('../img/web-design2.png') no-repeat center;background-size: cover;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;height: 100%;width: 100%;}
 /*%=%=%=%=%=%=% Componentes %=%=%=%=%=%=%*/
     /*======== Paddings ========*/
@@ -47,20 +47,38 @@
 .col-center{justify-content: center;-webkit-justify-content: center;}
 /*rellena con espacios vacíos entre las columnas para que llegue al 100% del width */
 .col-space-around{justify-content: space-around;-webkit-justify-content: space-around;}
-    /*Ancho de cada columna DESKTOP*/
-    .col-1{width: 6.33%;}.col-2{width: 14.66%;}.col-3{width: 23%;}
-    .col-4{width: 31.33%;}.col-5{width: 36.66%;}.col-6{width: 48%;}
-    .col-7{width: 56.33%;}.col-8{width: 64.66%;}.col-9{width: 73%;}
-    .col-10{width: 81.33%;}.col-11{width: 89.66%;}.col-12{width: 98%;}
-    /*Ancho de cada columna MOBILE*/
-
-    .col-1{width: 6.33%;}.col-2{width: 14.66%;}.col-3{width: 23%;}
-    .col-4{width: 31.33%;}.col-5{width: 36.66%;}.col-6{width: 48%;}
-    .col-7{width: 56.33%;}.col-8{width: 64.66%;}.col-9{width: 73%;}
-    .col-10{width: 81.33%;}.col-11{width: 89.66%;}.col-12{width: 98%;}
+    /*Ancho de cada columna MOBILE */
+    .col-s-1{width: 6.33%;}.col-s-2{width: 14.66%;}.col-s-3{width: 23%;}
+    .col-s-4{width: 31.33%;}.col-s-5{width: 36.66%;}.col-s-6{width: 48%;}
+    .col-s-7{width: 56.33%;}.col-s-8{width: 64.66%;}.col-s-9{width: 73%;}
+    .col-s-10{width: 81.33%;}.col-s-11{width: 89.66%;}.col-s-12{width: 98%;}
+    /*Ancho de cada columna DESKTOP */
+    @media (min-width: 1050px) {
+      .col-xl-1{width: 6.33%;}.col-xl-2{width: 14.66%;}.col-xl-3{width: 23%;}
+      .col-xl-4{width: 31.33%;}.col-xl-5{width: 36.66%;}.col-xl-6{width: 48%;}
+      .col-xl-7{width: 56.33%;}.col-xl-8{width: 64.66%;}.col-xl-9{width: 73%;}
+      .col-xl-10{width: 81.33%;}.col-xl-11{width: 89.66%;}.col-xl-12{width: 98%;}
+    }
+    /*Ancho de cada columna TABLET LG */
+    @media (min-width: 992px) {
+      .col-l-1{width: 6.33%;}.col-l-2{width: 14.66%;}.col-l-3{width: 23%;}
+      .col-l-4{width: 31.33%;}.col-l-5{width: 36.66%;}.col-l-6{width: 48%;}
+      .col-l-7{width: 56.33%;}.col-l-8{width: 64.66%;}.col-l-9{width: 73%;}
+      .col-l-10{width: 81.33%;}.col-l-11{width: 89.66%;}.col-l-12{width: 98%;}
+    }
+    /*Ancho de cada columna TABLET */
+    @media (min-width: 720px) {
+      .col-m-1{width: 6.33%;}.col-m-2{width: 14.66%;}.col-m-3{width: 23%;}
+      .col-m-4{width: 31.33%;}.col-m-5{width: 36.66%;}.col-m-6{width: 48%;}
+      .col-m-7{width: 56.33%;}.col-m-8{width: 64.66%;}.col-m-9{width: 73%;}
+      .col-m-10{width: 81.33%;}.col-m-11{width: 89.66%;}.col-m-12{width: 98%;}
+    }
     .col-nav{box-sizing: border-box;height: auto;}
 /*Estilo para cada columna*/
-.col-12,.col-11,.col-10,.col-9,.col-8,.col-7,.col-6,.col-5,.col-4,.col-3,.col-2,.col-1{box-sizing: border-box;height: auto;margin: 1%;padding: 1%;}
+.col-s-1,.col-s-2,.col-s-3,.col-s-4,.col-s-5,.col-s-6,.col-s-7,.col-s-8,.col-s-9,.col-s-10,.col-s-11,.col-s-12{box-sizing: border-box;height: auto;margin: 1%;padding: 1%;}
+.col-m-1,.col-m-2,.col-m-3,.col-m-4,.col-m-5,.col-m-6,.col-m-7,.col-m-8,.col-m-9,.col-m-10,.col-m-11,.col-m-12{box-sizing: border-box;height: auto;margin: 1%;padding: 1%;}
+.col-l-1,.col-l-2,.col-l-3,.col-l-4,.col-l-5,.col-l-6,.col-l-7,.col-l-8,.col-l-9,.col-l-10,.col-l-11,.col-l-12{box-sizing: border-box;height: auto;margin: 1%;padding: 1%;}
+.col-xl-1,.col-xl-2,.col-xl-3,.col-xl-4,.col-xl-5,.col-xl-6,.col-xl-7,.col-xl-8,.col-xl-9,.col-xl-10,.col-xl-11,.col-xl-12{box-sizing: border-box;height: auto;margin: 1%;padding: 1%;}
 /*Método 2 para dividir en columnas, pero sin salto de linea
   Todas se mantienen en la misma fila.*/
 .item1{flex: 5;-webkit-flex: 5;}
@@ -170,3 +188,19 @@ table{border-spacing: 0;}
 /*======== PAGE FULL COVER ========*/
 
 .title-center{padding: 20% 20% 5% 20%;text-align: center;text-align: -webkit-center;}
+
+/*%=%=%=%=%=%=% MEDIA QUERY %=%=%=%=%=%=%*/
+    /*Ancho de cada columna DESKTOP */
+    @media (min-width: 1050px) {
+
+    }
+    /*Ancho de cada columna TABLET LG */
+    @media (min-width: 992px) {
+      .title-header{padding-bottom: 14rem !important;padding-top: 14rem !important;text-align: left;}
+
+    }
+    /*Ancho de cada columna TABLET */
+    @media (min-width: 720px) {
+      .title-header{padding-bottom: 14rem !important;padding-top: 14rem !important;text-align: left;}
+      .bg-header{background-position: right;height: auto !important;}
+    }
