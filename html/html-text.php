@@ -24,20 +24,7 @@
         </nav>
         <hr/>
         <section class="section">
-            <article class="padd5">
-                <div class="padd2">
-                    <h4 class="title text-center">Heading elements | Títulos</h4>
-                    <hr class="hr-simple">
-                    <div class="text-center example">
-                        <h1>h1 heading | Título h1</h1>
-                        <h2>h2 heading | Título h2</h2>
-                        <h3>h3 heading | Título h3</h3>
-                        <h4>h4 heading | Título h4</h4>
-                        <h5>h5 heading | Título h5</h5>
-                        <h6>h6 heading | Título h6</h6>
-                    </div>
-                </div>
-            </article>
+
             <hr/>
             <article class="padd5">
                 <h4 class="title text-center">Texts, Paragraphs | Textos, Párrafos</h4>
