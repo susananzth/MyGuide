@@ -25,64 +25,6 @@
         <hr/>
         <section class="section">
 
-            <hr/>
-            <article class="padd5">
-                <h4 class="title text-center">Texts, Paragraphs | Textos, Párrafos</h4>
-                <div class="example marg2 padd1">
-                    <b>EN: This is bold text. The <b><u>&ltb&gt</u></b> tag specifies a bold text.</b>
-                    <br> <b>ES: Esto es un texto en negrita. La etiqueta <b><u>&ltb&gt</u></b>
-                        especifica el texto en negrita.</b>
-                </div>
-                <div class="example marg2 padd1">
-                    <em><b>EN:</b> This is bold text. The &ltb&gt tag specifies bold text.</em><br>
-                    <em><b>ES:</b> Esto es un texto en negrita. La etiqueta &ltb&gt especifíca
-                        texto en negrita.</em>
-                </div>
-                <div class="example marg2 padd1">
-                    <u><b>EN:</b> This is bold text. The &ltb&gt tag specifies bold text.</u><br>
-                    <u><b>ES:</b> Esto es un texto en negrita. La etiqueta &ltb&gt especifica
-                        texto en negrita.</u>
-                </div>
-                <div id="paragraphs" class="example marg2 padd1">
-                    <!-- UN PARRAFO CON SUS ATRIBUTOS -->
-                    <p id="paragraph-en" lang="EN" title="A paragraph."><b>EN:</b>
-                        This is a paragraphs. The <b><u>&ltp&gt</u></b> tag specifies a paragraphs.
-                        <u>Attributes:</u> <b>id:</b> unique name. <b>title:</b> a tool tip.
-                        <b>lang:</b> language code.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Morbi viverra ex non nunc dignissim molestie.</p><br>
-                    <p id="paragraph-es" lang="ES" title="Un párrafo"><b>ES:</b> Esto es un párrafo.
-                        La etiqueta <b><u>&ltp&gt</u></b> especifica un párrafo.
-                        <u>Atributos:</u> <b>id:</b> nombre único. <b>title:</b> un tool tip.
-                        <b>lang:</b> languaje de la cita.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra
-                        ex non nunc dignissim molestie.</p>
-                </div>
-                <div class="example marg2 padd1">
-                    <!-- UNA CITA CON SUS ATRIBUTOS -->
-                    <blockquote id="blockq-en" title="A blockquote."
-                                cite="https://www.w3schools.com/tags/tag_blockquote.asp">
-                        <b>EN:</b> A section that is quoted from another source.
-                        The <b><u>&ltblockquote&gt</u></b> tag specifies a quoted.<br>
-                        <u>Attributes:</u> <b>cite:</b> URL, specifies the source of the quotation.
-                        <b>id:</b> unique name. <b>title:</b> a tool tip. <b>lang:</b> language code.
-                        More about blockquote:
-                        <a href="https://www.w3schools.com/tags/tag_blockquote.asp"
-                           rel="help" hreflang="EN" type="text/html" target="_blank" >EN: w3schools</a>
-                    </blockquote><br>
-                    <blockquote id="blockq-es" title="Un blockquote 'Cita'."
-                                cite="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/blockquote">
-                        <b>ES:</b> Una sección que se cita de otra fuente.
-                        La etiqueta <b><u>&ltblockquote&gt</u></b> especifica una cita.<br>
-                        <u>Atributos:</u> <b>cite:</b> URL, enlace al documento original o fuente.
-                        <b>id:</b> nombre único. <b>title:</b> un tool tip.
-                        <b>lang:</b> languaje de la cita. Más acerca de blockquote:
-                        <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/blockquote"
-                           rel="help" hreflang="ES" type="text/html" target="_blank">ES: MDN</a>
-                    </blockquote>
-                </div>
-            </article>
-            <hr/>
             <article class="padd5">
                 <div>
                     <h4 class="title text-center">Columns | Columnas</h4>
