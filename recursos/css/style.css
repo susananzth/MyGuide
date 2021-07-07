@@ -1,8 +1,15 @@
 /*%=%=%=%=%=%=% GLOBAL %=%=%=%=%=%=%*/
     /*======== Fuentes ========*/
-    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-    *{font-family: 'Comic Neue', cursive; font-size: 16px;}
+      @font-face {
+        font-family: 'Montserrat';
+        src: local('Montserrat'), 
+        url('../font/Montserrat-ExtraLight.ttf')  format('truetype'); /* Safari, Android, iOS */
+        font-weight: lighter;
+      }
+      /* Alternativa de font-face 
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); */
+      *{font-family: 'Montserrat', sans-serif; font-size: 16px;}
+      
     /*======== scrollbar ========*/
     ::-webkit-scrollbar{background: #e6e2e4;width: 10px;}
     ::-webkit-scrollbar-thumb{background: #ff7cbda6;border-radius: 2px;cursor: pointer;}
@@ -13,7 +20,7 @@
     a:focus, a:link, a.visited{color: #51068a;text-decoration: none;}
     a:hover{color: #51068a;font-weight: bold;}
     /*======== Headings ========*/
-    h1, h2, h3, h4, h5, h6{font-family: 'Comic Neue', cursive;font-weight: 300;-webkit-margin-after: 0;-webkit-margin-before: 0;-webkit-margin-end: 0;-webkit-margin-start: 0;}
+    h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif;font-weight: 400;-webkit-margin-after: 0;-webkit-margin-before: 0;-webkit-margin-end: 0;-webkit-margin-start: 0;}
     h1{font-size: 3rem;}h2{font-size: 2.5rem;}h3{font-size: 2.1rem;}h4{font-size: 1.8rem;}
     h5{font-size: 1.5rem;}h6{font-size: 1.2rem;}
     /*======== content ========*/

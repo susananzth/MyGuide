@@ -40,6 +40,44 @@
                 </form>
             </div>
         </section>
+        <section>
+            <form action="">
+                <label for="hora">
+                    <span>Hora</span>
+                    <input type="time" name="hora" id="hora">
+                </label>
+                <label for="dia">
+                    <span>Día</span>
+                    <input type="date" name="dia" id="dia">
+                </label>
+                <label for="semana">
+                    <span>Semana</span>
+                    <input type="week" name="semana" id="semana">
+                </label>
+                <label for="mes">
+                    <span>Mes</span>
+                    <input type="month" name="mes" id="mes">
+                </label>
+                <select name="cursos" id="cursis">
+                    <option value="js">js</option>
+                    <option value="css">css</option>
+                    <option value="html">html</option>
+                </select>
+                <input type="submit" value="Enviar">
+            </form>
+            <form action="">
+                <label for="calendario">
+                    <span>Calendario</span>
+                    <input type="datetime-locale" name="calendario" id="calendario">
+                </label>
+                <input list="cursos">
+                    <option value="js">js</option>
+                    <option value="css">css</option>
+                    <option value="html">html</option>
+                <datalist id="cursos">
+                </datalist>
+            </form>
+        </section>
         <div ng-include src="'../partials/footer.php'"></div>
         <script type="text/javascript">
             var myApp = angular.module('html5' , []);
