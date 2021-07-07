@@ -1,52 +1,113 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-  <head>
-    <!-- Etiquetas meta -->
-    <meta charset="utf-8">
-    <meta name="DC.Language" scheme="RFC1766" content="Spanish">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Componentes HTML con Bootstrap y JQuery que utilizo con frecuencia. Desarrollado por Susana Piñero @susananzth"/>
-    <meta name="keywords" content="HTML, HTML5, CSS, JS, Bootstrap 5, JQuery"/>
-    <meta name="author" content="Susana Piñero Rodríguez" />
-    <meta name="copyright" content="Susana Piñero Rodríguez" />
-    <meta name="reply-to" content="me@susananzth.com">
-    <link rev="made" href="mailto:me@susananzth.com">
-    <!-- Título de la página -->
-    <title>My Guide HTML5 | SusanaNzth</title>
-    <!-- Ícono -->
-    <link rel="icon" type="image/x-icon" href="recursos/img/favicon.ico">
-    <!-- Fuentes -->
-    <link rel="stylesheet" href="recursos/css/bootstrap-icons.css">
-    <!-- Estilos -->
-    <link rel="stylesheet" href="recursos/css/normalize.css">
-    <link rel="stylesheet" href="recursos/css/bootstrap.min.css">
-    <link rel="stylesheet" href="recursos/css/style.css">
-  </head>
-  <body>
-    <div class="header">
-      <div class="flex-container">
-          <div class="bg-header col-s-12 col-m-6"></div>
-          <div class="col-s-12 col-m-6 title-header">
-              <div class="pt-1">
-                  <h1>My Guide FrontEnd</h1>
-                  <h3>by Susana Piñero</h3>
-                  <h3>@susananzth</h3>
-              </div>
-          </div>
-      </div>
-      <nav>
-          <ul class="flex-container col-center li-noStyle text-center">
-              <li class="col-nav padd2"><a href="html/html-heading.html">Títulos</a></li>
-              <li class="col-nav padd2"><a href="html/html-paragraph.html">Párrafos</a></li>
-              <li class="col-nav padd2"><a href="html/html-meta.html">Etiquetas meta</a></li>
-              <li class="col-nav padd2"><a href="javascript/javascript.html">JavaScript</a></li>
-          </ul>
-      </nav>
-    </div>
-    <script src="recursos/js/bootstrap.bundle.min.js"></script>
-    <script src="recursos/js/jquery-3.6.0.min.js"></script>
-    <script src="recursos/js/jquery.validate.min.js"></script>
-    <script src="recursos/js/additional-methods.min.js"></script>
-    <script src="recursos/js/myscript.js"></script>
-  </body>
+
+<head>
+	<!-- Etiquetas meta -->
+	<meta charset="utf-8">
+	<meta name="DC.Language" scheme="RFC1766" content="Spanish">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="Componentes HTML con Bootstrap y JQuery que utilizo con frecuencia. Desarrollado por Susana Piñero @susananzth" />
+	<meta name="keywords" content="HTML, HTML5, CSS, JS, Bootstrap 5, JQuery" />
+	<meta name="author" content="Susana Piñero Rodríguez" />
+	<meta name="copyright" content="Susana Piñero Rodríguez" />
+	<meta name="reply-to" content="me@susananzth.com">
+	<link rev="made" href="mailto:me@susananzth.com">
+	<!-- Título de la página -->
+	<title>My Guide #1 | SusanaNzth</title>
+	<!-- Ícono -->
+	<link rel="icon" type="image/x-icon" href="recursos/img/favicon.ico">
+	<!-- Fuentes -->
+	<link rel="stylesheet" href="recursos/css/bootstrap-icons.css">
+	<!-- Estilos -->
+	<link rel="stylesheet" href="recursos/css/normalize.css">
+	<link rel="stylesheet" href="recursos/css/bootstrap.min.css">
+	<link rel="stylesheet" href="recursos/css/style.css">
+</head>
+
+<body class="d-flex flex-column">
+	<header>
+		<nav class="navbar navbar-expand-lg text-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">MyGuide</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarMyGuide" aria-controls="navbarMyGuide"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarMyGuide">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="html/html-meta.html">Etiquetas meta</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="textDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Texto
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="textDropdown">
+								<li><a class="dropdown-item" href="html/html-heading.html">Títulos</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="html/html-paragraph.html">Parrafos</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="#">Something else here</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="formDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Formulario
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="formDropdown">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="#">Something else here</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="javascript/javascript.html">JavaScript</a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Buscar</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-sm-12 col-md-6 m-auto">
+					<img src="recursos/img/web-design2.png" class="img-fluid img-principal"
+						alt="Imagen caricaturezca del representativa del diseño web.">
+				</div>
+				<div class="col-sm-12 col-md-6 m-auto">
+					<div>
+						<h1>My Guide FrontEnd</h1>
+						<h3>by Susana Piñero</h3>
+						<h3>@susananzth</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer mt-auto py-3 bg-light">
+		<div class="container">
+			<span class="text-muted">Susana Piñero Rodríguez @susananzth</span>
+		</div>
+	</footer>
+	<script src="recursos/js/bootstrap.bundle.min.js"></script>
+	<script src="recursos/js/jquery-3.6.0.min.js"></script>
+	<script src="recursos/js/jquery.validate.min.js"></script>
+	<script src="recursos/js/additional-methods.min.js"></script>
+	<script src="recursos/js/myscript.js"></script>
+</body>
+
 </html>
