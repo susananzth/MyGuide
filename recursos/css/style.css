@@ -3,8 +3,8 @@
       @font-face {
         font-family: 'Montserrat';
         src: local('Montserrat'), 
-        url('../font/Montserrat-ExtraLight.ttf')  format('truetype'); /* Safari, Android, iOS */
-        font-weight: lighter;
+        url('../font/Montserrat-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+        font-weight: normal;
       }
       /* Alternativa de font-face 
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); */
@@ -14,6 +14,8 @@
     ::-webkit-scrollbar{background: #e6e2e4;width: 10px;}
     ::-webkit-scrollbar-thumb{background: #ff7cbda6;border-radius: 2px;cursor: pointer;}
     ::-webkit-scrollbar-thumb:hover{background: #ff7cbd82;cursor: pointer;}
+    /* Buttons*/
+    .navbar-light .navbar-toggler {color: rgb(232 159 210 / 25%);}
     /*======== Links ========*/
 
     /*======== Headings ========*/
