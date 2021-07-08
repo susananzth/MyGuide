@@ -25,7 +25,7 @@ git init
 
 Luego, clona el repositorio dentro de la carpeta de tu servidor con el siguiente comando:
 ```
-git clone git@github.com:susananzth/MyGuide.git
+git clone https://github.com/susananzth/MyGuide.git
 ```
 
 Listo 😁
