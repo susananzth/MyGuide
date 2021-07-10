@@ -29,7 +29,7 @@
     .paragraph{}
     code, .code{background: #f7e5ee;color: #b007b3;display: inline-block;font-family: 'VT323', monospace;font-size: 1.15rem;letter-spacing: 1px;padding: 1%;white-space: break-spaces;}
 /*%=%=%=%=%=%=% HEADER %=%=%=%=%=%=%*/
-body{background: linear-gradient(#f3cfeb, #cc81b8);}
+body{background: linear-gradient(#f3cfeb, #cc81b8) fixed;}
 .img-principal{max-width: 600px;}
 /*%=%=%=%=%=%=% Componentes %=%=%=%=%=%=%*/
     /*======== Paddings ========*/
