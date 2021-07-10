@@ -29,7 +29,7 @@
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="../">
 					<img src="../recursos/img/logo.png" alt="Logo de SusanaNzth" width="30" height="24" class="d-inline-block align-text-top">
 					MyGuide</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -40,7 +40,7 @@
 				<div class="collapse navbar-collapse" id="navbarMyGuide">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Inicio</a>
+							<a class="nav-link active" aria-current="page" href="../">Inicio</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="textDropdown" role="button"
@@ -128,10 +128,93 @@
 	</header>
 	<main>
 		<div class="container-fluid">
+			<div class="card my-2">
+				<div class="card-header">
+					<div class="card-title">
+						Ejemplo de todos los inpust
+					</div>
+				</div>
+				<div class="card-body">
+					<h4>Input text:</h4>
+					<div class="form-group">
+						<label for="textSimple" class="mt-2 mb-0">Input sencillo</label>
+						<input type="text" name="text_simple" id="textSimple" 
+								placeholder="Input sencillo" value="" autofocus 
+								autocomplete="name" required class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="textDisabled" class="mt-2 mb-0">Input sencillo deshabilitado</label>
+						<input type="text" name="text_disabled" id="textDisabled" 
+								value="" readonly disabled autocomplete="name" 
+								placeholder="Input sencillo deshabilitado" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="textAll" class="mt-2 mb-0">Input con todos los atributos</label>
+						<input type="text" name="text_all" id="textAll" data-id=""
+								placeholder="Input text full atributos" value="" autofocus 
+								autocomplete="name" required class="form-control"
+								onpaste="return false;" ondrop="false">
+					</div>
+					<hr>
+					<h4>Input number:</h4>
+					<div class="form-group">
+						<label for="numberSimple" class="mt-2 mb-0">Input number sencillo, permite signos y euler</label>
+						<input type="number" name="number_simple" id="numberSimple" 
+								placeholder="Input number sencillo" value="" autofocus 
+								autocomplete="name" required class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="numberDisabled" class="mt-2 mb-0">Input number sencillo deshabilitado</label>
+						<input type="number" name="number_disabled" id="numberDisabled" 
+								value="" readonly disabled autocomplete="name" 
+								placeholder="Input number sencillo deshabilitado" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="numberAll" class="mt-2 mb-0">Input con todos los atributos, permite signos y euler</label>
+						<input type="number" name="number_all" id="numberAll" data-id=""
+								placeholder="Input number full atributos" value="" autofocus 
+								autocomplete="name" required class="form-control"
+								onpaste="return false;" ondrop="false">
+					</div>
+					<hr>
+					<h4>Input email:</h4>
+					<div class="form-group">
+						<label for="emailSimple" class="mt-2 mb-0">Input email sencillo, permite signos y euler</label>
+						<input type="email" name="email_simple" id="emailSimple" 
+								placeholder="Input email sencillo" value="" autofocus 
+								autocomplete="name" required class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="emailDisabled" class="mt-2 mb-0">Input email sencillo deshabilitado</label>
+						<input type="email" name="email_disabled" id="emailDisabled" 
+								value="" readonly disabled autocomplete="name" 
+								placeholder="Input email sencillo deshabilitado" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="emailAll" class="mt-2 mb-0">Input con todos los atributos, permite signos y euler</label>
+						<input type="email" name="email_all" id="emailAll" data-id=""
+								placeholder="Input email full atributos" value="" autofocus 
+								autocomplete="name" required class="form-control"
+								onpaste="return false;" ondrop="false">
+					</div>
+					<hr>
+					<h4>Input contraseña:</h4>
+					<div class="form-group">
+						<label for="passwordSimple" class="mt-2 mb-0">Input contraseña sencillo, permite signos y euler</label>
+						<input type="password" name="password_simple" id="passwordSimple" 
+								placeholder="Input password sencillo" value="" autofocus 
+								autocomplete="name" required class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="passwordDisabled" class="mt-2 mb-0">Input contraseña sencillo deshabilitado</label>
+						<input type="password" name="password_disabled" id="passwordDisabled" 
+								value="" readonly disabled autocomplete="name" 
+								placeholder="Input password sencillo deshabilitado" class="form-control">
+					</div>
+				</div>
+			</div>
             <section class="section padd5">
                 <div class="example padd2">
-                    <h4 class="title text-center">Ejemplo de un formulario</h4>
-                    <form action="miScript.php" method="GET">
                         <label for="to">Para: <input id="to" type="email"></label>
                         <label for="topic">Temática:
                             <select id="topic" name="topic">
@@ -143,8 +226,6 @@
                         </label>
                         <label for="subject">Asunto: <input id="subject" name="subject" type="text"></label>
                         <label for="body">Cuerpo: <textarea id="body" name="body"></textarea></label>
-                        <button type="submit">Enviar</button>
-                    </form>
                 </div>
             </section>
             <section>
@@ -185,7 +266,7 @@
                     </datalist>
                 </form>
             </section>
-            </div>
+        </div>
 	</main>
 	<footer class="footer mt-auto py-3 bg-light">
 		<div class="container">
