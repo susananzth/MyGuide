@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- Etiquetas meta -->
+	<meta charset="utf-8">
+	<meta name="DC.Language" scheme="RFC1766" content="Spanish">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="Componentes HTML con Bootstrap y JQuery que utilizo con frecuencia. Desarrollado por Susana Piñero @susananzth" />
+	<meta name="keywords" content="HTML, HTML5, CSS, JS, Bootstrap 5, JQuery" />
+	<meta name="author" content="Susana Piñero Rodríguez" />
+	<meta name="copyright" content="Susana Piñero Rodríguez" />
+	<meta name="reply-to" content="me@susananzth.com">
+	<link rev="made" href="mailto:me@susananzth.com">
+	<!-- Título de la página -->
+	<title>Imágenes | SusanaNzth</title>
+	<!-- Ícono -->
+	<link rel="icon" type="image/x-icon" href="../favicon.ico">
+	<!-- Fuentes -->
+	<link rel="stylesheet" href="../recursos/css/bootstrap-icons.css">
+	<!-- Estilos -->
+	<link rel="stylesheet" href="../recursos/css/normalize.css">
+	<link rel="stylesheet" href="../recursos/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../recursos/css/style.css">
+</head>
+<body class="d-flex flex-column">
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="../index.html">
+					<img src="../recursos/img/logo.png" alt="Logo de SusanaNzth" width="30" height="24" class="d-inline-block align-text-top">
+					MyGuide</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarMyGuide" aria-controls="navbarMyGuide"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- Barra de navegacion -->
+				<div class="collapse navbar-collapse" id="navbarMyGuide">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="textDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Secciones
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="textDropdown">
+								<li><a class="dropdown-item" href="../html/html-meta.html">Etiquetas meta</a></li>
+								<li><a class="dropdown-item" href="#">Estilos</a></li>
+								<li><a class="dropdown-item" href="#">Animaciones</a></li>
+								<li><a class="dropdown-item" href="#">Cabecera</a></li>
+								<li><a class="dropdown-item" href="#">Barra de navegacion</a></li>
+								<li><a class="dropdown-item" href="#">Secciones</a></li>
+								<li><a class="dropdown-item" href="#">Footer</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="textDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Texto
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="textDropdown">
+								<li><a class="dropdown-item" href="../html/html-heading.html">Títulos</a></li>
+								<li><a class="dropdown-item" href="../html/html-paragraph.html">Parrafos</a></li>
+								<li><a class="dropdown-item" href="#">Cita</a></li>
+								<li><a class="dropdown-item" href="#">Código</a></li>
+								<li><a class="dropdown-item" href="#">Alert, Toats</a></li>
+								<li><a class="dropdown-item" href="#">Acordión</a></li>
+								<li><a class="dropdown-item" href="#">Tarjeta</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="textDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Multimedia
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="textDropdown">
+								<li><a class="dropdown-item" href="../html/images.html">Imágenes</a></li>
+								<li><a class="dropdown-item" href="#">Vídeos</a></li>
+								<li><a class="dropdown-item" href="#">Sonidos</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="formDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Formulario
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="formDropdown">
+								<li><a class="dropdown-item" href="../html/inputs.html">Todos los inputs</a></li>
+								<li><a class="dropdown-item" href="#">Inicio de sesión</a></li>
+								<li><a class="dropdown-item" href="#">Registro de usuario</a></li>
+								<li><a class="dropdown-item" href="#">Regitro de artículo</a></li>
+								<li><a class="dropdown-item" href="#">Regitro de dirección</a></li>
+								<li><a class="dropdown-item" href="#">Cuestionario</a></li>
+								<li><a class="dropdown-item" href="#">Perfil</a></li>
+								<li><a class="dropdown-item" href="#">Edición de entrada</a></li>
+								
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="formDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Tabla
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="formDropdown">
+								<li><a class="dropdown-item" href="#">Básica + Bootstrap 5</a></li>
+								<li><a class="dropdown-item" href="#">Sin botones + Bootstrap 5</a></li>
+								<li><a class="dropdown-item" href="#">Sin diseño</a></li>
+								<li><a class="dropdown-item" href="#">Full botones + Bootstrap 5</a></li>
+								<li><a class="dropdown-item" href="#">Tabla formulario</a></li>
+								<li><a class="dropdown-item" href="#">Tabla formulario con modal</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="formDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								JavaScript
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="formDropdown">
+								<li><a class="dropdown-item" href="../javascript/javascript.html">Old</a></li>
+								<li><a class="dropdown-item" href="#">Cambio de atributos</a></li>
+								<li><a class="dropdown-item" href="#">Almacenamiento de data-</a></li>
+								<li><a class="dropdown-item" href="#">Ajax</a></li>
+								<li><a class="dropdown-item" href="#">Validacion</a></li>
+								<li><a class="dropdown-item" href="#">Framework</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Buscar</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+    <main>
+        <div class="container-fluid">
+            <div class="card mx-md-5 my-5">
+                <div class="card-header">
+                    <div class="card-title">Imágenes</div>
+                </div>
+                <div class="card-body">
+                    <figure>
+                        <img src="../recursos/img/tabla-imaneges-platzi.PNG" alt="Tabla de diferencias de las imágenes. Fuente: Platzi." 
+                            class="img-responsive">
+                    </figure>
+                    <blockquote class="text-justify">
+                        <b>Lossless</b><br>
+                        Sin pérdida. Los formatos de imagen sin pérdida capturan todos los datos de su archivo
+                        original. No se pierde nada del archivo original, foto o obra de arte, de ahí el
+                        término "sin pérdida". El archivo aún puede estar comprimido, pero todos los formatos
+                        sin pérdida podrán reconstruir su imagen a su estado original. <u>Ejemplo</u>: Graphics Interchange Format (GIF),
+                        Portable Network Graphics (PNG 8, PNG 24), Scalable Vector Graphics (SVG - Vector).
+                        <br><br>Fuente: <a href="https://platzi.com/clases/2008-html-css/31084-tipos-de-imagenes/" 
+                                        target="_blank" rel="noopener noreferrer">Platzi</a>
+                    </blockquote>
+                    <blockquote class="text-justify mt-3">
+                        <b>Lossy</b><br>
+                        Con pérdida. Los formatos de imagen con pérdida se aproximan a su imagen original. Por
+                        ejemplo, una imagen con pérdida podría reducir la cantidad de colores en su imagen
+                        o analizar la imagen en busca de datos innecesarios. Estos reducirá el tamaño del
+                        archivo, aunque pueden reducir la calidad de su imagen. <u>Ejemplo</u>: Photographic Experts Group (JPG / JPEG),
+
+                        <br><br>Fuente: <a href="https://platzi.com/clases/2008-html-css/31084-tipos-de-imagenes/" 
+                                        target="_blank" rel="noopener noreferrer">Platzi</a>
+                    </blockquote>
+                    <p>
+                        Se recomienda que el máximo de peso de una imagen sea de 70Kb. Se pueden utilizar varios comprosores de imágenes: 
+                        <a href="https://tinypng.com/" target="_blank" rel="noopener noreferrer"
+                            data-bs-toggle="tooltip" data-bs-placement="top" title="Comprime imágenes sin perder calidad">tinyPNG</a>, 
+                        <a href="https://compressor.io/" target="_blank" rel="noopener noreferrer"
+                            data-bs-toggle="tooltip" data-bs-placement="top" title="Comprime imágenes sin perder calidad">compressor.io</a>,
+                        <a href="https://www.verexif.com/" target="_blank" rel="noopener noreferrer"
+                            data-bs-toggle="tooltip" data-bs-placement="top" title="Elimina los metadatos">verexif</a>,
+                        <a href="https://convertio.co/es/jpg-svg/" target="_blank" rel="noopener noreferrer"
+                            data-bs-toggle="tooltip" data-bs-placement="top" title="Convertidor de imágenes">convertio</a>
+                            
+                    </p>
+                </div>
+            </div>
+            <article class="section padd5">
+                <div class="padd2">
+                    <h4 class="title text-center">Images | Imágenes</h4>
+                    <br>
+                    <div class="flex-container example">
+                        <div class="item2">
+                            <!-- UNA IMAGEN CON ESTILOS CSS -->
+                            <p><b>EN:</b> An image with static high and wide.</p>
+                            <p><b>ES:</b> Una imágen con alto y ancho estático.</p><br>
+                            <a class="" href="#" target="_blank">
+                                <img src="../img/web-desing.jpg" alt="Web desing | Diseño web"
+                                        title="Web desing | Diseño web" width="370" height="280">
+                            </a>
+                        </div>
+                        <div class="item2">
+                            <!-- UNA IMAGEN CON LINK Y RESPONSIVA -->
+                            <p><b>EN:</b> A picture with link and responsive size.</p>
+                            <p><b>ES:</b> Una imágen con link y tamaño responsivo.</p><br>
+                            <a class="" href="#" target="_blank">
+                                <img src="../img/web-desing.jpg" alt="Web desing | Diseño web"
+                                        title="Web desing | Diseño web" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="flex-container example">
+                        <div class="col-4">
+                            <!-- UNA IMAGEN REDONDEADA CON LINK y RESPONSIVA -->
+                            <p><b>EN:</b> A picture with link and responsive size thumbnail.</p>
+                            <p><b>ES:</b> Una imágen con link y tamaño responsivo thumbnail.</p><br>
+                            <a class="" href="#" target="_blank">
+                                <img src="../img/web-desing.jpg" alt="Web desing | Diseño web"
+                                        title="Web desing | Diseño web"
+                                        class="img-responsive img-thumbnail">
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <!-- UNA IMAGEN REDONDEADA CON LINK y RESPONSIVA -->
+                            <p><b>EN:</b> A picture with link and responsive size rounded.</p>
+                            <p><b>ES:</b> Una imágen con link y tamaño responsivo redondeado.</p><br>
+                            <a class="" href="#" target="_blank">
+                                <img src="../img/web-desing.jpg" alt="Web desing | Diseño web"
+                                        title="Web desing | Diseño web"
+                                        class="img-responsive img-rounded">
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <!-- UNA IMAGEN REDONDEADA CON LINK y RESPONSIVA -->
+                            <p><b>EN:</b>An image with link and circular responsive size.</p>
+                            <p><b>ES:</b> Una imágen con link y tamaño responsivo circular.</p><br>
+                            <a class="" href="#" target="_blank">
+                                <img src="../img/web-desing.jpg" alt="Web desing | Diseño web"
+                                        title="Web desing | Diseño web"
+                                        class="img-responsive img-circle">
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- UNA IMAGEN CON LINK EN AREAS ESPECIFICAS -->
+                    <div class="padd2 example">
+                        <p><b>EN:</b> The <b><u>&ltmap&gt</u></b> tag defines an area
+                            inside an image-map.<br>
+                            <u>type</u><em>= default, rect, circle y poly.</em><br>
+                            Tool to generate map-area coordinates:
+                            <a href="http://imagemap-generator.dariodomi.de/" rel="help"
+                                target="_blank" type="text/html" media="all">
+                                Imagemap-generator
+                            </a><br>
+                            More about map-area:
+                            <a href="https://www.w3schools.com/tags/tag_area.asp"
+                                rel="help" hreflang="EN" type="text/html" target="_blank"
+                                class="">EN: W3schools</a><br><br>
+                            <b>ES:</b> La etiqueta <b><u>&ltmap&gt</u></b> define
+                            un área dentro de un mapa de imágenes.
+                            <br><u>type</u>= <em>default, rect, circle y poly.</em><br>
+                            Herramienta para generar coordenadas de map-area:
+                            <a href="http://imagemap-generator.dariodomi.de/" rel="help"
+                                target="_blank" type="text/html" media="all">
+                                Imagemap-generator
+                            </a><br>
+                            Más acerca de map-area:
+                            <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/area"
+                                rel="help" hreflang="EN" type="text/html" target="_blank"
+                                class="">ES: MDN</a>
+                        </p><br>
+                        <div class="text-center">
+                            <img src="../img/ex_maparea.jpg" alt="Example of map - area"
+                                    usemap="#example" class="text-center">
+                            <map name="example">
+                                <area shape="rect" coords="50,84,330,195" href="text.php"
+                                        title="Shape rectangular" alt="Example rectangular">
+                                <area shape="circle" coords="512,341,120" href="text.php"
+                                        title="Shape circular" alt="Example circular">
+                                <area title="Shape poly" alt="Example poly" shape="poly"
+                                        coords="13,354,137,351,180,248,223,348,344,354,249,419,
+                                284,524,180,467,79,524,110,422" href="text.php">
+                            </map>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <hr/>
+            <article class="section padd5">
+                <div class="padd2">
+                    <h4 class="title">Music, Video | Audio, Vídeo</h4>
+                    <div class="flex-container text-justify">
+                        <!-- AUDIO -->
+                        <div id="audio-en" class="col-12 example">
+                            <p lang="EN" title="A audio"><b>EN:</b>
+                                The <b><u>&ltaudio&gt</u></b>  tag is used to insert audio content into
+                                an HTML or XHTML document.<br>
+                                <em><u>Attributes:</u> arc, autoplay, controls, loop, muted, preload.</em>
+                                <br>
+                                <audio controls>
+                                    <source src="../sound/Johnny_Fiasco-Transition__Stripped_Mix.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio tag.
+                                </audio><br>
+                                More about audios: <br>
+                                <a href="https://www.w3schools.com/tags/tag_audio.asp"
+                                    rel="help" hreflang="EN" type="text/html" target="_blank"
+                                    class="btn">EN: W3schools</a>
+                            </p>
+                        </div>
+                        <div id="audio-es" class="col-12 example">
+                            <p lang="ES" title="Un audio"><b>ES:</b>
+                                La etiqueta <b><u>&ltaudio&gt</u></b> se usa para insertar
+                                contenido de audio en un documento HTML o XHTML.<br>
+                                <em><u>Atributos:</u> arc, autoplay, controls, loop, muted, preload.</em>
+                                <br>
+                                <audio controls>
+                                    <source src="../sound/Johnny_Fiasco-Transition__Stripped_Mix.mp3" type="audio/mpeg">
+                                    Tu navegador no soporta archivos de audio.
+                                </audio><br>
+                                Más acerca de audios: <br>
+                                <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/audio"
+                                    rel="help" hreflang="ES" type="text/html" target="_blank"
+                                    class="btn">ES: MDN</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">Susana Piñero Rodríguez @susananzth</span>
+        </div>
+    </footer>
+    <script src="../recursos/js/bootstrap.bundle.min.js"></script>
+    <script src="../recursos/js/jquery-3.6.0.min.js"></script>
+    <script src="../recursos/js/jquery.validate.min.js"></script>
+    <script src="../recursos/js/additional-methods.min.js"></script>
+    <script src="../recursos/js/myjs.js"></script>
+</body>
+</html>
