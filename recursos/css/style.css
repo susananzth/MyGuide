@@ -97,7 +97,7 @@ body{background: linear-gradient(#f3cfeb, #cc81b8) fixed;}
 .item1, .item2, .item3{padding: 1%;box-sizing: border-box;}
 
 /*======== Forms ========*/
-::-webkit-input-placeholder{color: #a2a2a2;font-family: 'Montserrat';margin-inside: 5px;}
+::-webkit-input-placeholder{color: #a2a2a2;font-family: 'Montserrat';}
 ::-moz-placeholder{color: #a2a2a2;font-family: 'Montserrat';}
 :-ms-input-placeholder{color: #a2a2a2;font-family: 'Montserrat';}
 input:-moz-placeholder{color: #a2a2a2;font-family: 'Montserrat';}
@@ -107,7 +107,7 @@ input:-moz-placeholder{color: #a2a2a2;font-family: 'Montserrat';}
 .header-primary{background: url('../img/bg-header-2.jpg') no-repeat center;background-size: cover;-moz-background-size: cover;-o-background-size: cover;-webkit-background-size: cover;padding: 15%;width: auto;}
 
 /*======== HTML ========*/
-blockquote{background: #f7f7f7;margin: 1%;padding: 2%;}
+blockquote{background: #f7f7f7;padding: .5rem;}
 .col-border-html{border: 2px #D52A8B solid;box-sizing: border-box;}
 .hr-simple{background: #8CC854;border: 0;height: 2px;}
         /* Style for UL */

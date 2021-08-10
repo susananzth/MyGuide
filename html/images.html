@@ -142,12 +142,13 @@
                 <div class="card-header">
                     <div class="card-title">Imágenes</div>
                 </div>
-                <div class="card-body">
-                    <figure>
+                <div class="card-body row px-4">
+                    <figure class="col-12 figure">
                         <img src="../recursos/img/tabla-imaneges-platzi.PNG" alt="Tabla de diferencias de las imágenes. Fuente: Platzi." 
-                            class="img-responsive">
+                            class="figure-img img-fluid rounded">
+                            <figcaption class="figure-caption">Tabla de diferencias de las imágenes. Fuente: Platzi.</figcaption>
                     </figure>
-                    <blockquote class="text-justify">
+                    <blockquote class="col-sm-12 col-md-6 text-justify">
                         <b>Lossless</b><br>
                         Sin pérdida. Los formatos de imagen sin pérdida capturan todos los datos de su archivo
                         original. No se pierde nada del archivo original, foto o obra de arte, de ahí el
@@ -157,7 +158,7 @@
                         <br><br>Fuente: <a href="https://platzi.com/clases/2008-html-css/31084-tipos-de-imagenes/" 
                                         target="_blank" rel="noopener noreferrer">Platzi</a>
                     </blockquote>
-                    <blockquote class="text-justify mt-3">
+                    <blockquote class="col-sm-12 col-md-6 text-justify mt-3">
                         <b>Lossy</b><br>
                         Con pérdida. Los formatos de imagen con pérdida se aproximan a su imagen original. Por
                         ejemplo, una imagen con pérdida podría reducir la cantidad de colores en su imagen
@@ -167,162 +168,40 @@
                         <br><br>Fuente: <a href="https://platzi.com/clases/2008-html-css/31084-tipos-de-imagenes/" 
                                         target="_blank" rel="noopener noreferrer">Platzi</a>
                     </blockquote>
-                    <p>
-                        Se recomienda que el máximo de peso de una imagen sea de 70Kb. Se pueden utilizar varios comprosores de imágenes: 
-                        <a href="https://tinypng.com/" target="_blank" rel="noopener noreferrer"
-                            data-bs-toggle="tooltip" data-bs-placement="top" title="Comprime imágenes sin perder calidad">tinyPNG</a>, 
-                        <a href="https://compressor.io/" target="_blank" rel="noopener noreferrer"
-                            data-bs-toggle="tooltip" data-bs-placement="top" title="Comprime imágenes sin perder calidad">compressor.io</a>,
-                        <a href="https://www.verexif.com/" target="_blank" rel="noopener noreferrer"
-                            data-bs-toggle="tooltip" data-bs-placement="top" title="Elimina los metadatos">verexif</a>,
-                        <a href="https://convertio.co/es/jpg-svg/" target="_blank" rel="noopener noreferrer"
-                            data-bs-toggle="tooltip" data-bs-placement="top" title="Convertidor de imágenes">convertio</a>
+                    <ul class="col-sm-12 col-md-6 px-5">
+                        <li>
+                            Se recomienda que el máximo de peso de una imagen sea de 70Kb. Se pueden utilizar varios comprosores de imágenes: 
+                            <a href="https://tinypng.com/" target="_blank" rel="noopener noreferrer"
+                                data-bs-toggle="tooltip" data-bs-placement="top" title="Comprime imágenes sin perder calidad">tinyPNG</a>, 
+                            <a href="https://compressor.io/" target="_blank" rel="noopener noreferrer"
+                                data-bs-toggle="tooltip" data-bs-placement="top" title="Comprime imágenes sin perder calidad">compressor.io</a>,
+                            <a href="https://www.verexif.com/" target="_blank" rel="noopener noreferrer"
+                                data-bs-toggle="tooltip" data-bs-placement="top" title="Elimina los metadatos">verexif</a>,
+                            <a href="https://convertio.co/es/jpg-svg/" target="_blank" rel="noopener noreferrer"
+                                data-bs-toggle="tooltip" data-bs-placement="top" title="Convertidor de imágenes">convertio</a>
+                        </li>
+                        <li>
+                            Un sitio web para descargar imágenes y vídeos de forma gratuita: <a href="https://www.pexels.com/" target="_blank" 
+                                rel="noopener noreferrer">pexels</a>
+                        </li>
                             
-                    </p>
+                    </ul>
+                    <figure class="col-sm-12 col-md-6 figure mt-2">
+                        <img src="../recursos/img/example-img-small.jpg" alt="Ejemplo de una imagen pequeña"
+                            class="figure-img img-fluid rounded">
+                        <figcaption class="figure-caption">
+                            Ejemplo de una imagen pequeña. Foto de Александар Цветановић en Pexels
+                        </figcaption>
+                    </figure>
+                    <figure class="col-sm-12 col-md-6 figure mt-2">
+                        <img src="../recursos/img/example-img-small.jpg" alt="Ejemplo de una imagen pequeña"
+                            width="100" height="100" class="figure-img rounded-circle">
+                        <figcaption class="figure-caption">
+                            Ejemplo de una imagen con estilos embedido. Foto de Александар Цветановић en Pexels
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
-            <article class="section padd5">
-                <div class="padd2">
-                    <h4 class="title text-center">Images | Imágenes</h4>
-                    <br>
-                    <div class="flex-container example">
-                        <div class="item2">
-                            <!-- UNA IMAGEN CON ESTILOS CSS -->
-                            <p><b>EN:</b> An image with static high and wide.</p>
-                            <p><b>ES:</b> Una imágen con alto y ancho estático.</p><br>
-                            <a class="" href="#" target="_blank">
-                                <img src="../img/web-desing.jpg" alt="Web desing | Diseño web"
-                                        title="Web desing | Diseño web" width="370" height="280">
-                            </a>
-                        </div>
-                        <div class="item2">
-                            <!-- UNA IMAGEN CON LINK Y RESPONSIVA -->
-                            <p><b>EN:</b> A picture with link and responsive size.</p>
-                            <p><b>ES:</b> Una imágen con link y tamaño responsivo.</p><br>
-                            <a class="" href="#" target="_blank">
-                                <img src="../img/web-desing.jpg" alt="Web desing | Diseño web"
-                                        title="Web desing | Diseño web" class="img-responsive">
-                            </a>
-                        </div>
-                    </div>
-                    <br><br>
-                    <div class="flex-container example">
-                        <div class="col-4">
-                            <!-- UNA IMAGEN REDONDEADA CON LINK y RESPONSIVA -->
-                            <p><b>EN:</b> A picture with link and responsive size thumbnail.</p>
-                            <p><b>ES:</b> Una imágen con link y tamaño responsivo thumbnail.</p><br>
-                            <a class="" href="#" target="_blank">
-                                <img src="../img/web-desing.jpg" alt="Web desing | Diseño web"
-                                        title="Web desing | Diseño web"
-                                        class="img-responsive img-thumbnail">
-                            </a>
-                        </div>
-                        <div class="col-4">
-                            <!-- UNA IMAGEN REDONDEADA CON LINK y RESPONSIVA -->
-                            <p><b>EN:</b> A picture with link and responsive size rounded.</p>
-                            <p><b>ES:</b> Una imágen con link y tamaño responsivo redondeado.</p><br>
-                            <a class="" href="#" target="_blank">
-                                <img src="../img/web-desing.jpg" alt="Web desing | Diseño web"
-                                        title="Web desing | Diseño web"
-                                        class="img-responsive img-rounded">
-                            </a>
-                        </div>
-                        <div class="col-4">
-                            <!-- UNA IMAGEN REDONDEADA CON LINK y RESPONSIVA -->
-                            <p><b>EN:</b>An image with link and circular responsive size.</p>
-                            <p><b>ES:</b> Una imágen con link y tamaño responsivo circular.</p><br>
-                            <a class="" href="#" target="_blank">
-                                <img src="../img/web-desing.jpg" alt="Web desing | Diseño web"
-                                        title="Web desing | Diseño web"
-                                        class="img-responsive img-circle">
-                            </a>
-                        </div>
-                    </div>
-                    <br>
-                    <!-- UNA IMAGEN CON LINK EN AREAS ESPECIFICAS -->
-                    <div class="padd2 example">
-                        <p><b>EN:</b> The <b><u>&ltmap&gt</u></b> tag defines an area
-                            inside an image-map.<br>
-                            <u>type</u><em>= default, rect, circle y poly.</em><br>
-                            Tool to generate map-area coordinates:
-                            <a href="http://imagemap-generator.dariodomi.de/" rel="help"
-                                target="_blank" type="text/html" media="all">
-                                Imagemap-generator
-                            </a><br>
-                            More about map-area:
-                            <a href="https://www.w3schools.com/tags/tag_area.asp"
-                                rel="help" hreflang="EN" type="text/html" target="_blank"
-                                class="">EN: W3schools</a><br><br>
-                            <b>ES:</b> La etiqueta <b><u>&ltmap&gt</u></b> define
-                            un área dentro de un mapa de imágenes.
-                            <br><u>type</u>= <em>default, rect, circle y poly.</em><br>
-                            Herramienta para generar coordenadas de map-area:
-                            <a href="http://imagemap-generator.dariodomi.de/" rel="help"
-                                target="_blank" type="text/html" media="all">
-                                Imagemap-generator
-                            </a><br>
-                            Más acerca de map-area:
-                            <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/area"
-                                rel="help" hreflang="EN" type="text/html" target="_blank"
-                                class="">ES: MDN</a>
-                        </p><br>
-                        <div class="text-center">
-                            <img src="../img/ex_maparea.jpg" alt="Example of map - area"
-                                    usemap="#example" class="text-center">
-                            <map name="example">
-                                <area shape="rect" coords="50,84,330,195" href="text.php"
-                                        title="Shape rectangular" alt="Example rectangular">
-                                <area shape="circle" coords="512,341,120" href="text.php"
-                                        title="Shape circular" alt="Example circular">
-                                <area title="Shape poly" alt="Example poly" shape="poly"
-                                        coords="13,354,137,351,180,248,223,348,344,354,249,419,
-                                284,524,180,467,79,524,110,422" href="text.php">
-                            </map>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <hr/>
-            <article class="section padd5">
-                <div class="padd2">
-                    <h4 class="title">Music, Video | Audio, Vídeo</h4>
-                    <div class="flex-container text-justify">
-                        <!-- AUDIO -->
-                        <div id="audio-en" class="col-12 example">
-                            <p lang="EN" title="A audio"><b>EN:</b>
-                                The <b><u>&ltaudio&gt</u></b>  tag is used to insert audio content into
-                                an HTML or XHTML document.<br>
-                                <em><u>Attributes:</u> arc, autoplay, controls, loop, muted, preload.</em>
-                                <br>
-                                <audio controls>
-                                    <source src="../sound/Johnny_Fiasco-Transition__Stripped_Mix.mp3" type="audio/mpeg">
-                                    Your browser does not support the audio tag.
-                                </audio><br>
-                                More about audios: <br>
-                                <a href="https://www.w3schools.com/tags/tag_audio.asp"
-                                    rel="help" hreflang="EN" type="text/html" target="_blank"
-                                    class="btn">EN: W3schools</a>
-                            </p>
-                        </div>
-                        <div id="audio-es" class="col-12 example">
-                            <p lang="ES" title="Un audio"><b>ES:</b>
-                                La etiqueta <b><u>&ltaudio&gt</u></b> se usa para insertar
-                                contenido de audio en un documento HTML o XHTML.<br>
-                                <em><u>Atributos:</u> arc, autoplay, controls, loop, muted, preload.</em>
-                                <br>
-                                <audio controls>
-                                    <source src="../sound/Johnny_Fiasco-Transition__Stripped_Mix.mp3" type="audio/mpeg">
-                                    Tu navegador no soporta archivos de audio.
-                                </audio><br>
-                                Más acerca de audios: <br>
-                                <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/audio"
-                                    rel="help" hreflang="ES" type="text/html" target="_blank"
-                                    class="btn">ES: MDN</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </article>
         </div>
     </main>
     <footer class="footer mt-auto py-3 bg-light">
