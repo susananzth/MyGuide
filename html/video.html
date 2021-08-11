@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- Etiquetas meta -->
+	<meta charset="utf-8">
+	<meta name="DC.Language" scheme="RFC1766" content="Spanish">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="Componentes HTML con Bootstrap y JQuery que utilizo con frecuencia. Desarrollado por Susana Piñero @susananzth" />
+	<meta name="keywords" content="HTML, HTML5, CSS, JS, Bootstrap 5, JQuery" />
+	<meta name="author" content="Susana Piñero Rodríguez" />
+	<meta name="copyright" content="Susana Piñero Rodríguez" />
+	<meta name="reply-to" content="me@susananzth.com">
+	<link rev="made" href="mailto:me@susananzth.com">
+	<!-- Título de la página -->
+	<title>Imágenes | SusanaNzth</title>
+	<!-- Ícono -->
+	<link rel="icon" type="image/x-icon" href="../favicon.ico">
+	<!-- Fuentes -->
+	<link rel="stylesheet" href="../recursos/css/bootstrap-icons.css">
+	<!-- Estilos -->
+	<link rel="stylesheet" href="../recursos/css/normalize.css">
+	<link rel="stylesheet" href="../recursos/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../recursos/css/style.css">
+</head>
+<body class="d-flex flex-column">
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="../index.html">
+					<img src="../recursos/img/logo.png" alt="Logo de SusanaNzth" width="30" height="24" class="d-inline-block align-text-top">
+					MyGuide</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarMyGuide" aria-controls="navbarMyGuide"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- Barra de navegacion -->
+				<div class="collapse navbar-collapse" id="navbarMyGuide">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="textDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Secciones
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="textDropdown">
+								<li><a class="dropdown-item" href="../html/html-meta.html">Etiquetas meta</a></li>
+								<li><a class="dropdown-item" href="#">Estilos</a></li>
+								<li><a class="dropdown-item" href="#">Animaciones</a></li>
+								<li><a class="dropdown-item" href="#">Cabecera</a></li>
+								<li><a class="dropdown-item" href="#">Barra de navegacion</a></li>
+								<li><a class="dropdown-item" href="#">Secciones</a></li>
+								<li><a class="dropdown-item" href="#">Footer</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="textDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Texto
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="textDropdown">
+								<li><a class="dropdown-item" href="../html/html-heading.html">Títulos</a></li>
+								<li><a class="dropdown-item" href="../html/html-paragraph.html">Parrafos</a></li>
+								<li><a class="dropdown-item" href="#">Cita</a></li>
+								<li><a class="dropdown-item" href="#">Código</a></li>
+								<li><a class="dropdown-item" href="#">Alert, Toats</a></li>
+								<li><a class="dropdown-item" href="#">Acordión</a></li>
+								<li><a class="dropdown-item" href="#">Tarjeta</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="textDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Multimedia
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="textDropdown">
+								<li><a class="dropdown-item" href="../html/images.html">Imágenes</a></li>
+								<li><a class="dropdown-item" href="../html/video.html">Vídeos</a></li>
+								<li><a class="dropdown-item" href="#">Sonidos</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="formDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Formulario
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="formDropdown">
+								<li><a class="dropdown-item" href="../html/inputs.html">Todos los inputs</a></li>
+								<li><a class="dropdown-item" href="#">Inicio de sesión</a></li>
+								<li><a class="dropdown-item" href="#">Registro de usuario</a></li>
+								<li><a class="dropdown-item" href="#">Regitro de artículo</a></li>
+								<li><a class="dropdown-item" href="#">Regitro de dirección</a></li>
+								<li><a class="dropdown-item" href="#">Cuestionario</a></li>
+								<li><a class="dropdown-item" href="#">Perfil</a></li>
+								<li><a class="dropdown-item" href="#">Edición de entrada</a></li>
+								
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="formDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Tabla
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="formDropdown">
+								<li><a class="dropdown-item" href="#">Básica + Bootstrap 5</a></li>
+								<li><a class="dropdown-item" href="#">Sin botones + Bootstrap 5</a></li>
+								<li><a class="dropdown-item" href="#">Sin diseño</a></li>
+								<li><a class="dropdown-item" href="#">Full botones + Bootstrap 5</a></li>
+								<li><a class="dropdown-item" href="#">Tabla formulario</a></li>
+								<li><a class="dropdown-item" href="#">Tabla formulario con modal</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="formDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								JavaScript
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="formDropdown">
+								<li><a class="dropdown-item" href="../javascript/javascript.html">Old</a></li>
+								<li><a class="dropdown-item" href="#">Cambio de atributos</a></li>
+								<li><a class="dropdown-item" href="#">Almacenamiento de data-</a></li>
+								<li><a class="dropdown-item" href="#">Ajax</a></li>
+								<li><a class="dropdown-item" href="#">Validacion</a></li>
+								<li><a class="dropdown-item" href="#">Framework</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Buscar</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+    <main>
+        <div class="container">
+            <div class="card mx-md-5 my-5">
+                <div class="card-header">
+                    Vídeo
+                </div>
+                <div class="card-body row px-4">
+					<div class="col-12">
+						<span class="d-block">Vídeo en local</span>
+						<video controls preload="auto" class="w-100">
+							<source src="../recursos/video/video.mp4">
+						</video>
+						<span class="d-block">Vídeo en local. Con selección de segundos</span>
+						<video controls preload="auto" class="w-100">
+							<source src="../recursos/video/video.mp4#t=5,10">
+						</video>
+					</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">Susana Piñero Rodríguez @susananzth</span>
+        </div>
+    </footer>
+    <script src="../recursos/js/bootstrap.bundle.min.js"></script>
+    <script src="../recursos/js/jquery-3.6.0.min.js"></script>
+    <script src="../recursos/js/jquery.validate.min.js"></script>
+    <script src="../recursos/js/additional-methods.min.js"></script>
+    <script src="../recursos/js/myjs.js"></script>
+</body>
+</html>

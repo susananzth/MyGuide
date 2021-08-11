@@ -28,7 +28,7 @@
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="../">
+				<a class="navbar-brand" href="../index.html">
 					<img src="../recursos/img/logo.png" alt="Logo de SusanaNzth" width="30" height="24" class="d-inline-block align-text-top">
 					MyGuide</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -36,10 +36,11 @@
 					aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
+				<!-- Barra de navegacion -->
 				<div class="collapse navbar-collapse" id="navbarMyGuide">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="../">Inicio</a>
+							<a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="textDropdown" role="button"
@@ -47,7 +48,7 @@
 								Secciones
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="textDropdown">
-								<li><a class="dropdown-item" href="html-meta.html">Etiquetas meta</a></li>
+								<li><a class="dropdown-item" href="../html/html-meta.html">Etiquetas meta</a></li>
 								<li><a class="dropdown-item" href="#">Estilos</a></li>
 								<li><a class="dropdown-item" href="#">Animaciones</a></li>
 								<li><a class="dropdown-item" href="#">Cabecera</a></li>
@@ -62,8 +63,8 @@
 								Texto
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="textDropdown">
-								<li><a class="dropdown-item" href="html-heading.html">Títulos</a></li>
-								<li><a class="dropdown-item" href="html-paragraph.html">Parrafos</a></li>
+								<li><a class="dropdown-item" href="../html/html-heading.html">Títulos</a></li>
+								<li><a class="dropdown-item" href="../html/html-paragraph.html">Parrafos</a></li>
 								<li><a class="dropdown-item" href="#">Cita</a></li>
 								<li><a class="dropdown-item" href="#">Código</a></li>
 								<li><a class="dropdown-item" href="#">Alert, Toats</a></li>
@@ -72,12 +73,23 @@
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="textDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Multimedia
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="textDropdown">
+								<li><a class="dropdown-item" href="../html/images.html">Imágenes</a></li>
+								<li><a class="dropdown-item" href="../html/video.html">Vídeos</a></li>
+								<li><a class="dropdown-item" href="#">Sonidos</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="formDropdown" role="button"
 								data-bs-toggle="dropdown" aria-expanded="false">
 								Formulario
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="formDropdown">
-								<li><a class="dropdown-item" href="inputs.html">Todos los inputs</a></li>
+								<li><a class="dropdown-item" href="../html/inputs.html">Todos los inputs</a></li>
 								<li><a class="dropdown-item" href="#">Inicio de sesión</a></li>
 								<li><a class="dropdown-item" href="#">Registro de usuario</a></li>
 								<li><a class="dropdown-item" href="#">Regitro de artículo</a></li>
@@ -126,12 +138,10 @@
 		</nav>
 	</header>
 	<main>
-		<div class="container-fluid">
+		<div class="container">
 			<div class="card my-2">
 				<div class="card-header">
-					<div class="card-title">
-						Ejemplo de todos los inpust
-					</div>
+					Ejemplo de todos los inpust
 				</div>
 				<div class="card-body">
 					<h4>Input text:</h4>
