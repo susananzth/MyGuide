@@ -26,8 +26,8 @@
     html, body{height: 100%;}
     .content{background: #fff1ff;margin: 0 auto;max-width: 1440px;padding-left: 1rem;padding-right: 1rem;}
     /*======== Paragraph ========*/
-    .paragraph{}
     code, .code{background: #f7e5ee;color: #b007b3;display: inline-block;font-family: 'VT323', monospace;font-size: 1.15rem;letter-spacing: 1px;padding: 1%;white-space: break-spaces;}
+    .gist-code{padding: .5rem 1.5rem;}
 /*%=%=%=%=%=%=% HEADER %=%=%=%=%=%=%*/
 body{background: linear-gradient(#f3cfeb, #cc81b8) fixed;}
 .img-principal{max-width: 600px;}

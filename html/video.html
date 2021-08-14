@@ -143,18 +143,25 @@
                     Vídeo
                 </div>
                 <div class="card-body row px-4">
-					<div class="col-12">
+					<div class="col-sm-12 col-md-6">
+						<!--Simple vídeo en local-->
 						<span class="d-block">Vídeo en local</span>
 						<video controls preload="auto" class="w-100">
 							<source src="../recursos/video/video.mp4">
 						</video>
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<!--Vídeo en local. Con selección de segundos-->
 						<span class="d-block">Vídeo en local. Con selección de segundos</span>
 						<video controls preload="auto" class="w-100">
 							<source src="../recursos/video/video.mp4#t=5,10">
 						</video>
 					</div>
                 </div>
-            </div>
+				<div class="col-12 gist-code">
+					<script src="https://gist.github.com/susananzth/ad239313f348e9c5fe7bd2e7ad7deecd.js"></script>
+				</div>
+			</div>
         </div>
     </main>
     <footer class="footer mt-auto py-3 bg-light">
