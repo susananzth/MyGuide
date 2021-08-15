@@ -141,140 +141,247 @@
 		<div class="container">
 			<div class="card my-2">
 				<div class="card-header">
-					Ejemplo de todos los inpust
+					Ejemplo de todos los inputs
 				</div>
 				<div class="card-body">
-					<h4>Input text:</h4>
-					<div class="form-group">
-						<label for="textSimple" class="mt-2 mb-0">Input sencillo</label>
-						<input type="text" name="text_simple" id="textSimple" 
-								placeholder="Input sencillo" value="" autofocus 
-								autocomplete="name" required class="form-control">
+					<h4>Tipos de inputs:</h4>
+					<div class="py-2">
+						<code>type="button"</code>, <code>type="checkbox"</code>, <code>type="color"</code>, 
+						<code>type="date"</code>, <code>type="datetime-local"</code>, <code>type="email"</code>, 
+						<code>type="file"</code>, <code>type="hidden"</code>, <code>type="image"</code>, 
+						<code>type="month"</code>, <code>type="number"</code>, <code>type="password"</code>, 
+						<code>type="radio"</code>, <code>type="range"</code>, <code>type="reset"</code>, 
+						<code>type="search"</code>, <code>type="submit"</code>, <code>type="tel"</code>, 
+						<code>type="text"</code>, <code>type="time"</code>, <code>type="url"</code>, 
+						<code>type="week"</code>. Ver más en <a href="https://devdocs.io/html/element/input" target="_blank" rel="noopener noreferrer">documentación</a>.
 					</div>
-					<div class="form-group">
-						<label for="textDisabled" class="mt-2 mb-0">Input sencillo deshabilitado</label>
-						<input type="text" name="text_disabled" id="textDisabled" 
-								value="" readonly disabled autocomplete="name" 
-								placeholder="Input sencillo deshabilitado" class="form-control">
+					<h4>Atributos de inputs:</h4>
+					<div class="py-2">
+						Principales: <code>id=""</code>, <code>name=""</code>, <code>value=""</code>, <code>autofocus</code> 
+						<code>autocomplete</code>, <code>placeholder=""</code>, <code>required</code>, <code>disabled</code>
+						<code>class=""</code>. Ver más en <a href="https://devdocs.io/html/element/input" target="_blank" rel="noopener noreferrer">documentación</a>.
 					</div>
-					<div class="form-group">
-						<label for="textAll" class="mt-2 mb-0">Input con todos los atributos</label>
-						<input type="text" name="text_all" id="textAll" data-id=""
-								placeholder="Input text full atributos" value="" autofocus 
-								autocomplete="name" required class="form-control"
-								onpaste="return false;" ondrop="false">
-					</div>
-					<hr>
-					<h4>Input number:</h4>
-					<div class="form-group">
-						<label for="numberSimple" class="mt-2 mb-0">Input number sencillo, permite signos y euler</label>
-						<input type="number" name="number_simple" id="numberSimple" 
-								placeholder="Input number sencillo" value="" autofocus 
-								autocomplete="name" required class="form-control">
-					</div>
-					<div class="form-group">
-						<label for="numberDisabled" class="mt-2 mb-0">Input number sencillo deshabilitado</label>
-						<input type="number" name="number_disabled" id="numberDisabled" 
-								value="" readonly disabled autocomplete="name" 
-								placeholder="Input number sencillo deshabilitado" class="form-control">
-					</div>
-					<div class="form-group">
-						<label for="numberAll" class="mt-2 mb-0">Input con todos los atributos, permite signos y euler</label>
-						<input type="number" name="number_all" id="numberAll" data-id=""
-								placeholder="Input number full atributos" value="" autofocus 
-								autocomplete="name" required class="form-control"
-								onpaste="return false;" ondrop="false">
-					</div>
-					<hr>
-					<h4>Input email:</h4>
-					<div class="form-group">
-						<label for="emailSimple" class="mt-2 mb-0">Input email sencillo, permite signos y euler</label>
-						<input type="email" name="email_simple" id="emailSimple" 
-								placeholder="Input email sencillo" value="" autofocus 
-								autocomplete="name" required class="form-control">
-					</div>
-					<div class="form-group">
-						<label for="emailDisabled" class="mt-2 mb-0">Input email sencillo deshabilitado</label>
-						<input type="email" name="email_disabled" id="emailDisabled" 
-								value="" readonly disabled autocomplete="name" 
-								placeholder="Input email sencillo deshabilitado" class="form-control">
-					</div>
-					<div class="form-group">
-						<label for="emailAll" class="mt-2 mb-0">Input con todos los atributos, permite signos y euler</label>
-						<input type="email" name="email_all" id="emailAll" data-id=""
-								placeholder="Input email full atributos" value="" autofocus 
-								autocomplete="name" required class="form-control"
-								onpaste="return false;" ondrop="false">
-					</div>
-					<hr>
-					<h4>Input contraseña:</h4>
-					<div class="form-group">
-						<label for="passwordSimple" class="mt-2 mb-0">Input contraseña sencillo, permite signos y euler</label>
-						<input type="password" name="password_simple" id="passwordSimple" 
-								placeholder="Input password sencillo" value="" autofocus 
-								autocomplete="name" required class="form-control">
-					</div>
-					<div class="form-group">
-						<label for="passwordDisabled" class="mt-2 mb-0">Input contraseña sencillo deshabilitado</label>
-						<input type="password" name="password_disabled" id="passwordDisabled" 
-								value="" readonly disabled autocomplete="name" 
-								placeholder="Input password sencillo deshabilitado" class="form-control">
+					<h4>Ejemplos:</h4>
+					<form action="" method="POST" enctype="multipart/form-data" class="row">
+						<!-- Checkbox -->
+						<h6 class="text-muted mt-2"><u>Checkbox</u></h6>
+						<div class="col-6">
+							<div class="form-check py-2">
+								<input id="checkboxA" type="checkbox" value="1" class="form-check-input">
+								<label for="checkboxA" class="form-check-label">Checkbox A</label>
+							</div>
+							<div class="form-check">
+								<input id="checkboxB" type="checkbox" value="1" checked class="form-check-input">
+								<label for="checkboxB" class="form-check-label">Checkbox B</label>
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="input-group">
+								<div class="input-group-text">
+									<input id="checkboxC" type="checkbox" value="" class="form-check-input mt-0">
+								</div>
+								<label for="checkboxC" class="form-control">Checkbox C</label>
+							</div>
+							<div class="input-group">
+								<div class="input-group-text">
+									<input id="checkboxD" type="checkbox" value="" checked class="form-check-input mt-0">
+								</div>
+								<label for="checkboxD" class="form-control">Checkbox D</label>
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="form-check form-switch">
+								<input class="form-check-input" type="checkbox" id="switch" checked>
+								<label class="form-check-label" for="switch">Checkbox Switch</label>
+							  </div>
+						</div>
+						<!-- Color -->
+						<h6 class="text-muted mt-2"><u>Color</u></h6>
+						<div class="col-6 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="headAddon"><i class="bi bi-palette me-1"></i>Head</span>
+								<input id="head" type="color" name="head" value="#e66465" required 
+										class="form-control color">
+							</div>
+						</div>
+						<div class="col-6 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="bodyAddon"><i class="bi bi-eyedropper me-1"></i>Body</span>
+								<input id="body" type="color" name="body" value="#f6b73c" required 
+										class="form-control color">
+							</div>
+						</div>
+						<!-- Date & Datetime-local -->
+						<h6 class="text-muted mt-2"><u>Date & Datetime-local</u></h6>
+						<div class="col-6 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="dateAddon"><i class="bi bi-calendar3 me-1"></i>Fecha:</span>
+								<input id="date" type="date" name="date" value="" autocomplete="date" placeholder="dd/mm/yyy" 
+										min="2020-01-01" max="2022-12-31" required class="form-control">
+							</div>
+						</div>
+						<div class="col-6 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="datetimeAddon"><i class="bi bi-calendar-check me-1"></i>Fecha:</span>
+								<input id="datetime" type="datetime-local" name="datetime" value="" 
+										autocomplete="date" placeholder="dd/mm/yyy" required 
+										min="2020-01-01T00:00" max="2022-12-31T00:00" class="form-control">
+							</div>
+						</div>
+						<!-- Month & Week -->
+						<h6 class="text-muted mt-2"><u>Month & Week</u></h6>
+						<div class="col-6 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="monthAddon"><i class="bi bi-calendar-month me-1"></i>Mes:</span>
+								<input id="month" type="month" name="month" value="" autocomplete="month" 
+										min="2020-01" max="2022-12" required class="form-control">
+							</div>
+						</div>
+						<div class="col-6 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="weekAddon"><i class="bi bi-calendar-week me-1"></i>Semana:</span>
+								<input id="week" type="week" name="week" value="" autocomplete="date" required 
+										min="2020-W12" max="2022-W54" class="form-control">
+							</div>
+						</div>
+						<!-- Time -->
+						<h6 class="text-muted mt-2"><u>Time</u></h6>
+						<div class="col-12 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="timeAddon"><i class="bi bi-clock me-1"></i>Hora:</span>
+								<input id="time" type="time" name="time" value="13:30" autocomplete="time" 
+										min="09:00" max="20:00" step="10" required class="form-control">
+							</div>
+						</div>
+						<!-- Email -->
+						<h6 class="text-muted mt-2"><u>Email</u></h6>
+						<div class="col-12 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="emailAddon"><i class="bi bi-envelope me-1"></i>Correo:</span>
+								<input id="email" type="email" name="email" value="" autocomplete="email" maxlength="50"
+										placeholder="ejemplo@mail.com" required class="form-control">
+							</div>
+						</div>
+						<!-- File -->
+						<h6 class="text-muted mt-2"><u>File</u></h6>
+						<div class="col-12 mt-2">
+							<div class="input-group">
+								<input id="file" type="file" name="file" required 
+								accept="image/*,.pdf,.doc,.docx" multiple class="form-control">
+								<span class="input-group-text" id="fileAddon"><i class="bi bi-file-earmark-plus"></i></span>
+							</div>
+						</div>
+						<!-- Number & Tel -->
+						<h6 class="text-muted mt-2"><u>Number & Tel</u></h6>
+						<div class="col-6 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="numberAddon">Monto:</span>
+								<input id="number" type="number" name="number" value="" autocomplete="number" 
+								min="1" max="10" step="0.5" placeholder="1.5" required class="form-control">
+								<span class="input-group-text" id="numberAddontwo"><i class="bi bi-currency-dollar me-1"></i></span>
+							</div>
+						</div>
+						<div class="col-6 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="telAddon"><i class="bi bi-telephone me-1"></i> Teléfono:</span>
+								<input id="tel" type="tel" name="tel" value="" autocomplete="tel" 
+								maxlength="8" placeholder="753-5368" required class="form-control">
+							</div>
+						</div>
+						<!-- Password -->
+						<h6 class="text-muted mt-2"><u>Password</u></h6>
+						<div class="col-12 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="passwordAddon"><i class="bi bi-lock me-1"></i>Contraseña:</span>
+								<input id="password" type="password" name="password" value="" maxlength="200" required class="form-control">
+								<span class="input-group-text" id="passwordAddontwo"><i class="bi bi-eye me-1"></i></span>
+							</div>
+						</div>
+						<!-- Radio -->
+						<h6 class="text-muted mt-2"><u>Radio</u></h6>
+						<div class="col-6">
+							<div class="form-check py-2">
+								<input id="radioA" type="radio" name="radio" value="1" checked class="form-check-input">
+								<label for="radioA" class="form-check-label">Radio A</label>
+							</div>
+							<div class="form-check">
+								<input id="radioB" type="radio" name="radio" value="2" class="form-check-input">
+								<label for="radioB" class="form-check-label">Radio B</label>
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="input-group">
+								<div class="input-group-text">
+									<input id="radioC" type="radio" name="radioA" value="1" class="form-check-input mt-0">
+								</div>
+								<label for="radioC" class="form-control">Radio C</label>
+							</div>
+							<div class="input-group">
+								<div class="input-group-text">
+									<input id="radioD" type="radio" name="radioA" value="2" checked class="form-check-input mt-0">
+								</div>
+								<label for="radioD" class="form-control">Radio D</label>
+							</div>
+						</div>
+						<!-- Range -->
+						<h6 class="text-muted mt-2"><u>Range</u></h6>
+						<div class="col-6">
+							<label for="rangeA" class="form-label">Rango A</label>
+							<input id="rangeA" type="range" name="range_a" class="form-range" min="0" max="5">
+						</div>
+						<div class="col-6">
+							<label for="rangeB" class="form-label">Rango B</label>
+							<input id="rangeB" type="range" name="range_b" class="form-range" min="0" max="5" step="0.5">
+						</div>
+						<!-- Search -->
+						<h6 class="text-muted mt-2"><u>Search</u></h6>
+						<div class="col-12 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="searchAddon"><i class="bi bi-search"></i></span>
+								<input id="search" type="search" name="search" placeholder="¿Qué buscas?" class="form-control">
+								<button class="btn btn-outline-secondary" type="button" id="btnSearch">Buscar</button>
+							</div>
+						</div>
+						<!-- Text -->
+						<h6 class="text-muted mt-2"><u>Text</u></h6>
+						<div class="col-12 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="textAddon"><i class="bi bi-person-badge me-1"></i> Nombre completo</span>
+								<input id="text" type="text" name="text" placeholder="Nombre completo" 
+								required maxlength="150" class="form-control">
+							</div>
+						</div>
+						<!-- Textarea -->
+						<h6 class="text-muted mt-2"><u>Textarea</u></h6>
+						<div class="col-12 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="areaAddon"><i class="bi bi-card-text"></i></span>
+								<textarea id="textarea" name="textarea" required minlength="50" maxlength="300" 
+										cols="4" rows="3" autocomplete="address" placeholder="Ingrese texto aquí..." 
+										class="form-control"></textarea>
+							</div>
+						</div>
+						<!-- URL -->
+						<h6 class="text-muted mt-2"><u>URL</u></h6>
+						<div class="col-12 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="urlAddon"><i class="bi bi-globe"></i></span>
+								<input id="url" type="url" name="url" placeholder="https://example.com/" pattern="https://.*"
+								required maxlength="150" class="form-control">
+							</div>
+						</div>
+						<!-- Inputs buttons -->
+						<h6 class="text-muted mt-2"><u>Inputs buttons</u></h6>
+						<div class="col-12 bg-light p-2">
+							<input id="submit" type="submit" value="Enviar" class="btn btn-primary float-end">
+							<input id="reset" type="reset" value="Restablecer" class="btn btn-warning">
+						</div>
+					</form>
+					<div class="gist-code">
+						<script src="https://gist.github.com/susananzth/a433c584876a0a9a8a25820822e3460e.js"></script>
 					</div>
 				</div>
 			</div>
-            <section class="section padd5">
-                <div class="example padd2">
-                        <label for="to">Para: <input id="to" type="email"></label>
-                        <label for="topic">Temática:
-                            <select id="topic" name="topic">
-                                <option>-- Elige un tema --</option>
-                                <option value="proposal">Propuesta</option>
-                                <option value="report">Reporte</option>
-                                <option value="other">Otro</option>
-                            </select>
-                        </label>
-                        <label for="subject">Asunto: <input id="subject" name="subject" type="text"></label>
-                        <label for="body">Cuerpo: <textarea id="body" name="body"></textarea></label>
-                </div>
-            </section>
-            <section>
-                <form action="">
-                    <label for="hora">
-                        <span>Hora</span>
-                        <input type="time" name="hora" id="hora">
-                    </label>
-                    <label for="dia">
-                        <span>Día</span>
-                        <input type="date" name="dia" id="dia">
-                    </label>
-                    <label for="semana">
-                        <span>Semana</span>
-                        <input type="week" name="semana" id="semana">
-                    </label>
-                    <label for="mes">
-                        <span>Mes</span>
-                        <input type="month" name="mes" id="mes">
-                    </label>
-                    <select name="cursos" id="cursis">
-                        <option value="js">js</option>
-                        <option value="css">css</option>
-                        <option value="html">html</option>
-                    </select>
-                    <input type="submit" value="Enviar">
-                </form>
-                <form action="">
-                    <label for="calendario">
-                        <span>Calendario</span>
-                        <input type="datetime-locale" name="calendario" id="calendario">
-                    </label>
-                    <input list="cursos">
-                        <option value="js">js</option>
-                        <option value="css">css</option>
-                        <option value="html">html</option>
-                    <datalist id="cursos">
-                    </datalist>
-                </form>
-            </section>
         </div>
 	</main>
 	<footer class="footer mt-auto py-3 bg-light">

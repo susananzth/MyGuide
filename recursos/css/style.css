@@ -26,7 +26,7 @@
     html, body{height: 100%;}
     .content{background: #fff1ff;margin: 0 auto;max-width: 1440px;padding-left: 1rem;padding-right: 1rem;}
     /*======== Paragraph ========*/
-    code, .code{background: #f7e5ee;color: #b007b3;display: inline-block;font-family: 'VT323', monospace;font-size: 1.15rem;letter-spacing: 1px;padding: 1%;white-space: break-spaces;}
+    code, .code{background: #f7e5ee;border-radius: .25rem;color: #b007b3;display: inline-block;font-family: 'VT323', monospace;padding: 0 .2rem;}
     .gist-code{padding: .5rem 1.5rem;}
 /*%=%=%=%=%=%=% HEADER %=%=%=%=%=%=%*/
 body{background: linear-gradient(#f3cfeb, #cc81b8) fixed;}
@@ -101,6 +101,7 @@ body{background: linear-gradient(#f3cfeb, #cc81b8) fixed;}
 ::-moz-placeholder{color: #a2a2a2;font-family: 'Montserrat';}
 :-ms-input-placeholder{color: #a2a2a2;font-family: 'Montserrat';}
 input:-moz-placeholder{color: #a2a2a2;font-family: 'Montserrat';}
+.color{height: 2.5rem;}
 /*======== Forms ========*/
 .card-header{font-size: 1.3rem;font-weight: 600;padding: 1.5rem 1.5rem;}
 
