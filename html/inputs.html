@@ -201,14 +201,14 @@
 							<div class="input-group">
 								<span class="input-group-text" id="headAddon"><i class="bi bi-palette me-1"></i>Head</span>
 								<input id="head" type="color" name="head" value="#e66465" required 
-										class="form-control color">
+										class="form-control form-control-color">
 							</div>
 						</div>
 						<div class="col-6 mt-2">
 							<div class="input-group">
 								<span class="input-group-text" id="bodyAddon"><i class="bi bi-eyedropper me-1"></i>Body</span>
 								<input id="body" type="color" name="body" value="#f6b73c" required 
-										class="form-control color">
+										class="form-control form-control-color">
 							</div>
 						</div>
 						<!-- Date & Datetime-local -->
@@ -347,7 +347,7 @@
 						<div class="col-12 mt-2">
 							<div class="input-group">
 								<span class="input-group-text" id="textAddon"><i class="bi bi-person-badge me-1"></i> Nombre completo</span>
-								<input id="text" type="text" name="text" placeholder="Nombre completo" 
+								<input id="text" type="text" name="text" placeholder="Nombre completo" autocomplete="name"
 								required maxlength="150" class="form-control">
 							</div>
 						</div>
@@ -368,6 +368,34 @@
 								<span class="input-group-text" id="urlAddon"><i class="bi bi-globe"></i></span>
 								<input id="url" type="url" name="url" placeholder="https://example.com/" pattern="https://.*"
 								required maxlength="150" class="form-control">
+							</div>
+						</div>
+						<!-- Select & Datalist -->
+						<h6 class="text-muted mt-2"><u>Select & Datalist</u></h6>
+						<div class="col-6 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="selectAddon"><i class="bi bi-list-ul"></i></span>
+								<select id="select" name="select" required class="form-select">
+									<option selected readonly value="0">Seleccione...</option>
+									<option value="1">Arriba</option>
+									<option value="2">Abajo</option>
+									<option value="3">Derecha</option>
+									<option value="4">Izquierda</option>
+								  </select>
+							</div>
+						</div>
+						<div class="col-6 mt-2">
+							<div class="input-group">
+								<span class="input-group-text" id="datalistAddon"><i class="bi bi-card-list"></i></span>
+								<input id="datalist" list="datalistOptions" name="datalist" 
+										placeholder="Seleccione..." class="form-control">
+								<datalist id="datalistOptions">
+									<option value="Barquisimero">
+									<option value="Maracay">
+									<option value="Caracas">
+									<option value="Margarita">
+									<option value="Mérida">
+								</datalist>
 							</div>
 						</div>
 						<!-- Inputs buttons -->
