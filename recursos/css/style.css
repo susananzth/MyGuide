@@ -4,11 +4,13 @@
     --primary-color: #ff7cbda6;
     --secondary-color: #f3cfeb;
     --tertiary-color: #cc81b8;
-    --gray-light: #e6e2e4;
-    --light: #fff1ff;
-    --gray: #a2a2a2;
-    --white: #ffffff;
     --highlight: #D52A8B;
+    --green: #7fffd4;
+    --light: #fff1ff;
+    --white: #ffffff;
+    --gray-light: #e6e2e4;
+    --gray: #a2a2a2;
+    --dark: #303030;
   }
   /*%=%=%=%=%=%=% Fonts %=%=%=%=%=%=%*/
     @font-face {
@@ -24,9 +26,10 @@
     ::-webkit-scrollbar-thumb{background: var(--primary-color);border-radius: 2px;cursor: pointer;}
     ::-webkit-scrollbar-thumb:hover{background: var(--primary-color);cursor: pointer;}
   /*%=%=%=%=%=%=% Global %=%=%=%=%=%=%*/
-    *{margin: 0;box-sizing: border-box;color: #303030;padding: 0;}
-    html, body{height: 100%;margin: 0;padding: 0;font-family: 'Montserrat', sans-serif; font-size: 14px;}
-    body{background: linear-gradient(var(--secondary-color), var(--primary-color)) fixed;}
+  *{box-sizing: border-box;color: var(--dark);margin: 0;padding: 0;}
+  html{background: var(--green);font-family: 'Montserrat', sans-serif; font-size: 100%;}
+  html, body{height: 100%;margin: 0;padding: 0;}
+  body{background: linear-gradient(var(--secondary-color), var(--primary-color)) fixed;font-size: 1rem;}
   /*%=%=%=%=%=%=% Display %=%=%=%=%=%=%*/
     .d-block{display: block;}
     .d-inline{display: inline;}
@@ -67,8 +70,8 @@
     .w-50{width: 50%;}.w-25{width: 25%;}
     .h-100{height: 100%;}.h-auto{height: auto;}
     .h-50{height: 50%;}.h-25{height: 25%;}
-    .content{background: var(--light);margin: 0 auto;max-width: 1440px;padding-left: 1rem;padding-right: 1rem;}
-    .content-fluid{background: var(--light);margin: 0 auto;max-width: 800px;min-width: 350px;height: 100%;padding: 0;width: 80%;}
+    .content{background: var(--light);display: flex;flex-wrap: wrap;margin: 0 auto;max-width: 1440px;padding-left: 1rem;padding-right: 1rem;}
+    .section{width: 100%;min-width: 150px;height: auto;}
     code{background-color: var(--gray-light); border-radius: .25rem;padding: .2rem .5rem;}
     code .comment{color: var(--gray);}
     .gist-code{padding: .5rem;}
@@ -108,6 +111,8 @@
     /* LG Desde 1 en adelante */
     @media (min-width: 992px) {
       .w-lg-auto{width: auto;}
+      .content{margin-left: auto;margin-right: auto;max-width: 992px;}
+
     }
     /*  ---------- Custom style ----------- */
   /* Buttons*/
