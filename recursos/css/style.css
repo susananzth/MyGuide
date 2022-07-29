@@ -16,7 +16,7 @@
     @font-face {
       font-family: 'Montserrat';
       src: local('Montserrat'), 
-      url('../font/Montserrat-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
+      url('../font/Montserrat-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
       font-weight: normal;
     }
     /* Alternativa de font-face 
